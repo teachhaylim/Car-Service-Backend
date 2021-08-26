@@ -12,6 +12,11 @@ const enumerateErrorFormat = winston.format((info) => {
     return info;
 });
 
+/**
+ * * Custom Log Levels
+ * 
+ * @return {object} Custom internal log levels and colors 
+*/
 const customLogLevels = {
     levels: {
         error: 0,
@@ -64,4 +69,10 @@ const logger = createLogger({
 //     }));
 // }
 
+/**
+ * * Log operation to its corresponding files
+ * 
+ * @return {object} Winston log object
+ * @public
+*/
 export default logger;

@@ -1,16 +1,13 @@
-import mongoose from "mongoose";
 import app from "./app";
+import config from "./config/config";
 import logger from "./config/logger";
+import mongoose from "./config/mongoose";
 
-let server;
+var server;
 
-// mongoose.connect();
+const unexpectedErrorHandler = (error) => {
+    logger.error(error);
 
-server = app.listen(5000, () => {
-    logger.info("Listening on port 5000");
-})
-
-const exitHandler = () => {
     if (server) {
         server.close(() => {
             logger.info("Server Close");
@@ -20,19 +17,29 @@ const exitHandler = () => {
     else {
         process.exit(1);
     }
-};
-
-const unexpectedErrorHandler = (error) => {
-    logger.error(error);
-    exitHandler();
 }
 
 process.on("uncaughtException", unexpectedErrorHandler);
 process.on("unhandledRejection", unexpectedErrorHandler);
-
 process.on("SIGTERM", () => {
     logger.info('SIGTERM received');
     if (server) {
         server.close();
+        process.exit(1);
     }
 })
+
+async function StartServer() {
+    try {
+        await mongoose();
+
+        server = app.listen(config.port, () => {
+            logger.info(`Listening on port ${config.port}`);
+        })
+    } catch (error) {
+        logger.error(`Fail to start server: ${error}`);
+        process.exit(-1);
+    }
+}
+
+StartServer();
