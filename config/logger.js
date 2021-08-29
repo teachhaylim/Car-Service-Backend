@@ -13,7 +13,7 @@ const enumerateErrorFormat = winston.format((info) => {
 });
 
 /**
- * * Custom Log Levels
+ * @private Custom Log Levels
  * 
  * @return {object} Custom internal log levels and colors 
 */
@@ -36,6 +36,17 @@ const customLogLevels = {
 
 addColors(customLogLevels.colors);
 
+// if (process.env.NODE_ENV !== 'production') {
+//     logger.add(new winston.transports.Console({
+//         format: winston.format.simple(),
+//     }));
+// }
+
+/**
+ * @public  Log operation to its corresponding files
+ * 
+ * @return {object} Winston log object
+*/
 const logger = createLogger({
     levels: customLogLevels.levels,
     format: combine(
@@ -63,16 +74,4 @@ const logger = createLogger({
     ],
 });
 
-// if (process.env.NODE_ENV !== 'production') {
-//     logger.add(new winston.transports.Console({
-//         format: winston.format.simple(),
-//     }));
-// }
-
-/**
- * * Log operation to its corresponding files
- * 
- * @return {object} Winston log object
- * @public
-*/
 export default logger;

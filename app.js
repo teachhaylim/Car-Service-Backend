@@ -10,8 +10,14 @@ import ApiError from "./utils/ApiError";
 import router from "./routes";
 import { logRequest } from "./utils/generalFuncs";
 import { config } from "dotenv";
-import authLimiter from "./middlewares/authLimiter";
 
+import logger from "./config/logger";
+import { authLimiter, publicLimiter } from "./middlewares/limiter";
+// import morgan from "morgan";
+
+/**
+ * @public Initialize Express App
+ */
 const app = express();
 
 // configuration
@@ -20,18 +26,21 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.options("*", cors());
+// app.use(morgan());
 app.use(xss());
 app.use(mongoSanitize());
 app.use(compression());
+app.use("/", publicLimiter);
 
 //TODO JWT Authentication with Passport, Morgan
 
+// Set authentication limiter on production
 if (config.env === "production") {
-    app.use("/v1/auth", authLimiter);
+    app.use("/api/v1/auth", authLimiter);
 }
 
-app.use((req, res, next) => {
-    // next(new ApiError(httpStatus.NOT_FOUND, "Not Found"));
+// Log incoming requests to request.log file
+app.use((req, _, next) => {
     logRequest(req);
     next();
 });
@@ -41,6 +50,15 @@ app.use((req, res, next) => {
 // for setting up the project testing route
 app.get('/', (req, res) => {
     res.send('Hello World!')
+});
+
+// Handle any unknown requested routes back to client
+app.use((req, res, next) => {
+    const message = `Route ${req.url} not found`;
+
+    logger.error(message);
+
+    next(new ApiError(httpStatus.NOT_FOUND, message));
 });
 
 export default app;

@@ -7,10 +7,9 @@ if (config.env === "test") {
 }
 
 /**
- * * Connect to MongoDB
+ * @public Initialize MongoDB connection
  * 
  * @return {object} MongoDB connection
- * @public
  */
 export default function () {
     return mongoose.connect(config.mongoose.url, config.mongoose.options)
@@ -18,6 +17,7 @@ export default function () {
             logger.info(`MongoDB successfully connected`);
         })
         .catch(err => {
+            logger.error(`MongoDB failed to connect - ${err}`);
             throw new Error(err);
         })
 }

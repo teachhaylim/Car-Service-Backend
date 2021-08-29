@@ -15,19 +15,17 @@ const configSchema = Joi.object().keys({
 
 const { value: configVars, error } = configSchema.prefs({ errors: { label: "key" } }).validate(process.env);
 
-//FIXME log in console but not save to file
 if (error) {
     let message = `Config validation error: ${error.message}`;
 
-    logger.error("config error");
+    logger.error(message);
     throw new Error(message);
 }
 
 /**
- * * Initialize general config values
+ * @public Initialize general config values
  * 
- * @returns {object} Gneral Config
- * @public
+ * @returns {object} General Config Object
 */
 export default {
     env: configVars.NODE_ENV,

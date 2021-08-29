@@ -1,8 +1,12 @@
 import logger from "../config/logger";
 
-export function logRequest(req) {
-    // const message = `${req.method} -> from ${req.connection.remoteAddress} to ${req.headers.host} : Route -> ${req.url}`;
-    const message = `${req.method} -> from ${req.connection.remoteAddress} : Route -> ${req.url}`;
+/**
+ * @public Log incoming requests to request.log file
+ * @param request 
+ */
+export function logRequest(request) {
+    // const message = `${request.method} -> from ${request.connection.remoteAddress} to ${request.headers.host} : Route -> ${request.url}`;
+    const message = `${request.method} -> from ${request.connection.remoteAddress} : Route -> ${request.url}`;
 
     logger.request(message);
 }

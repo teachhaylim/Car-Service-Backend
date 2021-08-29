@@ -29,12 +29,15 @@ process.on("SIGTERM", () => {
     }
 })
 
+/**
+ * @private Start server
+ */
 async function StartServer() {
     try {
         await mongoose();
 
         server = app.listen(config.port, () => {
-            logger.info(`Listening on port ${config.port}`);
+            logger.info(`Listening on port ${config.port} (${config.env})`);
         })
     } catch (error) {
         logger.error(`Fail to start server: ${error}`);
