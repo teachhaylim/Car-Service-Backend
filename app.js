@@ -3,17 +3,13 @@ import cors from "cors";
 import helmet from "helmet";
 import compression from "compression";
 import xss from "xss-clean";
-import httpStatus from "http-status";
 import mongoSanitize from "express-mongo-sanitize";
 
-import ApiError from "./utils/ApiError";
 import router from "./routes";
-import { logRequest } from "./utils/generalFuncs";
 import { config } from "dotenv";
-
-import logger from "./config/logger";
 import { authLimiter, publicLimiter } from "./middlewares/limiter";
-// import morgan from "morgan";
+import morgan from "./config/morgan";
+import { errorConverter, errorHandler } from './middlewares/error';
 
 /**
  * @public Initialize Express App
@@ -26,7 +22,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.options("*", cors());
-// app.use(morgan());
 app.use(xss());
 app.use(mongoSanitize());
 app.use(compression());
@@ -39,26 +34,23 @@ if (config.env === "production") {
     app.use("/api/v1/auth", authLimiter);
 }
 
-// Log incoming requests to request.log file
-app.use((req, _, next) => {
-    logRequest(req);
-    next();
-});
+//Log incoming requests
+if (config.env !== 'test') {
+    app.use(morgan.successHandler);
+    app.use(morgan.errorHandler);
+}
 
-// app.use("/api/v1", router);
+app.use("/api/v1", router);
 
 // for setting up the project testing route
 app.get('/', (req, res) => {
     res.send('Hello World!')
 });
 
+// Convert error to ApiError, if needed
+app.use(errorConverter);
+
 // Handle any unknown requested routes back to client
-app.use((req, res, next) => {
-    const message = `Route ${req.url} not found`;
-
-    logger.error(message);
-
-    next(new ApiError(httpStatus.NOT_FOUND, message));
-});
+app.use(errorHandler);
 
 export default app;

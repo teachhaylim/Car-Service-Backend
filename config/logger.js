@@ -52,12 +52,14 @@ const logger = createLogger({
     format: combine(
         enumerateErrorFormat(),
         // format.simple(),
-        format.colorize(),
-        printf(({ level, message }) => {
-            const dateTime = moment().format("YYYY-MM-DD hh:mm:ss A");
+        format.uncolorize(),
+        format.splat(),
+        format.printf(({ level, message }) => `${level}: ${message}`)
+        // printf(({ level, message }) => {
+        //     const dateTime = moment().format("YYYY-MM-DD hh:mm:ss A");
 
-            return `${dateTime} - ${level}: ${message}`;
-        })
+        //     return `${dateTime} - ${level}: ${message}`;
+        // })
     ),
     transports: [
         // new transports.File({ filename: './logs/combined.log' }),

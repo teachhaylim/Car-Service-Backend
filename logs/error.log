@@ -1,0 +1,154 @@
+2021-08-26 07:41:23 PM - [31merror[39m: Config validation error: "DB_URL" is required
+2021-08-26 10:09:48 PM - [31merror[39m: MongoDB connection error: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.k6djm.mongodb.net
+2021-08-26 10:10:23 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:14:01 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:14:22 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:14:39 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:15:08 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:16:28 PM - [31merror[39m: MongoError: bad auth : Authentication failed.2021-08-26 10:17:33 PM - [31merror[39m: MongoError: bad auth : Authentication failed.2021-08-26 10:19:01 PM - [31merror[39m: Server starts eror: MongoError: bad auth : Authentication failed.
+2021-08-26 10:19:45 PM - [31merror[39m: MongoError: bad auth : Authentication failed.
+2021-08-26 10:20:49 PM - [31merror[39m: Error : MongoError: bad auth : Authentication failed.
+2021-08-26 10:21:29 PM - [31merror[39m: MongoError: bad auth : Authentication failed.
+2021-08-26 10:22:35 PM - [31merror[39m: Server starts error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:23:08 PM - [31merror[39m: Fail to start server: MongoError: bad auth : Authentication failed.
+2021-08-26 11:00:39 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:31:08 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:40:59 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:43:20 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:44:07 PM - [31merror[39m: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:44:27 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 08:00:43 PM - [31merror[39m: Requesting route not found
+2021-08-27 08:03:46 PM - [31merror[39m: Route /users -> not found
+2021-08-27 08:05:31 PM - [31merror[39m: Route /users not found
+2021-08-27 08:06:45 PM - [31merror[39m: Route /users not found
+2021-08-27 08:07:50 PM - [31merror[39m: Route /users not found
+2021-08-27 08:08:05 PM - [31merror[39m: Route /k not found
+error: TypeError: tokens.22 is not a function
+error: Route /favicon.ico not found
+error: TypeError: tokens.22 is not a function
+error: TypeError: tokens.24 is not a function
+error: TypeError: tokens.24 is not a function
+error: 2021-08-30 07:54:41 PM - Route /users not found
+error: TypeError: tokens.message is not a function
+    at eval (eval at compile (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:411:10), <anonymous>:9:23)
+    at Array.logRequest (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:122:18)
+    at listener (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:55:10)
+    at ServerResponse.onevent (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:93:5)
+    at ServerResponse.emit (events.js:412:35)
+    at ServerResponse.emit (domain.js:470:12)
+    at onFinish (_http_outgoing.js:792:10)
+    at afterWrite (internal/streams/writable.js:466:5)
+    at afterWriteTick (internal/streams/writable.js:453:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+error: 2021-08-30 07:54:43 PM - Route /user not found
+error: TypeError: tokens.message is not a function
+    at eval (eval at compile (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:411:10), <anonymous>:9:23)
+    at Array.logRequest (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:122:18)
+    at listener (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:55:10)
+    at ServerResponse.onevent (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:93:5)
+    at ServerResponse.emit (events.js:412:35)
+    at ServerResponse.emit (domain.js:470:12)
+    at onFinish (_http_outgoing.js:792:10)
+    at afterWrite (internal/streams/writable.js:466:5)
+    at afterWriteTick (internal/streams/writable.js:453:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+error: 2021-08-30 07:55:37 PM - Route /user not found
+error: 2021-08-30 07:56:34 PM - Route /favicon.ico not found
+error: 2021-08-30 07:58:31 PM - Route /eradf not found
+error: 2021-08-30 07:58:42 PM - Route /user not found
+error: 2021-08-30 07:59:04 PM - Route /user not found
+error: 2021-08-30 07:59:04 PM - GET /user 404 - 9.477 ms - message: error
+error: 2021-08-30 07:59:24 PM - GET /user 404 - 1.112 ms - message: error
+error: 2021-08-30 07:59:43 PM - GET /user 404 - 1.101 ms - message: error
+error: 2021-08-30 08:00:15 PM - GET /user 404 - 1.242 ms - message: error
+error: 2021-08-30 08:00:17 PM - GET /user/12 404 - 0.358 ms - message: error
+error: 2021-08-30 08:01:15 PM - GET /v1/user 404 - 0.189 ms - message: error
+error: 2021-08-30 08:01:24 PM - GET /api/v1/user 404 - 0.198 ms - message: error
+error: 2021-08-30 08:12:48 PM - GET /api/v1/user/2 404 - 1.370 ms - message: error
+error: 2021-08-30 08:18:27 PM - GET /api/v1/user/2 404 - 1.624 ms - message: error
+error: TypeError: Cannot read property 'locals' of undefined
+    at Function.message (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\config\/morgan.js:7:48)
+    at eval (eval at compile (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:411:10), <anonymous>:9:23)
+    at Array.logRequest (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:122:18)
+    at listener (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:55:10)
+    at ServerResponse.onevent (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:93:5)
+    at ServerResponse.emit (events.js:412:35)
+    at ServerResponse.emit (domain.js:470:12)
+    at onFinish (_http_outgoing.js:792:10)
+    at callback (internal/streams/writable.js:513:21)
+    at afterWrite (internal/streams/writable.js:466:5)
+    at afterWriteTick (internal/streams/writable.js:453:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+error: 2021-08-30 08:19:09 PM - GET /api/v1/user/2 404 - 1.549 ms - message: error
+error: 2021-08-30 08:20:27 PM - GET /api/v1/user/2 404 - 1.359 ms - message: error
+error: 2021-08-30 08:21:31 PM - GET /api/v1/user/2 404 - 1.478 ms - message: error
+error: 2021-08-30 08:26:12 PM - GET /api/v1/user/2 404 - 1.325 ms - message: error occured
+error: 2021-08-30 08:27:30 PM - GET /api/v1/user/123 404 - 1.514 ms - message: error occured
+error: 2021-08-30 08:30:24 PM - GET /api/v1/user/123 404 - 1.420 ms - message: error occured
+error: 2021-08-30 08:30:53 PM - GET /api/v1/user/123 404 - 1.489 ms - message: error occured
+error: 2021-08-30 08:32:36 PM - GET /api/v1/user/123 404 - 2.280 ms - message: error occured
+error: 2021-08-30 09:56:25 PM - PATCH /api/v1/user 404 - 1.665 ms - message: error occured
+error: 2021-08-30 09:57:32 PM - PATCH /api/v1/user 404 - 1.376 ms - message: error occured
+error: 2021-08-30 09:58:10 PM - PATCH /api/v1/user 404 - 2.083 ms - message: error occured
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:39:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:03:09 PM - PATCH /api/v1/user/1 404 - 2030.469 ms - message: User not found
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:39:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:04:14 PM - PATCH /api/v1/user/1 404 - 2054.144 ms - message: User not found
+error: 2021-08-30 10:05:11 PM - GET /api/v1/user23 404 - 1.958 ms - message: error occured
+error: 2021-08-30 10:05:35 PM - PATCH /api/v1/use121 404 - 1.100 ms - message: error occured
+error: 2021-08-30 10:06:02 PM - PATCH /api/v1/use121 404 - 1.365 ms - message: route not found
+error: 2021-08-30 10:07:10 PM - PATCH /api/v1/use121 404 - 1.555 ms - message: route not found
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:36:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:07:19 PM - PATCH /api/v1/user/2 404 - 2016.515 ms - message: User not found
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:36:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:08:00 PM - PATCH /api/v1/user/2 404 - 2025.657 ms - message: User not found
+error: 2021-08-30 10:08:46 PM - PATCH /api/v1/user/2 404 - 2015.241 ms - message: User not found
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:36:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:09:15 PM - PATCH /api/v1/user/2 404 - 2038.626 ms - message: User not found
+error: 2021-08-30 10:09:45 PM - PATCH /api/v1/user/2 404 - 2017.344 ms - message: User not found
+error: 2021-08-30 10:10:28 PM - PATCH /api/v1/user/2 404 - 2009.028 ms - message: User not found
+error: 2021-08-30 10:12:35 PM - PATCH /api/v1/user/2 404 - 2021.297 ms - message: User not found
+error: 2021-08-30 10:12:39 PM - PATCH /api/v1/user/2 404 - 2003.300 ms - message: User not found
+error: 2021-08-30 10:14:09 PM - PATCH /api/v1/user/2 404 - 2026.424 ms - message: User not found
+error: 2021-08-30 10:14:12 PM - PATCH /api/v1/user/2 404 - 2014.560 ms - message: User not found
+error: 2021-08-30 10:14:51 PM - PATCH /api/v1/user/2 404 - 2017.847 ms - message: User not found
+error: 2021-08-30 10:15:05 PM - PATCH /api/v1/user/2 404 - 2010.034 ms - message: User not found
+error: 2021-08-30 10:17:06 PM - PATCH /api/v1/user2 404 - 1.167 ms - message: route not found
+error: 2021-08-30 10:18:16 PM - POST /api/v1/user/1 404 - 0.448 ms - message: route not found
+error: 2021-08-30 10:18:24 PM - PATCH /api/v1/user/1 404 - 2007.597 ms - message: User not found

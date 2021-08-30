@@ -1,8 +1,16 @@
 import express from "express";
 import httpStatus from "http-status";
+import userController from "../controllers/user.controller";
 
-const router = express.Router();
+const userRouter = express.Router();
 
-router.get("/", (req, res) => {
-    res.status(httpStatus[200]).json({ message: "hello world" });
-});
+userRouter.route("/")
+    .get(userController.GetUsers)
+    .post(userController.CreateUser);
+
+userRouter.route("/:userId")
+    .get(userController.GetUser)
+    .patch(userController.UpdateUser)
+    .delete(userController.DeleteUser);
+
+export default userRouter;

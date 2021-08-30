@@ -1,12 +1,7 @@
-import logger from "../config/logger";
+import moment from "moment";
 
 /**
- * @public Log incoming requests to request.log file
- * @param request 
+ * @public Get Current Time as formatted string
+ * @return "YYYY-MM-DD hh:mm:ss A"
  */
-export function logRequest(request) {
-    // const message = `${request.method} -> from ${request.connection.remoteAddress} to ${request.headers.host} : Route -> ${request.url}`;
-    const message = `${request.method} -> from ${request.connection.remoteAddress} : Route -> ${request.url}`;
-
-    logger.request(message);
-}
+export const LogCurrentTime = () => moment().format("YYYY-MM-DD hh:mm:ss A");

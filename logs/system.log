@@ -1,0 +1,805 @@
+2021-08-25 09:55:09 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 09:56:43 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-25 09:57:29 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 09:58:22 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 09:59:16 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 09:59:45 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:00:23 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:00:24 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-25 10:01:09 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:02:40 PM - [32minfo[39M: Listening on port 5000
+2021-08-25 10:02:58 PM - [32minfo[39M: Listening on port 5000
+2021-08-25 10:03:02 PM - [34mrequest[39M: GET -> from ::1 : Route -> /
+2021-08-25 10:03:09 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:03:11 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-25 10:04:27 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:04:36 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:04:40 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:10:07 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:10:29 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:11:11 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:11:17 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:11:23 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:13:28 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:14:10 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:14:23 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:14:54 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:15:22 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:16:26 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:16:59 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:17:18 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:17:22 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:17:27 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:17:36 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:18:09 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:18:29 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:18:37 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:18:54 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:19:00 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:19:12 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:20:37 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:31:13 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:32:07 PM - [32minfo[39m: Listening on port 5000
+2021-08-25 10:32:18 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:41:23 PM - [31merror[39m: Config validation error: "DB_URL" is required
+2021-08-26 07:41:23 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:42:03 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:42:18 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:42:24 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:49:23 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:50:00 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:50:12 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:50:52 PM - [32minfo[39m: Listening on port 3000
+2021-08-26 07:50:55 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-26 07:54:02 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:56:10 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:57:35 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 07:59:26 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 08:01:37 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 08:40:14 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 08:41:20 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 08:56:48 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 09:25:09 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 09:25:27 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 09:25:36 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 09:25:39 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 09:31:48 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 09:31:51 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:02:14 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:02:22 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:02:49 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:02:49 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:02:59 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:02:59 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:06:16 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:06:16 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:09:48 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:09:48 PM - [31merror[39m: MongoDB connection error: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.k6djm.mongodb.net
+2021-08-26 10:10:21 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:10:23 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:13:03 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:13:06 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:13:59 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:14:01 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:14:21 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:14:22 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:14:38 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:14:39 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:15:06 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:15:08 PM - [31merror[39m: MongoDB connection error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:16:28 PM - [31merror[39m: MongoError: bad auth : Authentication failed.2021-08-26 10:17:33 PM - [31merror[39m: MongoError: bad auth : Authentication failed.2021-08-26 10:19:01 PM - [31merror[39m: Server starts eror: MongoError: bad auth : Authentication failed.
+2021-08-26 10:19:45 PM - [31merror[39m: MongoError: bad auth : Authentication failed.
+2021-08-26 10:20:49 PM - [31merror[39m: Error : MongoError: bad auth : Authentication failed.
+2021-08-26 10:21:29 PM - [31merror[39m: MongoError: bad auth : Authentication failed.
+2021-08-26 10:22:35 PM - [31merror[39m: Server starts error: MongoError: bad auth : Authentication failed.
+2021-08-26 10:23:08 PM - [31merror[39m: Fail to start server: MongoError: bad auth : Authentication failed.
+2021-08-26 10:23:31 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:24:24 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:24:59 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:25:01 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:25:34 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:25:34 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:26:58 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:26:58 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:27:22 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:27:22 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:28:16 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:28:16 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:52:52 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:52:52 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:53:29 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:53:29 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:53:43 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:53:43 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 10:57:07 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 10:57:07 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 11:00:39 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-26 11:01:21 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 11:01:21 PM - [32minfo[39m: Listening on port 5000
+2021-08-26 11:01:35 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-26 11:01:35 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:28:28 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:28:28 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:30:30 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:30:30 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:31:08 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:40:59 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:43:02 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:43:02 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:43:20 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:44:07 PM - [31merror[39m: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:44:27 PM - [31merror[39m: Fail to start server: Error: MongoError: bad auth : Authentication failed.
+2021-08-27 07:44:35 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:44:35 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:45:07 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 07:45:07 PM - [34mrequest[39m: GET -> from ::1 : Route -> /favicon.ico
+2021-08-27 07:46:27 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:46:27 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:48:28 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:48:28 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:55:41 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:55:41 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:56:26 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:56:26 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:56:28 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 07:56:44 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:56:44 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:57:36 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:57:36 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:58:33 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:58:33 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:58:36 PM - [34mrequest[39m: GET -> from ::1 : Route -> /adasdas
+2021-08-27 07:59:00 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 07:59:01 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 07:59:04 PM - [34mrequest[39m: GET -> from ::1 : Route -> /sdfsf
+2021-08-27 08:00:39 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:00:39 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:00:43 PM - [34mrequest[39m: GET -> from ::1 : Route -> /sdfsf
+2021-08-27 08:00:43 PM - [31merror[39m: Requesting route not found
+2021-08-27 08:01:40 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:01:40 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:01:48 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:01:48 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:03:36 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:03:36 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:03:40 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:03:46 PM - [34mrequest[39m: GET -> from ::1 : Route -> /users
+2021-08-27 08:03:46 PM - [31merror[39m: Route /users -> not found
+2021-08-27 08:05:09 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:05:09 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:05:31 PM - [34mrequest[39m: GET -> from ::1 : Route -> /users
+2021-08-27 08:05:31 PM - [31merror[39m: Route /users not found
+2021-08-27 08:06:39 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:06:39 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:06:45 PM - [34mrequest[39m: GET -> from ::1 : Route -> /users
+2021-08-27 08:06:45 PM - [31merror[39m: Route /users not found
+2021-08-27 08:07:25 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:07:25 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:07:49 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:07:49 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:07:50 PM - [34mrequest[39m: GET -> from ::1 : Route -> /users
+2021-08-27 08:07:50 PM - [31merror[39m: Route /users not found
+2021-08-27 08:07:58 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:08:05 PM - [34mrequest[39m: GET -> from ::1 : Route -> /k
+2021-08-27 08:08:05 PM - [31merror[39m: Route /k not found
+2021-08-27 08:08:08 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:08:14 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:08:14 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:08:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:08:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:08:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:08:56 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:08:56 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:09:00 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:01 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:01 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:01 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:02 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:02 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:02 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:02 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:02 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:02 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:03 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:03 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:03 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:03 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:03 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:03 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:03 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:14 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:14 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:14 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:14 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:14 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:14 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:15 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:16 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:16 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:16 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:16 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:16 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:16 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:17 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:17 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:17 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:17 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:18 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:18 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:18 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:18 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:18 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:18 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:19 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:19 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:19 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:19 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:19 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:19 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:20 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:20 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:20 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:20 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:20 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:21 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:21 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:21 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:21 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:21 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:21 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:22 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:22 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:22 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:22 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:22 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:23 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:23 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:23 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:23 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:23 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:09:23 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:32 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:10:32 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:10:34 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:34 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:35 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:35 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:36 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:36 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:36 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:37 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:37 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:37 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:10:37 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:22 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:11:22 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:11:25 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:25 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:26 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:26 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:27 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:27 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:28 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:28 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:29 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:29 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:30 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:30 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:30 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:31 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:31 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:32 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:32 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:32 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:33 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:11:33 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:21 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:12:21 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:12:45 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:12:45 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:12:45 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:46 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:46 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:47 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:47 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:54 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:55 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:55 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:55 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:12:56 PM - [34mrequest[39m: GET -> from ::1 : Route -> /
+2021-08-27 08:13:11 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:13:11 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:13:52 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:13:52 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:16:16 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:16:16 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:19:01 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:19:01 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:19:13 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:19:13 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:19:25 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:19:25 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:19:31 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:19:31 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:20:53 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:20:53 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:21:09 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:21:09 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:21:18 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:21:18 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:23:46 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:23:46 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:26:25 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:26:25 PM - [32minfo[39m: Listening on port 5000
+2021-08-27 08:27:20 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-27 08:27:20 PM - [32minfo[39m: Listening on port 5000
+2021-08-29 08:09:14 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-29 08:09:14 PM - [32minfo[39m: Listening on port undefined (undefined)
+2021-08-29 08:09:42 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-29 08:09:42 PM - [32minfo[39m: Listening on port 5000 (development)
+2021-08-29 08:10:42 PM - [32minfo[39m: MongoDB successfully connected
+2021-08-29 08:10:42 PM - [32minfo[39m: Listening on port 5000 (development)
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+request: GET -> from ::1 : Route -> /
+error: TypeError: tokens.22 is not a function
+request: GET -> from ::1 : Route -> /favicon.ico
+error: Route /favicon.ico not found
+error: TypeError: tokens.22 is not a function
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+request: GET -> from ::1 : Route -> /
+error: TypeError: tokens.24 is not a function
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+error: TypeError: tokens.24 is not a function
+info: Server Close
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+info: GET / 304 - 1.652 ms
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+info: 2021-08-30 07:28:18 PM - GET / 304 - 1.691 ms
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+request: 2021-08-30 07:30:38 PM - GET / 304 - 1.720 ms
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+request: Mon, 30 Aug 2021 12:31:50 GMT GET / 304 - 1.724 ms
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+request: 2021-08-30 07:32:16 PM - GET / 304 - 1.744 ms
+info: MongoDB successfully connected
+info: Listening on port 5000 (development)
+info: 2021-08-30 07:33:55 PM - MongoDB successfully connected
+info: Listening on port 5000 (development)
+info: 2021-08-30 07:35:09 PM - MongoDB successfully connected
+info: 2021-08-30 07:35:09 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:35:52 PM - MongoDB successfully connected
+info: 2021-08-30 07:35:52 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:36:15 PM - MongoDB successfully connected
+info: 2021-08-30 07:36:15 PM - Listening on port 5000 (development)
+request: 2021-08-30 07:36:27 PM - GET / 304 - 1.833 ms
+info: 2021-08-30 07:38:05 PM - MongoDB successfully connected
+info: 2021-08-30 07:38:05 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:38:35 PM - MongoDB successfully connected
+info: 2021-08-30 07:38:35 PM - Listening on port 5000 (development)
+request: 2021-08-30 07:38:39 PM - GET / 304 - 1.993 ms
+info: 2021-08-30 07:38:55 PM - MongoDB successfully connected
+info: 2021-08-30 07:38:55 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:39:14 PM - MongoDB successfully connected
+info: 2021-08-30 07:39:14 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:39:34 PM - MongoDB successfully connected
+info: 2021-08-30 07:39:34 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:40:51 PM - MongoDB successfully connected
+info: 2021-08-30 07:40:51 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:41:16 PM - MongoDB successfully connected
+info: 2021-08-30 07:41:16 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:41:30 PM - MongoDB successfully connected
+info: 2021-08-30 07:41:30 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:41:47 PM - MongoDB successfully connected
+info: 2021-08-30 07:41:47 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:42:08 PM - MongoDB successfully connected
+info: 2021-08-30 07:42:08 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:42:13 PM - MongoDB successfully connected
+info: 2021-08-30 07:42:13 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:42:24 PM - MongoDB successfully connected
+info: 2021-08-30 07:42:24 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:42:37 PM - MongoDB successfully connected
+info: 2021-08-30 07:42:37 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:42:40 PM - MongoDB successfully connected
+info: 2021-08-30 07:42:40 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:43:37 PM - MongoDB successfully connected
+info: 2021-08-30 07:43:37 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:43:49 PM - MongoDB successfully connected
+info: 2021-08-30 07:43:49 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:44:19 PM - MongoDB successfully connected
+info: 2021-08-30 07:44:19 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:44:25 PM - MongoDB successfully connected
+info: 2021-08-30 07:44:25 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:44:35 PM - MongoDB successfully connected
+info: 2021-08-30 07:44:35 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:45:36 PM - MongoDB successfully connected
+info: 2021-08-30 07:45:36 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:54:07 PM - MongoDB successfully connected
+info: 2021-08-30 07:54:07 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:54:31 PM - MongoDB successfully connected
+info: 2021-08-30 07:54:31 PM - Listening on port 5000 (development)
+error: 2021-08-30 07:54:41 PM - Route /users not found
+error: TypeError: tokens.message is not a function
+    at eval (eval at compile (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:411:10), <anonymous>:9:23)
+    at Array.logRequest (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:122:18)
+    at listener (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:55:10)
+    at ServerResponse.onevent (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:93:5)
+    at ServerResponse.emit (events.js:412:35)
+    at ServerResponse.emit (domain.js:470:12)
+    at onFinish (_http_outgoing.js:792:10)
+    at afterWrite (internal/streams/writable.js:466:5)
+    at afterWriteTick (internal/streams/writable.js:453:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+error: 2021-08-30 07:54:43 PM - Route /user not found
+error: TypeError: tokens.message is not a function
+    at eval (eval at compile (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:411:10), <anonymous>:9:23)
+    at Array.logRequest (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:122:18)
+    at listener (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:55:10)
+    at ServerResponse.onevent (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:93:5)
+    at ServerResponse.emit (events.js:412:35)
+    at ServerResponse.emit (domain.js:470:12)
+    at onFinish (_http_outgoing.js:792:10)
+    at afterWrite (internal/streams/writable.js:466:5)
+    at afterWriteTick (internal/streams/writable.js:453:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+info: 2021-08-30 07:55:35 PM - MongoDB successfully connected
+info: 2021-08-30 07:55:35 PM - Listening on port 5000 (development)
+error: 2021-08-30 07:55:37 PM - Route /user not found
+request: 2021-08-30 07:55:37 PM - GET /user 404 - 6.299 ms -
+info: 2021-08-30 07:55:45 PM - MongoDB successfully connected
+info: 2021-08-30 07:55:45 PM - Listening on port 5000 (development)
+info: 2021-08-30 07:56:27 PM - MongoDB successfully connected
+info: 2021-08-30 07:56:27 PM - Listening on port 5000 (development)
+request: 2021-08-30 07:56:33 PM - GET / 304 - 1.782 ms
+error: 2021-08-30 07:56:34 PM - Route /favicon.ico not found
+request: 2021-08-30 07:56:34 PM - GET /favicon.ico 404 - 12.816 ms - message: -
+info: 2021-08-30 07:58:26 PM - MongoDB successfully connected
+info: 2021-08-30 07:58:26 PM - Listening on port 5000 (development)
+request: 2021-08-30 07:58:27 PM - GET / 304 - 2.185 ms
+error: 2021-08-30 07:58:31 PM - Route /eradf not found
+request: 2021-08-30 07:58:31 PM - GET /eradf 404 - 6.994 ms - message: error
+error: 2021-08-30 07:58:42 PM - Route /user not found
+request: 2021-08-30 07:58:42 PM - GET /user 404 - 2.929 ms - message: error
+info: 2021-08-30 07:59:03 PM - MongoDB successfully connected
+info: 2021-08-30 07:59:03 PM - Listening on port 5000 (development)
+error: 2021-08-30 07:59:04 PM - Route /user not found
+error: 2021-08-30 07:59:04 PM - GET /user 404 - 9.477 ms - message: error
+info: 2021-08-30 07:59:23 PM - MongoDB successfully connected
+info: 2021-08-30 07:59:23 PM - Listening on port 5000 (development)
+error: 2021-08-30 07:59:24 PM - GET /user 404 - 1.112 ms - message: error
+info: 2021-08-30 07:59:41 PM - MongoDB successfully connected
+info: 2021-08-30 07:59:41 PM - Listening on port 5000 (development)
+error: 2021-08-30 07:59:43 PM - GET /user 404 - 1.101 ms - message: error
+info: 2021-08-30 08:00:12 PM - MongoDB successfully connected
+info: 2021-08-30 08:00:12 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:00:15 PM - GET /user 404 - 1.242 ms - message: error
+error: 2021-08-30 08:00:17 PM - GET /user/12 404 - 0.358 ms - message: error
+error: 2021-08-30 08:01:15 PM - GET /v1/user 404 - 0.189 ms - message: error
+error: 2021-08-30 08:01:24 PM - GET /api/v1/user 404 - 0.198 ms - message: error
+info: 2021-08-30 08:01:45 PM - MongoDB successfully connected
+info: 2021-08-30 08:01:45 PM - Listening on port 5000 (development)
+request: 2021-08-30 08:01:46 PM - GET /api/v1/user 200 - 1.814 ms
+info: 2021-08-30 08:07:42 PM - MongoDB successfully connected
+info: 2021-08-30 08:07:42 PM - Listening on port 5000 (development)
+request: 2021-08-30 08:07:43 PM - GET /api/v1/user 304 - 3.862 ms
+info: 2021-08-30 08:12:21 PM - MongoDB successfully connected
+info: 2021-08-30 08:12:21 PM - Listening on port 5000 (development)
+request: 2021-08-30 08:12:23 PM - GET /api/v1/user 304 - 4.409 ms
+info: 2021-08-30 08:12:33 PM - MongoDB successfully connected
+info: 2021-08-30 08:12:33 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:12:43 PM - MongoDB successfully connected
+info: 2021-08-30 08:12:43 PM - Listening on port 5000 (development)
+request: 2021-08-30 08:12:43 PM - GET /api/v1/user 304 - 1.636 ms
+error: 2021-08-30 08:12:48 PM - GET /api/v1/user/2 404 - 1.370 ms - message: error
+info: 2021-08-30 08:15:52 PM - MongoDB successfully connected
+info: 2021-08-30 08:15:52 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:16:30 PM - MongoDB successfully connected
+info: 2021-08-30 08:16:30 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:16:56 PM - MongoDB successfully connected
+info: 2021-08-30 08:16:56 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:18:25 PM - MongoDB successfully connected
+info: 2021-08-30 08:18:25 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:18:27 PM - GET /api/v1/user/2 404 - 1.624 ms - message: error
+info: 2021-08-30 08:18:43 PM - MongoDB successfully connected
+info: 2021-08-30 08:18:43 PM - Listening on port 5000 (development)
+error: TypeError: Cannot read property 'locals' of undefined
+    at Function.message (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\config\/morgan.js:7:48)
+    at eval (eval at compile (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:411:10), <anonymous>:9:23)
+    at Array.logRequest (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\morgan\index.js:122:18)
+    at listener (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:55:10)
+    at ServerResponse.onevent (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\ee-first\index.js:93:5)
+    at ServerResponse.emit (events.js:412:35)
+    at ServerResponse.emit (domain.js:470:12)
+    at onFinish (_http_outgoing.js:792:10)
+    at callback (internal/streams/writable.js:513:21)
+    at afterWrite (internal/streams/writable.js:466:5)
+    at afterWriteTick (internal/streams/writable.js:453:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+info: 2021-08-30 08:19:08 PM - MongoDB successfully connected
+info: 2021-08-30 08:19:08 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:19:09 PM - GET /api/v1/user/2 404 - 1.549 ms - message: error
+info: 2021-08-30 08:20:26 PM - MongoDB successfully connected
+info: 2021-08-30 08:20:26 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:20:27 PM - GET /api/v1/user/2 404 - 1.359 ms - message: error
+info: 2021-08-30 08:21:30 PM - MongoDB successfully connected
+info: 2021-08-30 08:21:30 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:21:31 PM - GET /api/v1/user/2 404 - 1.478 ms - message: error
+info: 2021-08-30 08:21:53 PM - MongoDB successfully connected
+info: 2021-08-30 08:21:53 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:22:19 PM - MongoDB successfully connected
+info: 2021-08-30 08:22:19 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:25:18 PM - MongoDB successfully connected
+info: 2021-08-30 08:25:18 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:25:41 PM - MongoDB successfully connected
+info: 2021-08-30 08:25:41 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:26:10 PM - MongoDB successfully connected
+info: 2021-08-30 08:26:10 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:26:12 PM - GET /api/v1/user/2 404 - 1.325 ms - message: error occured
+request: 2021-08-30 08:26:23 PM - GET /api/v1/user 304 - 2.435 ms
+info: 2021-08-30 08:26:50 PM - MongoDB successfully connected
+info: 2021-08-30 08:26:50 PM - Listening on port 5000 (development)
+info: 2021-08-30 08:27:25 PM - MongoDB successfully connected
+info: 2021-08-30 08:27:25 PM - Listening on port 5000 (development)
+request: 2021-08-30 08:27:26 PM - GET /api/v1/user 304 - 1.860 ms
+error: 2021-08-30 08:27:30 PM - GET /api/v1/user/123 404 - 1.514 ms - message: error occured
+info: 2021-08-30 08:28:58 PM - MongoDB successfully connected
+info: 2021-08-30 08:28:58 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:30:24 PM - GET /api/v1/user/123 404 - 1.420 ms - message: error occured
+info: 2021-08-30 08:30:53 PM - MongoDB successfully connected
+info: 2021-08-30 08:30:53 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:30:53 PM - GET /api/v1/user/123 404 - 1.489 ms - message: error occured
+info: 2021-08-30 08:32:31 PM - MongoDB successfully connected
+info: 2021-08-30 08:32:31 PM - Listening on port 5000 (development)
+error: 2021-08-30 08:32:36 PM - GET /api/v1/user/123 404 - 2.280 ms - message: error occured
+info: 2021-08-30 09:00:51 PM - MongoDB successfully connected
+info: 2021-08-30 09:00:51 PM - Listening on port 5000 (development)
+info: 2021-08-30 09:36:07 PM - MongoDB successfully connected
+info: 2021-08-30 09:36:07 PM - Listening on port 5000 (development)
+request: 2021-08-30 09:42:42 PM - GET /api/v1/user 200 - 3015.217 ms
+request: 2021-08-30 09:42:48 PM - GET /api/v1/user 200 - 3011.053 ms
+request: 2021-08-30 09:43:02 PM - GET /api/v1/user 200 - 3008.024 ms
+request: 2021-08-30 09:43:06 PM - GET /api/v1/user 200 - 3003.050 ms
+info: 2021-08-30 09:43:31 PM - MongoDB successfully connected
+info: 2021-08-30 09:43:31 PM - Listening on port 5000 (development)
+request: 2021-08-30 09:43:37 PM - GET /api/v1/user 200 - 3008.629 ms
+request: 2021-08-30 09:43:53 PM - POST /api/v1/user 201 - 5012.529 ms
+info: 2021-08-30 09:44:06 PM - MongoDB successfully connected
+info: 2021-08-30 09:44:06 PM - Listening on port 5000 (development)
+info: 2021-08-30 09:44:45 PM - MongoDB successfully connected
+info: 2021-08-30 09:44:45 PM - Listening on port 5000 (development)
+request: 2021-08-30 09:44:46 PM - GET /api/v1/user 200 - 1.805 ms
+info: 2021-08-30 09:47:57 PM - MongoDB successfully connected
+info: 2021-08-30 09:47:57 PM - Listening on port 5000 (development)
+info: 2021-08-30 09:53:25 PM - MongoDB successfully connected
+info: 2021-08-30 09:53:25 PM - Listening on port 5000 (development)
+info: 2021-08-30 09:56:22 PM - MongoDB successfully connected
+info: 2021-08-30 09:56:22 PM - Listening on port 5000 (development)
+error: 2021-08-30 09:56:25 PM - PATCH /api/v1/user 404 - 1.665 ms - message: error occured
+info: 2021-08-30 09:57:30 PM - MongoDB successfully connected
+info: 2021-08-30 09:57:30 PM - Listening on port 5000 (development)
+error: 2021-08-30 09:57:32 PM - PATCH /api/v1/user 404 - 1.376 ms - message: error occured
+info: 2021-08-30 09:58:08 PM - MongoDB successfully connected
+info: 2021-08-30 09:58:08 PM - Listening on port 5000 (development)
+error: 2021-08-30 09:58:10 PM - PATCH /api/v1/user 404 - 2.083 ms - message: error occured
+request: 2021-08-30 09:58:30 PM - PATCH /api/v1/user/1 200 - 2029.252 ms
+info: 2021-08-30 09:59:44 PM - MongoDB successfully connected
+info: 2021-08-30 09:59:44 PM - Listening on port 5000 (development)
+info: 2021-08-30 10:01:58 PM - MongoDB successfully connected
+info: 2021-08-30 10:01:58 PM - Listening on port 5000 (development)
+info: 2021-08-30 10:02:41 PM - MongoDB successfully connected
+info: 2021-08-30 10:02:41 PM - Listening on port 5000 (development)
+info: 2021-08-30 10:02:49 PM - MongoDB successfully connected
+info: 2021-08-30 10:02:49 PM - Listening on port 5000 (development)
+info: 2021-08-30 10:03:05 PM - MongoDB successfully connected
+info: 2021-08-30 10:03:05 PM - Listening on port 5000 (development)
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:39:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:03:09 PM - PATCH /api/v1/user/1 404 - 2030.469 ms - message: User not found
+info: 2021-08-30 10:04:10 PM - MongoDB successfully connected
+info: 2021-08-30 10:04:10 PM - Listening on port 5000 (development)
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:39:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:04:14 PM - PATCH /api/v1/user/1 404 - 2054.144 ms - message: User not found
+info: 2021-08-30 10:04:44 PM - MongoDB successfully connected
+info: 2021-08-30 10:04:44 PM - Listening on port 5000 (development)
+request: 2021-08-30 10:05:08 PM - GET / 304 - 2.493 ms
+error: 2021-08-30 10:05:11 PM - GET /api/v1/user23 404 - 1.958 ms - message: error occured
+error: 2021-08-30 10:05:35 PM - PATCH /api/v1/use121 404 - 1.100 ms - message: error occured
+info: 2021-08-30 10:06:00 PM - MongoDB successfully connected
+info: 2021-08-30 10:06:00 PM - Listening on port 5000 (development)
+error: 2021-08-30 10:06:02 PM - PATCH /api/v1/use121 404 - 1.365 ms - message: route not found
+info: 2021-08-30 10:07:05 PM - MongoDB successfully connected
+info: 2021-08-30 10:07:05 PM - Listening on port 5000 (development)
+error: 2021-08-30 10:07:10 PM - PATCH /api/v1/use121 404 - 1.555 ms - message: route not found
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:36:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:07:19 PM - PATCH /api/v1/user/2 404 - 2016.515 ms - message: User not found
+info: 2021-08-30 10:07:49 PM - MongoDB successfully connected
+info: 2021-08-30 10:07:49 PM - Listening on port 5000 (development)
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:36:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:08:00 PM - PATCH /api/v1/user/2 404 - 2025.657 ms - message: User not found
+info: 2021-08-30 10:08:43 PM - MongoDB successfully connected
+info: 2021-08-30 10:08:43 PM - Listening on port 5000 (development)
+error: 2021-08-30 10:08:46 PM - PATCH /api/v1/user/2 404 - 2015.241 ms - message: User not found
+info: 2021-08-30 10:09:11 PM - MongoDB successfully connected
+info: 2021-08-30 10:09:11 PM - Listening on port 5000 (development)
+error: Error: User not found
+    at _callee4$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\/user.controller.js:36:15)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\controllers\user.controller.js:18:194)
+error: 2021-08-30 10:09:15 PM - PATCH /api/v1/user/2 404 - 2038.626 ms - message: User not found
+info: 2021-08-30 10:09:39 PM - MongoDB successfully connected
+info: 2021-08-30 10:09:39 PM - Listening on port 5000 (development)
+error: 2021-08-30 10:09:45 PM - PATCH /api/v1/user/2 404 - 2017.344 ms - message: User not found
+info: 2021-08-30 10:09:59 PM - MongoDB successfully connected
+info: 2021-08-30 10:09:59 PM - Listening on port 5000 (development)
+info: 2021-08-30 10:10:22 PM - MongoDB successfully connected
+info: 2021-08-30 10:10:22 PM - Listening on port 5000 (development)
+error: 2021-08-30 10:10:28 PM - PATCH /api/v1/user/2 404 - 2009.028 ms - message: User not found
+info: 2021-08-30 10:12:01 PM - MongoDB successfully connected
+info: 2021-08-30 10:12:01 PM - Listening on port 5000 (development)
+info: 2021-08-30 10:12:08 PM - Listening on port 5000 (development)
+info: 2021-08-30 10:12:32 PM - Listening on port 5000 (development)
+error: 2021-08-30 10:12:35 PM - PATCH /api/v1/user/2 404 - 2021.297 ms - message: User not found
+error: 2021-08-30 10:12:39 PM - PATCH /api/v1/user/2 404 - 2003.300 ms - message: User not found
+info: 2021-08-30 10:14:05 PM - Listening on port 5000 (development)
+error: 2021-08-30 10:14:09 PM - PATCH /api/v1/user/2 404 - 2026.424 ms - message: User not found
+error: 2021-08-30 10:14:12 PM - PATCH /api/v1/user/2 404 - 2014.560 ms - message: User not found
+info: 2021-08-30 10:14:26 PM - Listening on port 5000 (development)
+request: 2021-08-30 10:14:32 PM - PATCH /api/v1/user/2 200 - 2019.911 ms
+request: 2021-08-30 10:14:43 PM - PATCH /api/v1/user/2 200 - 2003.420 ms
+request: 2021-08-30 10:14:46 PM - PATCH /api/v1/user/2 200 - 2014.499 ms
+request: 2021-08-30 10:14:49 PM - PATCH /api/v1/user/2 200 - 2006.185 ms
+error: 2021-08-30 10:14:51 PM - PATCH /api/v1/user/2 404 - 2017.847 ms - message: User not found
+info: 2021-08-30 10:14:58 PM - Listening on port 5000 (development)
+request: 2021-08-30 10:15:02 PM - PATCH /api/v1/user/2 200 - 2018.726 ms
+error: 2021-08-30 10:15:05 PM - PATCH /api/v1/user/2 404 - 2010.034 ms - message: User not found
+error: 2021-08-30 10:17:06 PM - PATCH /api/v1/user2 404 - 1.167 ms - message: route not found
+request: 2021-08-30 10:17:42 PM - GET /api/v1/user 200 - 3002.924 ms
+request: 2021-08-30 10:17:53 PM - GET /api/v1/user/1 200 - 2011.710 ms
+request: 2021-08-30 10:18:08 PM - POST /api/v1/user 201 - 5012.335 ms
+error: 2021-08-30 10:18:16 PM - POST /api/v1/user/1 404 - 0.448 ms - message: route not found
+error: 2021-08-30 10:18:24 PM - PATCH /api/v1/user/1 404 - 2007.597 ms - message: User not found
+request: 2021-08-30 10:18:30 PM - PATCH /api/v1/user/1 200 - 2008.809 ms
+info: 2021-08-30 10:28:56 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:11:45 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:12:27 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:13:05 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:13:20 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:13:29 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:13:39 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:13:46 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:13:57 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:14:03 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:14:50 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:16:09 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:18:59 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:20:08 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:20:44 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:20:52 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:21:23 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:21:40 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:24:04 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:24:23 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:25:01 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:25:04 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:25:39 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:26:02 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:26:24 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:26:43 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:26:50 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:27:10 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:27:51 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:28:03 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:28:30 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:28:53 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:29:02 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:29:42 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:30:01 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:30:35 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:30:59 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:31:37 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:31:51 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:32:04 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:32:25 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:32:50 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:33:27 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:33:33 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:33:51 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:34:12 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:34:20 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:34:36 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:34:48 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:35:19 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:35:28 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:35:52 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:36:09 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:36:18 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:36:36 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:36:40 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:36:47 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:37:10 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:37:39 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:37:56 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:38:14 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:38:42 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:38:59 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:39:13 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:39:38 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:39:47 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:40:02 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:40:24 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:40:37 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:40:45 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:40:55 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:41:10 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:41:47 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:41:49 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:41:58 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:42:29 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:42:39 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:43:09 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:43:16 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:44:02 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:44:07 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:44:10 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:44:19 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:44:21 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:45:49 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:46:19 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:46:22 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:46:41 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:46:50 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:46:54 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:47:11 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:47:17 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:47:23 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:47:36 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:48:22 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:48:24 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:48:27 PM - Listening on port 5000 (development)
+info: 2021-08-30 11:48:37 PM - Listening on port 5000 (development)
