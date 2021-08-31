@@ -37,7 +37,7 @@ process.on("SIGTERM", () => {
 async function StartServer() {
     try {
         //TODO for the time being, no need to connect to db
-        // await mongoose();
+        await mongoose();
 
         server = app.listen(config.port, () => {
             logger.info(`${LogCurrentTime()} - Listening on port ${config.port} (${config.env})`);

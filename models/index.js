@@ -1,3 +1,1 @@
-import userModel from "./user.model";
-
-export const User = userModel;
+export { default as User } from "./user.model";

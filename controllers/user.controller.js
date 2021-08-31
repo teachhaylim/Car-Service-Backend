@@ -4,7 +4,7 @@ import ApiError from "../utils/ApiError";
 import catchAsync from "../utils/catchAsync";
 
 const CreateUser = catchAsync(async (req, res) => {
-    const user = await userService.createUser({ id: 1, name: "user 1" });
+    const user = await userService.createUser({ name: "user 1" });
 
     res.status(httpStatus.CREATED).send({ meta: 200, datas: user });
 });
@@ -14,13 +14,13 @@ const GetUsers = catchAsync(async (req, res) => {
         setTimeout(() => resolve([4, 5, 6]), 3000);
     });
 
+    console.log(req.query);
+
     res.status(httpStatus.OK).send({ meta: 200, datas: users });
 });
 
 const GetUser = catchAsync(async (req, res) => {
-    const user = await new Promise((resolve, _) => {
-        setTimeout(() => resolve({ id: 1, name: "user 1" }), 2000);
-    });
+    const user = await userService.getUserById(req.params.userId)
 
     res.status(httpStatus.OK).send({ meta: 200, data: user });
 });

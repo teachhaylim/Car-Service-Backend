@@ -154,3 +154,5 @@ error: 2021-08-30 10:15:05 PM - PATCH /api/v1/user/2 404 - 2010.034 ms - message
 error: 2021-08-30 10:17:06 PM - PATCH /api/v1/user2 404 - 1.167 ms - message: route not found
 error: 2021-08-30 10:18:16 PM - POST /api/v1/user/1 404 - 0.448 ms - message: route not found
 error: 2021-08-30 10:18:24 PM - PATCH /api/v1/user/1 404 - 2007.597 ms - message: User not found
+error: 2021-08-31 10:17:10 PM - POST /api/v1/user 400 - 10007.664 ms - message: Operation `users.insertOne()` buffering timed out after 10000ms
+error: 2021-08-31 10:43:12 PM - POST /api/v1/user 400 - 10015.428 ms - message: Operation `users.insertOne()` buffering timed out after 10000ms
