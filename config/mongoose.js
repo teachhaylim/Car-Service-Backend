@@ -11,15 +11,15 @@ if (config.env === "test") {
 /**
  * @public Initialize MongoDB connection
  * 
- * @return {object} MongoDB connection
+ * @returns {object} MongoDB connection
  */
 export default function () {
     return mongoose.connect(config.mongoose.url, config.mongoose.options)
         .then(() => {
-            logger.info(`${LogCurrentTime()} - MongoDB successfully connected`);
+            logger.info(`MongoDB successfully connected`);
         })
         .catch(err => {
-            logger.error(`${LogCurrentTime()} - MongoDB failed to connect - ${err}`);
+            logger.error(`MongoDB failed to connect - ${err}`);
             throw new Error(err);
         })
 }

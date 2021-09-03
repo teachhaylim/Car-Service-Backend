@@ -6,7 +6,7 @@ import xss from "xss-clean";
 import mongoSanitize from "express-mongo-sanitize";
 
 import router from "./routes";
-import { config } from "dotenv";
+import config from "./config/config";
 import { authLimiter, publicLimiter } from "./middlewares/limiter";
 import morgan from "./config/morgan";
 import { errorConverter, errorHandler } from './middlewares/error';

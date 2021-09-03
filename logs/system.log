@@ -854,3 +854,656 @@ request: 2021-08-31 10:52:23 PM - GET /api/v1/user?name=user&age=12 200 - 3020.0
 info: 2021-08-31 11:16:35 PM - MongoDB successfully connected
 info: 2021-08-31 11:16:35 PM - Listening on port 5000 (development)
 request: 2021-08-31 11:16:44 PM - GET /api/v1/user/612e4e3778d91e365cfb7586 200 - 19.136 ms
+info: 2021-09-01 09:54:17 PM - MongoDB successfully connected
+info: 2021-09-01 09:54:17 PM - Listening on port 5000 (development)
+request: 2021-09-01 09:54:36 PM - GET /api/v1/user 200 - 28.360 ms
+info: 2021-09-01 09:57:11 PM - MongoDB successfully connected
+info: 2021-09-01 09:57:11 PM - Listening on port 5000 (development)
+request: 2021-09-01 09:57:16 PM - GET /api/v1/user 200 - 22.220 ms
+request: 2021-09-01 09:57:20 PM - POST /api/v1/user 201 - 26.530 ms
+request: 2021-09-01 09:57:26 PM - GET /api/v1/user 200 - 4.726 ms
+request: 2021-09-01 09:58:34 PM - GET /api/v1/user 200 - 2.345 ms
+request: 2021-09-01 10:04:07 PM - GET /api/v1/user 200 - 1.920 ms
+request: 2021-09-01 10:05:08 PM - GET /api/v1/user 200 - 1.740 ms
+info: 2021-09-01 10:10:01 PM - MongoDB successfully connected
+info: 2021-09-01 10:10:01 PM - Listening on port 5000 (development)
+info: 2021-09-01 10:10:18 PM - MongoDB successfully connected
+info: 2021-09-01 10:10:18 PM - Listening on port 5000 (development)
+info: 2021-09-01 10:10:35 PM - MongoDB successfully connected
+info: 2021-09-01 10:10:35 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:12:24 PM - GET /api/v1/user/612f984d63c1add0861e7088 200 - 18.795 ms
+info: 2021-09-01 10:15:56 PM - MongoDB successfully connected
+info: 2021-09-01 10:15:56 PM - Listening on port 5000 (development)
+info: 2021-09-01 10:16:07 PM - MongoDB successfully connected
+info: 2021-09-01 10:16:07 PM - Listening on port 5000 (development)
+info: 2021-09-01 10:16:51 PM - MongoDB successfully connected
+info: 2021-09-01 10:16:51 PM - Listening on port 5000 (development)
+info: 2021-09-01 10:17:04 PM - MongoDB successfully connected
+info: 2021-09-01 10:17:04 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:17:16 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 25.130 ms
+request: 2021-09-01 10:18:49 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 4.912 ms
+info: 2021-09-01 10:19:46 PM - MongoDB successfully connected
+info: 2021-09-01 10:19:46 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:19:48 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 28.703 ms
+info: 2021-09-01 10:20:30 PM - MongoDB successfully connected
+info: 2021-09-01 10:20:30 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:20:33 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 32.170 ms - message: "user" is read-only
+error: 2021-09-01 10:20:45 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 3.364 ms - message: "user" is read-only
+info: 2021-09-01 10:21:19 PM - MongoDB successfully connected
+info: 2021-09-01 10:21:19 PM - Listening on port 5000 (development)
+info: 2021-09-01 10:21:23 PM - MongoDB successfully connected
+info: 2021-09-01 10:21:23 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:21:25 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 27.971 ms - message: user.save is not a function
+info: 2021-09-01 10:21:42 PM - MongoDB successfully connected
+info: 2021-09-01 10:21:42 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:21:43 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 28.261 ms - message: user.save is not a function
+info: 2021-09-01 10:22:32 PM - MongoDB successfully connected
+info: 2021-09-01 10:22:32 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:22:33 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 34.852 ms
+info: 2021-09-01 10:22:44 PM - MongoDB successfully connected
+info: 2021-09-01 10:22:44 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:22:46 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 26.827 ms - message: user.save is not a function
+info: 2021-09-01 10:23:12 PM - MongoDB successfully connected
+info: 2021-09-01 10:23:12 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:23:13 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 42.559 ms
+info: 2021-09-01 10:23:46 PM - MongoDB successfully connected
+info: 2021-09-01 10:23:46 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:23:48 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 31.889 ms
+info: 2021-09-01 10:24:15 PM - MongoDB successfully connected
+info: 2021-09-01 10:24:15 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:24:16 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 34.675 ms
+info: 2021-09-01 10:26:18 PM - MongoDB successfully connected
+info: 2021-09-01 10:26:18 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:26:18 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 41.564 ms
+info: 2021-09-01 10:26:41 PM - MongoDB successfully connected
+info: 2021-09-01 10:26:41 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:26:43 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 34.344 ms
+request: 2021-09-01 10:36:03 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 13.231 ms
+info: 2021-09-01 10:36:26 PM - MongoDB successfully connected
+info: 2021-09-01 10:36:26 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:36:29 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 38.396 ms
+request: 2021-09-01 10:36:40 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 7.652 ms
+info: 2021-09-01 10:39:31 PM - MongoDB successfully connected
+info: 2021-09-01 10:39:31 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:39:33 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 39.373 ms
+info: 2021-09-01 10:43:29 PM - MongoDB successfully connected
+info: 2021-09-01 10:43:29 PM - Listening on port 5000 (development)
+info: 2021-09-01 10:47:29 PM - MongoDB successfully connected
+info: 2021-09-01 10:47:29 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:47:33 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 34.105 ms - message: user.save is not a function
+info: 2021-09-01 10:48:49 PM - MongoDB successfully connected
+info: 2021-09-01 10:48:49 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:48:52 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 40.129 ms - message: E11000 duplicate key error collection: GraduationProjectDB.users index: _id_ dup key: { _id: ObjectId('612f94d0652e9d4bd8c2fbff') }
+info: 2021-09-01 10:50:15 PM - MongoDB successfully connected
+info: 2021-09-01 10:50:15 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:50:16 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 22.151 ms - message: id is not defined
+info: 2021-09-01 10:50:25 PM - MongoDB successfully connected
+info: 2021-09-01 10:50:25 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:50:26 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 26.362 ms
+info: 2021-09-01 10:51:02 PM - MongoDB successfully connected
+info: 2021-09-01 10:51:02 PM - Listening on port 5000 (development)
+info: 2021-09-01 10:51:11 PM - MongoDB successfully connected
+info: 2021-09-01 10:51:11 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:51:13 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 30.156 ms
+info: 2021-09-01 10:51:52 PM - MongoDB successfully connected
+info: 2021-09-01 10:51:52 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:51:53 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 35.265 ms
+info: 2021-09-01 10:52:13 PM - MongoDB successfully connected
+info: 2021-09-01 10:52:13 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:52:14 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 35.270 ms
+info: 2021-09-01 10:52:49 PM - MongoDB successfully connected
+info: 2021-09-01 10:52:49 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:52:51 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 34.614 ms
+info: 2021-09-01 10:53:52 PM - MongoDB successfully connected
+info: 2021-09-01 10:53:52 PM - Listening on port 5000 (development)
+request: 2021-09-01 10:53:54 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 200 - 38.316 ms
+info: 2021-09-01 10:54:37 PM - MongoDB successfully connected
+info: 2021-09-01 10:54:37 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:54:38 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 27.258 ms - message: user.findByIdAndUpdate is not a function
+info: 2021-09-01 10:55:11 PM - MongoDB successfully connected
+info: 2021-09-01 10:55:11 PM - Listening on port 5000 (development)
+error: 2021-09-01 10:55:15 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 26.102 ms - message: user.findByIdAndUpdate is not a function
+info: 2021-09-02 09:22:18 PM - MongoDB successfully connected
+info: 2021-09-02 09:22:18 PM - Listening on port 5000 (development)
+error: 2021-09-02 09:22:36 PM - GET /api/v1/user 401 - 5.453 ms - message: Please authenticate
+info: 2021-09-02 09:24:53 PM - MongoDB successfully connected
+info: 2021-09-02 09:24:53 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:24:58 PM - MongoDB successfully connected
+info: 2021-09-02 09:24:58 PM - Listening on port 5000 (development)
+request: 2021-09-02 09:24:59 PM - GET /api/v1/user 200 - 38.303 ms
+info: 2021-09-02 09:25:16 PM - MongoDB successfully connected
+info: 2021-09-02 09:25:16 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:26:41 PM - MongoDB successfully connected
+info: 2021-09-02 09:26:41 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:27:38 PM - MongoDB successfully connected
+info: 2021-09-02 09:27:38 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:28:32 PM - MongoDB successfully connected
+info: 2021-09-02 09:28:32 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:29:11 PM - MongoDB successfully connected
+info: 2021-09-02 09:29:11 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:31:19 PM - MongoDB successfully connected
+info: 2021-09-02 09:31:19 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:32:23 PM - MongoDB successfully connected
+info: 2021-09-02 09:32:23 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:33:21 PM - MongoDB successfully connected
+info: 2021-09-02 09:33:21 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:33:30 PM - MongoDB successfully connected
+info: 2021-09-02 09:33:30 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:34:04 PM - MongoDB successfully connected
+info: 2021-09-02 09:34:04 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:34:14 PM - MongoDB successfully connected
+info: 2021-09-02 09:34:14 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:34:21 PM - MongoDB successfully connected
+info: 2021-09-02 09:34:21 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:34:41 PM - MongoDB successfully connected
+info: 2021-09-02 09:34:41 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:34:50 PM - MongoDB successfully connected
+info: 2021-09-02 09:34:50 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:35:38 PM - MongoDB successfully connected
+info: 2021-09-02 09:35:38 PM - Listening on port 5000 (development)
+request: 2021-09-02 09:35:46 PM - GET /api/v1/user - - - ms
+info: 2021-09-02 09:36:06 PM - MongoDB successfully connected
+info: 2021-09-02 09:36:06 PM - Listening on port 5000 (development)
+error: 2021-09-02 09:36:07 PM - GET /api/v1/user 401 - 2.607 ms - message: Please authenticate
+info: 2021-09-02 09:37:00 PM - MongoDB successfully connected
+info: 2021-09-02 09:37:00 PM - Listening on port 5000 (development)
+info: 2021-09-02 09:37:12 PM - MongoDB successfully connected
+info: 2021-09-02 09:37:12 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:15:38 PM - MongoDB successfully connected
+info: 2021-09-03 12:15:38 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:16:06 PM - POST /api/v1/auth 404 - 1.525 ms - message: route not found
+error: 2021-09-03 12:16:18 PM - POST /api/v1/auth/login 404 - 2.341 ms - message: route not found
+info: 2021-09-03 12:17:18 PM - MongoDB successfully connected
+info: 2021-09-03 12:17:18 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:17:53 PM - MongoDB successfully connected
+info: 2021-09-03 12:17:53 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:18:33 PM - MongoDB successfully connected
+info: 2021-09-03 12:18:33 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:18:41 PM - MongoDB successfully connected
+info: 2021-09-03 12:18:42 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:19:04 PM - MongoDB successfully connected
+info: 2021-09-03 12:19:04 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:19:06 PM - POST /api/v1/auth/login 500 - 7.660 ms - message: passwrd is not defined
+info: 2021-09-03 12:19:20 PM - MongoDB successfully connected
+info: 2021-09-03 12:19:20 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:19:22 PM - POST /api/v1/auth/login 500 - 43.778 ms - message: user.isPasswordMatch is not a function
+info: 2021-09-03 12:19:43 PM - MongoDB successfully connected
+info: 2021-09-03 12:19:43 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:19:44 PM - POST /api/v1/auth/login 500 - 31.981 ms - message: user.isPasswordMatch is not a function
+info: 2021-09-03 12:20:15 PM - MongoDB successfully connected
+info: 2021-09-03 12:20:15 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:20:16 PM - POST /api/v1/auth/login 500 - 32.504 ms - message: user.isPasswordMatch is not a function
+info: 2021-09-03 12:20:56 PM - MongoDB successfully connected
+info: 2021-09-03 12:20:56 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:21:03 PM - MongoDB successfully connected
+info: 2021-09-03 12:21:03 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:21:12 PM - POST /api/v1/auth/login 500 - 41.003 ms - message: user.isPasswordMatch is not a function
+info: 2021-09-03 12:22:07 PM - MongoDB successfully connected
+info: 2021-09-03 12:22:07 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:22:08 PM - POST /api/v1/auth/login 500 - 32.488 ms - message: data and hash arguments required
+info: 2021-09-03 12:24:33 PM - MongoDB successfully connected
+info: 2021-09-03 12:24:33 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:24:36 PM - POST /api/v1/auth/login 500 - 29.830 ms - message: data and salt arguments required
+info: 2021-09-03 12:25:33 PM - MongoDB successfully connected
+info: 2021-09-03 12:25:33 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:25:34 PM - POST /api/v1/auth/login 500 - 39.701 ms - message: data and salt arguments required
+info: 2021-09-03 12:25:47 PM - MongoDB successfully connected
+info: 2021-09-03 12:25:47 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:25:49 PM - POST /api/v1/auth/login 500 - 94.573 ms - message: data and hash arguments required
+info: 2021-09-03 12:25:59 PM - MongoDB successfully connected
+info: 2021-09-03 12:25:59 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:26:00 PM - POST /api/v1/auth/login 500 - 100.097 ms - message: data and hash arguments required
+error: 2021-09-03 12:26:48 PM - POST /api/v1/auth/login 401 - 8.045 ms - message: Incorrect email or password
+error: 2021-09-03 12:26:54 PM - POST /api/v1/auth/login 401 - 4.424 ms - message: Incorrect email or password
+info: 2021-09-03 12:27:10 PM - MongoDB successfully connected
+info: 2021-09-03 12:27:11 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:27:36 PM - MongoDB successfully connected
+info: 2021-09-03 12:27:36 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:27:38 PM - POST /api/v1/auth/login 401 - 15.847 ms - message: Incorrect email or password
+info: 2021-09-03 12:29:34 PM - MongoDB successfully connected
+info: 2021-09-03 12:29:34 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:29:44 PM - POST /api/v1/auth/login 200 - 164.519 ms
+request: 2021-09-03 12:30:14 PM - POST /api/v1/auth/login 200 - 176.143 ms
+error: 2021-09-03 12:30:18 PM - POST /api/v1/auth/login 401 - 181.677 ms - message: Incorrect email or password
+request: 2021-09-03 12:31:02 PM - POST /api/v1/auth/login 200 - 158.535 ms
+error: 2021-09-03 12:31:06 PM - POST /api/v1/auth/login 401 - 6.459 ms - message: Incorrect email or password
+info: 2021-09-03 12:31:16 PM - MongoDB successfully connected
+info: 2021-09-03 12:31:16 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:31:23 PM - MongoDB successfully connected
+info: 2021-09-03 12:31:23 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:31:25 PM - POST /api/v1/auth/login 500 - 26.885 ms - message: data and hash arguments required
+error: 2021-09-03 12:31:46 PM - POST /api/v1/auth/login 500 - 14.965 ms - message: data and hash arguments required
+info: 2021-09-03 12:31:56 PM - MongoDB successfully connected
+info: 2021-09-03 12:31:56 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:31:59 PM - MongoDB successfully connected
+info: 2021-09-03 12:31:59 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:32:00 PM - POST /api/v1/auth/login 500 - 26.604 ms - message: data and hash arguments required
+info: 2021-09-03 12:32:15 PM - MongoDB successfully connected
+info: 2021-09-03 12:32:15 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:32:16 PM - POST /api/v1/auth/login 500 - 29.180 ms - message: data and hash arguments required
+info: 2021-09-03 12:33:02 PM - MongoDB successfully connected
+info: 2021-09-03 12:33:02 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:33:03 PM - POST /api/v1/auth/login 500 - 29.503 ms - message: data and hash arguments required
+info: 2021-09-03 12:33:30 PM - MongoDB successfully connected
+info: 2021-09-03 12:33:30 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:33:39 PM - MongoDB successfully connected
+info: 2021-09-03 12:33:39 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:33:40 PM - POST /api/v1/auth/login 500 - 33.570 ms - message: data and hash arguments required
+info: 2021-09-03 12:34:07 PM - MongoDB successfully connected
+info: 2021-09-03 12:34:07 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:34:07 PM - POST /api/v1/auth/login 500 - 31.118 ms - message: data and hash arguments required
+error: 2021-09-03 12:34:41 PM - POST /api/v1/auth/login 500 - 8.838 ms - message: data and hash arguments required
+error: 2021-09-03 12:34:42 PM - POST /api/v1/auth/login 500 - 8.061 ms - message: data and hash arguments required
+error: 2021-09-03 12:34:43 PM - POST /api/v1/auth/login 500 - 15.651 ms - message: data and hash arguments required
+info: 2021-09-03 12:35:00 PM - MongoDB successfully connected
+info: 2021-09-03 12:35:00 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:35:03 PM - POST /api/v1/auth/login 500 - 43.979 ms - message: data and hash arguments required
+error: 2021-09-03 12:35:17 PM - POST /api/v1/auth/login 500 - 7.038 ms - message: data and hash arguments required
+error: 2021-09-03 12:35:18 PM - POST /api/v1/auth/login 500 - 18.075 ms - message: data and hash arguments required
+info: 2021-09-03 12:35:40 PM - MongoDB successfully connected
+info: 2021-09-03 12:35:40 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:35:42 PM - POST /api/v1/auth/login 500 - 31.281 ms - message: data and hash arguments required
+info: 2021-09-03 12:35:58 PM - MongoDB successfully connected
+info: 2021-09-03 12:35:58 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:36:00 PM - POST /api/v1/auth/login 500 - 26.580 ms - message: data and hash arguments required
+request: 2021-09-03 12:36:32 PM - GET /api/v1/user 200 - 11.353 ms
+info: 2021-09-03 12:37:15 PM - MongoDB successfully connected
+info: 2021-09-03 12:37:15 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:37:17 PM - GET /api/v1/user 200 - 20.799 ms
+error: 2021-09-03 12:37:26 PM - POST /api/v1/auth/login 500 - 21.223 ms - message: data and hash arguments required
+info: 2021-09-03 12:38:02 PM - MongoDB successfully connected
+info: 2021-09-03 12:38:02 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:38:04 PM - POST /api/v1/auth/login 200 - 287.000 ms
+info: 2021-09-03 12:38:52 PM - MongoDB successfully connected
+info: 2021-09-03 12:38:52 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:39:00 PM - MongoDB successfully connected
+info: 2021-09-03 12:39:00 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:39:00 PM - POST /api/v1/auth/login 200 - 409.561 ms
+info: 2021-09-03 12:39:15 PM - MongoDB successfully connected
+info: 2021-09-03 12:39:15 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:39:17 PM - POST /api/v1/auth/login 200 - 220.135 ms
+info: 2021-09-03 12:39:54 PM - MongoDB successfully connected
+info: 2021-09-03 12:39:54 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:39:56 PM - POST /api/v1/auth/login 500 - 22.850 ms - message: data and hash arguments required
+info: 2021-09-03 12:40:48 PM - MongoDB successfully connected
+info: 2021-09-03 12:40:48 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:40:49 PM - POST /api/v1/auth/login 500 - 94.081 ms - message: data and hash arguments required
+info: 2021-09-03 12:41:19 PM - MongoDB successfully connected
+info: 2021-09-03 12:41:19 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:41:19 PM - POST /api/v1/auth/login 500 - 24.849 ms - message: data and salt arguments required
+info: 2021-09-03 12:41:40 PM - MongoDB successfully connected
+info: 2021-09-03 12:41:40 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:42:38 PM - MongoDB successfully connected
+info: 2021-09-03 12:42:38 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:42:39 PM - POST /api/v1/auth/login 500 - 26.780 ms - message: data and salt arguments required
+info: 2021-09-03 12:42:49 PM - MongoDB successfully connected
+info: 2021-09-03 12:42:49 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:42:49 PM - POST /api/v1/auth/login 200 - 18.962 ms
+info: 2021-09-03 12:43:00 PM - MongoDB successfully connected
+info: 2021-09-03 12:43:00 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:43:47 PM - POST /api/v1/auth/login 500 - 29.342 ms - message: data and salt arguments required
+info: 2021-09-03 12:44:30 PM - MongoDB successfully connected
+info: 2021-09-03 12:44:30 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:44:56 PM - MongoDB successfully connected
+info: 2021-09-03 12:44:56 PM - Listening on port 5000 (development)
+error: 2021-09-03 12:44:57 PM - POST /api/v1/auth/login 500 - 30.235 ms - message: data and hash arguments required
+info: 2021-09-03 12:45:44 PM - MongoDB successfully connected
+info: 2021-09-03 12:45:44 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:45:48 PM - POST /api/v1/auth/login 200 - 93.893 ms
+info: 2021-09-03 12:46:40 PM - MongoDB successfully connected
+info: 2021-09-03 12:46:40 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:46:50 PM - MongoDB successfully connected
+info: 2021-09-03 12:46:50 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:46:51 PM - POST /api/v1/auth/login 200 - 89.451 ms
+info: 2021-09-03 12:47:08 PM - MongoDB successfully connected
+info: 2021-09-03 12:47:08 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:47:09 PM - POST /api/v1/auth/login 200 - 91.706 ms
+info: 2021-09-03 12:47:19 PM - MongoDB successfully connected
+info: 2021-09-03 12:47:19 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:47:25 PM - MongoDB successfully connected
+info: 2021-09-03 12:47:25 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:47:26 PM - POST /api/v1/auth/login 200 - 85.031 ms
+info: 2021-09-03 12:48:35 PM - MongoDB successfully connected
+info: 2021-09-03 12:48:35 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:48:49 PM - MongoDB successfully connected
+info: 2021-09-03 12:48:49 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:48:51 PM - MongoDB successfully connected
+info: 2021-09-03 12:48:51 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:48:52 PM - POST /api/v1/auth/login 200 - 86.453 ms
+info: 2021-09-03 12:51:12 PM - MongoDB successfully connected
+info: 2021-09-03 12:51:12 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:52:05 PM - MongoDB successfully connected
+info: 2021-09-03 12:52:05 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:54:03 PM - MongoDB successfully connected
+info: 2021-09-03 12:54:03 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:54:10 PM - MongoDB successfully connected
+info: 2021-09-03 12:54:10 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:54:28 PM - MongoDB successfully connected
+info: 2021-09-03 12:54:28 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:54:58 PM - MongoDB successfully connected
+info: 2021-09-03 12:54:58 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:55:20 PM - MongoDB successfully connected
+info: 2021-09-03 12:55:20 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:55:39 PM - MongoDB successfully connected
+info: 2021-09-03 12:55:39 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:55:51 PM - MongoDB successfully connected
+info: 2021-09-03 12:55:51 PM - Listening on port 5000 (development)
+request: 2021-09-03 12:55:53 PM - POST /api/v1/auth/login 200 - 86.786 ms
+info: 2021-09-03 12:57:00 PM - MongoDB successfully connected
+info: 2021-09-03 12:57:00 PM - Listening on port 5000 (development)
+info: 2021-09-03 12:57:26 PM - MongoDB successfully connected
+info: 2021-09-03 12:57:26 PM - Listening on port 5000 (development)
+info: 2021-09-03 01:00:29 PM - MongoDB successfully connected
+info: 2021-09-03 01:00:29 PM - Listening on port 5000 (development)
+info: 2021-09-03 01:00:35 PM - MongoDB successfully connected
+info: 2021-09-03 01:00:35 PM - Listening on port 5000 (development)
+info: 2021-09-03 01:01:01 PM - MongoDB successfully connected
+info: 2021-09-03 01:01:01 PM - Listening on port 5000 (development)
+error: TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:16:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:15:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:11:43)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+info: 2021-09-03 01:01:15 PM - Server Close
+info: 2021-09-03 04:55:02 PM - MongoDB successfully connected
+info: 2021-09-03 04:55:02 PM - Listening on port 5000 (development)
+request: 2021-09-03 04:55:05 PM - POST /api/v1/auth/login 200 - 90.475 ms
+error: TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:16:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:15:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:11:43)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+info: 2021-09-03 04:56:23 PM - MongoDB successfully connected
+info: 2021-09-03 04:56:23 PM - Listening on port 5000 (development)
+error: 2021-09-03 04:56:27 PM - POST /api/v1/auth/login 500 - 97.901 ms - message: "exp" should be a number of seconds
+info: 2021-09-03 04:57:44 PM - MongoDB successfully connected
+info: 2021-09-03 04:57:44 PM - Listening on port 5000 (development)
+request: 2021-09-03 04:57:45 PM - POST /api/v1/auth/login 200 - 85.631 ms
+request: 2021-09-03 04:57:56 PM - POST /api/v1/user 201 - 16.995 ms
+info: 2021-09-03 04:59:05 PM - MongoDB successfully connected
+info: 2021-09-03 04:59:05 PM - Listening on port 5000 (development)
+request: 2021-09-03 04:59:06 PM - POST /api/v1/user 201 - 30.168 ms
+info: 2021-09-03 04:59:36 PM - MongoDB successfully connected
+info: 2021-09-03 04:59:36 PM - Listening on port 5000 (development)
+request: 2021-09-03 04:59:40 PM - POST /api/v1/auth/login 200 - 86.322 ms
+request: 2021-09-03 04:59:50 PM - POST /api/v1/user 201 - 29.276 ms
+info: 2021-09-03 07:12:50 PM - MongoDB successfully connected
+info: 2021-09-03 07:12:50 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:12:57 PM - POST /api/v1/auth/login 200 - 100.143 ms
+request: 2021-09-03 07:13:06 PM - POST /api/v1/user 201 - 16.072 ms
+info: 2021-09-03 07:13:44 PM - MongoDB successfully connected
+info: 2021-09-03 07:13:44 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:13:45 PM - GET /api/v1/user 200 - 25.504 ms
+info: 2021-09-03 07:14:09 PM - MongoDB successfully connected
+info: 2021-09-03 07:14:09 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:14:15 PM - GET /api/v1/user 200 - 33.652 ms
+info: 2021-09-03 07:14:54 PM - MongoDB successfully connected
+info: 2021-09-03 07:14:54 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:14:59 PM - POST /api/v1/auth/login 200 - 88.718 ms
+request: 2021-09-03 07:15:10 PM - GET /api/v1/user 200 - 9.835 ms
+info: 2021-09-03 07:15:41 PM - MongoDB successfully connected
+info: 2021-09-03 07:15:41 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:16:12 PM - MongoDB successfully connected
+info: 2021-09-03 07:16:12 PM - Listening on port 5000 (development)
+error: 2021-09-03 07:17:02 PM - POST /api/v1/auth/login 401 - 93.773 ms - message: Incorrect email or password
+error: 2021-09-03 07:17:09 PM - POST /api/v1/auth/login 401 - 2.433 ms - message: Incorrect email or password
+request: 2021-09-03 07:17:14 PM - POST /api/v1/auth/login 200 - 72.841 ms
+info: 2021-09-03 07:20:50 PM - MongoDB successfully connected
+info: 2021-09-03 07:20:50 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:20:51 PM - POST /api/v1/auth/login 200 - 85.581 ms
+error: 2021-09-03 07:22:15 PM - GET /api/v1/user 401 - 1.456 ms - message: Please authenticate
+request: 2021-09-03 07:22:27 PM - POST /api/v1/auth/login 200 - 74.837 ms
+request: 2021-09-03 07:22:37 PM - GET /api/v1/user 200 - 9.476 ms
+error: TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:20:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:19:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:12:43)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+info: 2021-09-03 07:23:49 PM - MongoDB successfully connected
+info: 2021-09-03 07:23:49 PM - Listening on port 5000 (development)
+error: 2021-09-03 07:23:50 PM - GET /api/v1/user 500 - 10.506 ms - message: jwt expired
+info: 2021-09-03 07:24:05 PM - MongoDB successfully connected
+info: 2021-09-03 07:24:05 PM - Listening on port 5000 (development)
+error: 2021-09-03 07:24:07 PM - GET /api/v1/user 401 - 2.833 ms - message: Please authenticate
+error: 2021-09-03 07:24:12 PM - GET /api/v1/user 500 - 7.157 ms - message: jwt expired
+info: 2021-09-03 07:24:47 PM - MongoDB successfully connected
+info: 2021-09-03 07:24:47 PM - Listening on port 5000 (development)
+error: 2021-09-03 07:24:49 PM - GET /api/v1/user 500 - 9.966 ms - message: Cannot read property 'exp' of undefined
+info: 2021-09-03 07:24:58 PM - MongoDB successfully connected
+info: 2021-09-03 07:24:58 PM - Listening on port 5000 (development)
+error: 2021-09-03 07:24:58 PM - GET /api/v1/user 500 - 9.427 ms - message: jwt expired
+request: 2021-09-03 07:25:08 PM - POST /api/v1/auth/login 200 - 101.195 ms
+request: 2021-09-03 07:25:13 PM - GET /api/v1/user 200 - 8.897 ms
+info: 2021-09-03 07:25:28 PM - MongoDB successfully connected
+info: 2021-09-03 07:25:28 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:25:29 PM - GET /api/v1/user 200 - 28.653 ms
+info: 2021-09-03 07:27:31 PM - MongoDB successfully connected
+info: 2021-09-03 07:27:31 PM - Listening on port 5000 (development)
+error: 2021-09-03 07:27:32 PM - GET /api/v1/user 500 - 9.994 ms - message: jwt expired
+request: 2021-09-03 07:27:34 PM - POST /api/v1/auth/login 200 - 112.623 ms
+error: 2021-09-03 07:27:40 PM - GET /api/v1/user 500 - 1.052 ms - message: jwt malformed
+request: 2021-09-03 07:27:48 PM - GET /api/v1/user 200 - 11.280 ms
+info: 2021-09-03 07:28:12 PM - MongoDB successfully connected
+info: 2021-09-03 07:28:12 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:28:13 PM - POST /api/v1/auth/login 200 - 97.081 ms
+request: 2021-09-03 07:28:18 PM - GET /api/v1/user 200 - 13.652 ms
+info: 2021-09-03 07:28:44 PM - MongoDB successfully connected
+info: 2021-09-03 07:28:44 PM - Listening on port 5000 (development)
+error: 2021-09-03 07:28:48 PM - POST /api/v1/auth/login 500 - 99.033 ms - message: Bad "options.expiresIn" option the payload already has an "exp" property.
+info: 2021-09-03 07:28:57 PM - MongoDB successfully connected
+info: 2021-09-03 07:28:57 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:28:58 PM - POST /api/v1/auth/login 200 - 84.957 ms
+request: 2021-09-03 07:29:04 PM - GET /api/v1/user 200 - 11.083 ms
+info: 2021-09-03 07:29:50 PM - MongoDB successfully connected
+info: 2021-09-03 07:29:50 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:29:51 PM - POST /api/v1/auth/login 200 - 95.499 ms
+request: 2021-09-03 07:29:56 PM - GET /api/v1/user 200 - 9.967 ms
+info: 2021-09-03 07:30:08 PM - MongoDB successfully connected
+info: 2021-09-03 07:30:08 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:30:09 PM - GET /api/v1/user 200 - 25.923 ms
+info: 2021-09-03 07:30:26 PM - MongoDB successfully connected
+info: 2021-09-03 07:30:26 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:30:27 PM - GET /api/v1/user 200 - 27.324 ms
+error: 2021-09-03 07:32:01 PM - GET /api/v1/user 500 - 7.555 ms - message: jwt expired
+info: 2021-09-03 07:32:14 PM - MongoDB successfully connected
+info: 2021-09-03 07:32:14 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:32:32 PM - MongoDB successfully connected
+info: 2021-09-03 07:32:32 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:33:35 PM - MongoDB successfully connected
+info: 2021-09-03 07:33:35 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:33:41 PM - MongoDB successfully connected
+info: 2021-09-03 07:33:41 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:33:42 PM - POST /api/v1/auth/login 200 - 83.290 ms
+error: 2021-09-03 07:33:46 PM - GET /api/v1/user 500 - 7.916 ms - message: jwt expired
+request: 2021-09-03 07:33:49 PM - GET /api/v1/user 200 - 6.970 ms
+info: 2021-09-03 07:35:36 PM - MongoDB successfully connected
+info: 2021-09-03 07:35:36 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:35:56 PM - MongoDB successfully connected
+info: 2021-09-03 07:35:56 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:36:21 PM - MongoDB successfully connected
+info: 2021-09-03 07:36:21 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:36:48 PM - MongoDB successfully connected
+info: 2021-09-03 07:36:48 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:36:50 PM - MongoDB successfully connected
+info: 2021-09-03 07:36:50 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:36:52 PM - POST /api/v1/auth/login 200 - 106.557 ms
+info: 2021-09-03 07:37:09 PM - MongoDB successfully connected
+info: 2021-09-03 07:37:09 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:37:15 PM - MongoDB successfully connected
+info: 2021-09-03 07:37:15 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:37:15 PM - POST /api/v1/auth/login 200 - 89.049 ms
+info: 2021-09-03 07:37:34 PM - MongoDB successfully connected
+info: 2021-09-03 07:37:34 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:39:35 PM - MongoDB successfully connected
+info: 2021-09-03 07:39:35 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:39:42 PM - MongoDB successfully connected
+info: 2021-09-03 07:39:42 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:42:53 PM - MongoDB successfully connected
+info: 2021-09-03 07:42:53 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:43:18 PM - MongoDB successfully connected
+info: 2021-09-03 07:43:18 PM - Listening on port 5000 (development)
+info: 2021-09-03 07:43:24 PM - MongoDB successfully connected
+info: 2021-09-03 07:43:24 PM - Listening on port 5000 (development)
+request: 2021-09-03 07:43:25 PM - POST /api/v1/auth/login 200 - 85.989 ms
+error: 2021-09-03 07:43:27 PM - GET /api/v1/user 500 - 10.686 ms - message: jwt expired
+request: 2021-09-03 07:43:34 PM - GET /api/v1/user 200 - 4.515 ms
+info: 2021-09-03 07:48:13 PM 2021-09-03 07:48:13 PM - MongoDB successfully connected
+info: 2021-09-03 07:48:13 PM Listening on port 5000 (development)
+info: 2021-09-03 07:48:38 PM MongoDB successfully connected
+info: 2021-09-03 07:48:38 PM Listening on port 5000 (development)
+info: 2021-09-03 07:48:43 PM MongoDB successfully connected
+info: 2021-09-03 07:48:43 PM Listening on port 5000 (development)
+info: 2021-09-03 07:48:51 PM MongoDB successfully connected
+info: 2021-09-03 07:48:51 PM Listening on port 5000 (development)
+error: 2021-09-03 07:49:16 PM TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:28:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:27:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:12:32)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+error: 2021-09-03 07:49:16 PM GET /api/v1/user 500 - 14.236 ms - message: TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:28:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:27:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:12:32)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+info: 2021-09-03 07:49:35 PM MongoDB successfully connected
+info: 2021-09-03 07:49:35 PM Listening on port 5000 (development)
+error: 2021-09-03 07:49:36 PM GET /api/v1/user 500 - 17.877 ms - message: jwt expired
+info: 2021-09-03 07:49:46 PM MongoDB successfully connected
+info: 2021-09-03 07:49:46 PM Listening on port 5000 (development)
+error: 2021-09-03 07:49:46 PM GET /api/v1/user 500 - 10.538 ms - message: jwt expired
+info: 2021-09-03 07:49:58 PM MongoDB successfully connected
+info: 2021-09-03 07:49:58 PM Listening on port 5000 (development)
+error: 2021-09-03 07:49:59 PM jwt expired
+error: 2021-09-03 07:49:59 PM GET /api/v1/user 500 - 11.238 ms - message: jwt expired
+info: 2021-09-03 07:50:15 PM MongoDB successfully connected
+info: 2021-09-03 07:50:15 PM Listening on port 5000 (development)
+error: 2021-09-03 07:50:16 PM GET /api/v1/user 500 - 8.465 ms - message: jwt expired
+info: 2021-09-03 07:50:36 PM MongoDB successfully connected
+info: 2021-09-03 07:50:36 PM Listening on port 5000 (development)
+info: 2021-09-03 07:50:39 PM MongoDB successfully connected
+info: 2021-09-03 07:50:39 PM Listening on port 5000 (development)
+info: 2021-09-03 07:51:25 PM MongoDB successfully connected
+info: 2021-09-03 07:51:25 PM Listening on port 5000 (development)
+info: 2021-09-03 08:31:52 PM MongoDB successfully connected
+info: 2021-09-03 08:31:52 PM Listening on port 5000 (development)
+request: 2021-09-03 08:31:53 PM POST /api/v1/auth/login 200 - 87.010 ms
+request: 2021-09-03 08:31:59 PM GET /api/v1/user 200 - 6.004 ms
+info: 2021-09-03 08:32:22 PM MongoDB successfully connected
+info: 2021-09-03 08:32:22 PM Listening on port 5000 (development)
+request: 2021-09-03 08:32:22 PM GET /api/v1/user 200 - 20.377 ms
+info: 2021-09-03 08:32:32 PM MongoDB successfully connected
+info: 2021-09-03 08:32:32 PM Listening on port 5000 (development)
+request: 2021-09-03 08:32:33 PM GET /api/v1/user 200 - 24.227 ms
+info: 2021-09-03 08:32:42 PM MongoDB successfully connected
+info: 2021-09-03 08:32:42 PM Listening on port 5000 (development)
+request: 2021-09-03 08:32:42 PM GET /api/v1/user 200 - 28.490 ms
+info: 2021-09-03 10:00:22 PM MongoDB successfully connected
+info: 2021-09-03 10:00:22 PM Listening on port 5000 (development)
+request: 2021-09-03 10:00:24 PM POST /api/v1/auth/login 200 - 82.341 ms
+request: 2021-09-03 10:00:35 PM GET /api/v1/user 200 - 12.903 ms
+info: 2021-09-03 10:00:50 PM MongoDB successfully connected
+info: 2021-09-03 10:00:50 PM Listening on port 5000 (development)
+request: 2021-09-03 10:00:54 PM GET /api/v1/user 200 - 21.876 ms
+error: 2021-09-03 10:33:36 PM GET /api/v1/user 500 - 7.451 ms - message: jwt expired
+info: 2021-09-03 10:34:07 PM MongoDB successfully connected
+info: 2021-09-03 10:34:07 PM Listening on port 5000 (development)
+error: 2021-09-03 10:34:09 PM GET /api/v1/user 500 - 9.986 ms - message: jwt expired
+info: 2021-09-03 10:34:23 PM MongoDB successfully connected
+info: 2021-09-03 10:34:23 PM Listening on port 5000 (development)
+info: 2021-09-03 10:34:30 PM MongoDB successfully connected
+info: 2021-09-03 10:34:30 PM Listening on port 5000 (development)
+error: 2021-09-03 10:34:31 PM GET /api/v1/user 401 - 4.363 ms - message: Please authenticate
+info: 2021-09-03 10:34:40 PM MongoDB successfully connected
+info: 2021-09-03 10:34:40 PM Listening on port 5000 (development)
+error: 2021-09-03 10:34:41 PM GET /api/v1/user 500 - 9.933 ms - message: jwt expired
+info: 2021-09-03 10:35:33 PM MongoDB successfully connected
+info: 2021-09-03 10:35:33 PM Listening on port 5000 (development)
+error: 2021-09-03 10:35:33 PM GET /api/v1/user 401 - 7.333 ms - message: token expired
+info: 2021-09-03 10:35:58 PM MongoDB successfully connected
+info: 2021-09-03 10:35:58 PM Listening on port 5000 (development)
+error: 2021-09-03 10:35:58 PM GET /api/v1/user 500 - 4.474 ms - message: token expired
+info: 2021-09-03 10:36:07 PM MongoDB successfully connected
+info: 2021-09-03 10:36:07 PM Listening on port 5000 (development)
+error: 2021-09-03 10:36:09 PM GET /api/v1/user 401 - 4.956 ms - message: token expired
+info: 2021-09-03 10:36:23 PM MongoDB successfully connected
+info: 2021-09-03 10:36:23 PM Listening on port 5000 (development)
+error: 2021-09-03 10:36:23 PM GET /api/v1/user 401 - 5.513 ms - message: token expired
+info: 2021-09-03 10:36:35 PM MongoDB successfully connected
+info: 2021-09-03 10:36:35 PM Listening on port 5000 (development)
+info: 2021-09-03 10:36:41 PM MongoDB successfully connected
+info: 2021-09-03 10:36:41 PM Listening on port 5000 (development)
+info: 2021-09-03 10:36:54 PM MongoDB successfully connected
+info: 2021-09-03 10:36:54 PM Listening on port 5000 (development)
+info: 2021-09-03 10:37:06 PM MongoDB successfully connected
+info: 2021-09-03 10:37:06 PM Listening on port 5000 (development)
+error: 2021-09-03 10:37:08 PM GET /api/v1/user 401 - 5.463 ms - message: token expired
+error: 2021-09-03 10:37:09 PM GET /api/v1/user 401 - 1.002 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.626 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.671 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.495 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.470 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.526 ms - message: token expired
+request: 2021-09-03 10:37:16 PM POST /api/v1/auth/login 200 - 103.475 ms
+request: 2021-09-03 10:37:22 PM GET /api/v1/user 200 - 15.419 ms
+info: 2021-09-03 10:38:43 PM MongoDB successfully connected
+info: 2021-09-03 10:38:43 PM Listening on port 5000 (development)

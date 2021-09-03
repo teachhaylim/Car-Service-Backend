@@ -154,3 +154,174 @@ error: 2021-08-30 10:18:16 PM - POST /api/v1/user/1 404 - 0.448 ms - message: ro
 error: 2021-08-30 10:18:24 PM - PATCH /api/v1/user/1 404 - 2007.597 ms - message: User not found
 error: 2021-08-31 10:17:10 PM - POST /api/v1/user 400 - 10007.664 ms - message: Operation `users.insertOne()` buffering timed out after 10000ms
 error: 2021-08-31 10:43:12 PM - POST /api/v1/user 400 - 10015.428 ms - message: Operation `users.insertOne()` buffering timed out after 10000ms
+error: 2021-09-01 10:20:33 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 32.170 ms - message: "user" is read-only
+error: 2021-09-01 10:20:45 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 3.364 ms - message: "user" is read-only
+error: 2021-09-01 10:21:25 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 27.971 ms - message: user.save is not a function
+error: 2021-09-01 10:21:43 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 28.261 ms - message: user.save is not a function
+error: 2021-09-01 10:22:46 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 26.827 ms - message: user.save is not a function
+error: 2021-09-01 10:47:33 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 34.105 ms - message: user.save is not a function
+error: 2021-09-01 10:48:52 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 40.129 ms - message: E11000 duplicate key error collection: GraduationProjectDB.users index: _id_ dup key: { _id: ObjectId('612f94d0652e9d4bd8c2fbff') }
+error: 2021-09-01 10:50:16 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 22.151 ms - message: id is not defined
+error: 2021-09-01 10:54:38 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 27.258 ms - message: user.findByIdAndUpdate is not a function
+error: 2021-09-01 10:55:15 PM - PATCH /api/v1/user/612f94d0652e9d4bd8c2fbff 500 - 26.102 ms - message: user.findByIdAndUpdate is not a function
+error: 2021-09-02 09:22:36 PM - GET /api/v1/user 401 - 5.453 ms - message: Please authenticate
+error: 2021-09-02 09:36:07 PM - GET /api/v1/user 401 - 2.607 ms - message: Please authenticate
+error: 2021-09-03 12:16:06 PM - POST /api/v1/auth 404 - 1.525 ms - message: route not found
+error: 2021-09-03 12:16:18 PM - POST /api/v1/auth/login 404 - 2.341 ms - message: route not found
+error: 2021-09-03 12:19:06 PM - POST /api/v1/auth/login 500 - 7.660 ms - message: passwrd is not defined
+error: 2021-09-03 12:19:22 PM - POST /api/v1/auth/login 500 - 43.778 ms - message: user.isPasswordMatch is not a function
+error: 2021-09-03 12:19:44 PM - POST /api/v1/auth/login 500 - 31.981 ms - message: user.isPasswordMatch is not a function
+error: 2021-09-03 12:20:16 PM - POST /api/v1/auth/login 500 - 32.504 ms - message: user.isPasswordMatch is not a function
+error: 2021-09-03 12:21:12 PM - POST /api/v1/auth/login 500 - 41.003 ms - message: user.isPasswordMatch is not a function
+error: 2021-09-03 12:22:08 PM - POST /api/v1/auth/login 500 - 32.488 ms - message: data and hash arguments required
+error: 2021-09-03 12:24:36 PM - POST /api/v1/auth/login 500 - 29.830 ms - message: data and salt arguments required
+error: 2021-09-03 12:25:34 PM - POST /api/v1/auth/login 500 - 39.701 ms - message: data and salt arguments required
+error: 2021-09-03 12:25:49 PM - POST /api/v1/auth/login 500 - 94.573 ms - message: data and hash arguments required
+error: 2021-09-03 12:26:00 PM - POST /api/v1/auth/login 500 - 100.097 ms - message: data and hash arguments required
+error: 2021-09-03 12:26:48 PM - POST /api/v1/auth/login 401 - 8.045 ms - message: Incorrect email or password
+error: 2021-09-03 12:26:54 PM - POST /api/v1/auth/login 401 - 4.424 ms - message: Incorrect email or password
+error: 2021-09-03 12:27:38 PM - POST /api/v1/auth/login 401 - 15.847 ms - message: Incorrect email or password
+error: 2021-09-03 12:30:18 PM - POST /api/v1/auth/login 401 - 181.677 ms - message: Incorrect email or password
+error: 2021-09-03 12:31:06 PM - POST /api/v1/auth/login 401 - 6.459 ms - message: Incorrect email or password
+error: 2021-09-03 12:31:25 PM - POST /api/v1/auth/login 500 - 26.885 ms - message: data and hash arguments required
+error: 2021-09-03 12:31:46 PM - POST /api/v1/auth/login 500 - 14.965 ms - message: data and hash arguments required
+error: 2021-09-03 12:32:00 PM - POST /api/v1/auth/login 500 - 26.604 ms - message: data and hash arguments required
+error: 2021-09-03 12:32:16 PM - POST /api/v1/auth/login 500 - 29.180 ms - message: data and hash arguments required
+error: 2021-09-03 12:33:03 PM - POST /api/v1/auth/login 500 - 29.503 ms - message: data and hash arguments required
+error: 2021-09-03 12:33:40 PM - POST /api/v1/auth/login 500 - 33.570 ms - message: data and hash arguments required
+error: 2021-09-03 12:34:07 PM - POST /api/v1/auth/login 500 - 31.118 ms - message: data and hash arguments required
+error: 2021-09-03 12:34:41 PM - POST /api/v1/auth/login 500 - 8.838 ms - message: data and hash arguments required
+error: 2021-09-03 12:34:42 PM - POST /api/v1/auth/login 500 - 8.061 ms - message: data and hash arguments required
+error: 2021-09-03 12:34:43 PM - POST /api/v1/auth/login 500 - 15.651 ms - message: data and hash arguments required
+error: 2021-09-03 12:35:03 PM - POST /api/v1/auth/login 500 - 43.979 ms - message: data and hash arguments required
+error: 2021-09-03 12:35:17 PM - POST /api/v1/auth/login 500 - 7.038 ms - message: data and hash arguments required
+error: 2021-09-03 12:35:18 PM - POST /api/v1/auth/login 500 - 18.075 ms - message: data and hash arguments required
+error: 2021-09-03 12:35:42 PM - POST /api/v1/auth/login 500 - 31.281 ms - message: data and hash arguments required
+error: 2021-09-03 12:36:00 PM - POST /api/v1/auth/login 500 - 26.580 ms - message: data and hash arguments required
+error: 2021-09-03 12:37:26 PM - POST /api/v1/auth/login 500 - 21.223 ms - message: data and hash arguments required
+error: 2021-09-03 12:39:56 PM - POST /api/v1/auth/login 500 - 22.850 ms - message: data and hash arguments required
+error: 2021-09-03 12:40:49 PM - POST /api/v1/auth/login 500 - 94.081 ms - message: data and hash arguments required
+error: 2021-09-03 12:41:19 PM - POST /api/v1/auth/login 500 - 24.849 ms - message: data and salt arguments required
+error: 2021-09-03 12:42:39 PM - POST /api/v1/auth/login 500 - 26.780 ms - message: data and salt arguments required
+error: 2021-09-03 12:43:47 PM - POST /api/v1/auth/login 500 - 29.342 ms - message: data and salt arguments required
+error: 2021-09-03 12:44:57 PM - POST /api/v1/auth/login 500 - 30.235 ms - message: data and hash arguments required
+error: TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:16:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:15:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:11:43)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+error: TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:16:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:15:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:11:43)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+error: 2021-09-03 04:56:27 PM - POST /api/v1/auth/login 500 - 97.901 ms - message: "exp" should be a number of seconds
+error: 2021-09-03 07:17:02 PM - POST /api/v1/auth/login 401 - 93.773 ms - message: Incorrect email or password
+error: 2021-09-03 07:17:09 PM - POST /api/v1/auth/login 401 - 2.433 ms - message: Incorrect email or password
+error: 2021-09-03 07:22:15 PM - GET /api/v1/user 401 - 1.456 ms - message: Please authenticate
+error: TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:20:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:19:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:12:43)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+error: 2021-09-03 07:23:50 PM - GET /api/v1/user 500 - 10.506 ms - message: jwt expired
+error: 2021-09-03 07:24:07 PM - GET /api/v1/user 401 - 2.833 ms - message: Please authenticate
+error: 2021-09-03 07:24:12 PM - GET /api/v1/user 500 - 7.157 ms - message: jwt expired
+error: 2021-09-03 07:24:49 PM - GET /api/v1/user 500 - 9.966 ms - message: Cannot read property 'exp' of undefined
+error: 2021-09-03 07:24:58 PM - GET /api/v1/user 500 - 9.427 ms - message: jwt expired
+error: 2021-09-03 07:27:32 PM - GET /api/v1/user 500 - 9.994 ms - message: jwt expired
+error: 2021-09-03 07:27:40 PM - GET /api/v1/user 500 - 1.052 ms - message: jwt malformed
+error: 2021-09-03 07:28:48 PM - POST /api/v1/auth/login 500 - 99.033 ms - message: Bad "options.expiresIn" option the payload already has an "exp" property.
+error: 2021-09-03 07:32:01 PM - GET /api/v1/user 500 - 7.555 ms - message: jwt expired
+error: 2021-09-03 07:33:46 PM - GET /api/v1/user 500 - 7.916 ms - message: jwt expired
+error: 2021-09-03 07:43:27 PM - GET /api/v1/user 500 - 10.686 ms - message: jwt expired
+error: 2021-09-03 07:49:16 PM TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:28:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:27:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:12:32)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+error: 2021-09-03 07:49:16 PM GET /api/v1/user 500 - 14.236 ms - message: TokenExpiredError: jwt expired
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:28:16)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:364
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\token.service.js:18:97)
+    at Object.verifyToken (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/token.service.js:27:18)
+    at _callee$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\middlewares\/auth.js:12:32)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+error: 2021-09-03 07:49:36 PM GET /api/v1/user 500 - 17.877 ms - message: jwt expired
+error: 2021-09-03 07:49:46 PM GET /api/v1/user 500 - 10.538 ms - message: jwt expired
+error: 2021-09-03 07:49:59 PM jwt expired
+error: 2021-09-03 07:49:59 PM GET /api/v1/user 500 - 11.238 ms - message: jwt expired
+error: 2021-09-03 07:50:16 PM GET /api/v1/user 500 - 8.465 ms - message: jwt expired
+error: 2021-09-03 10:33:36 PM GET /api/v1/user 500 - 7.451 ms - message: jwt expired
+error: 2021-09-03 10:34:09 PM GET /api/v1/user 500 - 9.986 ms - message: jwt expired
+error: 2021-09-03 10:34:31 PM GET /api/v1/user 401 - 4.363 ms - message: Please authenticate
+error: 2021-09-03 10:34:41 PM GET /api/v1/user 500 - 9.933 ms - message: jwt expired
+error: 2021-09-03 10:35:33 PM GET /api/v1/user 401 - 7.333 ms - message: token expired
+error: 2021-09-03 10:35:58 PM GET /api/v1/user 500 - 4.474 ms - message: token expired
+error: 2021-09-03 10:36:09 PM GET /api/v1/user 401 - 4.956 ms - message: token expired
+error: 2021-09-03 10:36:23 PM GET /api/v1/user 401 - 5.513 ms - message: token expired
+error: 2021-09-03 10:37:08 PM GET /api/v1/user 401 - 5.463 ms - message: token expired
+error: 2021-09-03 10:37:09 PM GET /api/v1/user 401 - 1.002 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.626 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.671 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.495 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.470 ms - message: token expired
+error: 2021-09-03 10:37:10 PM GET /api/v1/user 401 - 0.526 ms - message: token expired

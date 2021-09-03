@@ -1,11 +1,11 @@
 import express from "express";
-import httpStatus from "http-status";
-import userController from "../controllers/user.controller";
+import { userController } from "../controllers";
+import { auth } from "../middlewares";
 
 const userRouter = express.Router();
 
 userRouter.route("/")
-    .get(userController.GetUsers)
+    .get(auth, userController.GetUsers)
     .post(userController.CreateUser);
 
 userRouter.route("/:userId")

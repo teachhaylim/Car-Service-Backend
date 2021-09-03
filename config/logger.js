@@ -2,6 +2,7 @@ import moment from "moment";
 import winston from "winston";
 import { createLogger, format, transports } from "winston";
 import { addColors } from "winston/lib/winston/config";
+import { LogCurrentTime } from "../utils/generalFuncs";
 
 const { combine, printf } = format;
 
@@ -15,7 +16,7 @@ const enumerateErrorFormat = winston.format((info) => {
 /**
  * @private Custom Log Levels
  * 
- * @return {object} Custom internal log levels and colors 
+ * @returns {object} Custom internal log levels and colors 
 */
 const customLogLevels = {
     levels: {
@@ -45,7 +46,7 @@ addColors(customLogLevels.colors);
 /**
  * @public  Log operation to its corresponding files
  * 
- * @return {object} Winston log object
+ * @returns {object} Winston log object
 */
 const logger = createLogger({
     levels: customLogLevels.levels,
@@ -54,7 +55,7 @@ const logger = createLogger({
         // format.simple(),
         format.uncolorize(),
         format.splat(),
-        format.printf(({ level, message }) => `${level}: ${message}`)
+        format.printf(({ level, message }) => `${level}: ${LogCurrentTime()} ${message}`)
         // printf(({ level, message }) => {
         //     const dateTime = moment().format("YYYY-MM-DD hh:mm:ss A");
 

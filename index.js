@@ -12,7 +12,7 @@ const unexpectedErrorHandler = (error) => {
 
     if (server) {
         server.close(() => {
-            logger.info(`${LogCurrentTime()} - Server Close`);
+            logger.info(`Server Close`);
             process.exit(1);
         })
     }
@@ -24,7 +24,7 @@ const unexpectedErrorHandler = (error) => {
 process.on("uncaughtException", unexpectedErrorHandler);
 process.on("unhandledRejection", unexpectedErrorHandler);
 process.on("SIGTERM", () => {
-    logger.info(`${LogCurrentTime()} - SIGTERM received`);
+    logger.info(`SIGTERM received`);
     if (server) {
         server.close();
         process.exit(1);
@@ -40,10 +40,10 @@ async function StartServer() {
         await mongoose();
 
         server = app.listen(config.port, () => {
-            logger.info(`${LogCurrentTime()} - Listening on port ${config.port} (${config.env})`);
+            logger.info(`Listening on port ${config.port} (${config.env})`);
         })
     } catch (error) {
-        logger.error(`${LogCurrentTime()} - Fail to start server: ${error}`);
+        logger.error(`Fail to start server: ${error}`);
         process.exit(-1);
     }
 }
