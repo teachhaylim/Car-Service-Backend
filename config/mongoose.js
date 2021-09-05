@@ -1,6 +1,4 @@
-import moment from "moment";
 import mongoose from "mongoose";
-import { LogCurrentTime } from "../utils/generalFuncs";
 import config from "./config";
 import logger from "./logger";
 
@@ -9,9 +7,8 @@ if (config.env === "test") {
 }
 
 /**
- * @public Initialize MongoDB connection
- * 
- * @returns {object} MongoDB connection
+ * Initialize MongoDB connection
+ * @returns {object}
  */
 export default function () {
     return mongoose.connect(config.mongoose.url, config.mongoose.options)

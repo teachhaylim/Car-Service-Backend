@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { toJSON } from "./plugins";
+import { paginate, toJSON } from "./plugins";
 import bcrypt from "bcrypt";
 
 const userSchema = mongoose.Schema(
@@ -24,6 +24,7 @@ const userSchema = mongoose.Schema(
 );
 
 userSchema.plugin(toJSON);
+userSchema.plugin(paginate);
 
 /**
  * 
@@ -31,10 +32,27 @@ userSchema.plugin(toJSON);
  * @returns {Promise<boolean>}
  */
 userSchema.methods.isPasswordMatch = async function (password) {
-    const user = this;
-
-    return bcrypt.compare(password, user.password);
+    return bcrypt.compare(password, this.password);
 }
+
+/**
+ * Check if email is taken
+ * @param {string} email - The user's email
+ * @param {ObjectId} [excludeUserId] - The id of the user to be excluded
+ * @returns {Promise<boolean>}
+ */
+userSchema.statics.isEmailTaken = async function (email, excludeUserId) {
+    const user = await this.findOne({ email, _id: { $ne: excludeUserId } });
+    return !!user;
+};
+
+userSchema.pre('save', async function (next) {
+    if (this.isModified('password')) {
+        this.password = await bcrypt.hash(this.password, 10);
+    }
+
+    next();
+});
 
 /**
  * User Model Instance

@@ -3,19 +3,34 @@ import httpStatus from 'http-status';
 import config from '../config/config';
 import ApiError from '../utils/ApiError';
 
-export const errorConverter = (err, req, res, next) => {
+/**
+ * 
+ * @param {Error} err 
+ * @param {Request} _ 
+ * @param {Response} __ 
+ * @param {Next} next 
+ */
+export const errorConverter = (err, _, __, next) => {
     let error = err;
+
     if (!(error instanceof ApiError)) {
-        const statusCode =
-            error.statusCode || error instanceof mongoose.Error ? httpStatus.BAD_REQUEST : httpStatus.INTERNAL_SERVER_ERROR;
+        const statusCode = error.statusCode || error instanceof mongoose.Error ? httpStatus.BAD_REQUEST : httpStatus.INTERNAL_SERVER_ERROR;
         const message = error.message || httpStatus[statusCode];
+
         error = new ApiError(statusCode, message, false, err.stack);
     }
+
     next(error);
 };
 
-// eslint-disable-next-line no-unused-vars
-export const errorHandler = (err, req, res, next) => {
+/**
+ * 
+ * @param {Error} err 
+ * @param {Request} _ 
+ * @param {Response} res 
+ * @param {Next} __ 
+ */
+export const errorHandler = (err, _, res, __) => {
     let { statusCode, message } = err;
 
     if (config.env === 'production' && !err.isOperational) {

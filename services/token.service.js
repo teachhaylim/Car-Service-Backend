@@ -9,7 +9,7 @@ import jwt from "jsonwebtoken";
  * @param {String} secret 
  * @returns {Object} 
  */
-const generateToken = (userId, expire = moment().add(2, "minutes").unix(), secret = config.jwt.secret) => {
+const generateToken = (userId, expire = moment().add(config.jwt.expirationDays, "days").unix(), secret = config.jwt.secret) => {
     const payload = {
         sub: userId,
         iat: moment().unix(),

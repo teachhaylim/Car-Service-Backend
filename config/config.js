@@ -23,9 +23,8 @@ if (error) {
 }
 
 /**
- * @public Initialize general config values
- * 
- * @returns {object} General Config Object
+ * Initialize general config values
+ * @returns {object}
 */
 export default {
     env: configVars.NODE_ENV,

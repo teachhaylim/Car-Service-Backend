@@ -1507,3 +1507,466 @@ request: 2021-09-03 10:37:16 PM POST /api/v1/auth/login 200 - 103.475 ms
 request: 2021-09-03 10:37:22 PM GET /api/v1/user 200 - 15.419 ms
 info: 2021-09-03 10:38:43 PM MongoDB successfully connected
 info: 2021-09-03 10:38:43 PM Listening on port 5000 (development)
+info: 2021-09-04 03:36:21 PM MongoDB successfully connected
+info: 2021-09-04 03:36:21 PM Listening on port 5000 (development)
+error: 2021-09-04 03:36:32 PM GET /api/v1/user 401 - 4.286 ms - message: token expired
+request: 2021-09-04 03:36:42 PM POST /api/v1/auth/login 200 - 118.915 ms
+error: 2021-09-04 03:36:55 PM GET /api/v1/user 400 - 23.203 ms - message: password must be at least 8 characters
+request: 2021-09-04 03:37:04 PM GET /api/v1/user 200 - 12.330 ms
+info: 2021-09-04 03:37:34 PM MongoDB successfully connected
+info: 2021-09-04 03:37:34 PM Listening on port 5000 (development)
+request: 2021-09-04 03:37:44 PM POST /api/v1/user 201 - 31.587 ms
+info: 2021-09-04 03:38:01 PM MongoDB successfully connected
+info: 2021-09-04 03:38:01 PM Listening on port 5000 (development)
+request: 2021-09-04 03:38:02 PM POST /api/v1/user 201 - 5.460 ms
+info: 2021-09-04 03:41:41 PM MongoDB successfully connected
+info: 2021-09-04 03:41:41 PM Listening on port 5000 (development)
+request: 2021-09-04 03:41:43 PM POST /api/v1/user 201 - 8.777 ms
+info: 2021-09-04 03:41:57 PM MongoDB successfully connected
+info: 2021-09-04 03:41:57 PM Listening on port 5000 (development)
+request: 2021-09-04 03:41:58 PM POST /api/v1/user 201 - 23.982 ms
+info: 2021-09-04 03:43:12 PM MongoDB successfully connected
+info: 2021-09-04 03:43:12 PM Listening on port 5000 (development)
+request: 2021-09-04 03:43:13 PM POST /api/v1/user 201 - 6.027 ms
+info: 2021-09-04 03:43:20 PM MongoDB successfully connected
+info: 2021-09-04 03:43:20 PM Listening on port 5000 (development)
+request: 2021-09-04 03:43:21 PM POST /api/v1/user 201 - 144.728 ms
+info: 2021-09-04 03:43:30 PM MongoDB successfully connected
+info: 2021-09-04 03:43:30 PM Listening on port 5000 (development)
+request: 2021-09-04 03:43:30 PM POST /api/v1/user 201 - 7.248 ms
+info: 2021-09-04 03:43:43 PM MongoDB successfully connected
+info: 2021-09-04 03:43:43 PM Listening on port 5000 (development)
+request: 2021-09-04 03:43:44 PM POST /api/v1/user 201 - 28.456 ms
+info: 2021-09-04 03:43:56 PM MongoDB successfully connected
+info: 2021-09-04 03:43:56 PM Listening on port 5000 (development)
+request: 2021-09-04 03:43:57 PM POST /api/v1/user 201 - 5.063 ms
+info: 2021-09-04 03:45:27 PM MongoDB successfully connected
+info: 2021-09-04 03:45:28 PM Listening on port 5000 (development)
+info: 2021-09-04 03:45:32 PM MongoDB successfully connected
+info: 2021-09-04 03:45:32 PM Listening on port 5000 (development)
+request: 2021-09-04 03:46:43 PM POST /api/v1/user 201 - 2.658 ms
+info: 2021-09-04 03:46:53 PM MongoDB successfully connected
+info: 2021-09-04 03:46:53 PM Listening on port 5000 (development)
+request: 2021-09-04 03:46:55 PM POST /api/v1/user 201 - 5.983 ms
+info: 2021-09-04 03:52:02 PM MongoDB successfully connected
+info: 2021-09-04 03:52:02 PM Listening on port 5000 (development)
+request: 2021-09-04 03:52:03 PM POST /api/v1/user 201 - 2.982 ms
+info: 2021-09-04 03:52:19 PM MongoDB successfully connected
+info: 2021-09-04 03:52:19 PM Listening on port 5000 (development)
+request: 2021-09-04 03:52:20 PM POST /api/v1/user 201 - 5.748 ms
+info: 2021-09-04 03:52:29 PM MongoDB successfully connected
+info: 2021-09-04 03:52:29 PM Listening on port 5000 (development)
+error: 2021-09-04 03:52:30 PM POST /api/v1/user 400 - 6.404 ms - message: "email" is required, "password" is required, "name" is required
+info: 2021-09-04 03:52:41 PM MongoDB successfully connected
+info: 2021-09-04 03:52:41 PM Listening on port 5000 (development)
+error: 2021-09-04 03:52:44 PM POST /api/v1/user 400 - 5.237 ms - message: "email" is required, "password" is required, "name" is required
+info: 2021-09-04 03:52:53 PM MongoDB successfully connected
+info: 2021-09-04 03:52:53 PM Listening on port 5000 (development)
+error: 2021-09-04 03:52:53 PM POST /api/v1/user 400 - 12.230 ms - message: "email" is required, "password" is required, "name" is required
+error: 2021-09-04 03:53:42 PM POST /api/v1/user 400 - 5.000 ms - message: "email" is required, "password" is required
+error: 2021-09-04 03:53:58 PM POST /api/v1/user 400 - 10.972 ms - message: "password" is required
+error: 2021-09-04 03:54:14 PM POST /api/v1/user 400 - 9.548 ms - message: "password" is not allowed to be empty
+error: 2021-09-04 03:54:18 PM POST /api/v1/user 400 - 13.611 ms - message: password must be at least 8 characters
+request: 2021-09-04 03:54:24 PM POST /api/v1/user 201 - 3.546 ms
+info: 2021-09-04 03:54:33 PM MongoDB successfully connected
+info: 2021-09-04 03:54:33 PM Listening on port 5000 (development)
+info: 2021-09-04 04:01:28 PM MongoDB successfully connected
+info: 2021-09-04 04:01:28 PM Listening on port 5000 (development)
+request: 2021-09-04 04:01:30 PM POST /api/v1/user 201 - 22.174 ms
+info: 2021-09-04 04:02:16 PM MongoDB successfully connected
+info: 2021-09-04 04:02:16 PM Listening on port 5000 (development)
+info: 2021-09-04 04:02:26 PM MongoDB successfully connected
+info: 2021-09-04 04:02:26 PM Listening on port 5000 (development)
+request: 2021-09-04 04:02:32 PM POST /api/v1/user 201 - 86.209 ms
+request: 2021-09-04 04:03:00 PM POST /api/v1/user 201 - 104.074 ms
+request: 2021-09-04 04:03:24 PM POST /api/v1/auth/login 200 - 121.307 ms
+error: 2021-09-04 04:05:20 PM POST /api/v1/auth/login 401 - 11.401 ms - message: Incorrect email or password
+error: 2021-09-04 04:05:31 PM GET /api/v1/user 401 - 5.680 ms - message: token expired
+error: 2021-09-04 04:05:37 PM POST /api/v1/user 400 - 5.589 ms - message: "name" is required
+request: 2021-09-04 04:05:58 PM POST /api/v1/user 201 - 98.050 ms
+request: 2021-09-04 04:06:13 PM POST /api/v1/auth/login 200 - 70.961 ms
+info: 2021-09-04 04:07:47 PM MongoDB successfully connected
+info: 2021-09-04 04:07:47 PM Listening on port 5000 (development)
+info: 2021-09-04 04:08:08 PM MongoDB successfully connected
+info: 2021-09-04 04:08:08 PM Listening on port 5000 (development)
+error: 2021-09-04 04:08:15 PM GET /api/v1/user 401 - 4.463 ms - message: token expired
+request: 2021-09-04 04:08:24 PM GET /api/v1/user/613336f68306654c8038dbfc 200 - 44.879 ms
+error: 2021-09-04 04:08:35 PM GET /api/v1/user/613336f68306654c8038dbf 400 - 5.585 ms - message: ""userId"" must be a valid mongo id
+request: 2021-09-04 04:08:40 PM GET /api/v1/user/613336f68306654c8038dbfc 200 - 9.371 ms
+error: 2021-09-04 04:09:22 PM GET /api/v1/user/613336f68306654c8038dbf 400 - 4.059 ms - message: ""userId"" must be a valid mongo id
+request: 2021-09-04 04:09:26 PM GET /api/v1/user/613336f68306654c8038dbfc 200 - 12.527 ms
+error: 2021-09-04 04:10:07 PM POST /api/v1/user 400 - 1.888 ms - message: "email" is required, "password" is required, "name" is required
+request: 2021-09-04 04:10:31 PM POST /api/v1/user 201 - 112.876 ms
+info: 2021-09-04 04:13:46 PM MongoDB successfully connected
+info: 2021-09-04 04:13:46 PM Listening on port 5000 (development)
+error: 2021-09-04 04:15:36 PM DELETE /api/v1/user/613336f68306654c8038dbfc 400 - 10.041 ms - message: Cast to ObjectId failed for value "{ userId: '613336f68306654c8038dbfc' }" (type Object) at path "_id" for model "user"
+info: 2021-09-04 04:16:42 PM MongoDB successfully connected
+info: 2021-09-04 04:16:42 PM Listening on port 5000 (development)
+error: 2021-09-04 04:16:44 PM DELETE /api/v1/user/613336f68306654c8038dbfc 400 - 13.855 ms - message: Cast to ObjectId failed for value "{ userId: '613336f68306654c8038dbfc' }" (type Object) at path "_id" for model "user"
+info: 2021-09-04 04:17:15 PM MongoDB successfully connected
+info: 2021-09-04 04:17:15 PM Listening on port 5000 (development)
+error: 2021-09-04 04:17:16 PM DELETE /api/v1/user/613336f68306654c8038dbfc 400 - 15.960 ms - message: Cast to ObjectId failed for value "{ userId: '613336f68306654c8038dbfc' }" (type Object) at path "_id" for model "user"
+info: 2021-09-04 04:18:01 PM MongoDB successfully connected
+info: 2021-09-04 04:18:01 PM Listening on port 5000 (development)
+request: 2021-09-04 04:18:02 PM DELETE /api/v1/user/613336f68306654c8038dbfc 200 - 32.230 ms
+info: 2021-09-04 04:18:47 PM MongoDB successfully connected
+info: 2021-09-04 04:18:47 PM Listening on port 5000 (development)
+info: 2021-09-04 04:19:23 PM MongoDB successfully connected
+info: 2021-09-04 04:19:23 PM Listening on port 5000 (development)
+info: 2021-09-04 04:19:41 PM MongoDB successfully connected
+info: 2021-09-04 04:19:41 PM Listening on port 5000 (development)
+error: 2021-09-04 04:19:43 PM DELETE /api/v1/user/613336f68306654c8038dbf 400 - 7.475 ms - message: ""userId"" must be a valid mongo id
+info: 2021-09-04 04:20:32 PM MongoDB successfully connected
+info: 2021-09-04 04:20:32 PM Listening on port 5000 (development)
+error: 2021-09-04 04:20:37 PM PATCH /api/v1/user/613336f68306654c8038dbf 400 - 5.438 ms - message: ""userId"" must be a valid mongo id
+error: 2021-09-04 04:20:41 PM PATCH /api/v1/user/613336f68306654c8038dbfc 404 - 39.543 ms - message: User not found
+error: 2021-09-04 04:20:49 PM PATCH /api/v1/user/6131b3ecc84f8cf8cf645ff4 500 - 37.906 ms - message: user.findByIdAndUpdate is not a function
+error: 2021-09-04 04:20:55 PM PATCH /api/v1/user/6131b3ecc84f8cf8cf645ff4 400 - 1.924 ms - message: "email" is required, "password" is required, "name" is required
+error: 2021-09-04 04:28:02 PM PATCH /api/v1/user/6131b3ecc84f8cf8cf645ff4 500 - 13.934 ms - message: user.findByIdAndUpdate is not a function
+info: 2021-09-04 04:29:26 PM MongoDB successfully connected
+info: 2021-09-04 04:29:26 PM Listening on port 5000 (development)
+info: 2021-09-04 04:29:36 PM MongoDB successfully connected
+info: 2021-09-04 04:29:36 PM Listening on port 5000 (development)
+request: 2021-09-04 04:29:37 PM PATCH /api/v1/user/6131b3ecc84f8cf8cf645ff4 200 - 107.549 ms
+info: 2021-09-04 04:30:52 PM MongoDB successfully connected
+info: 2021-09-04 04:30:52 PM Listening on port 5000 (development)
+info: 2021-09-04 04:31:13 PM MongoDB successfully connected
+info: 2021-09-04 04:31:13 PM Listening on port 5000 (development)
+info: 2021-09-04 04:31:18 PM MongoDB successfully connected
+info: 2021-09-04 04:31:18 PM Listening on port 5000 (development)
+info: 2021-09-04 04:31:33 PM MongoDB successfully connected
+info: 2021-09-04 04:31:33 PM Listening on port 5000 (development)
+info: 2021-09-04 04:31:58 PM MongoDB successfully connected
+info: 2021-09-04 04:31:58 PM Listening on port 5000 (development)
+info: 2021-09-04 04:32:15 PM MongoDB successfully connected
+info: 2021-09-04 04:32:15 PM Listening on port 5000 (development)
+info: 2021-09-04 04:32:29 PM MongoDB successfully connected
+info: 2021-09-04 04:32:29 PM Listening on port 5000 (development)
+info: 2021-09-04 04:32:36 PM MongoDB successfully connected
+info: 2021-09-04 04:32:36 PM Listening on port 5000 (development)
+info: 2021-09-04 04:33:24 PM MongoDB successfully connected
+info: 2021-09-04 04:33:24 PM Listening on port 5000 (development)
+info: 2021-09-04 04:33:33 PM MongoDB successfully connected
+info: 2021-09-04 04:33:33 PM Listening on port 5000 (development)
+info: 2021-09-04 04:34:17 PM MongoDB successfully connected
+info: 2021-09-04 04:34:17 PM Listening on port 5000 (development)
+error: 2021-09-04 04:34:29 PM PATCH /api/v1/auth/login 404 - 3.337 ms - message: route not found
+request: 2021-09-04 04:34:34 PM POST /api/v1/auth/login 200 - 105.541 ms
+error: 2021-09-04 04:34:44 PM GET /api/v1/user 401 - 10.977 ms - message: token expired
+request: 2021-09-04 04:34:48 PM GET /api/v1/user 200 - 35.326 ms
+info: 2021-09-04 04:35:18 PM MongoDB successfully connected
+info: 2021-09-04 04:35:18 PM Listening on port 5000 (development)
+info: 2021-09-04 04:35:23 PM MongoDB successfully connected
+info: 2021-09-04 04:35:23 PM Listening on port 5000 (development)
+error: 2021-09-04 04:35:26 PM GET /api/v1/user 401 - 4.156 ms - message: Please authenticate
+error: 2021-09-04 04:35:46 PM PUT /api/v1/user 404 - 4.889 ms - message: route not found
+error: 2021-09-04 04:35:50 PM GET /api/v1/user 401 - 0.621 ms - message: Please authenticate
+request: 2021-09-04 04:35:53 PM GET /api/v1/user 200 - 51.357 ms
+info: 2021-09-04 04:36:49 PM MongoDB successfully connected
+info: 2021-09-04 04:36:49 PM Listening on port 5000 (development)
+info: 2021-09-04 04:36:58 PM MongoDB successfully connected
+info: 2021-09-04 04:36:58 PM Listening on port 5000 (development)
+info: 2021-09-04 04:37:05 PM MongoDB successfully connected
+info: 2021-09-04 04:37:05 PM Listening on port 5000 (development)
+info: 2021-09-04 04:37:18 PM MongoDB successfully connected
+info: 2021-09-04 04:37:18 PM Listening on port 5000 (development)
+info: 2021-09-04 04:37:35 PM MongoDB successfully connected
+info: 2021-09-04 04:37:35 PM Listening on port 5000 (development)
+info: 2021-09-04 04:37:49 PM MongoDB successfully connected
+info: 2021-09-04 04:37:49 PM Listening on port 5000 (development)
+info: 2021-09-04 04:38:04 PM MongoDB successfully connected
+info: 2021-09-04 04:38:04 PM Listening on port 5000 (development)
+info: 2021-09-04 04:38:18 PM MongoDB successfully connected
+info: 2021-09-04 04:38:18 PM Listening on port 5000 (development)
+request: 2021-09-04 04:38:22 PM POST /api/v1/auth/login 200 - 86.514 ms
+request: 2021-09-04 04:38:23 PM POST /api/v1/auth/login 200 - 128.080 ms
+request: 2021-09-04 04:38:24 PM POST /api/v1/auth/login 200 - 101.583 ms
+request: 2021-09-04 04:38:24 PM POST /api/v1/auth/login 200 - 133.648 ms
+request: 2021-09-04 04:38:25 PM POST /api/v1/auth/login 200 - 98.015 ms
+request: 2021-09-04 04:38:26 PM POST /api/v1/auth/login 200 - 99.423 ms
+request: 2021-09-04 04:38:27 PM POST /api/v1/auth/login 200 - 109.963 ms
+request: 2021-09-04 04:38:27 PM POST /api/v1/auth/login 200 - 86.520 ms
+request: 2021-09-04 04:38:28 PM POST /api/v1/auth/login 200 - 89.341 ms
+request: 2021-09-04 04:38:28 PM POST /api/v1/auth/login 200 - 85.490 ms
+request: 2021-09-04 07:19:42 PM POST /api/v1/auth/login 200 - 68.009 ms
+info: 2021-09-04 07:19:54 PM MongoDB successfully connected
+info: 2021-09-04 07:19:54 PM Listening on port 5000 (development)
+info: 2021-09-04 07:20:23 PM MongoDB successfully connected
+info: 2021-09-04 07:20:23 PM Listening on port 5000 (development)
+info: 2021-09-04 07:20:26 PM MongoDB successfully connected
+info: 2021-09-04 07:20:26 PM Listening on port 5000 (development)
+info: 2021-09-04 07:20:31 PM MongoDB successfully connected
+info: 2021-09-04 07:20:31 PM Listening on port 5000 (development)
+info: 2021-09-04 07:20:40 PM MongoDB successfully connected
+info: 2021-09-04 07:20:40 PM Listening on port 5000 (development)
+info: 2021-09-04 07:21:01 PM MongoDB successfully connected
+info: 2021-09-04 07:21:01 PM Listening on port 5000 (development)
+info: 2021-09-04 07:21:17 PM MongoDB successfully connected
+info: 2021-09-04 07:21:17 PM Listening on port 5000 (development)
+error: 2021-09-04 07:21:34 PM POST /api/v1/auth/loginsdaas 404 - 1.413 ms - message: route not found
+info: 2021-09-04 07:22:13 PM MongoDB successfully connected
+info: 2021-09-04 07:22:13 PM Listening on port 5000 (development)
+info: 2021-09-04 07:22:16 PM MongoDB successfully connected
+info: 2021-09-04 07:22:16 PM Listening on port 5000 (development)
+error: 2021-09-04 07:22:17 PM POST /api/v1/auth/loginsdaas 404 - 3.419 ms - message: -
+info: 2021-09-04 07:22:27 PM MongoDB successfully connected
+info: 2021-09-04 07:22:27 PM Listening on port 5000 (development)
+error: 2021-09-04 07:22:30 PM POST /api/v1/auth/loginsdaas 404 - 1.176 ms - message: route not found
+info: 2021-09-04 07:23:16 PM MongoDB successfully connected
+info: 2021-09-04 07:23:16 PM Listening on port 5000 (development)
+error: 2021-09-04 07:23:16 PM POST /api/v1/auth/loginsdaas 404 - 2.414 ms - message: route not found
+info: 2021-09-04 07:23:29 PM MongoDB successfully connected
+info: 2021-09-04 07:23:29 PM Listening on port 5000 (development)
+error: 2021-09-04 07:23:30 PM POST /api/v1/auth/loginsdaas 404 - 1.041 ms - message: route not found
+info: 2021-09-04 07:24:05 PM MongoDB successfully connected
+info: 2021-09-04 07:24:05 PM Listening on port 5000 (development)
+error: 2021-09-04 07:24:06 PM POST /api/v1/auth/loginsdaas 404 - 1.090 ms - message: route not found
+info: 2021-09-04 07:24:13 PM MongoDB successfully connected
+info: 2021-09-04 07:24:13 PM Listening on port 5000 (development)
+info: 2021-09-04 07:24:16 PM MongoDB successfully connected
+info: 2021-09-04 07:24:16 PM Listening on port 5000 (development)
+error: 2021-09-04 07:24:17 PM POST /api/v1/auth/loginsdaas 404 - 1.220 ms - message: route not found
+info: 2021-09-04 07:24:22 PM MongoDB successfully connected
+info: 2021-09-04 07:24:22 PM Listening on port 5000 (development)
+error: 2021-09-04 07:24:23 PM POST /api/v1/auth/loginsdaas 404 - 2.269 ms - message: route not found
+info: 2021-09-04 07:25:20 PM MongoDB successfully connected
+info: 2021-09-04 07:25:20 PM Listening on port 5000 (development)
+error: 2021-09-04 07:25:21 PM POST /api/v1/auth/loginsdaas 404 - 0.981 ms - message: route not found
+error: 2021-09-04 07:25:21 PM POST /api/v1/auth/loginsdaas 404 - 0.736 ms - message: route not found
+info: 2021-09-04 07:25:34 PM MongoDB successfully connected
+info: 2021-09-04 07:25:34 PM Listening on port 5000 (development)
+info: 2021-09-04 07:25:38 PM MongoDB successfully connected
+info: 2021-09-04 07:25:38 PM Listening on port 5000 (development)
+request: 2021-09-04 07:25:39 PM POST /api/v1/auth/login 200 - 87.058 ms
+error: 2021-09-04 07:25:44 PM POST /api/v1/auth/login/sd 404 - 1.213 ms - message: route not found
+info: 2021-09-04 07:26:15 PM MongoDB successfully connected
+info: 2021-09-04 07:26:15 PM Listening on port 5000 (development)
+info: 2021-09-04 07:26:29 PM MongoDB successfully connected
+info: 2021-09-04 07:26:29 PM Listening on port 5000 (development)
+info: 2021-09-04 07:29:03 PM MongoDB successfully connected
+info: 2021-09-04 07:29:03 PM Listening on port 5000 (development)
+info: 2021-09-04 07:29:26 PM MongoDB successfully connected
+info: 2021-09-04 07:29:26 PM Listening on port 5000 (development)
+info: 2021-09-04 07:30:05 PM MongoDB successfully connected
+info: 2021-09-04 07:30:05 PM Listening on port 5000 (development)
+info: 2021-09-04 07:31:41 PM MongoDB successfully connected
+info: 2021-09-04 07:31:41 PM Listening on port 5000 (development)
+error: 2021-09-04 07:32:43 PM GET /api/v1/user 401 - 13.241 ms - message: route not found
+info: 2021-09-04 07:32:59 PM MongoDB successfully connected
+info: 2021-09-04 07:32:59 PM Listening on port 5000 (development)
+error: 2021-09-04 07:32:59 PM GET /api/v1/user 401 - 5.041 ms - message: token expired
+info: 2021-09-04 07:33:17 PM MongoDB successfully connected
+info: 2021-09-04 07:33:17 PM Listening on port 5000 (development)
+error: 2021-09-04 07:33:18 PM GET /api/v1/user 401 - 6.940 ms - message: token expired
+info: 2021-09-04 07:33:28 PM MongoDB successfully connected
+info: 2021-09-04 07:33:28 PM Listening on port 5000 (development)
+error: 2021-09-04 07:33:29 PM GET /api/v1/user 401 - 8.931 ms - message: token expired
+error: 2021-09-04 07:33:45 PM GET /api/v1/user23 404 - 1.228 ms - message: route not found
+info: 2021-09-04 07:33:59 PM MongoDB successfully connected
+info: 2021-09-04 07:33:59 PM Listening on port 5000 (development)
+info: 2021-09-04 07:34:28 PM MongoDB successfully connected
+info: 2021-09-04 07:34:28 PM Listening on port 5000 (development)
+error: 2021-09-04 07:34:30 PM GET /api/v1/user 500 - 4.522 ms - message: token expired
+info: 2021-09-04 07:34:58 PM MongoDB successfully connected
+info: 2021-09-04 07:34:58 PM Listening on port 5000 (development)
+error: 2021-09-04 07:34:59 PM GET /api/v1/user 401 - 8.940 ms - message: token expired
+info: 2021-09-04 07:35:09 PM MongoDB successfully connected
+info: 2021-09-04 07:35:09 PM Listening on port 5000 (development)
+info: 2021-09-04 07:35:30 PM MongoDB successfully connected
+info: 2021-09-04 07:35:30 PM Listening on port 5000 (development)
+info: 2021-09-04 07:35:58 PM MongoDB successfully connected
+info: 2021-09-04 07:35:58 PM Listening on port 5000 (development)
+error: 2021-09-04 07:35:59 PM GET /api/v1/user 401 - 5.495 ms - message: token expired
+info: 2021-09-04 07:36:34 PM MongoDB successfully connected
+info: 2021-09-04 07:36:34 PM Listening on port 5000 (development)
+error: 2021-09-04 07:36:35 PM GET /api/v1/user 401 - 7.805 ms - message: token expired
+info: 2021-09-04 07:36:44 PM MongoDB successfully connected
+info: 2021-09-04 07:36:44 PM Listening on port 5000 (development)
+info: 2021-09-04 07:37:22 PM MongoDB successfully connected
+info: 2021-09-04 07:37:22 PM Listening on port 5000 (development)
+error: 2021-09-04 07:37:22 PM GET /api/v1/user 401 - 9.868 ms - message: token expired
+info: 2021-09-04 07:37:36 PM MongoDB successfully connected
+info: 2021-09-04 07:37:36 PM Listening on port 5000 (development)
+error: 2021-09-04 07:37:37 PM GET /api/v1/user 401 - 5.945 ms - message: token expired
+request: 2021-09-04 07:38:07 PM POST /api/v1/auth/login 200 - 83.902 ms
+request: 2021-09-04 07:38:13 PM GET /api/v1/user 200 - 7.013 ms
+info: 2021-09-04 07:38:45 PM MongoDB successfully connected
+info: 2021-09-04 07:38:45 PM Listening on port 5000 (development)
+info: 2021-09-04 07:38:48 PM MongoDB successfully connected
+info: 2021-09-04 07:38:48 PM Listening on port 5000 (development)
+info: 2021-09-04 07:38:51 PM MongoDB successfully connected
+info: 2021-09-04 07:38:51 PM Listening on port 5000 (development)
+info: 2021-09-04 07:39:18 PM MongoDB successfully connected
+info: 2021-09-04 07:39:18 PM Listening on port 5000 (development)
+info: 2021-09-04 07:39:33 PM MongoDB successfully connected
+info: 2021-09-04 07:39:33 PM Listening on port 5000 (development)
+info: 2021-09-04 07:39:54 PM MongoDB successfully connected
+info: 2021-09-04 07:39:54 PM Listening on port 5000 (development)
+info: 2021-09-04 07:40:05 PM MongoDB successfully connected
+info: 2021-09-04 07:40:05 PM Listening on port 5000 (development)
+info: 2021-09-04 08:21:51 PM MongoDB successfully connected
+info: 2021-09-04 08:21:51 PM Listening on port 5000 (development)
+request: 2021-09-04 08:21:53 PM POST /api/v1/auth/login 200 - 83.238 ms
+error: 2021-09-04 08:48:00 PM POST /api/v1/user 400 - 7.403 ms - message: "email" is required, "password" is required, "name" is required
+info: 2021-09-04 08:53:45 PM MongoDB successfully connected
+info: 2021-09-04 08:53:45 PM Listening on port 5000 (development)
+request: 2021-09-04 08:54:29 PM GET /api/v1/user/612f984d63c1add0861e7088 200 - 23.694 ms
+info: 2021-09-04 08:54:38 PM MongoDB successfully connected
+info: 2021-09-04 08:54:38 PM Listening on port 5000 (development)
+error: 2021-09-04 08:54:41 PM GET /api/v1/user/612f984d63c1add0861e7088 500 - 31.046 ms - message: user is not defined
+info: 2021-09-04 08:55:01 PM MongoDB successfully connected
+info: 2021-09-04 08:55:01 PM Listening on port 5000 (development)
+request: 2021-09-04 08:55:03 PM GET /api/v1/user/612f984d63c1add0861e7088 200 - 22.517 ms
+info: 2021-09-04 08:58:16 PM MongoDB successfully connected
+info: 2021-09-04 08:58:16 PM Listening on port 5000 (development)
+request: 2021-09-04 08:58:17 PM GET /api/v1/user/612f984d63c1add0861e7088 200 - 30.290 ms
+info: 2021-09-05 08:14:58 AM MongoDB successfully connected
+info: 2021-09-05 08:14:58 AM Listening on port 5000 (development)
+request: 2021-09-05 08:15:03 AM GET /api/v1/user 200 - 30.466 ms
+request: 2021-09-05 08:15:11 AM GET /api/v1/user?name=12 200 - 7.097 ms
+info: 2021-09-05 08:18:28 AM MongoDB successfully connected
+info: 2021-09-05 08:18:28 AM Listening on port 5000 (development)
+info: 2021-09-05 08:18:39 AM MongoDB successfully connected
+info: 2021-09-05 08:18:39 AM Listening on port 5000 (development)
+info: 2021-09-05 08:18:57 AM MongoDB successfully connected
+info: 2021-09-05 08:18:57 AM Listening on port 5000 (development)
+info: 2021-09-05 08:20:51 AM MongoDB successfully connected
+info: 2021-09-05 08:20:51 AM Listening on port 5000 (development)
+request: 2021-09-05 08:21:02 AM GET /api/v1/user?name=user&2 200 - 29.533 ms
+request: 2021-09-05 08:21:12 AM GET /api/v1/user?name=teachhay 200 - 8.023 ms
+request: 2021-09-05 08:21:25 AM GET /api/v1/user 200 - 5.021 ms
+info: 2021-09-05 08:22:06 AM MongoDB successfully connected
+info: 2021-09-05 08:22:06 AM Listening on port 5000 (development)
+info: 2021-09-05 08:22:26 AM MongoDB successfully connected
+info: 2021-09-05 08:22:26 AM Listening on port 5000 (development)
+request: 2021-09-05 08:22:27 AM GET /api/v1/user 200 - 31.245 ms
+info: 2021-09-05 08:22:48 AM MongoDB successfully connected
+info: 2021-09-05 08:22:48 AM Listening on port 5000 (development)
+request: 2021-09-05 08:22:48 AM GET /api/v1/user 200 - 36.654 ms
+info: 2021-09-05 08:25:41 AM MongoDB successfully connected
+info: 2021-09-05 08:25:41 AM Listening on port 5000 (development)
+info: 2021-09-05 08:25:47 AM MongoDB successfully connected
+info: 2021-09-05 08:25:47 AM Listening on port 5000 (development)
+request: 2021-09-05 08:25:49 AM GET /api/v1/user 200 - 39.424 ms
+error: 2021-09-05 08:26:18 AM POST /api/v1/user 400 - 9.045 ms - message: "name" is required
+error: 2021-09-05 08:26:37 AM POST /api/v1/user 400 - 4.228 ms - message: password must be at least 8 characters
+request: 2021-09-05 08:26:40 AM POST /api/v1/user 201 - 81.905 ms
+request: 2021-09-05 08:26:44 AM POST /api/v1/user 201 - 71.095 ms
+request: 2021-09-05 08:26:48 AM POST /api/v1/user 201 - 72.291 ms
+request: 2021-09-05 08:26:51 AM POST /api/v1/user 201 - 71.301 ms
+request: 2021-09-05 08:26:54 AM POST /api/v1/user 201 - 67.944 ms
+request: 2021-09-05 08:26:59 AM POST /api/v1/user 201 - 69.584 ms
+request: 2021-09-05 08:27:02 AM POST /api/v1/user 201 - 79.725 ms
+request: 2021-09-05 08:27:06 AM POST /api/v1/user 201 - 71.768 ms
+request: 2021-09-05 08:27:09 AM POST /api/v1/user 201 - 72.568 ms
+request: 2021-09-05 08:27:12 AM POST /api/v1/user 201 - 89.501 ms
+request: 2021-09-05 08:27:15 AM POST /api/v1/user 201 - 72.239 ms
+request: 2021-09-05 08:27:19 AM POST /api/v1/user 201 - 71.766 ms
+request: 2021-09-05 08:27:27 AM GET /api/v1/user 200 - 25.533 ms
+request: 2021-09-05 08:27:45 AM GET /api/v1/user?page=2 200 - 12.800 ms
+info: 2021-09-05 08:28:01 AM MongoDB successfully connected
+info: 2021-09-05 08:28:01 AM Listening on port 5000 (development)
+request: 2021-09-05 08:28:20 AM GET /api/v1/user?sortBy=lim&page=2 200 - 29.973 ms
+request: 2021-09-05 08:28:26 AM GET /api/v1/user?sortBy=lim 200 - 7.704 ms
+request: 2021-09-05 08:28:39 AM GET /api/v1/user?sortBy=name 200 - 7.624 ms
+request: 2021-09-05 08:29:08 AM GET /api/v1/user?sortBy=name&limit=2 200 - 5.404 ms
+request: 2021-09-05 08:29:19 AM GET /api/v1/user?sortBy=name&limit=2&page=3 200 - 4.474 ms
+request: 2021-09-05 08:29:26 AM GET /api/v1/user?sortBy=name&limit=2&page=4 200 - 4.142 ms
+request: 2021-09-05 08:29:32 AM GET /api/v1/user?sortBy=name&limit=2&page=8 200 - 3.752 ms
+request: 2021-09-05 08:29:38 AM GET /api/v1/user?sortBy=name&limit=2&page=7 200 - 6.632 ms
+request: 2021-09-05 08:36:05 AM GET /api/v1/user 200 - 7.503 ms
+request: 2021-09-05 08:36:28 AM GET /api/v1/user?page=2 200 - 4.885 ms
+info: 2021-09-05 08:37:20 AM MongoDB successfully connected
+info: 2021-09-05 08:37:20 AM Listening on port 5000 (development)
+request: 2021-09-05 08:37:23 AM GET /api/v1/user?page=2 200 - 29.579 ms
+request: 2021-09-05 08:37:34 AM GET /api/v1/user?sortBy=name&page=2 200 - 6.405 ms
+info: 2021-09-05 08:38:00 AM MongoDB successfully connected
+info: 2021-09-05 08:38:00 AM Listening on port 5000 (development)
+request: 2021-09-05 08:38:01 AM GET /api/v1/user?sortBy=name&page=2 200 - 30.603 ms
+info: 2021-09-05 08:39:07 AM MongoDB successfully connected
+info: 2021-09-05 08:39:07 AM Listening on port 5000 (development)
+request: 2021-09-05 08:39:08 AM GET /api/v1/user?sortBy=name&page=2 200 - 31.802 ms
+request: 2021-09-05 08:39:27 AM GET /api/v1/user?sortBy=name:&page=2 200 - 9.677 ms
+request: 2021-09-05 08:40:11 AM GET /api/v1/user?sortBy=name,email&page=2 200 - 8.231 ms
+info: 2021-09-05 08:40:25 AM MongoDB successfully connected
+info: 2021-09-05 08:40:25 AM Listening on port 5000 (development)
+request: 2021-09-05 08:40:25 AM GET /api/v1/user?sortBy=name,email&page=2 200 - 41.178 ms
+info: 2021-09-05 08:40:40 AM MongoDB successfully connected
+info: 2021-09-05 08:40:40 AM Listening on port 5000 (development)
+request: 2021-09-05 08:40:42 AM GET /api/v1/user?sortBy=name,email&page=2 200 - 40.746 ms
+request: 2021-09-05 08:41:23 AM GET /api/v1/user?sortBy=name:ace,email&page=2 200 - 10.054 ms
+info: 2021-09-05 08:41:49 AM MongoDB successfully connected
+info: 2021-09-05 08:41:49 AM Listening on port 5000 (development)
+request: 2021-09-05 08:41:58 AM GET /api/v1/user?page=2 200 - 29.756 ms
+request: 2021-09-05 08:42:41 AM GET /api/v1/user 200 - 10.260 ms
+request: 2021-09-05 08:44:09 AM GET /api/v1/user 200 - 6.710 ms
+info: 2021-09-05 08:44:42 AM MongoDB successfully connected
+info: 2021-09-05 08:44:42 AM Listening on port 5000 (development)
+request: 2021-09-05 08:44:45 AM GET /api/v1/user 200 - 73.839 ms
+request: 2021-09-05 08:44:59 AM GET /api/v1/user?page=2 200 - 8.946 ms
+request: 2021-09-05 08:45:12 AM GET /api/v1/user?page=1 200 - 8.636 ms
+info: 2021-09-05 08:45:27 AM MongoDB successfully connected
+info: 2021-09-05 08:45:27 AM Listening on port 5000 (development)
+info: 2021-09-05 08:45:30 AM MongoDB successfully connected
+info: 2021-09-05 08:45:30 AM Listening on port 5000 (development)
+info: 2021-09-05 08:52:04 AM MongoDB successfully connected
+info: 2021-09-05 08:52:04 AM Listening on port 5000 (development)
+request: 2021-09-05 08:52:04 AM GET /api/v1/user?page=1 200 - 32.067 ms
+request: 2021-09-05 08:52:37 AM GET /api/v1/user/6131b3ecc84f8cf8cf645ff4 200 - 6.237 ms
+request: 2021-09-05 09:05:01 AM GET /api/v1/user?sortBy=name,email 200 - 9.126 ms
+info: 2021-09-05 09:09:15 AM MongoDB successfully connected
+info: 2021-09-05 09:09:15 AM Listening on port 5000 (development)
+request: 2021-09-05 09:09:38 AM GET /api/v1/user?sortBy=name,email&populate=2 200 - 31.628 ms
+info: 2021-09-05 09:09:43 AM MongoDB successfully connected
+info: 2021-09-05 09:09:43 AM Listening on port 5000 (development)
+request: 2021-09-05 09:09:45 AM GET /api/v1/user?sortBy=name,email&populate=2 200 - 48.489 ms
+info: 2021-09-05 09:09:56 AM MongoDB successfully connected
+info: 2021-09-05 09:09:56 AM Listening on port 5000 (development)
+request: 2021-09-05 09:09:56 AM GET /api/v1/user?sortBy=name,email&populate=2 200 - 35.445 ms
+info: 2021-09-05 09:12:09 AM MongoDB successfully connected
+info: 2021-09-05 09:12:10 AM Listening on port 5000 (development)
+info: 2021-09-05 09:12:30 AM MongoDB successfully connected
+info: 2021-09-05 09:12:30 AM Listening on port 5000 (development)
+request: 2021-09-05 09:12:30 AM GET /api/v1/user?sortBy=name,email&populate=2 200 - 41.872 ms
+request: 2021-09-05 09:12:40 AM GET /api/v1/user?sortBy=name:12,email&populate=2 200 - 9.494 ms
+info: 2021-09-05 09:12:51 AM MongoDB successfully connected
+info: 2021-09-05 09:12:51 AM Listening on port 5000 (development)
+request: 2021-09-05 09:12:52 AM GET /api/v1/user?sortBy=name:12,email&populate=2 200 - 37.847 ms
+request: 2021-09-05 09:13:08 AM GET /api/v1/user?sortBy=name:,email&populate=2 200 - 12.331 ms
+request: 2021-09-05 09:13:24 AM GET /api/v1/user?sortBy=name:desc,email&populate=2 200 - 10.436 ms
+info: 2021-09-05 09:13:47 AM MongoDB successfully connected
+info: 2021-09-05 09:13:47 AM Listening on port 5000 (development)
+request: 2021-09-05 09:13:48 AM GET /api/v1/user?sortBy=name:desc,email&populate=2 200 - 37.817 ms
+request: 2021-09-05 09:13:59 AM GET /api/v1/user?sortBy=name:desc,email 200 - 7.993 ms
+request: 2021-09-05 09:14:08 AM GET /api/v1/user?sortBy=name,email 200 - 9.136 ms
+request: 2021-09-05 09:15:49 AM GET /api/v1/user?name=lim&sortBy=name,email 200 - 6.455 ms
+info: 2021-09-05 09:19:15 AM MongoDB successfully connected
+info: 2021-09-05 09:19:15 AM Listening on port 5000 (development)
+info: 2021-09-05 09:19:23 AM MongoDB successfully connected
+info: 2021-09-05 09:19:23 AM Listening on port 5000 (development)
+request: 2021-09-05 09:19:24 AM GET /api/v1/user?name=lim&sortBy=name,email 200 - 31.321 ms
+info: 2021-09-05 12:15:03 PM MongoDB successfully connected
+info: 2021-09-05 12:15:03 PM Listening on port 5000 (development)
+request: 2021-09-05 12:15:27 PM GET /api/v1/user 200 - 33.210 ms
+info: 2021-09-05 12:15:51 PM MongoDB successfully connected
+info: 2021-09-05 12:15:51 PM Listening on port 5000 (development)
+info: 2021-09-05 12:18:32 PM MongoDB successfully connected
+info: 2021-09-05 12:18:32 PM Listening on port 5000 (development)
+error: 2021-09-05 12:18:44 PM POST /api/v1/user 400 - 32.493 ms - message: Email already taken
+request: 2021-09-05 12:18:52 PM POST /api/v1/user 201 - 82.493 ms
+info: 2021-09-05 12:19:17 PM MongoDB successfully connected
+info: 2021-09-05 12:19:17 PM Listening on port 5000 (development)
+info: 2021-09-05 12:19:40 PM MongoDB successfully connected
+info: 2021-09-05 12:19:40 PM Listening on port 5000 (development)
+info: 2021-09-05 12:22:53 PM MongoDB successfully connected
+info: 2021-09-05 12:22:53 PM Listening on port 5000 (development)
+error: 2021-09-05 12:22:53 PM POST /api/v1/user 401 - 2.591 ms - message: Please authenticate
+error: 2021-09-05 12:23:03 PM POST /api/v1/user 401 - 2.976 ms - message: token expired
+error: 2021-09-05 12:23:08 PM POST /api/v1/user 400 - 22.974 ms - message: Email already taken
+request: 2021-09-05 12:23:11 PM GET /api/v1/user 200 - 12.951 ms
+info: 2021-09-05 12:44:24 PM MongoDB successfully connected
+info: 2021-09-05 12:44:24 PM Listening on port 5000 (development)
+error: 2021-09-05 12:44:37 PM POST /api/v1/auth/login 404 - 1.434 ms - message: route not found
+info: 2021-09-05 12:44:58 PM MongoDB successfully connected
+info: 2021-09-05 12:44:58 PM Listening on port 5000 (development)
+error: 2021-09-05 12:45:06 PM POST /auth/login 401 - 15.449 ms - message: Incorrect email or password

@@ -3,7 +3,7 @@ import ApiError from "../utils/ApiError";
 import userService from "./user.service"
 
 /**
- * 
+ * Login with Email and Password
  * @param {string} email 
  * @param {string} password 
  * @returns {Promise<User>}

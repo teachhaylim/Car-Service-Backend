@@ -1,9 +1,7 @@
-import moment from "moment";
 import app from "./app";
 import config from "./config/config";
 import logger from "./config/logger";
 import mongoose from "./config/mongoose";
-import { LogCurrentTime } from "./utils/generalFuncs";
 
 var server;
 
@@ -31,12 +29,9 @@ process.on("SIGTERM", () => {
     }
 })
 
-/**
- * @private Start server
- */
+//Start server
 async function StartServer() {
     try {
-        //TODO for the time being, no need to connect to db
         await mongoose();
 
         server = app.listen(config.port, () => {

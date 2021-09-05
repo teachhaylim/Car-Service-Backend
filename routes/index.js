@@ -1,22 +1,30 @@
 import express from "express";
-import authRouter from "./auth.route";
-import userRouter from "./user.route";
+import authRoute from "./auth.route";
+import userRoute from "./user.route";
 
 const router = express.Router();
+export const authRouter = express.Router();
 
-const adminRoute = [
+const apiroutes = [
     {
         path: "/user",
-        route: userRouter,
+        route: userRoute,
     },
-    {
-        path: "/auth",
-        route: authRouter,
-    }
 ];
 
-adminRoute.forEach(route => {
+const authroutes = [
+    {
+        path: "/auth",
+        route: authRoute,
+    },
+]
+
+apiroutes.forEach(route => {
     router.use(route.path, route.route);
+});
+
+authroutes.forEach(route => {
+    authRouter.use(route.path, route.route);
 });
 
 export default router;

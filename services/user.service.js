@@ -1,31 +1,37 @@
 import httpStatus from "http-status";
-import { cloneDeep } from "lodash";
 import { User } from "../models";
 import ApiError from "../utils/ApiError";
 
 /**
  * Create user
  * @param {Object} userBody
- * @returns {Promise} Promise<User>
+ * @returns {Promise}
  */
 const createUser = async (userBody) => {
+    if (await User.isEmailTaken(userBody.email)) {
+        throw new ApiError(httpStatus.BAD_REQUEST, 'Email already taken');
+    }
     return User.create(userBody);
 };
 
 /**
  * Get User by ID
  * @param {ObjectId} id 
- * @returns {Promise<User>} Promise<User>
+ * @returns {Promise<User>}
  */
 const getUserById = async (id) => {
     return User.findById(id);
 };
 
+/**
+ * Get User by email
+ * @param {string} email 
+ * @returns 
+ */
 const getUserByEmail = async (email) => {
     return User.findOne({ email: email });
 }
 
-//TODO query based on fliter and option
 /**
  * Query for users
  * @param {Object} filter - Mongo filter
@@ -35,12 +41,19 @@ const getUserByEmail = async (email) => {
  * @param {number} [options.page] - Current page (default = 1)
  * @returns {Promise<QueryResult>}
  */
-const queryUsers = async () => {
-    const users = await User.find();
+const queryUsers = async (filter, options) => {
+    //TODO populate
+    const users = await User.paginate(filter, options);
 
     return users;
 }
 
+/**
+ * Update User by ID
+ * @param {ObjectId} userId 
+ * @param {Object} userBody 
+ * @returns 
+ */
 const updateUser = async (userId, userBody) => {
     let user = await getUserById(userId);
 
@@ -48,11 +61,9 @@ const updateUser = async (userId, userBody) => {
         throw new ApiError(httpStatus.NOT_FOUND, "User not found");
     }
 
-    console.log(userBody)
-
-    user = await user.findByIdAndUpdate(userId, { $set: JSON.parse(JSON.stringify(userBody)) });
-
-    console.log(user);
+    //FIXME nested object/array bug
+    Object.assign(user, userBody);
+    await user.save();
 
     return user;
 }
@@ -60,7 +71,7 @@ const updateUser = async (userId, userBody) => {
 /**
  * Delete User by ID
  * @param {ObjectId} userId 
- * @returns {Promise<User>} Promise<User>
+ * @returns {Promise<User>}
  */
 const deleteUserById = async (userId) => {
     const user = await getUserById(userId);
@@ -69,6 +80,7 @@ const deleteUserById = async (userId) => {
         throw new ApiError(httpStatus.NOT_FOUND, "User not found");
     }
 
+    //FIXME set is_active = false instead of delete reocrd
     await user.remove();
     return user;
 }

@@ -5,14 +5,14 @@ import compression from "compression";
 import xss from "xss-clean";
 import mongoSanitize from "express-mongo-sanitize";
 
-import router from "./routes";
+import router, { authRouter } from "./routes";
 import config from "./config/config";
 import { authLimiter, publicLimiter } from "./middlewares/limiter";
 import morgan from "./config/morgan";
 import { errorConverter, errorHandler } from './middlewares/error';
 
 /**
- * @public Initialize Express App
+ * Initialize Express App
  */
 const app = express();
 
@@ -27,8 +27,6 @@ app.use(mongoSanitize());
 app.use(compression());
 app.use("/", publicLimiter);
 
-//TODO JWT Authentication with Passport, Morgan
-
 // Set authentication limiter on production
 if (config.env === "production") {
     app.use("/api/v1/auth", authLimiter);
@@ -41,9 +39,10 @@ if (config.env !== 'test') {
 }
 
 app.use("/api/v1", router);
+app.use("/", authRouter);
 
 // for setting up the project testing route
-app.get('/', (req, res) => {
+app.get('/', (_, res) => {
     res.send('Hello World!')
 });
 
