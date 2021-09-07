@@ -9,7 +9,7 @@ import userService from "./user.service"
  * @returns {Promise<User>}
  */
 const loginWithEmailAndPassword = async (email, password) => {
-    const user = await userService.getUserByEmail(email);
+    const user = await userService.GetUserByEmail(email);
 
     if (!user || !(await user.isPasswordMatch(password))) {
         throw new ApiError(httpStatus.UNAUTHORIZED, "Incorrect email or password");

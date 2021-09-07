@@ -98,4 +98,4 @@ userSchema.pre('save', async function (next) {
  * User Model Instance
  * @typedef User
  */
-export default mongoose.model("user", userSchema);
+export default mongoose.model("users", userSchema);

@@ -20,7 +20,8 @@ const paginate = (schema) => {
     schema.statics.paginate = async function (filter, options) {
         let sort = '';
 
-        filter.isActive = true;
+        //FIXME make dynamic instead
+        // filter.isActive = true;
 
         if (options.sortBy) {
             const sortingCriteria = [];

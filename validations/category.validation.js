@@ -28,16 +28,12 @@ const getCategory = {
 };
 
 const updateCategory = {
-    params: Joi.object().keys({
-        categoryId: Joi.string().custom(customValidation.objectId).required(),
-    }),
+    ...getCategory,
     ...createCategory,
 };
 
 const deleteCategory = {
-    params: Joi.object().keys({
-        categoryId: Joi.string().custom(customValidation.objectId).required(),
-    })
+    ...getCategory,
 };
 
 export default {

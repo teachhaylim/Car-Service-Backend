@@ -6,7 +6,7 @@ import { userValidation } from "../validations";
 const userRouter = express.Router();
 
 userRouter.route("/")
-    .get(auth, validate(userValidation.getUsers), userController.GetUsers)
+    .get(auth, validate(userValidation.queryUsers), userController.GetUsers)
     .post(auth, validate(userValidation.createUser), userController.CreateUser);
 
 userRouter.route("/:userId")

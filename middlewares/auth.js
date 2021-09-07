@@ -1,14 +1,15 @@
 import httpStatus from "http-status";
 import ApiError from "../utils/ApiError";
 import { tokenService, userService } from "../services";
+import moment from "moment";
 
 const auth = async (req, _, next) => {
     try {
         const bearerHeader = req.headers["authorization"];
 
         if (typeof bearerHeader !== "undefined") {
-            const verify = await tokenService.verifyToken(bearerHeader);
-            const user = await userService.getUserById(verify.sub);
+            const verify = await tokenService.VerifyToken(bearerHeader);
+            const user = await userService.GetUserById(verify.sub);
 
             req.user = user;
             next();

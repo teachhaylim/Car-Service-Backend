@@ -7,7 +7,7 @@ import ApiError from "../utils/ApiError";
  * @param {Object} categoryBody - Category Object
  * @returns {Promise<Category>}
  */
-const createCategory = async (categoryBody) => {
+const CreateCategory = async (categoryBody) => {
     if (await Category.isNameTaken(categoryBody.name)) {
         throw new ApiError(httpStatus.BAD_REQUEST, 'Name already existed');
     }
@@ -24,7 +24,7 @@ const createCategory = async (categoryBody) => {
  * @param {number} [options.page] - Current page (default = 1)
  * @returns {Promise<QueryResult>}
  */
-const queryCategories = async (filter, options) => {
+const QueryCategories = async (filter, options) => {
     const categories = await Category.paginate(filter, options);
 
     return categories;
@@ -35,7 +35,7 @@ const queryCategories = async (filter, options) => {
  * @param {ObjectId} categoryId - Category ObjectId
  * @returns {Promise<Category>}
  */
-const getCategoryById = async (categoryId) => {
+const GetCategoryById = async (categoryId) => {
     return Category.findById(categoryId);
 };
 
@@ -45,8 +45,8 @@ const getCategoryById = async (categoryId) => {
  * @param {Object} categoryBody - Category Object
  * @returns {Promise<Category>}
  */
-const updateCategory = async (categoryId, categoryBody) => {
-    let category = await getCategoryById(categoryId);
+const UpdateCategory = async (categoryId, categoryBody) => {
+    let category = await GetCategoryById(categoryId);
 
     if (!category) {
         throw new ApiError(httpStatus.NOT_FOUND, "Category not found");
@@ -63,8 +63,8 @@ const updateCategory = async (categoryId, categoryBody) => {
  * @param {ObjectId} categoryId - Category ObjectId
  * @returns {Promise<Category>}
  */
-const deleteCategoryById = async (categoryId) => {
-    const category = await getCategoryById(categoryId);
+const DeleteCategoryById = async (categoryId) => {
+    const category = await GetCategoryById(categoryId);
 
     if (!category) {
         throw new ApiError(httpStatus.NOT_FOUND, "Category not found");
@@ -76,9 +76,9 @@ const deleteCategoryById = async (categoryId) => {
 };
 
 export default {
-    createCategory,
-    queryCategories,
-    getCategoryById,
-    updateCategory,
-    deleteCategoryById,
+    CreateCategory,
+    QueryCategories,
+    GetCategoryById,
+    UpdateCategory,
+    DeleteCategoryById,
 }

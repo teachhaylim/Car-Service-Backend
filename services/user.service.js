@@ -7,7 +7,7 @@ import ApiError from "../utils/ApiError";
  * @param {Object} userBody - User Object
  * @returns {Promise<User>}
  */
-const createUser = async (userBody) => {
+const CreateUser = async (userBody) => {
     if (await User.isEmailTaken(userBody.email)) {
         throw new ApiError(httpStatus.BAD_REQUEST, 'Email already taken');
     }
@@ -19,7 +19,7 @@ const createUser = async (userBody) => {
  * @param {ObjectId} id - User ObjectId
  * @returns {Promise<User>}
  */
-const getUserById = async (id) => {
+const GetUserById = async (id) => {
     return User.findById(id);
 };
 
@@ -28,7 +28,7 @@ const getUserById = async (id) => {
  * @param {String} email - User email
  * @returns {Promise<String>}
  */
-const getUserByEmail = async (email) => {
+const GetUserByEmail = async (email) => {
     return User.findOne({ email: email });
 }
 
@@ -41,7 +41,7 @@ const getUserByEmail = async (email) => {
  * @param {number} [options.page] - Current page (default = 1)
  * @returns {Promise<QueryResult>}
  */
-const queryUsers = async (filter, options) => {
+const QueryUsers = async (filter, options) => {
     const users = await User.paginate(filter, options);
 
     return users;
@@ -53,8 +53,8 @@ const queryUsers = async (filter, options) => {
  * @param {Object} userBody - User Object
  * @returns 
  */
-const updateUser = async (userId, userBody) => {
-    let user = await getUserById(userId);
+const UpdateUser = async (userId, userBody) => {
+    let user = await GetUserById(userId);
 
     if (!user) {
         throw new ApiError(httpStatus.NOT_FOUND, "User not found");
@@ -71,8 +71,8 @@ const updateUser = async (userId, userBody) => {
  * @param {ObjectId} userId - User ObjectId
  * @returns {Promise<User>}
  */
-const deleteUserById = async (userId) => {
-    const user = await getUserById(userId);
+const DeleteUserById = async (userId) => {
+    const user = await GetUserById(userId);
 
     if (!user) {
         throw new ApiError(httpStatus.NOT_FOUND, "User not found");
@@ -84,10 +84,10 @@ const deleteUserById = async (userId) => {
 }
 
 export default {
-    createUser,
-    getUserById,
-    getUserByEmail,
-    deleteUserById,
-    queryUsers,
-    updateUser
+    CreateUser,
+    GetUserById,
+    GetUserByEmail,
+    DeleteUserById,
+    QueryUsers,
+    UpdateUser
 }

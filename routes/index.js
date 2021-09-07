@@ -3,6 +3,7 @@ import authRoute from "./auth.route";
 import categoryRoute from "./category.route";
 import shopRoute from "./shop.route";
 import userRoute from "./user.route";
+import rateRoute from "./rate.route";
 
 const router = express.Router();
 
@@ -18,6 +19,10 @@ const apiRoutes = [
     {
         path: "/shop",
         route: shopRoute,
+    },
+    {
+        path: "/rate",
+        route: rateRoute,
     },
     {
         path: "/auth",

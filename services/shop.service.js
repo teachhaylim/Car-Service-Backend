@@ -7,7 +7,7 @@ import ApiError from "../utils/ApiError";
  * @param {Object} shopBody 
  * @returns {Promise<Shop>}
  */
-const createShop = async (shopBody) => {
+const CreateShop = async (shopBody) => {
     const shop = await Shop.create(shopBody);
 
     return shop;
@@ -22,7 +22,7 @@ const createShop = async (shopBody) => {
  * @param {number} [options.page] - Current page (default = 1)
  * @returns {Promise<QueryResult>}
  */
-const queryShops = async (filters, options) => {
+const QueryShops = async (filters, options) => {
     const shops = await Shop.paginate(filters, options);
 
     return shops;
@@ -33,7 +33,7 @@ const queryShops = async (filters, options) => {
  * @param {ObjectId} shopId 
  * @returns {Promise<Shop>}
  */
-const getShopById = async (shopId) => {
+const GetShopById = async (shopId) => {
     return Shop.findById(shopId);
 };
 
@@ -43,8 +43,8 @@ const getShopById = async (shopId) => {
  * @param {Object} shopBody 
  * @returns {Promise<Shop>}
  */
-const updateShop = async (shopId, shopBody) => {
-    let shop = await getShopById(shopId);
+const UpdateShop = async (shopId, shopBody) => {
+    let shop = await GetShopById(shopId);
 
     if (!shop) {
         throw new ApiError(httpStatus.NOT_FOUND, "Shop not found");
@@ -61,8 +61,8 @@ const updateShop = async (shopId, shopBody) => {
  * @param {ObjectId} shopId 
  * @returns {Promise<Shop>}
  */
-const deleteShop = async (shopId) => {
-    const shop = await getShopById(shopId);
+const DeleteShop = async (shopId) => {
+    const shop = await GetShopById(shopId);
 
     if (!shop) {
         throw new ApiError(httpStatus.NOT_FOUND, "Shop not found");
@@ -75,9 +75,9 @@ const deleteShop = async (shopId) => {
 };
 
 export default {
-    createShop,
-    queryShops,
-    getShopById,
-    updateShop,
-    deleteShop,
+    CreateShop,
+    QueryShops,
+    GetShopById,
+    UpdateShop,
+    DeleteShop,
 }

@@ -34,4 +34,4 @@ shopSchema.plugin(mongooseAutoPopulate);
 shopSchema.plugin(toJSON);
 shopSchema.plugin(paginate);
 
-export default mongoose.model("shop", shopSchema);
+export default mongoose.model("shops", shopSchema);

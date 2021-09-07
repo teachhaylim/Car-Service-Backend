@@ -9,7 +9,7 @@ import jwt from "jsonwebtoken";
  * @param {String} secret 
  * @returns {Object} 
  */
-const generateToken = (userId, expire = moment().add(config.jwt.expirationDays, "days").unix(), secret = config.jwt.secret) => {
+const GenerateToken = (userId, expire = moment().add(config.jwt.expirationDays, "days").unix(), secret = config.jwt.secret) => {
     const payload = {
         sub: userId,
         iat: moment().unix(),
@@ -24,11 +24,11 @@ const generateToken = (userId, expire = moment().add(config.jwt.expirationDays, 
  * @param {String} token 
  * @returns {Promise<boolean>}
  */
-const verifyToken = async (token) => {
+const VerifyToken = async (token) => {
     return jwt.verify(token, config.jwt.secret);
 };
 
 export default {
-    generateToken,
-    verifyToken
+    GenerateToken,
+    VerifyToken
 };

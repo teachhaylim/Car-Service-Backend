@@ -18,7 +18,7 @@ const createUser = {
     }),
 };
 
-const getUsers = {
+const queryUsers = {
     query: Joi.object().keys({
         firstName: Joi.string(),
         lastName: Joi.string(),
@@ -37,22 +37,18 @@ const getUser = {
 };
 
 const updateUser = {
-    params: Joi.object().keys({
-        userId: Joi.string().custom(customValidation.objectId).required(),
-    }),
+    ...getUser,
     ...createUser,
 };
 
 const deleteUser = {
-    params: Joi.object().keys({
-        userId: Joi.string().custom(customValidation.objectId).required(),
-    })
+    ...getUser,
 };
 
 export default {
     createUser,
     getUser,
-    getUsers,
+    queryUsers,
     updateUser,
     deleteUser,
 }
