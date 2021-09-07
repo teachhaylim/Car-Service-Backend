@@ -4,8 +4,8 @@ import userService from "./user.service"
 
 /**
  * Login with Email and Password
- * @param {string} email 
- * @param {string} password 
+ * @param {String} email 
+ * @param {String} password 
  * @returns {Promise<User>}
  */
 const loginWithEmailAndPassword = async (email, password) => {

@@ -3,15 +3,27 @@ import { customValidation } from ".";
 
 const createUser = {
     body: Joi.object().keys({
-        email: Joi.string().required().email(),
-        password: Joi.string().required().custom(customValidation.password),
-        name: Joi.string().required(),
+        firstName: Joi.string().required(),
+        lastName: Joi.string().required(),
+        phoneNumber: Joi.string().required().max(10),
+        profilePic: Joi.string(),
+        type: Joi.string(),
+        dob: Joi.date(),
+        email: Joi.string().email().required(),
+        password: Joi.string().custom(customValidation.password).required(),
+        isActive: Joi.boolean().valid(true, false),
+        createdAt: Joi.date(),
+        updatedAt: Joi.date(),
+        id: Joi.string().custom(customValidation.objectId),
     }),
 };
 
 const getUsers = {
     query: Joi.object().keys({
-        name: Joi.string(),
+        firstName: Joi.string(),
+        lastName: Joi.string(),
+        email: Joi.string(),
+        phoneNumber: Joi.string(),
         sortBy: Joi.string(),
         limit: Joi.number().integer(),
         page: Joi.number().integer(),
@@ -26,18 +38,14 @@ const getUser = {
 
 const updateUser = {
     params: Joi.object().keys({
-        userId: Joi.string().custom(customValidation.objectId),
+        userId: Joi.string().custom(customValidation.objectId).required(),
     }),
-    body: Joi.object().keys({
-        email: Joi.string().required().email(),
-        password: Joi.string().required().custom(customValidation.password),
-        name: Joi.string().required(),
-    }),
+    ...createUser,
 };
 
 const deleteUser = {
     params: Joi.object().keys({
-        userId: Joi.string().custom(customValidation.objectId),
+        userId: Joi.string().custom(customValidation.objectId).required(),
     })
 };
 

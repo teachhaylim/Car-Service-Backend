@@ -28,6 +28,7 @@
     "moment": "^2.29.1",
     "mongo-sanitize": "^1.1.0",
     "mongoose": "^5.12.12",
+    "mongoose-autopopulate": "^0.15.0",
     "morgan": "^1.10.0",
     "winston": "^3.3.3",
     "xss-clean": "^0.1.1"

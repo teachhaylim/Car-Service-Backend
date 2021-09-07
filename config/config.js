@@ -36,6 +36,7 @@ export default {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useFindAndModify: false,
+            // autoIndex: false
         }
     },
     jwt: {

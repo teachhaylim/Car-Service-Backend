@@ -4,8 +4,8 @@ import ApiError from "../utils/ApiError";
 
 /**
  * Create user
- * @param {Object} userBody
- * @returns {Promise}
+ * @param {Object} userBody - User Object
+ * @returns {Promise<User>}
  */
 const createUser = async (userBody) => {
     if (await User.isEmailTaken(userBody.email)) {
@@ -16,7 +16,7 @@ const createUser = async (userBody) => {
 
 /**
  * Get User by ID
- * @param {ObjectId} id 
+ * @param {ObjectId} id - User ObjectId
  * @returns {Promise<User>}
  */
 const getUserById = async (id) => {
@@ -25,8 +25,8 @@ const getUserById = async (id) => {
 
 /**
  * Get User by email
- * @param {string} email 
- * @returns 
+ * @param {String} email - User email
+ * @returns {Promise<String>}
  */
 const getUserByEmail = async (email) => {
     return User.findOne({ email: email });
@@ -36,13 +36,12 @@ const getUserByEmail = async (email) => {
  * Query for users
  * @param {Object} filter - Mongo filter
  * @param {Object} options - Query options
- * @param {string} [options.sortBy] - Sort option in the format: sortField:(desc|asc)
+ * @param {String} [options.sortBy] - Sort option in the format: sortField:(desc|asc)
  * @param {number} [options.limit] - Maximum number of results per page (default = 10)
  * @param {number} [options.page] - Current page (default = 1)
  * @returns {Promise<QueryResult>}
  */
 const queryUsers = async (filter, options) => {
-    //TODO populate
     const users = await User.paginate(filter, options);
 
     return users;
@@ -50,8 +49,8 @@ const queryUsers = async (filter, options) => {
 
 /**
  * Update User by ID
- * @param {ObjectId} userId 
- * @param {Object} userBody 
+ * @param {ObjectId} userId - User ObjectId
+ * @param {Object} userBody - User Object
  * @returns 
  */
 const updateUser = async (userId, userBody) => {
@@ -61,7 +60,6 @@ const updateUser = async (userId, userBody) => {
         throw new ApiError(httpStatus.NOT_FOUND, "User not found");
     }
 
-    //FIXME nested object/array bug
     Object.assign(user, userBody);
     await user.save();
 
@@ -70,7 +68,7 @@ const updateUser = async (userId, userBody) => {
 
 /**
  * Delete User by ID
- * @param {ObjectId} userId 
+ * @param {ObjectId} userId - User ObjectId
  * @returns {Promise<User>}
  */
 const deleteUserById = async (userId) => {
@@ -80,8 +78,8 @@ const deleteUserById = async (userId) => {
         throw new ApiError(httpStatus.NOT_FOUND, "User not found");
     }
 
-    //FIXME set is_active = false instead of delete reocrd
-    await user.remove();
+    user.isActive = false;
+    await user.save();
     return user;
 }
 

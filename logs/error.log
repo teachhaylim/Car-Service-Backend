@@ -387,3 +387,311 @@ error: 2021-09-05 12:23:03 PM POST /api/v1/user 401 - 2.976 ms - message: token 
 error: 2021-09-05 12:23:08 PM POST /api/v1/user 400 - 22.974 ms - message: Email already taken
 error: 2021-09-05 12:44:37 PM POST /api/v1/auth/login 404 - 1.434 ms - message: route not found
 error: 2021-09-05 12:45:06 PM POST /auth/login 401 - 15.449 ms - message: Incorrect email or password
+error: 2021-09-05 03:32:13 PM GET /api/v1/user 401 - 2.772 ms - message: Please authenticate
+error: 2021-09-05 03:32:33 PM POST /auth/login 401 - 8.581 ms - message: Incorrect email or password
+error: 2021-09-05 03:33:02 PM POST /auth/login 401 - 3.143 ms - message: Incorrect email or password
+error: 2021-09-05 03:33:58 PM POST /api/v1/user 400 - 4.631 ms - message: "firstName" is required, "lastName" is required, "phoneNumber" is required, "email" is required, "password" is required
+error: 2021-09-05 03:36:45 PM POST /api/v1/user 400 - 5.221 ms - message: Email already taken
+error: 2021-09-05 03:39:10 PM PATCH /api/v1/user 404 - 1.202 ms - message: route not found
+error: 2021-09-05 03:39:49 PM PATCH /api/v1/user/6134818257326367ecb51030 401 - 3.717 ms - message: Please authenticate
+error: 2021-09-05 03:40:08 PM POST /auth/login 401 - 78.847 ms - message: Incorrect email or password
+error: 2021-09-05 03:40:28 PM PATCH /api/v1/user/6134818257326367ecb51030 401 - 1.372 ms - message: token expired
+error: 2021-09-05 03:41:02 PM PATCH /api/v1/user/6134818257326367ecb51030 400 - 3.991 ms - message: "firstName" is required, "lastName" is required, "phoneNumber" is required, "email" is required, "password" is required
+error: 2021-09-05 03:42:19 PM PATCH /api/v1/user/6134818257326367ecb51030 400 - 7.132 ms - message: "password" is required
+error: 2021-09-05 03:42:42 PM POST /auth/login 401 - 70.408 ms - message: Incorrect email or password
+error: 2021-09-05 04:02:58 PM GET /api/v1/user/61348526e0538865ac5f20b 400 - 15.914 ms - message: ""userId"" must be a valid mongo id
+error: 2021-09-05 09:29:24 PM GET /api/v1/user 401 - 2.784 ms - message: Please authenticate
+error: 2021-09-05 09:31:21 PM POST /api/v1/user 400 - 4.367 ms - message: "firstName" is required, "lastName" is required, "phoneNumber" is required, "name" is not allowed
+error: 2021-09-05 09:32:25 PM POST /api/v1/user 400 - 2.830 ms - message: "profilePic" is not allowed, "type" is not allowed
+error: 2021-09-05 09:33:06 PM POST /api/v1/user 400 - 15.370 ms - message: "profilePic" is not allowed to be empty
+error: 2021-09-05 09:33:32 PM POST /api/v1/user 400 - 14.833 ms - message: "profilePic" is not allowed to be empty
+error: 2021-09-05 09:33:53 PM POST /api/v1/user 400 - 15.305 ms - message: "profilePic" is not allowed to be empty
+error: 2021-09-05 09:34:13 PM POST /api/v1/user 400 - 14.127 ms - message: "profilePic" is not allowed to be empty
+error: 2021-09-05 09:34:33 PM POST /api/v1/user 400 - 18.399 ms - message: Email already taken
+error: 2021-09-05 09:34:57 PM POST /api/v1/user 400 - 16.632 ms - message: "profilePic" is not allowed
+error: 2021-09-05 09:35:14 PM POST /api/v1/user 400 - 15.117 ms - message: "profilePic" is not allowed to be empty
+error: 2021-09-05 09:35:51 PM POST /api/v1/user 400 - 14.688 ms - message: "type" is not allowed to be empty, "profilePic" is not allowed
+error: 2021-09-05 09:36:33 PM POST /api/v1/user 400 - 19.058 ms - message: Email already taken
+error: 2021-09-05 09:36:41 PM POST /api/v1/user 500 - 89.899 ms - message: E11000 duplicate key error collection: GraduationProjectDB.users index: phoneNumber_1 dup key: { phoneNumber: "015876631" }
+error: 2021-09-05 09:37:23 PM POST /api/v1/user 400 - 26.493 ms - message: user validation failed: phoneNumber: Path `phoneNumber` (`015876631232`) is longer than the maximum allowed length (10).
+error: 2021-09-05 09:37:54 PM POST /api/v1/user 400 - 14.725 ms - message: "phoneNumber" length must be less than or equal to 10 characters long
+error: 2021-09-05 09:54:31 PM POST /api/v1/user 500 - 97.771 ms - message: fetch is not defined
+error: 2021-09-05 09:54:48 PM POST /api/v1/user 500 - 91.973 ms - message: fetch is not defined
+error: 2021-09-05 09:57:08 PM POST /api/v1/user 400 - 14.961 ms - message: "type" must be one of [user, admin], "type" is not allowed to be empty
+error: 2021-09-05 09:58:41 PM PATCH /api/v1/user/6134dae9d4d5725dd84861e5 400 - 7.380 ms - message: user validation failed: type: `user` is not a valid enum value for path `type`.
+error: 2021-09-05 10:52:56 PM TypeError: _models.Category.paginate is not a function
+    at _callee2$ (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/category.service.js:24:39)
+    at tryCatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\category.service.js:16:103)
+    at _next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\category.service.js:18:194)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\category.service.js:18:364
+    at new Promise (<anonymous>)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\category.service.js:18:97
+    at queryCategories (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/category.service.js:23:22)
+    at Layer.handle [as handle_request] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\express\lib\router\index.js:335:12)
+error: 2021-09-05 10:53:53 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 10:55:56 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 10:56:15 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 10:57:54 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 10:58:10 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 10:58:51 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 11:12:44 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 11:14:06 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 11:16:20 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-05 11:17:43 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-06 12:16:20 PM Error: cyclic dependency detected
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:333:34)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:729:17)
+    at serializeObject (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:347:18)
+    at serializeInto (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\parser\serializer.js:947:17)
+    at BSON.serialize (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\bson\lib\bson\bson.js:64:28)
+    at Msg.serializeBson (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:127:22)
+    at Msg.makeDocumentSegment (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:119:33)
+    at Msg.toBin (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongodb\lib\core\connection\msg.js:105:25)
+error: 2021-09-06 12:19:20 PM ValidationError: categories validation failed: remark: Path `remark` is required., name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+error: 2021-09-06 12:20:42 PM ValidationError: categories validation failed: name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+error: 2021-09-06 12:21:21 PM ValidationError: categories validation failed: name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+error: 2021-09-06 12:23:56 PM ValidationError: categories validation failed: name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+error: 2021-09-06 12:24:15 PM ValidationError: categories validation failed: name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+error: 2021-09-06 12:25:23 PM ValidationError: categories validation failed: name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+error: 2021-09-06 07:41:56 PM ValidationError: categories validation failed: name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+error: 2021-09-06 07:43:19 PM ValidationError: categories validation failed: name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+error: 2021-09-06 07:45:45 PM GET /api/v1/category 500 - 7.717 ms - message: pick is not defined
+error: 2021-09-06 08:35:18 PM GET /api/v1/category/34 400 - 2.515 ms - message: ""categoryId"" must be a valid mongo id
+error: 2021-09-06 08:35:29 PM DELETE /api/v1/category/61360d6f0ba493868014092 400 - 1.607 ms - message: ""categoryId"" must be a valid mongo id
+error: 2021-09-06 08:35:31 PM DELETE /api/v1/category/61360d6f0ba493868014092v 400 - 0.803 ms - message: ""categoryId"" must be a valid mongo id
+error: 2021-09-06 08:40:21 PM GET /api/v1/category/61360d6f0ba493868014092c 401 - 3.160 ms - message: Please authenticate
+error: 2021-09-06 09:32:12 PM GET /api/v1/category 500 - 20.642 ms - message: _models.Category.paginate is not a function
+error: 2021-09-07 04:56:16 PM GET /api/v1/shop 500 - 17.891 ms - message: _services.shopService.queryUsers is not a function
+error: 2021-09-07 04:59:26 PM POST /api/v1/shop 500 - 26.649 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 06:40:16 PM PATCH /api/v1/shop/6137377d06a5008f34f71146 500 - 11.832 ms - message: Cannot read property 'findByIdAndUpdate' of undefined
+error: 2021-09-07 06:40:45 PM PATCH /api/v1/shop/6137377d06a5008f34f71146 500 - 9.557 ms - message: Cannot create property 'updatedAt' on string '61360d6f0ba493868014092c'
+error: 2021-09-07 06:41:19 PM GET /api/v1/category 401 - 1.391 ms - message: Please authenticate
+error: 2021-09-07 06:43:01 PM PATCH /api/v1/category/61360e2a5eb26f7d184d8580 400 - 4.340 ms - message: "isActive" is not allowed, "createdAt" is not allowed, "updatedAt" is not allowed, "id" is not allowed
+error: 2021-09-07 07:02:48 PM POST /api/v1/shop 500 - 9.280 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 08:41:59 PM GET /api/v1/shop/613753e7e060b30188129bc 400 - 3.117 ms - message: ""shopId"" must be a valid mongo id
+error: 2021-09-07 08:42:04 PM GET /api/v1/shop/613753e7e060b30188129bcc2 400 - 0.890 ms - message: ""shopId"" must be a valid mongo id
+error: 2021-09-07 08:45:51 PM POST /api/v1/shop 400 - 0.739 ms - message: "name" is required, "categories" is required
+error: 2021-09-07 08:45:59 PM POST /api/v1/shop 400 - 0.678 ms - message: "categories" is required
+error: 2021-09-07 08:46:07 PM POST /api/v1/shop 400 - 1.628 ms - message: "categories" failed custom validation because value.match is not a function
+error: 2021-09-07 08:46:52 PM POST /api/v1/shop 400 - 0.746 ms - message: "categories" failed custom validation because value.match is not a function
+error: 2021-09-07 08:48:22 PM POST /api/v1/shop 400 - 4.870 ms - message: "categories" does not contain 1 required value(s)
+error: 2021-09-07 08:48:26 PM POST /api/v1/shop 500 - 18.873 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 08:49:04 PM POST /api/v1/shop 500 - 4.608 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 08:49:20 PM POST /api/v1/shop 500 - 3.738 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 09:34:57 PM POST /api/v1/shop 500 - 3.846 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 09:35:13 PM POST /api/v1/shop 500 - 21.078 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 09:35:57 PM POST /api/v1/shop 500 - 19.918 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 09:36:08 PM POST /api/v1/shop 500 - 4.353 ms - message: E11000 duplicate key error collection: GraduationProjectDB.shops index: categories.name_1 dup key: { categories.name: null }
+error: 2021-09-07 09:37:05 PM POST /api/v1/category 400 - 11.409 ms - message: "remark" is not allowed to be empty
+error: 2021-09-07 09:42:09 PM POST /api/v1/category 400 - 16.453 ms - message: Name already existed
+error: 2021-09-07 09:47:18 PM GET /api/v1/shop 401 - 2.659 ms - message: Please authenticate
+error: 2021-09-07 09:47:35 PM GET /api/v1/shop 401 - 2.059 ms - message: token expired
+error: 2021-09-07 09:47:41 PM GET /api/v1/shop 401 - 0.336 ms - message: Please authenticate

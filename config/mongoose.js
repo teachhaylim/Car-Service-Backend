@@ -7,8 +7,9 @@ if (config.env === "test") {
 }
 
 /**
- * Initialize MongoDB connection
- * @returns {object}
+ *  Initialize MongoDB connection
+ * 
+ * @returns {object} MongoDB connection
  */
 export default function () {
     return mongoose.connect(config.mongoose.url, config.mongoose.options)

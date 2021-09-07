@@ -6,13 +6,12 @@ import { pick } from "../utils/generalFuncs";
 const CreateUser = catchAsync(async (req, res) => {
     const user = await userService.createUser(req.body);
 
-    res.status(httpStatus.CREATED).send({ meta: httpStatus.CREATED, user });
+    res.status(httpStatus.CREATED).send({ meta: httpStatus.CREATED, data: user });
 });
 
 const GetUsers = catchAsync(async (req, res) => {
-    const filter = pick(req.query, ['name']);
-    const options = pick(req.query, ["sortBy", "limit", "page", "populate"]);
-
+    const filter = pick(req.query, ['firstName', "lastName", "phoneNumber", "email"]);
+    const options = pick(req.query, ["sortBy", "limit", "page"]);
     const users = await userService.queryUsers(filter, options);
 
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, ...users });

@@ -5,7 +5,7 @@ import compression from "compression";
 import xss from "xss-clean";
 import mongoSanitize from "express-mongo-sanitize";
 
-import router, { authRouter } from "./routes";
+import router from "./routes";
 import config from "./config/config";
 import { authLimiter, publicLimiter } from "./middlewares/limiter";
 import morgan from "./config/morgan";
@@ -39,7 +39,6 @@ if (config.env !== 'test') {
 }
 
 app.use("/api/v1", router);
-app.use("/", authRouter);
 
 // for setting up the project testing route
 app.get('/', (_, res) => {
