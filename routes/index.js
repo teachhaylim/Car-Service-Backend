@@ -5,6 +5,7 @@ import shopRoute from "./shop.route";
 import userRoute from "./user.route";
 import rateRoute from "./rate.route";
 import serviceRoute from "./service.route";
+import appointmentRoute from "./appointment.route";
 
 const router = express.Router();
 
@@ -28,6 +29,10 @@ const apiRoutes = [
     {
         path: "/service",
         route: serviceRoute,
+    },
+    {
+        path: "/appointment",
+        route: appointmentRoute,
     },
     {
         path: "/auth",

@@ -26,6 +26,7 @@ const serviecSchema = mongoose.Schema(
         remark: {
             type: String,
             default: "",
+            trim: true,
         },
         isActive: {
             type: Boolean,
@@ -41,4 +42,4 @@ serviecSchema.plugin(mongooseAutoPopulate);
 serviecSchema.plugin(toJSON);
 serviecSchema.plugin(paginate);
 
-export default mongoose.model("service", serviecSchema);
+export default mongoose.model("services", serviecSchema);

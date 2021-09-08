@@ -1353,3 +1353,20 @@ error: 2021-09-08 08:55:37 PM GET /api/v1/service/6138c053abd67b6e6c314090 401 -
 error: 2021-09-08 08:55:44 PM GET /api/v1/service/6138c053abd67b6e6c314090 401 - 2.003 ms - message: token expired
 request: 2021-09-08 08:55:47 PM GET /api/v1/service/6138c053abd67b6e6c314090 200 - 28.645 ms
 request: 2021-09-08 08:55:51 PM GET /api/v1/service 200 - 16.642 ms
+request: 2021-09-08 10:38:17 PM GET /api/v1/appointment 200 - 15.192 ms
+error: 2021-09-08 10:38:33 PM GET /api/v1/appointment 401 - 2.649 ms - message: Please authenticate
+request: 2021-09-08 10:38:35 PM GET /api/v1/appointment 200 - 20.578 ms
+request: 2021-09-08 10:39:48 PM POST /api/v1/appointment 201 - 27.521 ms
+error: 2021-09-08 10:40:02 PM GET /api/v1/appointment 400 - 16.099 ms - message: Schema hasn't been registered for model "services".
+Use mongoose.model(name, schema)
+request: 2021-09-08 10:40:21 PM GET /api/v1/appointment 200 - 49.510 ms
+request: 2021-09-08 10:59:09 PM POST /api/v1/appointment 201 - 29.652 ms
+error: 2021-09-08 10:59:19 PM POST /api/v1/appointment 400 - 5.065 ms - message: "userId" is required, "sellCompany" is required, "services" is required, "totalAmount" is required
+request: 2021-09-08 10:59:32 PM GET /api/v1/appointment 200 - 29.760 ms
+error: 2021-09-08 10:59:38 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d4 400 - 3.031 ms - message: "appointmentId" is required, "serviceId" is not allowed
+request: 2021-09-08 11:00:15 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d4 200 - 19.532 ms
+request: 2021-09-08 11:00:23 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d4 200 - 5.669 ms
+request: 2021-09-08 11:00:52 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d4 200 - 41.486 ms
+error: 2021-09-08 11:01:07 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d 400 - 4.933 ms - message: ""appointmentId"" must be a valid mongo id
+request: 2021-09-08 11:01:09 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d6 200 - 5.288 ms
+request: 2021-09-08 11:01:11 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d4 200 - 16.402 ms
