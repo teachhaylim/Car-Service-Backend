@@ -735,3 +735,14 @@ error: 2021-09-08 12:10:39 AM GET /api/v1/user 401 - 7.334 ms - message: token e
 error: 2021-09-08 12:11:10 AM GET /api/v1/user 401 - 14.404 ms - message: token expired
 error: 2021-09-08 12:12:03 AM GET /api/v1/shops 404 - 1.620 ms - message: route not found
 error: 2021-09-08 12:12:36 AM GET /api/v1/rate 401 - 2.668 ms - message: Please authenticate
+error: 2021-09-08 08:25:50 PM GET /api/v1/service 500 - 10.437 ms - message: _services.serviceService.catchAsync is not a function
+error: 2021-09-08 08:26:22 PM GET /api/v1/service 400 - 11.625 ms - message: service validation failed: sellCompany: Path `sellCompany` is required., name: Path `name` is required.
+error: 2021-09-08 08:27:52 PM POST /api/v1/service 400 - 11.682 ms - message: service validation failed: sellCompany: Path `sellCompany` is required.
+error: 2021-09-08 08:28:21 PM GET /api/v1/service 400 - 17.950 ms - message: Schema hasn't been registered for model "shop".
+Use mongoose.model(name, schema)
+error: 2021-09-08 08:52:10 PM GET /api/v1/service/6138ba71c1a61c66e43c300 400 - 3.927 ms - message: ""serviceId"" must be a valid mongo id
+error: 2021-09-08 08:52:25 PM GET /api/v1/service/6138ba71c1a61c66e43c300 400 - 1.143 ms - message: ""serviceId"" must be a valid mongo id
+error: 2021-09-08 08:53:11 PM POST /api/v1/service 400 - 2.305 ms - message: "name" is required, "sellCompany" is required
+error: 2021-09-08 08:53:19 PM POST /api/v1/service 400 - 1.490 ms - message: "sellCompany" is required
+error: 2021-09-08 08:55:37 PM GET /api/v1/service/6138c053abd67b6e6c314090 401 - 3.302 ms - message: Please authenticate
+error: 2021-09-08 08:55:44 PM GET /api/v1/service/6138c053abd67b6e6c314090 401 - 2.003 ms - message: token expired

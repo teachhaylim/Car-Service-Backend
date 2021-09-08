@@ -1,4 +1,6 @@
 import mongoose from "mongoose";
+import mongooseAutoPopulate from "mongoose-autopopulate";
+import { paginate, toJSON } from "./plugins";
 
 const serviecSchema = mongoose.Schema(
     {
@@ -9,13 +11,18 @@ const serviecSchema = mongoose.Schema(
         },
         sellCompany: {
             type: mongoose.Types.ObjectId,
-            refs: "shop",
-            //TODO add auto populate feature
+            ref: "shops",
+            autopopulate: true,
+            required: true,
         },
         price: {
             type: Number,
-            required: true,
+            default: 0,
         },
+        // addOn: {
+        //     type: Array,
+        //     default: [],
+        // },
         remark: {
             type: String,
             default: "",
@@ -29,5 +36,9 @@ const serviecSchema = mongoose.Schema(
         timestamps: true,
     }
 );
+
+serviecSchema.plugin(mongooseAutoPopulate);
+serviecSchema.plugin(toJSON);
+serviecSchema.plugin(paginate);
 
 export default mongoose.model("service", serviecSchema);

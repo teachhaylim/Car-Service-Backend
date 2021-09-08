@@ -4,3 +4,4 @@ export { default as tokenService } from "./token.service";
 export { default as categoryService } from "./category.service";
 export { default as shopService } from "./shop.service";
 export { default as rateService } from "./rate.service";
+export { default as serviceService } from "./service.service";

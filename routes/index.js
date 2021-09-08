@@ -4,6 +4,7 @@ import categoryRoute from "./category.route";
 import shopRoute from "./shop.route";
 import userRoute from "./user.route";
 import rateRoute from "./rate.route";
+import serviceRoute from "./service.route";
 
 const router = express.Router();
 
@@ -23,6 +24,10 @@ const apiRoutes = [
     {
         path: "/rate",
         route: rateRoute,
+    },
+    {
+        path: "/service",
+        route: serviceRoute,
     },
     {
         path: "/auth",
