@@ -752,3 +752,17 @@ Use mongoose.model(name, schema)
 error: 2021-09-08 10:59:19 PM POST /api/v1/appointment 400 - 5.065 ms - message: "userId" is required, "sellCompany" is required, "services" is required, "totalAmount" is required
 error: 2021-09-08 10:59:38 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d4 400 - 3.031 ms - message: "appointmentId" is required, "serviceId" is not allowed
 error: 2021-09-08 11:01:07 PM GET /api/v1/appointment/6138d944d2b9419c643ae0d 400 - 4.933 ms - message: ""appointmentId"" must be a valid mongo id
+error: 2021-09-15 04:53:34 PM GET /api/v1/user 401 - 4.895 ms - message: token expired
+error: 2021-09-15 05:01:01 PM POST /api/v1/auth/login 401 - 32.146 ms - message: Incorrect email or password
+error: 2021-09-15 05:01:18 PM POST /api/v1/auth/login 401 - 4.405 ms - message: Incorrect email or password
+error: 2021-09-15 05:01:30 PM POST /api/v1/auth/login 401 - 95.533 ms - message: Incorrect email or password
+error: 2021-09-15 05:01:35 PM POST /api/v1/auth/login 401 - 95.007 ms - message: Incorrect email or password
+error: 2021-09-15 05:01:46 PM POST /api/v1/auth/login 401 - 94.062 ms - message: Incorrect email or password
+error: 2021-09-15 05:02:03 PM POST /api/v1/auth/login 401 - 94.983 ms - message: Incorrect email or password
+error: 2021-09-15 05:02:56 PM GET /api/v1/user?firstname=chhay 400 - 5.596 ms - message: "firstname" is not allowed
+error: 2021-09-15 05:04:30 PM GET /api/v1/user/61348aa43e39be52de52995b 401 - 3.174 ms - message: token expired
+error: 2021-09-15 09:30:16 PM POST /api/v1/auth/login 401 - 79.483 ms - message: Incorrect email or password
+error: 2021-09-15 09:30:41 PM POST /api/v1/auth/login 401 - 66.760 ms - message: Incorrect email or password
+error: 2021-09-15 09:30:44 PM POST /api/v1/auth/login 401 - 67.030 ms - message: Incorrect email or password
+error: 2021-09-15 09:30:51 PM POST /api/v1/auth/login 401 - 69.356 ms - message: Incorrect email or password
+error: 2021-09-15 09:35:00 PM GET /api/v1/user 401 - 5.019 ms - message: token expired

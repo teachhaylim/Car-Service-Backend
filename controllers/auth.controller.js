@@ -9,6 +9,8 @@ const Login = catchAsync(async (req, res) => {
     res.send({ token, user });
 });
 
+//TODO register, forget password
+
 export default {
     Login,
 }
