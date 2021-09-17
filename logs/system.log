@@ -2968,3 +2968,65 @@ info: 2021-09-15 09:36:03 PM MongoDB successfully connected
 info: 2021-09-15 09:36:03 PM Listening on port 5000 (development)
 info: 2021-09-15 09:36:18 PM MongoDB successfully connected
 info: 2021-09-15 09:36:18 PM Listening on port 5000 (development)
+info: 2021-09-17 12:32:03 PM MongoDB successfully connected
+info: 2021-09-17 12:32:03 PM Listening on port 5000 (development)
+error: 2021-09-17 12:35:10 PM POST /api/v1/auth/login 401 - 23.797 ms - message: Incorrect email or password
+error: 2021-09-17 12:35:17 PM POST /api/v1/auth/login 401 - 3.599 ms - message: Incorrect email or password
+info: 2021-09-17 12:36:29 PM MongoDB successfully connected
+info: 2021-09-17 12:36:29 PM Listening on port 5000 (development)
+error: 2021-09-17 12:36:42 PM POST /api/v1/user 400 - 5.300 ms - message: "firstName" is required, "lastName" is required, "phoneNumber" is required, "email" is required, "password" is required
+error: 2021-09-17 12:37:37 PM POST /api/v1/user 400 - 3.018 ms - message: password must be at least 8 characters
+request: 2021-09-17 12:37:42 PM POST /api/v1/user 201 - 216.991 ms
+error: 2021-09-17 12:37:45 PM POST /api/v1/auth/login 401 - 142.142 ms - message: Incorrect email or password
+request: 2021-09-17 12:38:45 PM POST /api/v1/auth/login 200 - 123.667 ms
+request: 2021-09-17 12:38:53 PM POST /api/v1/auth/login 200 - 147.853 ms
+request: 2021-09-17 12:39:17 PM POST /api/v1/auth/login 200 - 122.910 ms
+request: 2021-09-17 12:39:52 PM POST /api/v1/auth/login 200 - 212.105 ms
+request: 2021-09-17 12:40:03 PM POST /api/v1/auth/login 200 - 164.203 ms
+error: 2021-09-17 12:40:43 PM POST /api/v1/auth/login 401 - 56.550 ms - message: Incorrect email or password
+request: 2021-09-17 12:41:22 PM POST /api/v1/auth/login 200 - 123.153 ms
+info: 2021-09-17 12:42:10 PM MongoDB successfully connected
+info: 2021-09-17 12:42:10 PM Listening on port 5000 (development)
+info: 2021-09-17 12:42:49 PM MongoDB successfully connected
+info: 2021-09-17 12:42:49 PM Listening on port 5000 (development)
+request: 2021-09-17 12:42:50 PM POST /api/v1/auth/login 200 - 136.225 ms
+error: 2021-09-17 12:47:41 PM POST /api/v1/auth/login 401 - 122.659 ms - message: Incorrect email or password
+error: 2021-09-17 12:48:00 PM POST /api/v1/auth/login 401 - 125.668 ms - message: Incorrect email or password
+error: 2021-09-17 12:48:06 PM POST /api/v1/auth/login 401 - 121.320 ms - message: Incorrect email or password
+info: 2021-09-17 12:48:38 PM MongoDB successfully connected
+info: 2021-09-17 12:48:38 PM Listening on port 5000 (development)
+info: 2021-09-17 12:49:28 PM MongoDB successfully connected
+info: 2021-09-17 12:49:28 PM Listening on port 5000 (development)
+request: 2021-09-17 12:49:28 PM POST /api/v1/auth/login 200 - 142.609 ms
+info: 2021-09-17 12:49:41 PM MongoDB successfully connected
+info: 2021-09-17 12:49:41 PM Listening on port 5000 (development)
+error: 2021-09-17 12:57:23 PM POST /api/v1/auth/login 401 - 133.241 ms - message: Incorrect email or password
+error: 2021-09-17 12:59:20 PM POST /api/v1/auth/login 401 - 132.872 ms - message: Incorrect email or password
+error: 2021-09-17 12:59:29 PM POST /api/v1/auth/login 401 - 121.229 ms - message: Incorrect email or password
+error: 2021-09-17 12:59:39 PM POST /api/v1/auth/login 401 - 121.762 ms - message: Incorrect email or password
+error: 2021-09-17 01:01:18 PM POST /api/v1/auth/login 401 - 125.429 ms - message: Incorrect email or password
+error: 2021-09-17 01:01:31 PM POST /api/v1/auth/login 401 - 124.577 ms - message: Incorrect email or password
+error: 2021-09-17 01:01:44 PM POST /api/v1/auth/login 401 - 122.567 ms - message: Incorrect email or password
+error: 2021-09-17 01:02:09 PM POST /api/v1/auth/login 401 - 122.242 ms - message: Incorrect email or password
+error: 2021-09-17 01:03:27 PM POST /api/v1/auth/login 401 - 57.036 ms - message: Incorrect email or password
+request: 2021-09-17 01:03:40 PM POST /api/v1/auth/login 200 - 129.277 ms
+request: 2021-09-17 01:29:15 PM POST /api/v1/auth/login 200 - 141.602 ms
+request: 2021-09-17 01:36:43 PM POST /api/v1/auth/login 200 - 126.220 ms
+request: 2021-09-17 01:49:46 PM POST /api/v1/auth/login 200 - 132.091 ms
+request: 2021-09-17 01:50:59 PM POST /api/v1/auth/login 200 - 126.796 ms
+request: 2021-09-17 01:51:30 PM POST /api/v1/auth/login 200 - 122.004 ms
+request: 2021-09-17 01:54:09 PM POST /api/v1/auth/login 200 - 124.914 ms
+request: 2021-09-17 01:54:45 PM POST /api/v1/auth/login 200 - 121.674 ms
+request: 2021-09-17 02:51:52 PM POST /api/v1/auth/login 200 - 153.672 ms
+request: 2021-09-17 02:53:26 PM POST /api/v1/auth/login 200 - 141.498 ms
+request: 2021-09-17 02:53:48 PM POST /api/v1/auth/login 200 - 122.450 ms
+request: 2021-09-17 02:58:17 PM POST /api/v1/auth/login 200 - 124.870 ms
+request: 2021-09-17 03:01:29 PM POST /api/v1/auth/login 200 - 121.009 ms
+request: 2021-09-17 03:07:25 PM POST /api/v1/auth/login 200 - 121.924 ms
+request: 2021-09-17 03:07:48 PM POST /api/v1/auth/login 200 - 120.548 ms
+request: 2021-09-17 03:10:44 PM POST /api/v1/auth/login 200 - 122.214 ms
+request: 2021-09-17 03:13:01 PM POST /api/v1/auth/login 200 - 124.349 ms
+request: 2021-09-17 03:46:03 PM POST /api/v1/auth/login 200 - 140.749 ms
+request: 2021-09-17 03:55:47 PM POST /api/v1/auth/login 200 - 122.315 ms
+request: 2021-09-17 03:56:47 PM POST /api/v1/auth/login 200 - 124.440 ms
+request: 2021-09-17 03:57:39 PM POST /api/v1/auth/login 200 - 127.807 ms
