@@ -9,6 +9,9 @@ userRouter.route("/")
     .get(auth, validate(userValidation.queryUsers), userController.GetUsers)
     .post(auth, validate(userValidation.createUser), userController.CreateUser);
 
+userRouter.route("/info")
+    .get(auth, userController.GetUserInfo);
+
 userRouter.route("/:userId")
     .get(auth, validate(userValidation.getUser), userController.GetUser)
     .patch(auth, validate(userValidation.updateUser), userController.UpdateUser)

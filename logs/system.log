@@ -3036,3 +3036,36 @@ error: 2021-09-17 04:47:19 PM POST /api/v1/auth/login 401 - 62.098 ms - message:
 request: 2021-09-17 04:47:29 PM POST /api/v1/auth/login 200 - 119.399 ms
 request: 2021-09-17 04:53:37 PM POST /api/v1/auth/login 200 - 121.132 ms
 request: 2021-09-17 04:54:30 PM POST /api/v1/auth/login 200 - 121.930 ms
+info: 2021-09-17 06:55:06 PM MongoDB successfully connected
+info: 2021-09-17 06:55:06 PM Listening on port 5000 (development)
+request: 2021-09-17 07:20:47 PM POST /api/v1/auth/login 200 - 138.797 ms
+request: 2021-09-17 09:58:35 PM POST /api/v1/auth/login 200 - 164.752 ms
+request: 2021-09-17 10:15:07 PM POST /api/v1/auth/login 200 - 152.107 ms
+info: 2021-09-17 10:38:56 PM MongoDB successfully connected
+info: 2021-09-17 10:38:56 PM Listening on port 5000 (development)
+info: 2021-09-17 10:39:39 PM MongoDB successfully connected
+info: 2021-09-17 10:39:39 PM Listening on port 5000 (development)
+request: 2021-09-17 10:41:01 PM GET /api/v1/user/info 200 - 118.269 ms
+info: 2021-09-17 10:41:31 PM MongoDB successfully connected
+info: 2021-09-17 10:41:31 PM Listening on port 5000 (development)
+request: 2021-09-17 10:41:52 PM GET /api/v1/user/info 200 - 104.622 ms
+request: 2021-09-17 10:49:27 PM GET /api/v1/user/info 304 - 82.794 ms
+request: 2021-09-17 10:49:29 PM GET /api/v1/user/info 304 - 81.222 ms
+request: 2021-09-17 10:49:37 PM GET /api/v1/user/info 304 - 78.206 ms
+request: 2021-09-17 10:49:56 PM GET /api/v1/user/info 304 - 82.900 ms
+request: 2021-09-17 10:50:04 PM GET /api/v1/user/info 304 - 79.422 ms
+request: 2021-09-17 10:50:04 PM GET /api/v1/user/info 304 - 83.499 ms
+request: 2021-09-17 10:50:07 PM GET /api/v1/user/info 304 - 78.732 ms
+request: 2021-09-17 10:50:15 PM GET /api/v1/user/info 304 - 84.968 ms
+request: 2021-09-17 10:50:15 PM GET /api/v1/user/info 304 - 79.760 ms
+request: 2021-09-17 10:50:15 PM GET /api/v1/user/info 304 - 81.712 ms
+request: 2021-09-17 10:50:52 PM GET /api/v1/user/info 304 - 82.095 ms
+request: 2021-09-17 10:50:56 PM GET /api/v1/user/info 304 - 78.141 ms
+request: 2021-09-17 10:50:56 PM GET /api/v1/user/info 304 - 79.671 ms
+request: 2021-09-17 10:50:56 PM GET /api/v1/user/info 304 - 82.331 ms
+request: 2021-09-17 10:51:19 PM GET /api/v1/user/info 304 - 76.969 ms
+request: 2021-09-17 10:51:19 PM GET /api/v1/user/info 304 - 80.472 ms
+error: 2021-09-17 10:51:42 PM GET /api/v1/user/info 500 - 56.317 ms - message: Cannot read property '_id' of null
+error: 2021-09-17 10:52:10 PM GET /api/v1/user/info 500 - 38.170 ms - message: Cannot read property '_id' of null
+request: 2021-09-17 10:55:37 PM POST /api/v1/auth/login 200 - 134.224 ms
+request: 2021-09-17 10:56:33 PM GET /api/v1/user/info 200 - 82.573 ms

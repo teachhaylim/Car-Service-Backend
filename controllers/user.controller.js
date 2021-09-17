@@ -23,6 +23,14 @@ const GetUser = catchAsync(async (req, res) => {
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, data: user });
 });
 
+const GetUserInfo = catchAsync(async (req, res) => {
+    console.log(req.user);
+
+    const user = await userService.GetUserById(req.user._id);
+
+    res.status(httpStatus.OK).send({ meta: httpStatus.OK, data: user });
+});
+
 const UpdateUser = catchAsync(async (req, res) => {
     const user = await userService.UpdateUser(req.params.userId, req.body);
 
@@ -40,5 +48,6 @@ export default {
     GetUsers,
     GetUser,
     UpdateUser,
-    DeleteUser
+    DeleteUser,
+    GetUserInfo,
 };
