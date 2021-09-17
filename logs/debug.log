@@ -784,3 +784,4 @@ error: 2021-09-17 01:01:31 PM POST /api/v1/auth/login 401 - 124.577 ms - message
 error: 2021-09-17 01:01:44 PM POST /api/v1/auth/login 401 - 122.567 ms - message: Incorrect email or password
 error: 2021-09-17 01:02:09 PM POST /api/v1/auth/login 401 - 122.242 ms - message: Incorrect email or password
 error: 2021-09-17 01:03:27 PM POST /api/v1/auth/login 401 - 57.036 ms - message: Incorrect email or password
+error: 2021-09-17 04:47:19 PM POST /api/v1/auth/login 401 - 62.098 ms - message: Incorrect email or password
