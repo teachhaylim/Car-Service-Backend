@@ -24,8 +24,6 @@ const GetUser = catchAsync(async (req, res) => {
 });
 
 const GetUserInfo = catchAsync(async (req, res) => {
-    console.log(req.user);
-
     const user = await userService.GetUserById(req.user._id);
 
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, data: user });

@@ -3069,3 +3069,109 @@ error: 2021-09-17 10:51:42 PM GET /api/v1/user/info 500 - 56.317 ms - message: C
 error: 2021-09-17 10:52:10 PM GET /api/v1/user/info 500 - 38.170 ms - message: Cannot read property '_id' of null
 request: 2021-09-17 10:55:37 PM POST /api/v1/auth/login 200 - 134.224 ms
 request: 2021-09-17 10:56:33 PM GET /api/v1/user/info 200 - 82.573 ms
+info: 2021-09-18 08:10:02 AM MongoDB successfully connected
+info: 2021-09-18 08:10:02 AM Listening on port 5000 (development)
+request: 2021-09-18 08:21:16 AM POST /api/v1/auth/login 200 - 140.795 ms
+error: 2021-09-18 08:22:10 AM POST /api/v1/auth/login 401 - 58.323 ms - message: Incorrect email or password
+request: 2021-09-18 08:22:19 AM POST /api/v1/auth/login 200 - 120.748 ms
+request: 2021-09-18 08:25:42 AM POST /api/v1/auth/login 200 - 120.300 ms
+request: 2021-09-18 08:26:27 AM POST /api/v1/auth/login 200 - 120.144 ms
+request: 2021-09-18 08:27:05 AM GET /api/v1/user/info 200 - 124.067 ms
+request: 2021-09-18 08:40:28 AM GET /api/v1/user/info 304 - 116.043 ms
+request: 2021-09-18 08:40:36 AM GET /api/v1/user/info 304 - 118.027 ms
+request: 2021-09-18 08:40:37 AM GET /api/v1/user/info 304 - 116.397 ms
+request: 2021-09-18 08:40:37 AM GET /api/v1/user/info 304 - 115.560 ms
+request: 2021-09-18 08:40:57 AM GET /api/v1/user/info 304 - 117.205 ms
+request: 2021-09-18 08:40:58 AM GET /api/v1/user/info 304 - 117.014 ms
+request: 2021-09-18 08:40:58 AM GET /api/v1/user/info 304 - 116.113 ms
+request: 2021-09-18 08:40:58 AM GET /api/v1/user/info 304 - 115.110 ms
+request: 2021-09-18 08:40:58 AM GET /api/v1/user/info 304 - 115.529 ms
+request: 2021-09-18 08:40:58 AM GET /api/v1/user/info 304 - 115.595 ms
+request: 2021-09-18 08:41:45 AM GET /api/v1/user/info 304 - 115.922 ms
+request: 2021-09-18 08:41:45 AM GET /api/v1/user/info 304 - 116.588 ms
+request: 2021-09-18 08:41:45 AM GET /api/v1/user/info 304 - 118.657 ms
+request: 2021-09-18 08:41:45 AM GET /api/v1/user/info 304 - 118.071 ms
+request: 2021-09-18 08:42:26 AM GET /api/v1/user/info 304 - 116.032 ms
+request: 2021-09-18 08:42:26 AM GET /api/v1/user/info 304 - 136.424 ms
+request: 2021-09-18 08:42:26 AM GET /api/v1/user/info 304 - 115.344 ms
+request: 2021-09-18 08:42:27 AM GET /api/v1/user/info 304 - 116.321 ms
+request: 2021-09-18 08:43:25 AM GET /api/v1/user/info 304 - 116.335 ms
+request: 2021-09-18 08:43:25 AM GET /api/v1/user/info 304 - 119.056 ms
+request: 2021-09-18 08:43:31 AM GET /api/v1/user/info 304 - 115.941 ms
+request: 2021-09-18 08:44:23 AM POST /api/v1/auth/login 200 - 119.956 ms
+request: 2021-09-18 09:02:26 AM GET /api/v1/user/info 304 - 115.919 ms
+request: 2021-09-18 09:03:07 AM GET /api/v1/user/info 304 - 117.403 ms
+request: 2021-09-18 09:06:57 AM POST /api/v1/auth/login 200 - 194.415 ms
+request: 2021-09-18 09:07:11 AM GET /api/v1/user/info 304 - 116.128 ms
+info: 2021-09-18 09:22:58 AM MongoDB successfully connected
+info: 2021-09-18 09:22:58 AM Listening on port 5000 (development)
+info: 2021-09-18 09:24:48 AM MongoDB successfully connected
+info: 2021-09-18 09:24:48 AM Listening on port 5000 (development)
+request: 2021-09-18 09:33:08 AM GET /api/v1/user/info 200 - 129.826 ms
+request: 2021-09-18 09:34:15 AM GET /api/v1/user/info 304 - 116.987 ms
+request: 2021-09-18 09:43:51 AM POST /api/v1/auth/login 200 - 129.508 ms
+request: 2021-09-18 09:45:01 AM POST /api/v1/auth/login 200 - 236.475 ms
+request: 2021-09-18 09:45:45 AM POST /api/v1/auth/login 200 - 120.060 ms
+request: 2021-09-18 09:46:34 AM POST /api/v1/auth/login 200 - 121.972 ms
+request: 2021-09-18 09:47:11 AM POST /api/v1/auth/login 200 - 119.638 ms
+request: 2021-09-18 09:47:34 AM POST /api/v1/auth/login 200 - 120.563 ms
+request: 2021-09-18 09:48:46 AM POST /api/v1/auth/login 200 - 122.201 ms
+request: 2021-09-18 09:49:04 AM POST /api/v1/auth/login 200 - 121.755 ms
+request: 2021-09-18 09:49:18 AM POST /api/v1/auth/login 200 - 119.617 ms
+info: 2021-09-18 11:24:56 AM MongoDB successfully connected
+info: 2021-09-18 11:24:56 AM Listening on port 5000 (development)
+request: 2021-09-18 11:26:59 AM POST /api/v1/auth/login 200 - 134.996 ms
+error: 2021-09-18 11:27:17 AM POST /api/v1/auth/login 401 - 57.374 ms - message: Incorrect email or password
+request: 2021-09-18 11:27:31 AM POST /api/v1/auth/login 200 - 120.731 ms
+request: 2021-09-18 11:27:43 AM POST /api/v1/auth/login 200 - 122.821 ms
+request: 2021-09-18 11:27:58 AM GET /api/v1/user/info 200 - 116.129 ms
+request: 2021-09-18 11:30:17 AM GET /api/v1/user/info 304 - 114.047 ms
+request: 2021-09-18 11:31:55 AM GET /api/v1/user/info 304 - 113.418 ms
+request: 2021-09-18 11:33:32 AM GET /api/v1/user/info 304 - 114.143 ms
+request: 2021-09-18 11:33:54 AM GET /api/v1/user/info 304 - 112.365 ms
+request: 2021-09-18 11:34:04 AM POST /api/v1/auth/login 200 - 119.506 ms
+request: 2021-09-18 11:34:08 AM GET /api/v1/user/info 200 - 112.309 ms
+request: 2021-09-18 11:36:05 AM GET /api/v1/user/info 304 - 114.158 ms
+request: 2021-09-18 12:37:58 PM GET /api/v1/user/info 304 - 122.258 ms
+request: 2021-09-18 12:39:04 PM GET /api/v1/user/info 304 - 117.229 ms
+request: 2021-09-18 12:39:53 PM GET /api/v1/user/info 304 - 126.847 ms
+error: 2021-09-18 12:42:11 PM POST /api/v1/auth/login 401 - 65.610 ms - message: Incorrect email or password
+request: 2021-09-18 12:42:23 PM POST /api/v1/auth/login 200 - 125.654 ms
+request: 2021-09-18 12:42:24 PM GET /api/v1/user/info 200 - 114.579 ms
+request: 2021-09-18 12:43:15 PM GET /api/v1/user/info 304 - 113.281 ms
+error: 2021-09-18 12:43:26 PM POST /api/v1/auth/login 401 - 119.965 ms - message: Incorrect email or password
+error: 2021-09-18 12:43:32 PM POST /api/v1/auth/login 401 - 57.158 ms - message: Incorrect email or password
+request: 2021-09-18 12:43:45 PM POST /api/v1/auth/login 200 - 122.419 ms
+request: 2021-09-18 12:43:45 PM GET /api/v1/user/info 200 - 113.222 ms
+request: 2021-09-18 12:43:52 PM GET /api/v1/user/info 304 - 113.091 ms
+request: 2021-09-18 12:47:44 PM GET /api/v1/user/info 304 - 112.745 ms
+request: 2021-09-18 01:25:10 PM POST /api/v1/auth/login 200 - 173.706 ms
+request: 2021-09-18 01:25:10 PM GET /api/v1/user/info 200 - 159.153 ms
+request: 2021-09-18 01:29:56 PM GET /api/v1/user/info 304 - 113.678 ms
+request: 2021-09-18 01:44:41 PM GET /api/v1/user/info 304 - 115.111 ms
+request: 2021-09-18 01:57:32 PM GET /api/v1/user/info 304 - 114.108 ms
+request: 2021-09-18 02:04:06 PM POST /api/v1/auth/login 200 - 125.207 ms
+request: 2021-09-18 02:04:06 PM GET /api/v1/user/info 200 - 113.137 ms
+request: 2021-09-18 02:17:35 PM GET /api/v1/user/info 304 - 114.380 ms
+request: 2021-09-18 02:17:39 PM GET /api/v1/user/info 304 - 114.758 ms
+request: 2021-09-18 02:17:58 PM GET /api/v1/user/info 304 - 130.928 ms
+request: 2021-09-18 02:50:02 PM GET /api/v1/user/info 304 - 132.530 ms
+request: 2021-09-18 02:50:02 PM GET /api/v1/user/info 304 - 116.117 ms
+request: 2021-09-18 02:57:30 PM GET /api/v1/user/info 304 - 117.279 ms
+request: 2021-09-18 02:57:30 PM GET /api/v1/user/info 304 - 124.806 ms
+request: 2021-09-18 02:57:46 PM GET /api/v1/user/info 200 - 120.442 ms
+request: 2021-09-18 02:57:46 PM GET /api/v1/user/info 304 - 116.480 ms
+request: 2021-09-18 02:59:14 PM POST /api/v1/auth/login 200 - 129.027 ms
+request: 2021-09-18 02:59:14 PM GET /api/v1/user/info 304 - 113.956 ms
+request: 2021-09-18 03:03:41 PM GET /api/v1/user/info 304 - 114.382 ms
+request: 2021-09-18 03:05:53 PM GET /api/v1/user/info 304 - 116.864 ms
+request: 2021-09-18 03:05:53 PM GET /api/v1/user/info 304 - 116.881 ms
+request: 2021-09-18 03:06:09 PM GET /api/v1/user/info 304 - 114.261 ms
+request: 2021-09-18 03:07:34 PM GET /api/v1/user/info 304 - 113.317 ms
+request: 2021-09-18 03:07:34 PM GET /api/v1/user/info 304 - 112.126 ms
+request: 2021-09-18 03:13:03 PM GET /api/v1/user/info 304 - 113.560 ms
+request: 2021-09-18 03:13:03 PM GET /api/v1/user/info 304 - 113.269 ms
+request: 2021-09-18 03:13:35 PM GET /api/v1/user/info 304 - 122.567 ms
+request: 2021-09-18 04:09:08 PM POST /api/v1/auth/login 200 - 150.424 ms
+request: 2021-09-18 04:25:56 PM POST /api/v1/auth/login 200 - 125.177 ms
+request: 2021-09-18 04:25:56 PM GET /api/v1/user/info 200 - 127.338 ms

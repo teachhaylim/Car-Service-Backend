@@ -44,11 +44,16 @@ const userSchema = mongoose.Schema(
             minlength: 8,
             private: true,
         },
+        // type: {
+        //     type: String,
+        //     enum: ["user", "admin"],
+        //     default: "user",
+        // },
         type: {
-            type: String,
-            enum: ["user", "admin"],
-            default: "user",
-        },
+            type: Number,
+            enum: [0, 1, 2],
+            default: 0,
+        }, // 0 = user role (not allow access at all), 1 = admin (allow access related info), 2 = superadmin (God level access xd)
         isActive: {
             type: Boolean,
             default: true,
