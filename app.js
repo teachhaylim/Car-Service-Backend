@@ -25,11 +25,11 @@ app.options("*", cors());
 app.use(xss());
 app.use(mongoSanitize());
 app.use(compression());
-app.use("/", publicLimiter);
 
 // Set authentication limiter on production
 if (config.env === "production") {
     app.use("/api/v1/auth", authLimiter);
+    app.use("/api/v1/", publicLimiter);
 }
 
 //Log incoming requests

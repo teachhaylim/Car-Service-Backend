@@ -792,3 +792,15 @@ error: 2021-09-18 11:27:17 AM POST /api/v1/auth/login 401 - 57.374 ms - message:
 error: 2021-09-18 12:42:11 PM POST /api/v1/auth/login 401 - 65.610 ms - message: Incorrect email or password
 error: 2021-09-18 12:43:26 PM POST /api/v1/auth/login 401 - 119.965 ms - message: Incorrect email or password
 error: 2021-09-18 12:43:32 PM POST /api/v1/auth/login 401 - 57.158 ms - message: Incorrect email or password
+error: 2021-09-21 07:21:34 PM POST /api/v1/category 400 - 38.937 ms - message: "name" is required
+error: 2021-09-21 09:20:06 PM GET /api/v1/category?limit=10&sortBy=&page=1 400 - 320.190 ms - message: "sortBy" is not allowed to be empty
+error: 2021-09-21 09:22:16 PM GET /api/v1/category?limit=10&sortBy=&page=1 400 - 95.775 ms - message: "sortBy" is not allowed to be empty
+error: 2021-09-21 09:31:41 PM GET /api/v1/category?limit=10&sortBy=&page=0&totalPages=0&totalResults=0 400 - 44.654 ms - message: "totalPages" is not allowed, "totalResults" is not allowed
+error: 2021-09-21 10:06:15 PM GET /api/v1/category?limit=10&sortBy=&page=0 500 - 137.195 ms - message: Skip value must be non-negative, but received: -10
+error: 2021-09-21 10:17:44 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 40.267 ms - message: "limit" must be a number
+error: 2021-09-21 10:18:16 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 48.371 ms - message: "limit" must be a number
+error: 2021-09-21 10:18:24 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 37.792 ms - message: "limit" must be a number
+error: 2021-09-21 10:18:48 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 46.186 ms - message: "limit" must be a number
+error: 2021-09-21 10:29:25 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 36.843 ms - message: "limit" must be a number
+error: 2021-09-21 10:29:55 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 47.769 ms - message: "limit" must be a number
+error: 2021-09-21 10:29:59 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 40.994 ms - message: "limit" must be a number

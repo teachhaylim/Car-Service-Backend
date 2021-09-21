@@ -15,7 +15,7 @@ const createCategory = {
 const queryCategories = {
     query: Joi.object().keys({
         name: Joi.string(),
-        sortBy: Joi.string(),
+        sortBy: Joi.string().optional().allow(""),
         limit: Joi.number().integer(),
         page: Joi.number().integer(),
     }),
