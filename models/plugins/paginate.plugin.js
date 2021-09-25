@@ -23,15 +23,10 @@ const paginate = (schema) => {
         //FIXME make dynamic instead
         // filter.isActive = true;
 
-        if (options.sortBy) {
-            const sortingCriteria = [];
-            options.sortBy.split(',').forEach((sortOption) => {
-                const [key, order] = sortOption.split(':');
-                sortingCriteria.push((order === 'desc' ? '-' : '') + key);
-            });
-            sort = sortingCriteria.join(' ');
+        if (options.sortBy && Object.keys(JSON.parse(options.sortBy)).length == 0) {
+            sort = { createdAt: -1};
         } else {
-            sort = 'createdAt';
+            sort = JSON.parse(options.sortBy);
         }
 
         const limit = options.limit && parseInt(options.limit, 10) > 0 ? parseInt(options.limit, 10) : 10;

@@ -802,3 +802,24 @@ error: 2021-09-21 10:18:48 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 
 error: 2021-09-21 10:29:25 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 36.843 ms - message: "limit" must be a number
 error: 2021-09-21 10:29:55 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 47.769 ms - message: "limit" must be a number
 error: 2021-09-21 10:29:59 PM GET /api/v1/category?limit=NaN&page=0&sortBy= 400 - 40.994 ms - message: "limit" must be a number
+error: 2021-09-24 03:06:25 PM GET /api/v1/category?limit=10&page=0 500 - 74.695 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:14:20 PM GET /api/v1/category?limit=10&page=0 500 - 91.197 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:14:22 PM GET /api/v1/category?limit=10&page=0 500 - 71.112 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:16:38 PM GET /api/v1/category?limit=10&page=0 500 - 107.485 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:17:16 PM GET /api/v1/category?limit=10&page=0 500 - 132.570 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-24 03:17:25 PM GET /api/v1/category?limit=10&page=0 500 - 134.166 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:20:02 PM GET /api/v1/category?limit=10&page=0 500 - 90.361 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:33:22 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 400 - 72.824 ms - message: "sortBy" must be of type object
+error: 2021-09-24 03:33:40 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 400 - 74.359 ms - message: "sortBy" must be of type object
+error: 2021-09-24 03:36:21 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 400 - 54.845 ms - message: "sortBy" must be of type object
+error: 2021-09-24 03:37:05 PM GET /api/v1/category?limit=10&page=0 500 - 91.984 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:37:06 PM GET /api/v1/category?limit=10&page=0 500 - 54.516 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:37:25 PM GET /api/v1/category?limit=10&page=0 500 - 150.751 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:37:37 PM GET /api/v1/category?limit=10&page=0 500 - 122.649 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:37:53 PM GET /api/v1/category?limit=10&page=0 500 - 104.417 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:38:31 PM GET /api/v1/category?limit=10&page=0 500 - 96.358 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:38:34 PM GET /api/v1/category?limit=10&page=0 500 - 61.737 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:38:42 PM GET /api/v1/category?limit=10&page=0 500 - 95.076 ms - message: Cannot convert undefined or null to object
+error: 2021-09-24 03:42:37 PM GET /api/v1/category?limit=10&page=1 500 - 54.759 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-24 03:42:38 PM GET /api/v1/category?limit=10&page=0 500 - 44.742 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-24 03:43:05 PM GET /api/v1/category?limit=10&page=0 500 - 38.836 ms - message: Unexpected token u in JSON at position 0
