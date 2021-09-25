@@ -5085,3 +5085,29 @@ request: 2021-09-21 11:24:04 PM GET /api/v1/user/info 304 - 78.938 ms
 request: 2021-09-21 11:24:04 PM GET /api/v1/category?limit=10&sortBy=&page=0 304 - 89.119 ms
 request: 2021-09-21 11:24:33 PM GET /api/v1/category?limit=10&page=0&sortBy= 304 - 89.676 ms
 request: 2021-09-21 11:36:08 PM GET /api/v1/category?limit=10&sortBy=&page=0 304 - 81.416 ms
+info: 2021-09-23 02:35:42 PM MongoDB successfully connected
+info: 2021-09-23 02:35:42 PM Listening on port 5000 (development)
+request: 2021-09-23 02:36:21 PM POST /api/v1/auth/login 200 - 122.137 ms
+request: 2021-09-23 02:36:21 PM GET /api/v1/user/info 304 - 79.355 ms
+request: 2021-09-23 02:45:24 PM GET /api/v1/category?limit=10&sortBy=name:desc&page=0 304 - 119.409 ms
+request: 2021-09-23 02:45:26 PM GET /api/v1/category?limit=10&sortBy=name:desc&page=0 304 - 77.599 ms
+request: 2021-09-23 02:47:38 PM POST /api/v1/auth/login 200 - 104.778 ms
+request: 2021-09-23 02:47:39 PM GET /api/v1/user/info 200 - 75.249 ms
+request: 2021-09-23 02:47:44 PM GET /api/v1/category?limit=10&sortBy=name:desc&page=0 200 - 88.122 ms
+request: 2021-09-23 02:47:49 PM GET /api/v1/category?limit=10&sortBy=name:desc&page=0 304 - 77.800 ms
+request: 2021-09-23 03:04:11 PM GET /api/v1/category?limit=10&page=1&sortBy= 304 - 76.853 ms
+request: 2021-09-23 03:04:16 PM GET /api/v1/category?limit=10&page=0&sortBy= 304 - 76.912 ms
+request: 2021-09-23 03:18:46 PM GET /api/v1/category?limit=30&page=0&sortBy= 200 - 78.463 ms
+request: 2021-09-23 03:18:52 PM GET /api/v1/category?limit=10&page=0&sortBy= 304 - 77.042 ms
+request: 2021-09-23 03:18:58 PM GET /api/v1/category?limit=10&page=1&sortBy= 304 - 75.429 ms
+request: 2021-09-23 03:19:04 PM GET /api/v1/category?limit=10&page=0&sortBy= 304 - 76.090 ms
+request: 2021-09-23 03:19:39 PM GET /api/v1/category?limit=10&page=0&sortBy= 304 - 78.343 ms
+request: 2021-09-23 03:20:14 PM GET /api/v1/category?limit=10&sortBy=name:desc&page=0 304 - 76.133 ms
+request: 2021-09-23 03:20:20 PM GET /api/v1/user/info 304 - 75.324 ms
+request: 2021-09-23 03:20:23 PM GET /api/v1/category?limit=10&sortBy=name:desc&page=0 304 - 78.517 ms
+request: 2021-09-23 03:20:35 PM GET /api/v1/category?limit=10&page=0&sortBy= 304 - 78.974 ms
+request: 2021-09-23 03:20:39 PM GET /api/v1/category?limit=10&page=1&sortBy= 304 - 75.461 ms
+request: 2021-09-23 03:20:56 PM GET /api/v1/category?limit=10&page=1&sortBy= 304 - 78.531 ms
+request: 2021-09-23 03:21:12 PM GET /api/v1/category?limit=10&page=1&sortBy= 304 - 76.911 ms
+request: 2021-09-23 03:21:21 PM GET /api/v1/category?limit=10&page=1&sortBy= 304 - 75.964 ms
+request: 2021-09-23 03:21:26 PM GET /api/v1/category?limit=10&page=0&sortBy= 304 - 76.269 ms
