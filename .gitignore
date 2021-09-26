@@ -1,5 +1,6 @@
 # Logs
 [Ll]ogs/*
+*/[Ll]ogs/*
 [Ll]ogs/
 logs/
 *.log
