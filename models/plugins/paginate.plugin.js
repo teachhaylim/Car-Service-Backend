@@ -1,3 +1,5 @@
+import { pick } from "../../utils/generalFuncs";
+
 const paginate = (schema) => {
     /**
      * @typedef {Object} QueryResult
@@ -18,35 +20,24 @@ const paginate = (schema) => {
      * @returns {Promise<QueryResult>}
      */
     schema.statics.paginate = async function (filter, options) {
-        let sort = '';
-
-        //FIXME make dynamic instead
-        // filter.isActive = true;
-
-        if (options.sortBy && Object.keys(JSON.parse(options.sortBy)).length == 0) {
-            sort = { createdAt: -1};
-        } else {
-            sort = JSON.parse(options.sortBy);
-        }
-
+        const sortByObject = JSON.parse(options.sortBy);
         const limit = options.limit && parseInt(options.limit, 10) > 0 ? parseInt(options.limit, 10) : 10;
         const page = options.page && parseInt(options.page, 10) > 0 ? parseInt(options.page, 10) : 0;
         const skip = page * limit;
         const countPromise = this.countDocuments(filter).exec();
-        let docsPromise = this.find(filter).sort(sort).skip(skip).limit(limit);
+        let sortBy = {};
+        let docsPromise = null;
 
-        if (options.populate) {
-            options.populate.split(',').forEach((populateOption) => {
-                docsPromise = docsPromise.populate(
-                    populateOption
-                        .split('.')
-                        .reverse()
-                        .reduce((a, b) => ({ path: b, populate: a }))
-                );
-            });
+        //FIXME make dynamic instead
+
+        if (sortByObject) {
+            sortBy = pick(sortByObject, [...Object.keys(sortByObject).filter(p => sortByObject[p])])
+        }
+        else {
+            sortBy = { createdAt: -1 };
         }
 
-        docsPromise = docsPromise.exec();
+        docsPromise = this.find(filter).sort(sortBy).skip(skip).limit(limit).exec();
 
         return Promise.all([countPromise, docsPromise]).then((values) => {
             const [totalResults, results] = values;

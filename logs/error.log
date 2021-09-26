@@ -823,3 +823,47 @@ error: 2021-09-24 03:38:42 PM GET /api/v1/category?limit=10&page=0 500 - 95.076 
 error: 2021-09-24 03:42:37 PM GET /api/v1/category?limit=10&page=1 500 - 54.759 ms - message: Unexpected token u in JSON at position 0
 error: 2021-09-24 03:42:38 PM GET /api/v1/category?limit=10&page=0 500 - 44.742 ms - message: Unexpected token u in JSON at position 0
 error: 2021-09-24 03:43:05 PM GET /api/v1/category?limit=10&page=0 500 - 38.836 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-26 03:13:54 PM POST /api/v1/category 400 - 91.069 ms - message: Name already existed
+error: 2021-09-26 03:14:21 PM POST /api/v1/category 400 - 93.191 ms - message: Name already existed
+error: 2021-09-26 03:15:16 PM POST /api/v1/category 400 - 88.501 ms - message: Name already existed
+error: 2021-09-26 03:15:37 PM POST /api/v1/category 400 - 89.331 ms - message: Name already existed
+error: 2021-09-26 03:17:05 PM POST /api/v1/category 400 - 87.885 ms - message: Name already existed
+error: 2021-09-26 03:18:14 PM POST /api/v1/category 400 - 92.988 ms - message: Name already existed
+error: 2021-09-26 03:18:57 PM POST /api/v1/category 400 - 91.024 ms - message: Name already existed
+error: 2021-09-26 03:19:09 PM POST /api/v1/category 400 - 90.139 ms - message: Name already existed
+error: 2021-09-26 04:36:10 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 75.751 ms - message: option is not defined
+error: 2021-09-26 04:36:25 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 72.439 ms - message: Unexpected token o in JSON at position 1
+error: 2021-09-26 04:37:02 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 72.029 ms - message: Unexpected token o in JSON at position 1
+error: 2021-09-26 04:39:39 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 58.457 ms - message: sort is not defined
+error: 2021-09-26 06:31:12 PM GET /api/v1/category?name=cate 500 - 48.740 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-26 06:31:18 PM GET /api/v1/category?name=cate 500 - 45.006 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-26 06:32:39 PM GET /api/v1/category?name=cate&sortBy&limit=10&page=0 500 - 38.423 ms - message: Unexpected end of JSON input
+error: 2021-09-26 06:32:59 PM GET /api/v1/category?name=cate&sortBy=name&limit=10&page=0 500 - 38.849 ms - message: Unexpected token a in JSON at position 1
+error: 2021-09-26 06:33:43 PM GET /api/v1/category?name=cate&sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 48.486 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:33:47 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 37.213 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:33:50 PM GET /api/v1/category?limit=10&page=0 500 - 45.294 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-26 06:40:28 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 400 - 39.848 ms - message: "name" is not allowed to be empty
+error: 2021-09-26 06:43:53 PM GET /api/v1/category?name=cate&limit=10&page=0 500 - 53.725 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-26 06:44:07 PM GET /api/v1/category?name=cate&limit=10&page=0 500 - 68.128 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-26 06:45:16 PM GET /api/v1/category?name=cate&limit=10&page=0 500 - 60.041 ms - message: Unexpected token o in JSON at position 1
+error: 2021-09-26 06:47:29 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 48.965 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:47:45 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 65.988 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:50:18 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 59.044 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:50:28 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 64.881 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:50:39 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 65.752 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:51:49 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 49.991 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:52:07 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 58.735 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:52:25 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 57.634 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:52:34 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 45.856 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:52:39 PM GET /api/v1/category?sortBy=name&limit=10&page=0 500 - 40.391 ms - message: Unexpected token a in JSON at position 1
+error: 2021-09-26 06:52:48 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 42.427 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:53:10 PM GET /api/v1/category?sortBy=%22%7Bname:%200%7D%22&limit=10&page=0 500 - 44.975 ms - message: Invalid sort value: { 0: { }
+error: 2021-09-26 06:53:22 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 39.491 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:55:16 PM GET /api/v1/category?sortBy=%7Bname:%200%7D&limit=10&page=0 500 - 67.684 ms - message: Unexpected token n in JSON at position 1
+error: 2021-09-26 06:56:16 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%22name%22:1,%22createAt%22:0,%22updateAt%22:0%7D 500 - 66.939 ms - message: Unexpected token o in JSON at position 1
+error: 2021-09-26 06:56:36 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 64.134 ms - message: Unexpected token o in JSON at position 1
+error: 2021-09-26 06:57:00 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 85.479 ms - message: Invalid sort value: { 0: { }
+error: 2021-09-26 07:08:38 PM GET /api/v1/category?limit=10&page=0 500 - 66.651 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-26 07:08:43 PM GET /api/v1/category?name=cate&limit=10&page=0 500 - 50.451 ms - message: Unexpected token u in JSON at position 0
+error: 2021-09-26 07:08:46 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 99.719 ms - message: unknown top level operator: $regex
+error: 2021-09-26 07:09:10 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 92.129 ms - message: unknown top level operator: $options

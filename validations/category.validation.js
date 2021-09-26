@@ -5,16 +5,16 @@ const createCategory = {
     body: Joi.object().keys({
         name: Joi.string().required(),
         remark: Joi.string().allow(""),
-        isActive: Joi.boolean().valid(true, false),
-        createdAt: Joi.date(),
-        updatedAt: Joi.date(),
-        id: Joi.string().custom(customValidation.objectId),
+        // isActive: Joi.boolean().valid(true, false),
+        // createdAt: Joi.date(),
+        // updatedAt: Joi.date(),
+        // id: Joi.string().custom(customValidation.objectId),
     })
 };
 
 const queryCategories = {
     query: Joi.object().keys({
-        name: Joi.string(),
+        name: Joi.string().allow(""),
         sortBy: Joi.any(),
         limit: Joi.number().integer(),
         page: Joi.number().integer(),

@@ -24,7 +24,8 @@ const CreateCategory = async (categoryBody) => {
  * @param {number} [options.page] - Current page (default = 1)
  * @returns {Promise<QueryResult>}
  */
-const QueryCategories = async (filter, options) => {
+const QueryCategories = async (query, options) => {
+    const filter = { name: { $regex: new RegExp(query.name), $options: "i" }, isActive: query.isActive || true };
     const categories = await Category.paginate(filter, options);
 
     return categories;
