@@ -28,8 +28,6 @@ const paginate = (schema) => {
         let sortBy = {};
         let docsPromise = null;
 
-        //FIXME make dynamic instead
-
         if (sortByObject) {
             sortBy = pick(sortByObject, [...Object.keys(sortByObject).filter(p => sortByObject[p])])
         }
