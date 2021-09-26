@@ -1,6 +1,6 @@
 # Logs
-*/[Ll]ogs/*
 *.log
+logs/*
 logs/debug.log
 logs/error.log
 logs/request.log
