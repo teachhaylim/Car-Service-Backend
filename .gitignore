@@ -1,4 +1,6 @@
 # Logs
+[Ll]ogs/*
+[Ll]ogs/
 logs/
 *.log
 npm-debug.log*
