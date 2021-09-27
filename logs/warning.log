@@ -869,3 +869,5 @@ error: 2021-09-26 07:08:38 PM GET /api/v1/category?limit=10&page=0 500 - 66.651 
 error: 2021-09-26 07:08:43 PM GET /api/v1/category?name=cate&limit=10&page=0 500 - 50.451 ms - message: Unexpected token u in JSON at position 0
 error: 2021-09-26 07:08:46 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 99.719 ms - message: unknown top level operator: $regex
 error: 2021-09-26 07:09:10 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D 500 - 92.129 ms - message: unknown top level operator: $options
+error: 2021-09-27 07:45:11 PM POST /upload 404 - 4.267 ms - message: route not found
+error: 2021-09-27 11:10:08 PM POST /api/v1/category 400 - 86.426 ms - message: Name already existed
