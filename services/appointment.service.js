@@ -30,7 +30,11 @@ const QueryAppointments = async (filter, options) => {
  * @returns {Promise<Appointment>}
  */
 const GetAppointmentById = async (appointmentId) => {
-    return await Appointment.findById(appointmentId);
+    const appointment = await Appointment.findById(appointmentId);
+
+    if (!appointment) throw new ApiError(httpStatus.NOT_FOUND, "Appointment not found");
+
+    return appointment;
 };
 
 /**
@@ -41,10 +45,6 @@ const GetAppointmentById = async (appointmentId) => {
  */
 const UpdateAppointment = async (appointmentId, appointmentBody) => {
     const appointment = await GetAppointmentById(appointmentId);
-
-    if (!appointment) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Appointment not found");
-    }
 
     Object.assign(appointment, JSON.parse(JSON.stringify(appointmentBody)));
     await appointment.save();
@@ -59,10 +59,6 @@ const UpdateAppointment = async (appointmentId, appointmentBody) => {
  */
 const DeleteAppointment = async (appointmentId) => {
     const appointment = await GetAppointmentById(appointmentId);
-
-    if (!appointment) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Appointment not found");
-    }
 
     appointment.isActive = false;
     await appointment.save();

@@ -4592,3 +4592,155 @@ request: 2021-09-29 02:33:45 PM GET /api/v1/user/info 304 - 122.941 ms
 request: 2021-09-29 02:34:08 PM POST /auth/login 200 - 123.634 ms
 request: 2021-09-29 02:34:08 PM GET /api/v1/user/info 304 - 113.356 ms
 request: 2021-09-29 02:34:39 PM GET /api/v1/user/info 304 - 120.587 ms
+request: 2021-09-29 08:09:44 PM GET /api/v1/user/info 200 - 119.556 ms
+request: 2021-09-29 08:09:44 PM GET /file/undefined 200 - 49.321 ms
+request: 2021-09-29 08:09:45 PM GET /api/v1/user/info 304 - 96.095 ms
+request: 2021-09-29 08:09:45 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.264 ms
+request: 2021-09-29 08:09:47 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 47.181 ms
+request: 2021-09-29 08:09:49 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.920 ms
+request: 2021-09-29 08:13:43 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 97.881 ms
+request: 2021-09-29 08:13:44 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 104.879 ms
+request: 2021-09-29 08:13:55 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 107.661 ms
+request: 2021-09-29 08:13:58 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 110.299 ms
+request: 2021-09-29 08:14:17 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 99.586 ms
+request: 2021-09-29 08:14:19 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 233.666 ms
+request: 2021-09-29 08:14:41 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 103.569 ms
+request: 2021-09-29 08:14:46 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 95.236 ms
+request: 2021-09-29 08:16:13 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 94.424 ms
+request: 2021-09-29 08:19:02 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 115.149 ms
+request: 2021-09-29 08:24:21 PM GET /file/undefined 200 - 64.119 ms
+request: 2021-09-29 08:24:21 PM GET /api/v1/user/info 304 - 121.861 ms
+request: 2021-09-29 08:24:21 PM GET /api/v1/user/info 304 - 102.046 ms
+request: 2021-09-29 08:24:22 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 47.688 ms
+request: 2021-09-29 08:24:39 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 47.195 ms
+request: 2021-09-29 08:24:51 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.045 ms
+error: 2021-09-29 08:29:34 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 500 - 54.572 ms - message: Maximum call stack size exceeded
+request: 2021-09-29 08:30:26 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 47.545 ms
+request: 2021-09-29 08:30:44 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 39.852 ms
+request: 2021-09-29 08:30:48 PM GET /file/08355a38e1897627e62076628d036bc4.jpg1 200 - 40.041 ms
+error: 2021-09-29 08:46:45 PM GET /file/undefined 404 - 43.176 ms - message: File no exist
+request: 2021-09-29 08:46:45 PM GET /api/v1/user/info 304 - 111.682 ms
+request: 2021-09-29 08:46:45 PM GET /api/v1/user/info 304 - 93.857 ms
+request: 2021-09-29 08:46:47 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 40.540 ms
+error: 2021-09-29 08:47:34 PM GET /file/undefined 404 - 38.347 ms - message: File no exist
+request: 2021-09-29 08:47:34 PM GET /api/v1/user/info 304 - 93.486 ms
+request: 2021-09-29 08:47:34 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 36.300 ms
+error: 2021-09-29 08:52:09 PM POST /file/upload 401 - 0.476 ms - message: Please authenticate
+error: 2021-09-29 08:53:03 PM POST /file/upload 401 - 0.843 ms - message: token expired
+error: 2021-09-29 08:53:17 PM POST /file/upload 401 - 48.296 ms - message: token expired
+error: 2021-09-29 08:53:25 PM POST /file/upload 401 - 57.213 ms - message: token expired
+error: 2021-09-29 08:53:39 PM POST /file/upload 401 - 49.465 ms - message: token expired
+error: 2021-09-29 08:54:56 PM GET /auth/login 404 - 2.439 ms - message: /auth/login not found
+error: 2021-09-29 08:55:31 PM POST /auth/login 401 - 84.899 ms - message: Incorrect email or password
+request: 2021-09-29 08:55:57 PM POST /auth/login 200 - 130.271 ms
+error: 2021-09-29 08:56:46 PM POST /file/upload 401 - 0.755 ms - message: Please authenticate
+request: 2021-09-29 08:56:48 PM POST /file/upload 201 - 374.572 ms
+request: 2021-09-29 08:57:16 PM GET /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 200 - 49.509 ms
+error: 2021-09-29 08:57:26 PM GET /file/asdas 404 - 45.598 ms - message: File no exist
+error: 2021-09-29 09:02:46 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.j 404 - 104.022 ms - message: File no exist
+error: 2021-09-29 09:03:13 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 412.998 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:04:02 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 213.857 ms - message: Cannot read property 'unlink' of undefined
+request: 2021-09-29 09:04:22 PM GET /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 200 - 52.009 ms
+error: 2021-09-29 09:04:40 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 138.192 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:05:03 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 62.237 ms - message: Cannot read property 'files' of undefined
+error: 2021-09-29 09:05:42 PM GET /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg 401 - 1.448 ms - message: Please authenticate
+error: 2021-09-29 09:05:54 PM GET /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 63.485 ms - message: _upload.default.GetFileByFilename is not a function
+request: 2021-09-29 09:06:33 PM GET /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg 200 - 105.437 ms
+error: 2021-09-29 09:06:50 PM DELETE /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg 404 - 1.233 ms - message: /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg not found
+error: 2021-09-29 09:06:57 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 120.475 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:07:33 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 3267.641 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:07:43 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 380.643 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:08:06 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 705.034 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:09:36 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 374.184 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:09:56 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 116.703 ms - message: Cannot read property 'unlink' of undefined
+request: 2021-09-29 09:10:12 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 200 - 161.794 ms
+error: 2021-09-29 09:12:54 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 375.238 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:13:12 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 141.588 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:13:49 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 135.777 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:14:01 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 641.130 ms - message: Cannot read property 'unlink' of undefined
+request: 2021-09-29 09:14:17 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 200 - 116.346 ms
+request: 2021-09-29 09:14:59 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 200 - 115.010 ms
+request: 2021-09-29 09:15:28 PM POST /file/upload 201 - 356.085 ms
+request: 2021-09-29 09:15:36 PM GET /file/7b8dc64ff9383e47c69c60b84d4182d3.jpg 200 - 51.481 ms
+request: 2021-09-29 09:15:58 PM DELETE /file/7b8dc64ff9383e47c69c60b84d4182d3.jpg 200 - 124.984 ms
+error: 2021-09-29 09:15:58 PM MongoServerError: BSON field 'delete.deletes.q' is the wrong type 'string', expected type 'object'
+    at MessageStream.messageHandler (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:740:20)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:470:12)
+    at processIncomingData (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:167:12)
+    at MessageStream._write (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:64:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at TLSSocket.ondata (internal/streams/readable.js:726:22)
+    at TLSSocket.emit (events.js:400:28)
+    at TLSSocket.emit (domain.js:470:12)
+request: 2021-09-29 09:16:21 PM DELETE /file/7b8dc64ff9383e47c69c60b84d4182d3.jpg 200 - 108.750 ms
+request: 2021-09-29 09:18:24 PM POST /file/upload 201 - 595.968 ms
+request: 2021-09-29 09:18:34 PM GET /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 47.887 ms
+request: 2021-09-29 09:18:38 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 90.975 ms
+error: 2021-09-29 09:19:19 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 500 - 121.054 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:19:35 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 500 - 107.372 ms - message: _upload.gfs.files.removeOne is not a function
+request: 2021-09-29 09:19:47 PM GET /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 45.295 ms
+request: 2021-09-29 09:19:50 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 336.002 ms
+request: 2021-09-29 09:20:14 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 104.969 ms
+request: 2021-09-29 09:20:25 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 101.395 ms
+request: 2021-09-29 09:20:38 PM GET /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 40.731 ms
+request: 2021-09-29 09:20:40 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 95.684 ms
+request: 2021-09-29 09:21:13 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 200 - 124.444 ms
+request: 2021-09-29 09:21:28 PM POST /file/upload 201 - 369.202 ms
+request: 2021-09-29 09:21:33 PM GET /file/6159f1a0b3099663ec85f88a049c9c4d.jpg 200 - 47.277 ms
+request: 2021-09-29 09:22:24 PM DELETE /file/6159f1a0b3099663ec85f88a049c9c4d.jpg 200 - 182.386 ms
+request: 2021-09-29 09:22:54 PM POST /file/upload 201 - 415.163 ms
+request: 2021-09-29 09:22:59 PM GET /file/3691daba18dc424559a158537064a2f6.jpg 200 - 52.248 ms
+request: 2021-09-29 09:23:02 PM DELETE /file/3691daba18dc424559a158537064a2f6.jpg 200 - 154.171 ms
+error: 2021-09-29 09:24:19 PM DELETE /file/3691daba18dc424559a158537064a2f6.jpg 500 - 135.312 ms - message: _upload.gfs.files.delete is not a function
+error: 2021-09-29 09:24:28 PM DELETE /file/3691daba18dc424559a158537064a2f6.jpg 500 - 143.882 ms - message: _upload.gfs.delete is not a function
+request: 2021-09-29 09:25:20 PM DELETE /file/3691daba18dc424559a158537064a2f6.jpg 200 - 145.043 ms
+request: 2021-09-29 09:25:38 PM POST /file/upload 201 - 371.819 ms
+request: 2021-09-29 09:25:44 PM GET /file/9025b2badc0f745e47e639d129948151.jpg 200 - 36.098 ms
+request: 2021-09-29 09:25:46 PM DELETE /file/9025b2badc0f745e47e639d129948151.jpg 200 - 133.326 ms
+request: 2021-09-29 09:27:33 PM POST /file/upload 201 - 202.424 ms
+request: 2021-09-29 09:27:40 PM GET /file/b940287a9a92f23bff304048f3178995.jpg 200 - 54.014 ms
+error: 2021-09-29 09:27:44 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 122.820 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:28:06 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 73.222 ms - message: Cannot read property 'files' of undefined
+request: 2021-09-29 09:29:12 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 200 - 114.906 ms
+error: 2021-09-29 09:29:12 PM Error: File delete error
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/upload.service.js:28:19
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:649:5
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:106:45
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:649:5
+    at completeEndSession (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:280:9)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:292:7
+    at Object.maybePromise (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:634:3)
+    at ClientSession.endSession (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:262:12)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:106:26
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\delete.ts:141:7
+request: 2021-09-29 09:30:17 PM GET /file/b940287a9a92f23bff304048f3178995.jpg 200 - 41.427 ms
+error: 2021-09-29 09:30:20 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 130.154 ms - message: Cannot read property 'unlink' of undefined
+request: 2021-09-29 09:30:45 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 200 - 102.915 ms
+error: 2021-09-29 09:30:45 PM Error: File delete error
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/upload.service.js:28:19
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:649:5
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:106:45
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:649:5
+    at completeEndSession (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:280:9)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:292:7
+    at Object.maybePromise (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:634:3)
+    at ClientSession.endSession (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:262:12)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:106:26
+    at callbackWithRetry (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:156:14)
+request: 2021-09-29 09:31:04 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 200 - 107.091 ms
+request: 2021-09-29 09:31:38 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 200 - 146.488 ms
+error: 2021-09-29 09:31:52 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 1379.476 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:32:03 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 103.368 ms - message: Cannot read property 'remove' of undefined
+request: 2021-09-29 09:32:17 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 200 - 162.582 ms
+error: 2021-09-29 09:33:18 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 170.118 ms - message: _upload.gfs.files.delete is not a function
+request: 2021-09-29 09:33:36 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 200 - 151.515 ms
+request: 2021-09-29 09:33:57 PM POST /file/upload 201 - 206.837 ms
+request: 2021-09-29 09:34:02 PM GET /file/88019f1f5f9164924111e8c017cb3bb6.jpg 200 - 42.515 ms
+request: 2021-09-29 09:34:05 PM DELETE /file/88019f1f5f9164924111e8c017cb3bb6.jpg 200 - 150.308 ms
+request: 2021-09-29 09:34:42 PM POST /file/upload 201 - 253.771 ms
+request: 2021-09-29 09:34:47 PM GET /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 200 - 41.473 ms
+error: 2021-09-29 09:34:49 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 93.745 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:35:12 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 143.228 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:35:30 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 529.826 ms - message: Cannot read property '_id' of undefined

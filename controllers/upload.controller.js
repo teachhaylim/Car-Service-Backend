@@ -15,11 +15,15 @@ const GetFile = catchAsync(async (req, res) => {
 });
 
 const GetFileObject = catchAsync(async (req, res) => {
+    const file = await uploadService.GetFileByFilename(req.params.filename);
 
+    res.status(httpStatus.OK).send({ meta: httpStatus.OK, file: file });
 });
 
 const DeleteFile = catchAsync(async (req, res) => {
+    const file = await uploadService.DeleteFileService(req.params.filename);
 
+    res.status(httpStatus.OK).send({ meta: httpStatus.OK, file: file });
 });
 
 export default {

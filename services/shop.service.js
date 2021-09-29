@@ -34,7 +34,11 @@ const QueryShops = async (filters, options) => {
  * @returns {Promise<Shop>}
  */
 const GetShopById = async (shopId) => {
-    return Shop.findById(shopId);
+    const shop = await Shop.findById(shopId);
+
+    if (!shop) throw new ApiError(httpStatus.NOT_FOUND, "Shop not found");
+
+    return shop;
 };
 
 /**
@@ -45,10 +49,6 @@ const GetShopById = async (shopId) => {
  */
 const UpdateShop = async (shopId, shopBody) => {
     let shop = await GetShopById(shopId);
-
-    if (!shop) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Shop not found");
-    }
 
     Object.assign(shop, JSON.parse(JSON.stringify(shopBody)));
 
@@ -63,10 +63,6 @@ const UpdateShop = async (shopId, shopBody) => {
  */
 const DeleteShop = async (shopId) => {
     const shop = await GetShopById(shopId);
-
-    if (!shop) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Shop not found");
-    }
 
     shop.isActive = false;
     await shop.save();

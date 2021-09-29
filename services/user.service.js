@@ -20,7 +20,11 @@ const CreateUser = async (userBody) => {
  * @returns {Promise<User>}
  */
 const GetUserById = async (id) => {
-    return User.findById(id);
+    const user = await User.findById(id);
+
+    if (!user) throw new ApiError(httpStatus.NOT_FOUND, "User not found");
+
+    return user;
 };
 
 /**
@@ -56,10 +60,6 @@ const QueryUsers = async (filter, options) => {
 const UpdateUser = async (userId, userBody) => {
     let user = await GetUserById(userId);
 
-    if (!user) {
-        throw new ApiError(httpStatus.NOT_FOUND, "User not found");
-    }
-
     Object.assign(user, userBody);
     await user.save();
 
@@ -74,12 +74,9 @@ const UpdateUser = async (userId, userBody) => {
 const DeleteUserById = async (userId) => {
     const user = await GetUserById(userId);
 
-    if (!user) {
-        throw new ApiError(httpStatus.NOT_FOUND, "User not found");
-    }
-
     user.isActive = false;
     await user.save();
+
     return user;
 }
 

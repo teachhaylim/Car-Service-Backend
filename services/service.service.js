@@ -30,7 +30,11 @@ const QueryServices = async (filter, options) => {
  * @returns {Promise<Service>}
  */
 const GetServiceById = async (serviceId) => {
-    return await Service.findById(serviceId);
+    const service = await Service.findById(serviceId);
+
+    if (!service) throw new ApiError(httpStatus.NOT_FOUND, "Service not found");
+
+    return service;
 };
 
 /**
@@ -41,10 +45,6 @@ const GetServiceById = async (serviceId) => {
  */
 const UpdateService = async (serviceId, serviceBody) => {
     const service = await GetServiceById(serviceId);
-
-    if (!service) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Service not found");
-    }
 
     Object.assign(service, JSON.parse(JSON.stringify(serviceBody)));
     await service.save();
@@ -59,10 +59,6 @@ const UpdateService = async (serviceId, serviceBody) => {
  */
 const DeleteService = async (serviceId) => {
     const service = await GetServiceById(serviceId);
-
-    if (!service) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Service not found");
-    }
 
     service.isActive = false;
     await service.save();

@@ -37,7 +37,11 @@ const QueryCategories = async (query, options) => {
  * @returns {Promise<Category>}
  */
 const GetCategoryById = async (categoryId) => {
-    return Category.findById(categoryId);
+    const category = await Category.findById(categoryId);
+
+    if (!category) throw new ApiError(httpStatus.NOT_FOUND, "Category not found");
+
+    return category;
 };
 
 /**
@@ -48,10 +52,6 @@ const GetCategoryById = async (categoryId) => {
  */
 const UpdateCategory = async (categoryId, categoryBody) => {
     let category = await GetCategoryById(categoryId);
-
-    if (!category) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Category not found");
-    }
 
     Object.assign(category, categoryBody);
     await category.save();
@@ -67,12 +67,9 @@ const UpdateCategory = async (categoryId, categoryBody) => {
 const DeleteCategoryById = async (categoryId) => {
     const category = await GetCategoryById(categoryId);
 
-    if (!category) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Category not found");
-    }
-
     category.isActive = false;
     await category.save();
+
     return category;
 };
 

@@ -30,7 +30,11 @@ const QueryRates = async (filter, options) => {
  * @returns {Promise<Rate>}
  */
 const GetRateById = async (rateId) => {
-    return await Rate.findById(rateId);
+    const rate = await Rate.findById(rateId);
+
+    if (!rate) throw new ApiError(httpStatus.NOT_FOUND, "Rate not found");
+
+    return rate;
 };
 
 /**
@@ -41,10 +45,6 @@ const GetRateById = async (rateId) => {
  */
 const UpdateRate = async (rateId, rateBody) => {
     const rate = await GetRateById(rateId);
-
-    if (!rate) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Rate not found");
-    }
 
     Object.assign(rate, JSON.parse(JSON.stringify(rateBody)));
     await rate.save();
@@ -59,10 +59,6 @@ const UpdateRate = async (rateId, rateBody) => {
  */
 const DeleteRate = async (rateId) => {
     const rate = await GetRateById(rateId);
-
-    if (!rate) {
-        throw new ApiError(httpStatus.NOT_FOUND, "Rate not found");
-    }
 
     await rate.remove();
 

@@ -8,17 +8,23 @@ import httpStatus from "http-status";
 import ApiError from "../utils/ApiError";
 import Grid from "gridfs-stream";
 import mongoose from "mongoose";
+import { logger } from ".";
 
-const collectionName = "uploads";
 const connection = mongoose.createConnection(config.mongoose.url, {});
+export const collectionName = "uploads";
 export let gfs;
 export let gridFSBucket;
 
 connection.on("open", () => {
+    logger.info("Grid connected to db");
     gfs = Grid(connection.db, mongoose.mongo);
     gfs.collection(collectionName);
     gridFSBucket = new mongoose.mongo.GridFSBucket(connection.db, { bucketName: collectionName });
 });
+
+connection.on("close", () => {
+    logger.info("Grid disconnected from db");
+})
 
 const storage = new GridFsStorage({
     url: config.mongoose.url,
@@ -28,7 +34,7 @@ const storage = new GridFsStorage({
             if (checkFileType(file)) throw new ApiError(httpStatus.BAD_REQUEST, "Wrong file type(s)");
 
             crypto.randomBytes(16, (err, buf) => {
-                if (err) throw new ApiError(httpStatus.BAD_REQUEST, err.message);
+                if (err) throw new ApiError(httpStatus.INTERNAL_SERVER_ERROR, err.message);
 
                 const filename = buf.toString('hex') + path.extname(file.originalname);
                 const fileInfo = {

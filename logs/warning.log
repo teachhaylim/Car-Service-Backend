@@ -1277,3 +1277,79 @@ error: 2021-09-29 11:53:19 AM GET /adas 404 - 3.524 ms - message: route not foun
 error: 2021-09-29 11:53:21 AM GET /worker.js 404 - 0.469 ms - message: route not found
 error: 2021-09-29 11:54:59 AM GET /adas 404 - 6.676 ms - message: /adas not found
 error: 2021-09-29 11:55:01 AM GET /worker.js 404 - 0.567 ms - message: /worker.js not found
+error: 2021-09-29 08:29:34 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 500 - 54.572 ms - message: Maximum call stack size exceeded
+error: 2021-09-29 08:46:45 PM GET /file/undefined 404 - 43.176 ms - message: File no exist
+error: 2021-09-29 08:47:34 PM GET /file/undefined 404 - 38.347 ms - message: File no exist
+error: 2021-09-29 08:52:09 PM POST /file/upload 401 - 0.476 ms - message: Please authenticate
+error: 2021-09-29 08:53:03 PM POST /file/upload 401 - 0.843 ms - message: token expired
+error: 2021-09-29 08:53:17 PM POST /file/upload 401 - 48.296 ms - message: token expired
+error: 2021-09-29 08:53:25 PM POST /file/upload 401 - 57.213 ms - message: token expired
+error: 2021-09-29 08:53:39 PM POST /file/upload 401 - 49.465 ms - message: token expired
+error: 2021-09-29 08:54:56 PM GET /auth/login 404 - 2.439 ms - message: /auth/login not found
+error: 2021-09-29 08:55:31 PM POST /auth/login 401 - 84.899 ms - message: Incorrect email or password
+error: 2021-09-29 08:56:46 PM POST /file/upload 401 - 0.755 ms - message: Please authenticate
+error: 2021-09-29 08:57:26 PM GET /file/asdas 404 - 45.598 ms - message: File no exist
+error: 2021-09-29 09:02:46 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.j 404 - 104.022 ms - message: File no exist
+error: 2021-09-29 09:03:13 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 412.998 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:04:02 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 213.857 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:04:40 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 138.192 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:05:03 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 62.237 ms - message: Cannot read property 'files' of undefined
+error: 2021-09-29 09:05:42 PM GET /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg 401 - 1.448 ms - message: Please authenticate
+error: 2021-09-29 09:05:54 PM GET /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 63.485 ms - message: _upload.default.GetFileByFilename is not a function
+error: 2021-09-29 09:06:50 PM DELETE /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg 404 - 1.233 ms - message: /file/object/9b9108e556d53b35c8bebdaea53ae19a.jpg not found
+error: 2021-09-29 09:06:57 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 120.475 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:07:33 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 3267.641 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:07:43 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 380.643 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:08:06 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 705.034 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:09:36 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 374.184 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:09:56 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 116.703 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:12:54 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 375.238 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:13:12 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 141.588 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:13:49 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 135.777 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:14:01 PM DELETE /file/9b9108e556d53b35c8bebdaea53ae19a.jpg 500 - 641.130 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:15:58 PM MongoServerError: BSON field 'delete.deletes.q' is the wrong type 'string', expected type 'object'
+    at MessageStream.messageHandler (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:740:20)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:470:12)
+    at processIncomingData (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:167:12)
+    at MessageStream._write (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:64:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at TLSSocket.ondata (internal/streams/readable.js:726:22)
+    at TLSSocket.emit (events.js:400:28)
+    at TLSSocket.emit (domain.js:470:12)
+error: 2021-09-29 09:19:19 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 500 - 121.054 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:19:35 PM DELETE /file/6e90bd9b83857467374360bea4c7463a.jpg 500 - 107.372 ms - message: _upload.gfs.files.removeOne is not a function
+error: 2021-09-29 09:24:19 PM DELETE /file/3691daba18dc424559a158537064a2f6.jpg 500 - 135.312 ms - message: _upload.gfs.files.delete is not a function
+error: 2021-09-29 09:24:28 PM DELETE /file/3691daba18dc424559a158537064a2f6.jpg 500 - 143.882 ms - message: _upload.gfs.delete is not a function
+error: 2021-09-29 09:27:44 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 122.820 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:28:06 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 73.222 ms - message: Cannot read property 'files' of undefined
+error: 2021-09-29 09:29:12 PM Error: File delete error
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/upload.service.js:28:19
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:649:5
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:106:45
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:649:5
+    at completeEndSession (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:280:9)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:292:7
+    at Object.maybePromise (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:634:3)
+    at ClientSession.endSession (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:262:12)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:106:26
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\delete.ts:141:7
+error: 2021-09-29 09:30:20 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 130.154 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:30:45 PM Error: File delete error
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\services\/upload.service.js:28:19
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:649:5
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:106:45
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:649:5
+    at completeEndSession (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:280:9)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:292:7
+    at Object.maybePromise (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\utils.ts:634:3)
+    at ClientSession.endSession (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\sessions.ts:262:12)
+    at C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:106:26
+    at callbackWithRetry (C:\Users\teach\Desktop\Projects\Personal\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\src\operations\execute_operation.ts:156:14)
+error: 2021-09-29 09:31:52 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 1379.476 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:32:03 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 103.368 ms - message: Cannot read property 'remove' of undefined
+error: 2021-09-29 09:33:18 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 500 - 170.118 ms - message: _upload.gfs.files.delete is not a function
+error: 2021-09-29 09:34:49 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 93.745 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:35:12 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 143.228 ms - message: Cannot read property 'unlink' of undefined
+error: 2021-09-29 09:35:30 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 529.826 ms - message: Cannot read property '_id' of undefined
