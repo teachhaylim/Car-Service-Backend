@@ -7,6 +7,19 @@ import moment from "moment";
 export const LogCurrentTime = () => moment().format("YYYY-MM-DD hh:mm:ss A");
 
 /**
+ * Check for supported file type
+ * @param {Array} data 
+ * @returns 
+ */
+export function checkFileType(data) {
+    const fileType = ["image/jpeg", "image/png", "application/pdf"];
+
+    if (Array.isArray(data)) return data.filter(p => !fileType.includes(p.type)).length == 0 ? false : true;
+
+    return !fileType.includes(data.mimetype);
+};
+
+/**
  * Create an object composed of the picked object properties
  * @param {Object} object
  * @param {string[]} keys

@@ -20,7 +20,7 @@ const paginate = (schema) => {
      * @returns {Promise<QueryResult>}
      */
     schema.statics.paginate = async function (filter, options) {
-        const sortByObject = JSON.parse(options.sortBy);
+        const sortByObject = options.sortBy ? JSON.parse(options.sortBy) : {};
         const limit = options.limit && parseInt(options.limit, 10) > 0 ? parseInt(options.limit, 10) : 10;
         const page = options.page && parseInt(options.page, 10) > 0 ? parseInt(options.page, 10) : 0;
         const skip = page * limit;

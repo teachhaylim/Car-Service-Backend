@@ -32,10 +32,10 @@ export default {
     mongoose: {
         url: configVars.DB_URL,
         options: {
-            useCreateIndex: true,
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            useFindAndModify: false,
+            // useCreateIndex: true,
+            // useNewUrlParser: true,
+            // useUnifiedTopology: true,
+            // useFindAndModify: false,
             // autoIndex: false
         }
     },

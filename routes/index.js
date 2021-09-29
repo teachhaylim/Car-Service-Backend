@@ -6,6 +6,7 @@ import userRoute from "./user.route";
 import rateRoute from "./rate.route";
 import serviceRoute from "./service.route";
 import appointmentRoute from "./appointment.route";
+import uploadRoute from "./upload.route";
 
 const router = express.Router();
 
@@ -38,6 +39,10 @@ const apiRoutes = [
         path: "/auth",
         route: authRoute,
     },
+    {
+        path: "/file",
+        route: uploadRoute,
+    }
 ];
 
 apiRoutes.forEach(route => {
