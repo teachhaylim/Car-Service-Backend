@@ -9,7 +9,7 @@ uploadRoute.route("/upload")
     .post(auth, upload.single("file"), uploadController.UploadFile);
 
 uploadRoute.route("/uploads")
-    .post(auth, upload.array("file"), uploadController.UploadFiles);
+    .post(auth, upload.array("file"), uploadController.UploadFile);
 
 uploadRoute.route("/:filename")
     .get(uploadController.GetFile)

@@ -9,6 +9,7 @@ import appointmentRoute from "./appointment.route";
 import uploadRoute from "./upload.route";
 
 const router = express.Router();
+export const generalRouter = express.Router();
 
 const apiRoutes = [
     {
@@ -35,18 +36,25 @@ const apiRoutes = [
         path: "/appointment",
         route: appointmentRoute,
     },
+];
+
+const generalRoute = [
+    {
+        path: "/file",
+        route: uploadRoute,
+    },
     {
         path: "/auth",
         route: authRoute,
     },
-    {
-        path: "/file",
-        route: uploadRoute,
-    }
-];
+]
 
 apiRoutes.forEach(route => {
     router.use(route.path, route.route);
+});
+
+generalRoute.forEach(route => {
+    generalRouter.use(route.path, route.route);
 });
 
 export default router;

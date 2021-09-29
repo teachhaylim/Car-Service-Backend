@@ -5,11 +5,13 @@ import compression from "compression";
 import xss from "xss-clean";
 import mongoSanitize from "express-mongo-sanitize";
 
-import router from "./routes";
+import router, { generalRouter } from "./routes";
 import config from "./config/config";
 import { authLimiter, publicLimiter } from "./middlewares/limiter";
 import morgan from "./config/morgan";
 import { errorConverter, errorHandler } from './middlewares/error';
+import httpStatus from "http-status";
+import ApiError from "./utils/ApiError";
 
 /**
  * Initialize Express App
@@ -39,10 +41,16 @@ if (config.env !== 'test') {
 }
 
 app.use("/api/v1", router);
+app.use("/", generalRouter);
 
 // for setting up the project testing route
 app.get('/', (_, res) => {
     res.send('Hello World!')
+});
+
+app.use(function (req, res, next) {
+    res.status(404);
+    throw new ApiError(httpStatus.NOT_FOUND, `${req.originalUrl} not found`);
 });
 
 // Convert error to ApiError, if needed

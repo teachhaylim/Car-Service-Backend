@@ -1143,3 +1143,135 @@ error: 2021-09-28 11:52:07 PM GET /api/v1/file/86a76d7573af359b830206259907b37a.
 error: 2021-09-28 11:52:21 PM GET /api/v1/file/86a76d7573af359b830206259907b37a.png 500 - 44.658 ms - message: grid.mongo.GridStore is not a constructor
 error: 2021-09-28 11:52:31 PM GET /api/v1/file/86a76d7573af359b830206259907b37a.png 500 - 53.153 ms - message: grid.mongo.GridStore is not a constructor
 error: 2021-09-28 11:52:50 PM GET /api/v1/file/86a76d7573af359b830206259907b37a.png 500 - 55.065 ms - message: grid.mongo.GridStore is not a constructor
+error: 2021-09-29 08:45:13 AM POST /api/v1/file/upload 500 - 76.992 ms - message: Unexpected field
+error: 2021-09-29 08:45:21 AM POST /api/v1/file/upload 500 - 60.261 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:46:00 AM POST /api/v1/file/upload 500 - 75.696 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:50:23 AM POST /api/v1/file/upload 500 - 356.082 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:51:47 AM POST /api/v1/file/upload 500 - 60.015 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:53:39 AM POST /api/v1/file/upload 500 - 73.336 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:55:38 AM POST /api/v1/file/upload 500 - 71.741 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:56:32 AM POST /api/v1/file/upload 500 - 74.727 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:57:00 AM POST /api/v1/file/upload 500 - 73.502 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:57:38 AM POST /api/v1/file/upload 500 - 19.343 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:57:39 AM POST /api/v1/file/upload 500 - 7.259 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:57:39 AM POST /api/v1/file/upload 500 - 2.988 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:57:39 AM POST /api/v1/file/upload 500 - 3.760 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:57:39 AM POST /api/v1/file/upload 500 - 3.974 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:57:39 AM POST /api/v1/file/upload 500 - 2.778 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:57:40 AM POST /api/v1/file/upload 500 - 2.937 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:58:37 AM POST /api/v1/file/upload 500 - 20.113 ms - message: The database connection must be open to store files
+error: 2021-09-29 08:58:38 AM POST /api/v1/file/upload 500 - 4.374 ms - message: The database connection must be open to store files
+error: 2021-09-29 09:01:49 AM POST /api/v1/file/upload 500 - 21.922 ms - message: The database connection must be open to store files
+error: 2021-09-29 09:02:24 AM POST /api/v1/file/upload 500 - 19.214 ms - message: The database connection must be open to store files
+error: 2021-09-29 09:03:45 AM POST /api/v1/file/upload 500 - 483.073 ms - message: The database connection must be open to store files
+error: 2021-09-29 09:04:11 AM POST /api/v1/file/upload 500 - 76.314 ms - message: The database connection must be open to store files
+error: 2021-09-29 09:05:46 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 64.982 ms - message: grid.mongo.GridStore is not a constructor
+error: 2021-09-29 09:05:46 AM GET /favicon.ico 404 - 1.009 ms - message: route not found
+error: 2021-09-29 09:05:48 AM GET /worker.js 404 - 0.364 ms - message: route not found
+error: 2021-09-29 09:05:58 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 58.193 ms - message: grid.mongo.GridStore is not a constructor
+error: 2021-09-29 09:06:00 AM GET /worker.js 404 - 0.245 ms - message: route not found
+error: 2021-09-29 09:06:36 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 69.490 ms - message: grid.mongo.GridStore is not a constructor
+error: 2021-09-29 09:06:38 AM GET /worker.js 404 - 1.103 ms - message: route not found
+error: 2021-09-29 09:06:52 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 59.973 ms - message: grid.mongo.GridStore is not a constructor
+error: 2021-09-29 09:06:52 AM GET /favicon.ico 404 - 0.409 ms - message: route not found
+error: 2021-09-29 09:07:21 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 58.134 ms - message: grid.mongo.GridStore is not a constructor
+error: 2021-09-29 09:07:41 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 70.677 ms - message: grid.mongo.GridStore is not a constructor
+error: 2021-09-29 09:07:43 AM GET /worker.js 404 - 1.160 ms - message: route not found
+error: 2021-09-29 09:09:40 AM GET /worker.js 404 - 1.241 ms - message: route not found
+error: 2021-09-29 09:10:15 AM GET /worker.js 404 - 1.105 ms - message: route not found
+error: 2021-09-29 09:10:52 AM GET /worker.js 404 - 1.417 ms - message: route not found
+error: 2021-09-29 09:11:43 AM GET /worker.js 404 - 1.648 ms - message: route not found
+error: 2021-09-29 09:12:36 AM GET /worker.js 404 - 1.789 ms - message: route not found
+error: 2021-09-29 09:12:42 AM GET /worker.js 404 - 0.407 ms - message: route not found
+error: 2021-09-29 09:12:50 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 9.198 ms - message: Cannot read property 'files' of undefined
+error: 2021-09-29 09:12:52 AM GET /worker.js 404 - 1.381 ms - message: route not found
+error: 2021-09-29 09:13:10 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 71.409 ms - message: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+error: 2021-09-29 09:13:12 AM GET /worker.js 404 - 1.440 ms - message: route not found
+error: 2021-09-29 09:13:28 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 70.368 ms - message: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+error: 2021-09-29 09:13:30 AM GET /worker.js 404 - 1.335 ms - message: route not found
+error: 2021-09-29 09:13:41 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 9.444 ms - message: Cannot read property 'files' of undefined
+error: 2021-09-29 09:13:43 AM GET /worker.js 404 - 1.173 ms - message: route not found
+error: 2021-09-29 09:13:46 AM GET /worker.js 404 - 0.382 ms - message: route not found
+error: 2021-09-29 09:14:12 AM GET /worker.js 404 - 1.231 ms - message: route not found
+error: 2021-09-29 09:14:55 AM GET /worker.js 404 - 1.078 ms - message: route not found
+error: 2021-09-29 09:16:59 AM GET /worker.js 404 - 1.300 ms - message: route not found
+error: 2021-09-29 09:18:53 AM GET /worker.js 404 - 1.022 ms - message: route not found
+error: 2021-09-29 09:21:45 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 68.757 ms - message: _upload2.gridFSBucket.createReadStream is not a function
+error: 2021-09-29 09:21:47 AM GET /worker.js 404 - 1.199 ms - message: route not found
+error: 2021-09-29 09:22:29 AM GET /worker.js 404 - 1.118 ms - message: route not found
+error: 2021-09-29 09:23:32 AM GET /worker.js 404 - 1.291 ms - message: route not found
+error: 2021-09-29 09:23:43 AM Error: FileNotFound: file 08355a38e1897627e62076628d036bc4.jpg was not found
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\gridfs-stream\download.js:285:17
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:704:5
+    at executeCallback (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:65:7)
+    at handleCallback (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:109:55)
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\find_one.js:31:9
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:704:5
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\cursor.js:252:9
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:746:9
+    at handleCallback (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:32:5)
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:690:38
+    at Cursor._endSession (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:404:7)
+    at _setCursorNotifiedImpl (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:699:10)
+    at setCursorNotified (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:690:3)
+    at done (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:465:16)
+    at queryCallback (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:510:20)
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\node_modules\mongodb\lib\core\cursor.js:555:9
+error: 2021-09-29 09:23:56 AM GET /worker.js 404 - 1.063 ms - message: route not found
+error: 2021-09-29 09:24:53 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 61.941 ms - message: fs is not defined
+error: 2021-09-29 09:24:53 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.698 ms - message: fs is not defined
+error: 2021-09-29 09:24:53 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.011 ms - message: fs is not defined
+error: 2021-09-29 09:24:55 AM GET /worker.js 404 - 1.061 ms - message: route not found
+error: 2021-09-29 09:24:55 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.248 ms - message: fs is not defined
+error: 2021-09-29 09:24:55 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.452 ms - message: fs is not defined
+error: 2021-09-29 09:24:55 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.153 ms - message: fs is not defined
+error: 2021-09-29 09:24:56 AM GET /worker.js 404 - 0.402 ms - message: route not found
+error: 2021-09-29 09:25:00 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.874 ms - message: fs is not defined
+error: 2021-09-29 09:25:00 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.286 ms - message: fs is not defined
+error: 2021-09-29 09:25:00 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.083 ms - message: fs is not defined
+error: 2021-09-29 09:25:01 AM GET /worker.js 404 - 0.242 ms - message: route not found
+error: 2021-09-29 09:25:06 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 61.046 ms - message: fs is not defined
+error: 2021-09-29 09:25:06 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 55.789 ms - message: fs is not defined
+error: 2021-09-29 09:25:06 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 54.861 ms - message: fs is not defined
+error: 2021-09-29 09:25:07 AM GET /worker.js 404 - 1.413 ms - message: route not found
+error: 2021-09-29 09:25:21 AM GET /worker.js 404 - 1.096 ms - message: route not found
+error: 2021-09-29 09:25:44 AM GET /worker.js 404 - 1.060 ms - message: route not found
+error: 2021-09-29 09:26:18 AM GET /worker.js 404 - 1.040 ms - message: route not found
+error: 2021-09-29 09:27:18 AM GET /worker.js 404 - 1.016 ms - message: route not found
+error: 2021-09-29 09:27:29 AM GET /worker.js 404 - 1.190 ms - message: route not found
+error: 2021-09-29 09:27:40 AM GET /worker.js 404 - 1.054 ms - message: route not found
+error: 2021-09-29 09:27:47 AM GET /worker.js 404 - 1.213 ms - message: route not found
+error: 2021-09-29 09:31:04 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 58.951 ms - message: Invalid status code: { 'Content-Type': 'image/png' }
+error: 2021-09-29 09:31:06 AM GET /worker.js 404 - 1.101 ms - message: route not found
+error: 2021-09-29 09:31:21 AM GET /worker.js 404 - 1.048 ms - message: route not found
+error: 2021-09-29 09:31:50 AM GET /worker.js 404 - 1.052 ms - message: route not found
+error: 2021-09-29 09:31:59 AM GET /worker.js 404 - 1.107 ms - message: route not found
+error: 2021-09-29 09:32:34 AM GET /worker.js 404 - 1.079 ms - message: route not found
+error: 2021-09-29 09:33:23 AM GET /worker.js 404 - 0.463 ms - message: route not found
+error: 2021-09-29 09:34:03 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 500 - 66.567 ms - message: grid.mongo.GridStore is not a constructor
+error: 2021-09-29 09:34:05 AM GET /worker.js 404 - 1.256 ms - message: route not found
+error: 2021-09-29 09:35:25 AM GET /worker.js 404 - 1.157 ms - message: route not found
+error: 2021-09-29 09:37:45 AM GET /worker.js 404 - 0.393 ms - message: route not found
+error: 2021-09-29 09:37:48 AM GET /worker.js 404 - 0.236 ms - message: route not found
+error: 2021-09-29 09:41:53 AM GET /worker.js 404 - 1.030 ms - message: route not found
+error: 2021-09-29 10:39:57 AM GET /worker.js 404 - 1.047 ms - message: route not found
+error: 2021-09-29 10:48:16 AM GET /api/v1/file/08355a38e1897627e62076628d036bc4.jpg 404 - 2.913 ms - message: route not found
+error: 2021-09-29 10:48:17 AM GET /worker.js 404 - 0.560 ms - message: route not found
+error: 2021-09-29 10:48:22 AM GET /worker.js 404 - 0.308 ms - message: route not found
+error: 2021-09-29 10:51:21 AM POST /api/v1/file/upload 404 - 2.723 ms - message: route not found
+error: 2021-09-29 10:51:37 AM GET /api/v1/category/sdfsd 400 - 59.597 ms - message: ""categoryId"" must be a valid mongo id
+error: 2021-09-29 10:57:50 AM GET /worker.js 404 - 1.326 ms - message: route not found
+error: 2021-09-29 11:10:25 AM GET /adas 404 - 3.443 ms - message: route not found
+error: 2021-09-29 11:10:27 AM GET /worker.js 404 - 0.463 ms - message: route not found
+error: 2021-09-29 11:53:19 AM GET /adas 404 - 3.524 ms - message: route not found
+error: 2021-09-29 11:53:21 AM GET /worker.js 404 - 0.469 ms - message: route not found
+error: 2021-09-29 11:54:59 AM GET /adas 404 - 6.676 ms - message: /adas not found
+error: 2021-09-29 11:55:01 AM GET /worker.js 404 - 0.567 ms - message: /worker.js not found
