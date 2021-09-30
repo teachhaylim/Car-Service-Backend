@@ -12,7 +12,7 @@ const CreateAppointment = async (appointmentBody) => {
 };
 
 /**
- * Query for apppointment
+ * Query for appointment
  * @param {Object} filter - Mongo filter
  * @param {Object} options - Query options
  * @param {String} [options.sortBy] - Sort option in the format: sortField:(desc|asc)

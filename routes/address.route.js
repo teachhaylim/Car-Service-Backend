@@ -1,5 +1,5 @@
 import express from "express";
-import addressController from "../controllers/address.controller";
+import { addressController } from "../controllers";
 
 const addressRoute = express.Router();
 

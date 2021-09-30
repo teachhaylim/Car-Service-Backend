@@ -29,6 +29,10 @@ const addressSchema = mongoose.Schema(
             required: true,
             trim: true,
         },
+        zipCode: {
+            type: String,
+            trim: true,
+        },
         isActive: {
             type: Boolean,
             default: true,

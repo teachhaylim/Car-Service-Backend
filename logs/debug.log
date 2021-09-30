@@ -1364,3 +1364,6 @@ error: 2021-09-30 01:57:15 PM GET /file/undefined 404 - 31.996 ms - message: Fil
 error: 2021-09-30 01:57:35 PM GET /file/undefined 404 - 30.913 ms - message: File no exist
 error: 2021-09-30 01:57:55 PM GET /file/undefined 404 - 31.733 ms - message: File no exist
 error: 2021-09-30 02:48:57 PM POST /api/v1/category 400 - 51.030 ms - message: "name" is required
+error: 2021-09-30 06:16:27 PM GET /file/undefined 404 - 42.545 ms - message: File no exist
+error: 2021-09-30 06:56:16 PM GET /file/undefined 404 - 50.582 ms - message: File no exist
+error: 2021-09-30 06:57:10 PM GET /file/undefined 404 - 45.984 ms - message: File no exist

@@ -45,12 +45,6 @@ const userSchema = mongoose.Schema(
             minlength: 8,
             private: true,
         },
-        address: {
-            type: [mongoose.Types.ObjectId],
-            ref: "address",
-            default: [],
-            autopopulate: true,
-        },
         type: {
             type: Number,
             enum: [0, 1, 2],
@@ -59,6 +53,19 @@ const userSchema = mongoose.Schema(
         isActive: {
             type: Boolean,
             default: true,
+        },
+        address: {
+            type: [mongoose.Types.ObjectId],
+            ref: "address",
+            default: [],
+            autopopulate: true,
+        },
+        shop: {
+            type: [mongoose.Types.ObjectId],
+            ref: "shops",
+            default: [],
+            required: true,
+            autopopulate: false,
         },
     },
     {

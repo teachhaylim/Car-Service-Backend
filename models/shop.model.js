@@ -9,6 +9,11 @@ const shopSchema = mongoose.Schema(
             required: true,
             trim: true,
         },
+        description: {
+            type: String,
+            default: "",
+            trim: true,
+        },
         logo: {
             type: String,
             default: "",
@@ -20,17 +25,17 @@ const shopSchema = mongoose.Schema(
             required: true,
             autopopulate: true,
         },
-        users: {
-            type: [mongoose.Types.ObjectId],
-            ref: "users",
-            default: [],
+        address: {
+            type: mongoose.Types.ObjectId,
+            ref: "address",
+            default: "",
             required: true,
             autopopulate: true,
         },
         isActive: {
             type: Boolean,
             default: true,
-        }
+        },
     },
     {
         timestamps: true,
