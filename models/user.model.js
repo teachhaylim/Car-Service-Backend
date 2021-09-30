@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import { paginate, toJSON } from "./plugins";
 import bcrypt from "bcrypt";
+import mongooseAutoPopulate from "mongoose-autopopulate";
 
 const userSchema = mongoose.Schema(
     {
@@ -44,11 +45,12 @@ const userSchema = mongoose.Schema(
             minlength: 8,
             private: true,
         },
-        // type: {
-        //     type: String,
-        //     enum: ["user", "admin"],
-        //     default: "user",
-        // },
+        address: {
+            type: [mongoose.Types.ObjectId],
+            ref: "address",
+            default: [],
+            autopopulate: true,
+        },
         type: {
             type: Number,
             enum: [0, 1, 2],
@@ -66,6 +68,7 @@ const userSchema = mongoose.Schema(
 
 userSchema.plugin(toJSON);
 userSchema.plugin(paginate);
+userSchema.plugin(mongooseAutoPopulate);
 
 /**
  * Check password
@@ -92,9 +95,9 @@ userSchema.pre('save', async function (next) {
         this.password = await bcrypt.hash(this.password, 10);
     }
 
-    if (this.isModified('profilePic')) {
-        this.profilePic = `https://avatars.dicebear.com/api/identicon/${this.firstName}.svg`;
-    }
+    // if (this.isModified('profilePic')) {
+    //     this.profilePic = `https://avatars.dicebear.com/api/identicon/${this.firstName}.svg`;
+    // }
 
     next();
 });

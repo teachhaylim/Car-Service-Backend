@@ -7,3 +7,4 @@ export { default as rateService } from "./rate.service";
 export { default as serviceService } from "./service.service";
 export { default as appointmentService } from "./appointment.service";
 export { default as uploadService } from './upload.service';
+export {default as addressService } from "./address.service";

@@ -4744,3 +4744,123 @@ request: 2021-09-29 09:34:47 PM GET /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 2
 error: 2021-09-29 09:34:49 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 93.745 ms - message: Cannot read property 'unlink' of undefined
 error: 2021-09-29 09:35:12 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 143.228 ms - message: Cannot read property 'unlink' of undefined
 error: 2021-09-29 09:35:30 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 529.826 ms - message: Cannot read property '_id' of undefined
+request: 2021-09-30 12:11:04 PM POST /auth/login 200 - 124.944 ms
+request: 2021-09-30 12:11:04 PM GET /api/v1/user/info 304 - 68.767 ms
+request: 2021-09-30 12:11:04 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 32.776 ms
+request: 2021-09-30 12:14:50 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 31.997 ms
+error: 2021-09-30 12:14:54 PM GET /file/undefined 404 - 35.765 ms - message: File no exist
+request: 2021-09-30 12:14:54 PM GET /api/v1/user/info 304 - 64.518 ms
+request: 2021-09-30 12:14:54 PM GET /api/v1/user/info 304 - 71.432 ms
+request: 2021-09-30 12:15:01 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 30.885 ms
+error: 2021-09-30 12:16:23 PM GET /file/undefined 404 - 31.148 ms - message: File no exist
+request: 2021-09-30 12:16:23 PM GET /api/v1/user/info 304 - 63.207 ms
+request: 2021-09-30 12:16:23 PM GET /api/v1/user/info 304 - 62.835 ms
+request: 2021-09-30 12:16:26 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 30.904 ms
+error: 2021-09-30 12:16:34 PM GET /file/undefined 404 - 31.249 ms - message: File no exist
+request: 2021-09-30 12:16:34 PM GET /api/v1/user/info 304 - 62.722 ms
+request: 2021-09-30 12:16:35 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 31.307 ms
+request: 2021-09-30 12:36:56 PM GET /api/v1/category?limit=0&page=0 200 - 85.736 ms
+request: 2021-09-30 12:37:03 PM GET /api/v1/category?limit=0&page=0 304 - 67.198 ms
+error: 2021-09-30 12:37:28 PM GET /file/undefined 404 - 33.242 ms - message: File no exist
+request: 2021-09-30 12:37:28 PM GET /api/v1/user/info 304 - 64.272 ms
+request: 2021-09-30 12:37:28 PM GET /api/v1/user/info 304 - 63.237 ms
+request: 2021-09-30 12:37:30 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 31.287 ms
+request: 2021-09-30 12:37:34 PM GET /api/v1/category?limit=0&page=0 304 - 65.871 ms
+request: 2021-09-30 12:38:16 PM GET /api/v1/category?limit=0&page=0 304 - 65.808 ms
+request: 2021-09-30 12:38:21 PM GET /api/v1/category?limit=0&page=0 304 - 66.096 ms
+error: 2021-09-30 12:38:44 PM GET /file/undefined 404 - 31.029 ms - message: File no exist
+request: 2021-09-30 12:38:44 PM GET /api/v1/user/info 304 - 62.647 ms
+request: 2021-09-30 12:38:44 PM GET /api/v1/user/info 304 - 63.209 ms
+request: 2021-09-30 12:38:46 PM GET /api/v1/user/info 304 - 63.373 ms
+error: 2021-09-30 12:38:47 PM GET /file/undefined 404 - 30.865 ms - message: File no exist
+request: 2021-09-30 12:38:47 PM GET /api/v1/user/info 304 - 63.425 ms
+request: 2021-09-30 12:38:47 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 30.776 ms
+request: 2021-09-30 12:38:52 PM GET /api/v1/category?limit=0&page=0 304 - 66.686 ms
+request: 2021-09-30 12:43:15 PM GET /api/v1/category?limit=0&page=0 304 - 68.182 ms
+request: 2021-09-30 12:43:32 PM GET /api/v1/category?limit=0&page=0 304 - 66.409 ms
+request: 2021-09-30 12:43:54 PM GET /api/v1/category?limit=0&page=0 304 - 66.551 ms
+request: 2021-09-30 12:44:14 PM GET /api/v1/category?limit=0 200 - 65.479 ms
+request: 2021-09-30 12:44:26 PM GET /api/v1/category?limit=-1 200 - 65.767 ms
+error: 2021-09-30 12:44:55 PM GET /api/v1/category 401 - 32.115 ms - message: token expired
+request: 2021-09-30 12:45:09 PM GET /api/v1/category 200 - 66.031 ms
+request: 2021-09-30 12:45:30 PM GET /api/v1/category?limit=-1 200 - 65.839 ms
+request: 2021-09-30 12:45:34 PM GET /api/v1/category?limit=10 200 - 70.507 ms
+request: 2021-09-30 12:46:35 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 66.229 ms
+request: 2021-09-30 12:47:06 PM GET /api/v1/category?limit=0 200 - 68.621 ms
+request: 2021-09-30 12:47:28 PM GET /api/v1/category?limit=-1 200 - 65.601 ms
+request: 2021-09-30 12:50:34 PM GET /api/v1/category?limit=-1 200 - 85.381 ms
+request: 2021-09-30 12:50:41 PM GET /api/v1/category?limit=0 200 - 68.373 ms
+request: 2021-09-30 12:50:49 PM GET /api/v1/category?limit=-1 200 - 68.449 ms
+request: 2021-09-30 12:52:12 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 66.619 ms
+request: 2021-09-30 12:52:13 PM GET /api/v1/category?limit=-1 200 - 65.702 ms
+request: 2021-09-30 12:53:12 PM GET /api/v1/category?limit=-1 304 - 67.347 ms
+request: 2021-09-30 12:53:15 PM GET /api/v1/category?limit=-1 304 - 66.205 ms
+request: 2021-09-30 12:53:23 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 67.472 ms
+request: 2021-09-30 12:53:28 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 66.783 ms
+request: 2021-09-30 12:53:33 PM GET /api/v1/category?limit=-1 304 - 65.850 ms
+request: 2021-09-30 12:54:39 PM GET /api/v1/category?limit=-1 304 - 66.401 ms
+request: 2021-09-30 12:54:49 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 66.565 ms
+request: 2021-09-30 12:54:54 PM GET /api/v1/category?limit=-1 304 - 66.312 ms
+request: 2021-09-30 12:55:14 PM GET /api/v1/category?limit=-1 304 - 66.479 ms
+request: 2021-09-30 12:55:14 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 32.950 ms
+request: 2021-09-30 12:55:16 PM GET /api/v1/category?limit=-1 304 - 64.891 ms
+request: 2021-09-30 01:01:52 PM GET /api/v1/category?limit=-1 304 - 66.903 ms
+request: 2021-09-30 01:33:30 PM GET /api/v1/category?limit=-1 304 - 65.466 ms
+request: 2021-09-30 01:33:49 PM GET /api/v1/category?limit=-1 304 - 69.650 ms
+request: 2021-09-30 01:34:08 PM GET /api/v1/category?limit=-1 304 - 71.403 ms
+request: 2021-09-30 01:45:35 PM GET /api/v1/category?limit=-1 304 - 89.159 ms
+request: 2021-09-30 01:46:42 PM GET /api/v1/category?limit=-1 304 - 78.609 ms
+request: 2021-09-30 01:47:09 PM GET /api/v1/category?limit=-1 304 - 83.558 ms
+request: 2021-09-30 01:47:13 PM GET /api/v1/category?limit=-1 304 - 75.101 ms
+request: 2021-09-30 01:47:21 PM GET /api/v1/category?limit=-1 304 - 75.860 ms
+request: 2021-09-30 01:47:24 PM GET /api/v1/category?limit=-1 304 - 71.879 ms
+request: 2021-09-30 01:47:27 PM GET /api/v1/category?limit=-1 304 - 72.413 ms
+request: 2021-09-30 01:47:39 PM GET /api/v1/category?limit=-1 304 - 68.924 ms
+request: 2021-09-30 01:47:42 PM GET /api/v1/category?limit=-1 304 - 67.237 ms
+request: 2021-09-30 01:57:04 PM GET /api/v1/category?limit=-1 304 - 75.504 ms
+error: 2021-09-30 01:57:15 PM GET /file/undefined 404 - 31.996 ms - message: File no exist
+request: 2021-09-30 01:57:16 PM GET /api/v1/user/info 304 - 67.777 ms
+request: 2021-09-30 01:57:16 PM GET /api/v1/user/info 304 - 67.885 ms
+request: 2021-09-30 01:57:17 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 42.597 ms
+request: 2021-09-30 01:57:20 PM GET /api/v1/category?limit=-1 304 - 64.745 ms
+request: 2021-09-30 01:57:34 PM GET /api/v1/user/info 304 - 63.553 ms
+error: 2021-09-30 01:57:35 PM GET /file/undefined 404 - 30.913 ms - message: File no exist
+request: 2021-09-30 01:57:35 PM GET /api/v1/user/info 304 - 75.028 ms
+request: 2021-09-30 01:57:35 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 30.834 ms
+request: 2021-09-30 01:57:39 PM GET /api/v1/category?limit=-1 304 - 67.252 ms
+request: 2021-09-30 01:57:47 PM GET /api/v1/category?limit=-1 304 - 70.844 ms
+error: 2021-09-30 01:57:55 PM GET /file/undefined 404 - 31.733 ms - message: File no exist
+request: 2021-09-30 01:57:55 PM GET /api/v1/user/info 304 - 65.737 ms
+request: 2021-09-30 01:57:55 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 34.507 ms
+request: 2021-09-30 01:57:59 PM GET /api/v1/category?limit=-1 304 - 67.166 ms
+request: 2021-09-30 02:00:14 PM GET /api/v1/category?limit=-1 304 - 78.881 ms
+request: 2021-09-30 02:00:19 PM GET /api/v1/category?limit=-1 304 - 67.788 ms
+request: 2021-09-30 02:00:29 PM GET /api/v1/category?limit=-1 304 - 68.692 ms
+request: 2021-09-30 02:00:35 PM GET /api/v1/category?limit=-1 304 - 82.097 ms
+request: 2021-09-30 02:00:40 PM GET /api/v1/category?limit=-1 304 - 71.317 ms
+request: 2021-09-30 02:00:51 PM GET /api/v1/category?limit=-1 304 - 93.862 ms
+request: 2021-09-30 02:00:56 PM GET /api/v1/category?limit=-1 304 - 70.214 ms
+request: 2021-09-30 02:01:24 PM GET /api/v1/category?limit=-1 304 - 76.743 ms
+request: 2021-09-30 02:06:19 PM GET /api/v1/category?limit=-1 304 - 71.347 ms
+request: 2021-09-30 02:12:40 PM GET /api/v1/category?limit=-1 304 - 68.030 ms
+request: 2021-09-30 02:12:42 PM GET /api/v1/category?limit=-1 304 - 80.478 ms
+request: 2021-09-30 02:12:45 PM GET /api/v1/category?limit=-1 304 - 68.090 ms
+request: 2021-09-30 02:12:55 PM GET /api/v1/category?limit=-1 304 - 72.955 ms
+request: 2021-09-30 02:12:57 PM GET /api/v1/category?limit=-1 304 - 72.578 ms
+request: 2021-09-30 02:13:06 PM GET /api/v1/category?limit=-1 304 - 71.260 ms
+request: 2021-09-30 02:13:16 PM GET /api/v1/category?limit=-1 304 - 65.082 ms
+request: 2021-09-30 02:13:22 PM GET /api/v1/category?limit=-1 304 - 65.555 ms
+request: 2021-09-30 02:13:39 PM GET /api/v1/category?limit=-1 304 - 88.822 ms
+request: 2021-09-30 02:14:29 PM GET /api/v1/category?limit=-1 304 - 65.792 ms
+request: 2021-09-30 02:14:35 PM GET /api/v1/category?limit=-1 304 - 74.508 ms
+request: 2021-09-30 02:14:49 PM GET /api/v1/category?limit=-1 304 - 65.069 ms
+request: 2021-09-30 02:17:03 PM GET /api/v1/category?limit=-1 304 - 71.535 ms
+request: 2021-09-30 02:17:32 PM GET /api/v1/category?limit=-1 304 - 69.970 ms
+request: 2021-09-30 02:17:54 PM GET /api/v1/category?limit=-1 304 - 71.603 ms
+request: 2021-09-30 02:17:59 PM GET /api/v1/category?limit=-1 304 - 91.800 ms
+request: 2021-09-30 02:18:01 PM GET /api/v1/category?limit=-1 304 - 69.329 ms
+request: 2021-09-30 02:18:04 PM GET /api/v1/category?limit=-1 304 - 67.865 ms
+request: 2021-09-30 02:18:07 PM GET /api/v1/category?limit=-1 304 - 70.957 ms
+request: 2021-09-30 02:18:24 PM GET /api/v1/category?limit=-1 304 - 91.459 ms
+request: 2021-09-30 02:18:33 PM GET /api/v1/category?limit=-1 304 - 100.300 ms
+error: 2021-09-30 02:48:57 PM POST /api/v1/category 400 - 51.030 ms - message: "name" is required

@@ -51,8 +51,8 @@ const UpdateShop = async (shopId, shopBody) => {
     let shop = await GetShopById(shopId);
 
     Object.assign(shop, JSON.parse(JSON.stringify(shopBody)));
-
     await shop.save();
+
     return shop;
 };
 

@@ -7,6 +7,7 @@ import rateRoute from "./rate.route";
 import serviceRoute from "./service.route";
 import appointmentRoute from "./appointment.route";
 import uploadRoute from "./upload.route";
+import addressRoute from "./address.route";
 
 const router = express.Router();
 export const generalRouter = express.Router();
@@ -36,6 +37,10 @@ const apiRoutes = [
         path: "/appointment",
         route: appointmentRoute,
     },
+    {
+        path: "/address",
+        route: addressRoute,
+    }
 ];
 
 const generalRoute = [
@@ -47,7 +52,7 @@ const generalRoute = [
         path: "/auth",
         route: authRoute,
     },
-]
+];
 
 apiRoutes.forEach(route => {
     router.use(route.path, route.route);

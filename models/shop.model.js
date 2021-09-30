@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import { paginate, toJSON } from "./plugins";
-import mongooseAutoPopulate from "mongoose-autopopulate"
+import mongooseAutoPopulate from "mongoose-autopopulate";
 
 const shopSchema = mongoose.Schema(
     {
@@ -16,6 +16,13 @@ const shopSchema = mongoose.Schema(
         categories: {
             type: [mongoose.Types.ObjectId],
             ref: "categories",
+            default: [],
+            required: true,
+            autopopulate: true,
+        },
+        users: {
+            type: [mongoose.Types.ObjectId],
+            ref: "users",
             default: [],
             required: true,
             autopopulate: true,

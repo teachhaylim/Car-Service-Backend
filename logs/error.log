@@ -1351,3 +1351,14 @@ error: 2021-09-29 09:33:18 PM DELETE /file/b940287a9a92f23bff304048f3178995.jpg 
 error: 2021-09-29 09:34:49 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 93.745 ms - message: Cannot read property 'unlink' of undefined
 error: 2021-09-29 09:35:12 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 143.228 ms - message: Cannot read property 'unlink' of undefined
 error: 2021-09-29 09:35:30 PM DELETE /file/87b693a5a5a00fbb01cb431c6a90749b.jpg 500 - 529.826 ms - message: Cannot read property '_id' of undefined
+error: 2021-09-30 12:14:54 PM GET /file/undefined 404 - 35.765 ms - message: File no exist
+error: 2021-09-30 12:16:23 PM GET /file/undefined 404 - 31.148 ms - message: File no exist
+error: 2021-09-30 12:16:34 PM GET /file/undefined 404 - 31.249 ms - message: File no exist
+error: 2021-09-30 12:37:28 PM GET /file/undefined 404 - 33.242 ms - message: File no exist
+error: 2021-09-30 12:38:44 PM GET /file/undefined 404 - 31.029 ms - message: File no exist
+error: 2021-09-30 12:38:47 PM GET /file/undefined 404 - 30.865 ms - message: File no exist
+error: 2021-09-30 12:44:55 PM GET /api/v1/category 401 - 32.115 ms - message: token expired
+error: 2021-09-30 01:57:15 PM GET /file/undefined 404 - 31.996 ms - message: File no exist
+error: 2021-09-30 01:57:35 PM GET /file/undefined 404 - 30.913 ms - message: File no exist
+error: 2021-09-30 01:57:55 PM GET /file/undefined 404 - 31.733 ms - message: File no exist
+error: 2021-09-30 02:48:57 PM POST /api/v1/category 400 - 51.030 ms - message: "name" is required
