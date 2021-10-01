@@ -5,10 +5,12 @@ const createShop = {
     body: Joi.object().keys({
         name: Joi.string().required(),
         logo: Joi.string().allow(""),
+        description: Joi.string().allow(""),
         categories: Joi.array().items(Joi.string().custom(customValidation.objectId).required()).required(),
-        isActive: Joi.boolean().valid(true, false),
-        createdAt: Joi.date().allow(""),
-        updatedAt: Joi.date().allow(""),
+        address: Joi.array().items().required(),
+        // isActive: Joi.boolean().valid(true, false),
+        // createdAt: Joi.date().allow(""),
+        // updatedAt: Joi.date().allow(""),
         id: Joi.string().optional().custom(customValidation.objectId),
     })
 };

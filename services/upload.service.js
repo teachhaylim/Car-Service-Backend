@@ -19,6 +19,7 @@ const GetFileService = async (filename) => {
     }
 };
 
+//REWORK file chunk doesnt delete
 const DeleteFileService = async (filename) => {
     const file = await GetFileByFilename(filename);
 
