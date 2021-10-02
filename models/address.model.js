@@ -4,7 +4,7 @@ import mongooseAutoPopulate from "mongoose-autopopulate";
 
 const addressSchema = mongoose.Schema(
     {
-        number: {
+        house: {
             type: String,
             required: true,
             trim: true,

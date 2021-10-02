@@ -7,7 +7,7 @@ const createShop = {
         logo: Joi.string().allow(""),
         description: Joi.string().allow(""),
         categories: Joi.array().items(Joi.string().custom(customValidation.objectId).required()).required(),
-        address: Joi.array().items().required(),
+        address: Joi.object().required(),
         // isActive: Joi.boolean().valid(true, false),
         // createdAt: Joi.date().allow(""),
         // updatedAt: Joi.date().allow(""),

@@ -5485,3 +5485,402 @@ request: 2021-10-01 01:12:30 PM GET /api/v1/category?limit=-1 304 - 68.656 ms
 request: 2021-10-01 01:12:34 PM GET /api/v1/category?limit=-1 304 - 73.110 ms
 request: 2021-10-01 01:12:37 PM POST /file/upload 201 - 36.099 ms
 request: 2021-10-01 01:12:44 PM GET /api/v1/category?limit=-1 304 - 71.224 ms
+request: 2021-10-01 06:11:28 PM GET /api/v1/user/info 304 - 110.667 ms
+request: 2021-10-01 06:11:28 PM GET /api/v1/category?limit=-1 304 - 110.738 ms
+request: 2021-10-01 06:11:28 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 39.850 ms
+request: 2021-10-01 06:12:02 PM GET /api/v1/category?limit=-1 304 - 76.886 ms
+request: 2021-10-01 06:12:03 PM GET /api/v1/user/info 304 - 98.976 ms
+request: 2021-10-01 06:12:03 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 38.287 ms
+request: 2021-10-01 06:17:08 PM GET /api/v1/category?limit=-1 304 - 94.197 ms
+request: 2021-10-01 06:17:15 PM POST /file/upload 201 - 52.451 ms
+request: 2021-10-01 06:17:21 PM POST /file/upload 201 - 54.176 ms
+request: 2021-10-01 06:17:22 PM POST /file/upload 201 - 55.357 ms
+request: 2021-10-01 06:17:26 PM GET /api/v1/category?limit=-1 304 - 78.404 ms
+request: 2021-10-01 06:17:26 PM GET /api/v1/user/info 304 - 94.769 ms
+request: 2021-10-01 06:17:27 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 38.120 ms
+request: 2021-10-01 06:17:31 PM POST /file/upload 201 - 49.130 ms
+request: 2021-10-01 06:19:53 PM GET /api/v1/category?limit=-1 304 - 93.397 ms
+request: 2021-10-01 06:19:53 PM GET /api/v1/category?limit=-1 304 - 90.870 ms
+error: 2021-10-01 06:19:56 PM POST /file/ 404 - 1.236 ms - message: /file/ not found
+request: 2021-10-01 06:19:56 PM POST /file/upload 201 - 48.005 ms
+request: 2021-10-01 06:20:20 PM GET /api/v1/category?limit=-1 304 - 98.170 ms
+request: 2021-10-01 06:20:22 PM POST /file/upload 201 - 42.392 ms
+request: 2021-10-01 06:20:22 PM POST /file/upload 201 - 60.219 ms
+request: 2021-10-01 06:22:20 PM GET /api/v1/category?limit=-1 304 - 94.738 ms
+request: 2021-10-01 06:22:24 PM POST /file/upload 201 - 38.622 ms
+error: 2021-10-01 06:22:24 PM POST /file/upload 500 - 51.502 ms - message: Multipart: Boundary not found
+request: 2021-10-01 06:22:41 PM GET /api/v1/category?limit=-1 304 - 91.864 ms
+request: 2021-10-01 06:25:01 PM GET /api/v1/category?limit=-1 304 - 91.917 ms
+request: 2021-10-01 06:25:06 PM POST /file/upload 201 - 53.980 ms
+request: 2021-10-01 06:25:28 PM GET /api/v1/category?limit=-1 304 - 94.628 ms
+request: 2021-10-01 06:25:33 PM POST /file/upload 201 - 45.210 ms
+request: 2021-10-01 06:25:48 PM GET /api/v1/category?limit=-1 304 - 142.136 ms
+request: 2021-10-01 06:25:51 PM GET /api/v1/category?limit=-1 304 - 91.989 ms
+request: 2021-10-01 06:25:59 PM GET /api/v1/category?limit=-1 304 - 91.680 ms
+request: 2021-10-01 06:26:02 PM POST /file/upload 201 - 58.907 ms
+request: 2021-10-01 06:26:17 PM GET /api/v1/category?limit=-1 304 - 93.987 ms
+request: 2021-10-01 06:26:23 PM POST /file/upload 201 - 50.233 ms
+request: 2021-10-01 06:27:22 PM GET /api/v1/category?limit=-1 304 - 92.318 ms
+error: 2021-10-01 06:27:25 PM POST /file/upload 401 - 0.297 ms - message: Please authenticate
+request: 2021-10-01 06:27:39 PM GET /api/v1/category?limit=-1 304 - 88.425 ms
+request: 2021-10-01 06:27:53 PM GET /api/v1/category?limit=-1 304 - 92.660 ms
+request: 2021-10-01 06:27:57 PM POST /file/upload 201 - 50.258 ms
+request: 2021-10-01 06:36:46 PM GET /api/v1/category?limit=-1 304 - 119.570 ms
+request: 2021-10-01 06:36:56 PM POST /file/upload 201 - 48.541 ms
+request: 2021-10-01 06:37:28 PM POST /file/upload 201 - 153.502 ms
+request: 2021-10-01 06:38:16 PM POST /file/upload 201 - 30.952 ms
+request: 2021-10-01 06:38:34 PM POST /file/upload 201 - 153.562 ms
+request: 2021-10-01 06:38:36 PM POST /file/upload 201 - 46.404 ms
+request: 2021-10-01 06:39:56 PM POST /file/upload 201 - 58.767 ms
+request: 2021-10-01 06:40:11 PM POST /file/upload 201 - 142.284 ms
+request: 2021-10-01 06:40:36 PM POST /file/upload 201 - 234.714 ms
+request: 2021-10-01 06:41:14 PM POST /file/upload 201 - 59.534 ms
+error: 2021-10-01 06:42:44 PM POST /file/upload 500 - 44.372 ms - message: Multipart: Boundary not found
+request: 2021-10-01 06:43:13 PM POST /file/upload - - - ms
+request: 2021-10-01 06:43:50 PM POST /file/upload - - - ms
+request: 2021-10-01 06:44:07 PM POST /file/upload - - - ms
+request: 2021-10-01 06:44:09 PM POST /file/upload 201 - 53.285 ms
+request: 2021-10-01 06:44:58 PM POST /file/upload 201 - 140.988 ms
+request: 2021-10-01 06:45:01 PM POST /file/upload 201 - 282.226 ms
+request: 2021-10-01 06:46:18 PM GET /api/v1/category?limit=-1 304 - 115.343 ms
+request: 2021-10-01 06:46:20 PM POST /file/upload 201 - 54.859 ms
+request: 2021-10-01 06:55:39 PM GET /api/v1/category?limit=-1 304 - 97.545 ms
+request: 2021-10-01 06:58:20 PM GET /api/v1/category?limit=-1 304 - 93.700 ms
+error: 2021-10-01 06:58:25 PM POST /file/upload 401 - 1.152 ms - message: Please authenticate
+request: 2021-10-01 06:59:19 PM GET /api/v1/category?limit=-1 304 - 92.211 ms
+error: 2021-10-01 06:59:21 PM POST /file/upload 500 - 60.703 ms - message: Multipart: Boundary not found
+request: 2021-10-01 06:59:46 PM GET /api/v1/category?limit=-1 304 - 96.412 ms
+error: 2021-10-01 06:59:49 PM POST /file/upload 500 - 45.476 ms - message: Multipart: Boundary not found
+request: 2021-10-01 07:00:19 PM GET /api/v1/category?limit=-1 304 - 94.088 ms
+request: 2021-10-01 07:00:23 PM POST /file/upload 201 - 47.463 ms
+request: 2021-10-01 07:07:32 PM GET /api/v1/category?limit=-1 304 - 99.570 ms
+request: 2021-10-01 07:07:38 PM GET /api/v1/category?limit=-1 304 - 78.564 ms
+request: 2021-10-01 07:07:38 PM GET /api/v1/user/info 304 - 89.996 ms
+request: 2021-10-01 07:07:39 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 45.158 ms
+request: 2021-10-01 07:07:43 PM POST /file/upload 201 - 47.660 ms
+request: 2021-10-01 07:08:18 PM POST /file/upload 201 - 45.984 ms
+request: 2021-10-01 07:08:40 PM POST /file/upload 201 - 215.827 ms
+request: 2021-10-01 07:09:31 PM POST /file/upload 201 - 68.855 ms
+request: 2021-10-01 07:09:42 PM POST /file/upload 201 - 62.554 ms
+request: 2021-10-01 07:09:59 PM POST /file/upload 201 - 104.332 ms
+request: 2021-10-01 07:10:17 PM GET /api/v1/category?limit=-1 304 - 100.242 ms
+request: 2021-10-01 07:10:27 PM POST /file/upload 201 - 49.852 ms
+request: 2021-10-01 07:10:42 PM POST /file/upload 201 - 80.786 ms
+request: 2021-10-01 07:35:49 PM GET /api/v1/category?limit=-1 304 - 93.098 ms
+request: 2021-10-01 07:35:53 PM POST /file/upload 201 - 65.510 ms
+request: 2021-10-01 07:36:12 PM GET /api/v1/category?limit=-1 304 - 87.212 ms
+request: 2021-10-01 07:37:48 PM POST /file/upload 201 - 40.975 ms
+request: 2021-10-01 07:39:08 PM GET /api/v1/category?limit=-1 304 - 77.011 ms
+request: 2021-10-01 07:39:08 PM GET /api/v1/user/info 304 - 82.423 ms
+request: 2021-10-01 07:39:09 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 40.617 ms
+request: 2021-10-01 07:39:14 PM POST /file/upload 201 - 39.922 ms
+request: 2021-10-01 07:50:22 PM GET /api/v1/category?limit=-1 304 - 83.856 ms
+request: 2021-10-01 07:50:25 PM POST /file/upload 201 - 42.934 ms
+request: 2021-10-01 07:51:09 PM GET /api/v1/category?limit=-1 304 - 82.383 ms
+request: 2021-10-01 07:51:17 PM GET /api/v1/category?limit=-1 304 - 81.730 ms
+request: 2021-10-01 07:51:22 PM POST /file/upload 201 - 46.518 ms
+request: 2021-10-01 07:51:39 PM GET /api/v1/category?limit=-1 304 - 82.850 ms
+request: 2021-10-01 07:51:42 PM GET /api/v1/category?limit=-1 304 - 80.539 ms
+request: 2021-10-01 07:51:46 PM GET /api/v1/category?limit=-1 304 - 84.929 ms
+request: 2021-10-01 07:51:51 PM GET /api/v1/category?limit=-1 304 - 82.591 ms
+request: 2021-10-01 07:52:05 PM GET /api/v1/category?limit=-1 304 - 88.322 ms
+request: 2021-10-01 07:52:17 PM GET /api/v1/category?limit=-1 304 - 80.853 ms
+request: 2021-10-01 07:52:21 PM POST /file/upload 201 - 401.135 ms
+request: 2021-10-01 08:03:09 PM GET /api/v1/category?limit=-1 304 - 87.819 ms
+request: 2021-10-01 08:05:03 PM GET /api/v1/category?limit=-1 304 - 85.869 ms
+request: 2021-10-01 08:05:15 PM GET /api/v1/category?limit=-1 304 - 397.390 ms
+error: 2021-10-01 08:05:26 PM POST /file/upload 401 - 1.641 ms - message: Please authenticate
+request: 2021-10-01 08:05:40 PM GET /api/v1/category?limit=-1 304 - 90.703 ms
+error: 2021-10-01 08:05:42 PM POST /file/upload 401 - 0.815 ms - message: Please authenticate
+request: 2021-10-01 08:05:58 PM GET /api/v1/category?limit=-1 304 - 76.485 ms
+error: 2021-10-01 08:06:01 PM POST /file/upload 401 - 0.298 ms - message: Please authenticate
+request: 2021-10-01 08:06:12 PM GET /api/v1/category?limit=-1 304 - 86.808 ms
+error: 2021-10-01 08:06:14 PM POST /file/upload 401 - 0.384 ms - message: Please authenticate
+request: 2021-10-01 08:06:30 PM GET /api/v1/category?limit=-1 304 - 85.312 ms
+request: 2021-10-01 08:07:11 PM GET /api/v1/category?limit=-1 304 - 88.053 ms
+error: 2021-10-01 08:07:15 PM POST /file/upload 401 - 0.290 ms - message: Please authenticate
+request: 2021-10-01 08:07:30 PM GET /api/v1/category?limit=-1 304 - 80.970 ms
+request: 2021-10-01 08:07:36 PM GET /api/v1/category?limit=-1 304 - 86.690 ms
+request: 2021-10-01 08:07:46 PM GET /api/v1/category?limit=-1 304 - 82.092 ms
+request: 2021-10-01 08:07:49 PM GET /api/v1/category?limit=-1 304 - 81.256 ms
+request: 2021-10-01 08:08:20 PM GET /api/v1/category?limit=-1 304 - 83.598 ms
+request: 2021-10-01 08:08:24 PM GET /api/v1/category?limit=-1 304 - 80.599 ms
+error: 2021-10-01 08:08:28 PM POST /file/upload 401 - 0.395 ms - message: Please authenticate
+request: 2021-10-01 08:08:54 PM GET /api/v1/category?limit=-1 304 - 81.141 ms
+error: 2021-10-01 08:08:56 PM POST /file/upload 401 - 0.554 ms - message: Please authenticate
+request: 2021-10-01 08:09:24 PM GET /api/v1/category?limit=-1 304 - 79.282 ms
+error: 2021-10-01 08:09:28 PM POST /file/upload 401 - 0.712 ms - message: Please authenticate
+error: 2021-10-01 08:09:35 PM POST /file/upload 401 - 0.609 ms - message: Please authenticate
+error: 2021-10-01 08:09:46 PM POST /file/upload 401 - 0.382 ms - message: Please authenticate
+request: 2021-10-01 08:09:56 PM GET /api/v1/category?limit=-1 304 - 82.883 ms
+request: 2021-10-01 08:10:00 PM GET /api/v1/category?limit=-1 304 - 80.808 ms
+error: 2021-10-01 08:10:01 PM POST /file/upload 401 - 0.474 ms - message: Please authenticate
+request: 2021-10-01 08:10:15 PM GET /api/v1/category?limit=-1 304 - 81.662 ms
+error: 2021-10-01 08:10:16 PM POST /file/upload 401 - 0.377 ms - message: Please authenticate
+request: 2021-10-01 08:10:23 PM GET /api/v1/category?limit=-1 304 - 80.396 ms
+error: 2021-10-01 08:10:23 PM POST /file/upload 401 - 0.489 ms - message: Please authenticate
+request: 2021-10-01 08:10:36 PM GET /api/v1/category?limit=-1 304 - 86.429 ms
+error: 2021-10-01 08:10:37 PM POST /file/upload 401 - 0.388 ms - message: Please authenticate
+request: 2021-10-01 08:10:57 PM GET /api/v1/category?limit=-1 304 - 80.474 ms
+error: 2021-10-01 08:10:57 PM POST /file/upload 401 - 0.255 ms - message: Please authenticate
+error: 2021-10-01 08:11:24 PM POST /file/upload 401 - 0.467 ms - message: Please authenticate
+request: 2021-10-01 08:11:34 PM GET /api/v1/category?limit=-1 304 - 81.338 ms
+error: 2021-10-01 08:11:35 PM POST /file/upload 401 - 0.283 ms - message: Please authenticate
+request: 2021-10-01 08:11:47 PM GET /api/v1/category?limit=-1 304 - 80.409 ms
+error: 2021-10-01 08:11:48 PM POST /file/upload 401 - 0.382 ms - message: Please authenticate
+request: 2021-10-01 08:12:08 PM GET /api/v1/category?limit=-1 304 - 81.441 ms
+error: 2021-10-01 08:12:09 PM POST /file/upload 401 - 0.300 ms - message: Please authenticate
+request: 2021-10-01 08:12:28 PM GET /api/v1/category?limit=-1 304 - 79.934 ms
+error: 2021-10-01 08:12:28 PM POST /file/upload 401 - 0.368 ms - message: Please authenticate
+request: 2021-10-01 08:12:54 PM GET /api/v1/category?limit=-1 304 - 80.076 ms
+error: 2021-10-01 08:12:54 PM POST /file/upload 401 - 0.335 ms - message: Please authenticate
+request: 2021-10-01 08:13:09 PM GET /api/v1/category?limit=-1 304 - 80.399 ms
+error: 2021-10-01 08:13:10 PM POST /file/upload 401 - 0.263 ms - message: Please authenticate
+request: 2021-10-01 08:14:33 PM GET /api/v1/category?limit=-1 304 - 122.584 ms
+error: 2021-10-01 08:14:35 PM POST /file/upload 401 - 1.125 ms - message: Please authenticate
+request: 2021-10-01 08:15:06 PM GET /api/v1/category?limit=-1 304 - 82.433 ms
+request: 2021-10-01 09:10:55 PM GET /api/v1/category?limit=-1 304 - 86.963 ms
+request: 2021-10-01 09:13:47 PM GET /api/v1/user/info 304 - 77.938 ms
+request: 2021-10-01 09:14:33 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 40.534 ms
+request: 2021-10-01 09:14:39 PM GET /api/v1/user/info 304 - 81.484 ms
+request: 2021-10-01 09:14:46 PM GET /api/v1/user/info 304 - 78.307 ms
+request: 2021-10-01 09:17:54 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 36.233 ms
+request: 2021-10-01 09:19:37 PM GET /api/v1/category?limit=-1 304 - 82.912 ms
+request: 2021-10-01 09:22:07 PM GET /api/v1/user/info 304 - 76.429 ms
+request: 2021-10-01 09:22:48 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 37.358 ms
+request: 2021-10-01 09:22:48 PM GET /api/v1/category?limit=-1 304 - 80.385 ms
+request: 2021-10-01 09:24:59 PM GET /api/v1/category?limit=-1 304 - 83.001 ms
+request: 2021-10-01 09:25:10 PM GET /api/v1/category?limit=-1 304 - 78.737 ms
+request: 2021-10-01 09:25:20 PM GET /api/v1/category?limit=-1 304 - 84.861 ms
+request: 2021-10-01 09:28:33 PM GET /api/v1/category?limit=-1 304 - 79.972 ms
+request: 2021-10-01 09:28:39 PM GET /api/v1/category?limit=-1 304 - 77.043 ms
+request: 2021-10-01 09:28:39 PM GET /api/v1/user/info 304 - 82.345 ms
+request: 2021-10-01 09:28:39 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 35.676 ms
+request: 2021-10-01 09:29:26 PM GET /api/v1/category?limit=-1 304 - 83.544 ms
+request: 2021-10-01 09:29:30 PM GET /api/v1/category?limit=-1 304 - 84.718 ms
+request: 2021-10-01 09:29:30 PM GET /api/v1/user/info 304 - 83.927 ms
+request: 2021-10-01 09:29:30 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 39.089 ms
+request: 2021-10-01 09:31:38 PM GET /api/v1/category?limit=-1 304 - 89.218 ms
+request: 2021-10-01 09:31:50 PM GET /api/v1/category?limit=-1 304 - 81.546 ms
+request: 2021-10-01 09:31:59 PM GET /api/v1/category?limit=-1 304 - 80.675 ms
+request: 2021-10-01 09:33:23 PM GET /api/v1/category?limit=-1 304 - 83.794 ms
+request: 2021-10-01 09:34:08 PM GET /api/v1/category?limit=-1 304 - 83.790 ms
+request: 2021-10-01 09:35:23 PM GET /api/v1/category?limit=-1 304 - 81.028 ms
+request: 2021-10-01 09:36:28 PM GET /api/v1/category?limit=-1 304 - 83.231 ms
+request: 2021-10-01 09:39:24 PM GET /api/v1/category?limit=-1 304 - 93.116 ms
+request: 2021-10-01 09:40:46 PM GET /api/v1/category?limit=-1 304 - 109.966 ms
+request: 2021-10-01 09:41:21 PM GET /api/v1/category?limit=-1 304 - 82.898 ms
+request: 2021-10-01 09:42:25 PM GET /api/v1/category?limit=-1 304 - 83.888 ms
+request: 2021-10-01 09:42:59 PM GET /api/v1/category?limit=-1 304 - 85.002 ms
+request: 2021-10-01 09:43:10 PM GET /api/v1/category?limit=-1 304 - 81.992 ms
+request: 2021-10-01 09:45:24 PM GET /api/v1/category?limit=-1 304 - 80.093 ms
+request: 2021-10-01 09:45:39 PM GET /api/v1/category?limit=-1 304 - 80.950 ms
+request: 2021-10-01 09:46:56 PM GET /api/v1/category?limit=-1 304 - 81.456 ms
+request: 2021-10-01 09:53:51 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 86.372 ms
+request: 2021-10-01 09:54:00 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 79.649 ms
+request: 2021-10-01 09:54:02 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 95.966 ms
+request: 2021-10-01 09:54:04 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 79.621 ms
+request: 2021-10-01 09:54:09 PM GET /api/v1/category?limit=20&page=0&sortBy=%7B%7D&name= 200 - 77.361 ms
+request: 2021-10-01 09:54:13 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 81.819 ms
+request: 2021-10-01 09:54:15 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 83.260 ms
+request: 2021-10-01 09:54:17 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 84.036 ms
+request: 2021-10-01 09:54:21 PM GET /api/v1/category?limit=-1 304 - 81.340 ms
+request: 2021-10-01 09:54:23 PM GET /api/v1/category?limit=-1 304 - 79.593 ms
+request: 2021-10-01 10:11:22 PM GET /api/v1/category?limit=-1 304 - 1454.828 ms
+request: 2021-10-01 10:11:22 PM GET /api/v1/user/info 304 - 1461.186 ms
+request: 2021-10-01 10:11:23 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 702.099 ms
+request: 2021-10-01 10:15:27 PM GET /api/v1/user/info 304 - 1028.364 ms
+request: 2021-10-01 10:15:27 PM GET /api/v1/category?limit=-1 304 - 1114.353 ms
+request: 2021-10-01 10:15:30 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 489.628 ms
+request: 2021-10-01 10:21:16 PM GET /api/v1/category?limit=-1 304 - 1090.358 ms
+request: 2021-10-01 10:21:25 PM GET /api/v1/user/info 304 - 1038.945 ms
+request: 2021-10-01 10:21:25 PM GET /api/v1/category?limit=-1 304 - 1042.844 ms
+request: 2021-10-01 10:21:27 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 570.583 ms
+request: 2021-10-01 10:22:33 PM GET /api/v1/category?limit=-1 304 - 1076.058 ms
+request: 2021-10-01 10:22:59 PM GET /api/v1/user/info 304 - 1069.990 ms
+request: 2021-10-01 10:22:59 PM GET /api/v1/category?limit=-1 304 - 1073.226 ms
+request: 2021-10-01 10:23:01 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 568.379 ms
+request: 2021-10-01 10:23:56 PM GET /api/v1/user/info 304 - 1043.541 ms
+request: 2021-10-01 10:23:56 PM GET /api/v1/category?limit=-1 304 - 1046.357 ms
+request: 2021-10-01 10:23:58 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 497.079 ms
+request: 2021-10-01 10:24:01 PM GET /api/v1/category?limit=-1 304 - 1100.753 ms
+request: 2021-10-01 10:24:46 PM GET /api/v1/category?limit=-1 304 - 1037.976 ms
+request: 2021-10-01 10:28:02 PM GET /api/v1/category?limit=-1 304 - 1025.188 ms
+request: 2021-10-01 10:28:02 PM GET /api/v1/user/info 304 - 1030.369 ms
+request: 2021-10-01 10:28:04 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 515.070 ms
+request: 2021-10-01 10:29:33 PM GET /api/v1/category?limit=-1 304 - 716.518 ms
+request: 2021-10-01 10:29:33 PM GET /api/v1/user/info 304 - 722.523 ms
+request: 2021-10-01 10:29:36 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 542.593 ms
+request: 2021-10-01 10:29:49 PM GET /api/v1/user/info 304 - 1092.644 ms
+request: 2021-10-01 10:29:51 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 490.555 ms
+request: 2021-10-01 10:29:53 PM GET /api/v1/category?limit=-1 304 - 1040.088 ms
+request: 2021-10-01 10:30:35 PM GET /api/v1/category?limit=-1 304 - 1084.345 ms
+request: 2021-10-01 10:32:15 PM GET /api/v1/user/info 304 - 1075.115 ms
+request: 2021-10-01 10:32:17 PM GET /api/v1/category?limit=-1 304 - 1046.314 ms
+request: 2021-10-01 10:32:17 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 488.817 ms
+request: 2021-10-01 10:33:18 PM GET /api/v1/category?limit=-1 304 - 1112.493 ms
+request: 2021-10-01 10:33:46 PM GET /api/v1/category?limit=-1 304 - 1092.555 ms
+request: 2021-10-01 10:33:46 PM GET /api/v1/user/info 304 - 1097.185 ms
+request: 2021-10-01 10:33:48 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 542.409 ms
+request: 2021-10-01 10:35:40 PM GET /api/v1/category?limit=-1 304 - 1046.952 ms
+request: 2021-10-01 10:35:59 PM POST /file/upload 201 - 554.070 ms
+request: 2021-10-01 10:36:27 PM GET /api/v1/category?limit=-1 304 - 1052.365 ms
+request: 2021-10-01 10:37:54 PM GET /api/v1/category?limit=-1 304 - 1025.535 ms
+request: 2021-10-01 10:38:00 PM GET /api/v1/category?limit=-1 304 - 1053.414 ms
+request: 2021-10-01 10:39:19 PM GET /api/v1/category?limit=-1 304 - 1035.709 ms
+request: 2021-10-01 10:39:44 PM GET /api/v1/category?limit=-1 304 - 80.995 ms
+request: 2021-10-01 10:39:47 PM GET /api/v1/category?limit=-1 304 - 79.448 ms
+request: 2021-10-01 10:39:53 PM GET /api/v1/category?limit=-1 304 - 86.993 ms
+request: 2021-10-01 10:40:26 PM GET /api/v1/category?limit=-1 304 - 83.198 ms
+request: 2021-10-01 10:40:35 PM GET /api/v1/category?limit=-1 304 - 78.954 ms
+request: 2021-10-01 10:42:09 PM GET /api/v1/category?limit=-1 304 - 78.453 ms
+request: 2021-10-01 10:42:11 PM GET /api/v1/category?limit=-1 304 - 81.606 ms
+request: 2021-10-01 10:42:37 PM GET /api/v1/category?limit=-1 304 - 108.533 ms
+request: 2021-10-01 10:42:49 PM GET /api/v1/category?limit=-1 304 - 80.499 ms
+request: 2021-10-01 10:43:13 PM GET /api/v1/category?limit=-1 304 - 89.136 ms
+request: 2021-10-01 10:43:24 PM GET /api/v1/category?limit=-1 304 - 82.454 ms
+request: 2021-10-01 10:43:34 PM GET /api/v1/category?limit=-1 304 - 87.818 ms
+request: 2021-10-01 10:44:25 PM GET /api/v1/category?limit=-1 304 - 79.898 ms
+request: 2021-10-01 10:44:35 PM GET /api/v1/category?limit=-1 304 - 80.179 ms
+request: 2021-10-01 10:45:05 PM GET /api/v1/category?limit=-1 304 - 79.904 ms
+request: 2021-10-01 10:45:06 PM POST /file/upload 201 - 39.183 ms
+request: 2021-10-01 10:45:18 PM GET /api/v1/category?limit=-1 304 - 83.823 ms
+request: 2021-10-01 10:45:19 PM POST /file/upload 201 - 36.113 ms
+request: 2021-10-01 10:45:35 PM GET /api/v1/category?limit=-1 304 - 78.817 ms
+request: 2021-10-01 10:45:36 PM POST /file/upload 201 - 39.626 ms
+request: 2021-10-01 10:45:59 PM GET /api/v1/category?limit=-1 304 - 77.037 ms
+request: 2021-10-01 10:46:00 PM POST /file/upload 201 - 38.510 ms
+request: 2021-10-01 10:47:33 PM GET /api/v1/category?limit=-1 304 - 82.255 ms
+request: 2021-10-01 10:47:33 PM POST /file/upload 201 - 39.446 ms
+request: 2021-10-01 10:47:55 PM POST /file/upload 201 - 40.999 ms
+request: 2021-10-01 10:48:23 PM GET /api/v1/category?limit=-1 304 - 88.298 ms
+error: 2021-10-01 10:48:24 PM POST /file/upload 401 - 0.833 ms - message: Please authenticate
+request: 2021-10-01 10:48:50 PM GET /api/v1/category?limit=-1 304 - 83.877 ms
+request: 2021-10-01 10:49:00 PM GET /api/v1/category?limit=-1 304 - 79.522 ms
+request: 2021-10-01 10:49:05 PM POST /file/upload 201 - 42.413 ms
+request: 2021-10-01 10:49:20 PM GET /api/v1/category?limit=-1 304 - 85.632 ms
+request: 2021-10-01 10:49:20 PM POST /file/upload 201 - 37.261 ms
+request: 2021-10-01 10:49:29 PM GET /api/v1/category?limit=-1 304 - 79.939 ms
+request: 2021-10-01 10:49:29 PM POST /file/upload 201 - 38.636 ms
+request: 2021-10-01 10:50:17 PM GET /api/v1/category?limit=-1 304 - 81.269 ms
+request: 2021-10-01 10:50:28 PM GET /api/v1/category?limit=-1 304 - 88.611 ms
+request: 2021-10-01 10:50:30 PM POST /file/upload 201 - 39.621 ms
+request: 2021-10-01 10:50:33 PM GET /api/v1/category?limit=-1 304 - 80.030 ms
+request: 2021-10-01 10:50:56 PM POST /file/upload 201 - 42.684 ms
+request: 2021-10-01 10:54:13 PM GET /api/v1/category?limit=-1 304 - 79.642 ms
+request: 2021-10-01 10:54:16 PM GET /api/v1/category?limit=-1 304 - 82.782 ms
+request: 2021-10-01 10:54:17 PM POST /file/upload 201 - 40.829 ms
+request: 2021-10-01 10:54:32 PM GET /api/v1/category?limit=-1 304 - 79.529 ms
+request: 2021-10-01 10:54:33 PM POST /file/upload 201 - 38.707 ms
+request: 2021-10-01 10:55:46 PM GET /api/v1/category?limit=-1 304 - 81.472 ms
+request: 2021-10-01 10:55:47 PM POST /file/upload 201 - 279.591 ms
+request: 2021-10-01 10:56:34 PM GET /api/v1/category?limit=-1 304 - 85.837 ms
+request: 2021-10-01 10:57:43 PM GET /api/v1/category?limit=-1 304 - 81.933 ms
+request: 2021-10-01 10:57:44 PM POST /file/upload 201 - 209.213 ms
+request: 2021-10-01 11:06:18 PM GET /api/v1/category?limit=-1 304 - 79.674 ms
+request: 2021-10-01 11:06:26 PM POST /file/upload 201 - 208.566 ms
+error: 2021-10-01 11:06:26 PM POST /api/v1/shop 400 - 43.166 ms - message: "address" must be an array
+request: 2021-10-01 11:13:16 PM POST /file/upload 201 - 341.217 ms
+error: 2021-10-01 11:13:16 PM POST /api/v1/shop 400 - 63.898 ms - message: shops validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address"
+request: 2021-10-01 11:15:55 PM POST /file/upload 201 - 277.565 ms
+error: 2021-10-01 11:15:55 PM POST /api/v1/shop 400 - 64.616 ms - message: shops validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address"
+request: 2021-10-01 11:16:08 PM POST /file/upload 201 - 398.919 ms
+error: 2021-10-01 11:16:08 PM POST /api/v1/shop 400 - 74.833 ms - message: shops validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address"
+request: 2021-10-01 11:17:23 PM POST /file/upload 201 - 263.919 ms
+error: 2021-10-01 11:17:23 PM POST /api/v1/shop 400 - 47.416 ms - message: address validation failed: country: Path `country` is required., city: Path `city` is required., state: Path `state` is required., street: Path `street` is required., number: Path `number` is required.
+request: 2021-10-01 11:18:15 PM POST /file/upload 201 - 293.810 ms
+error: 2021-10-01 11:18:15 PM POST /api/v1/shop 400 - 54.470 ms - message: address validation failed: country: Path `country` is required., city: Path `city` is required., state: Path `state` is required., street: Path `street` is required., number: Path `number` is required.
+request: 2021-10-01 11:18:39 PM POST /file/upload 201 - 320.503 ms
+error: 2021-10-01 11:18:39 PM POST /api/v1/shop 400 - 59.502 ms - message: shops validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address"
+request: 2021-10-01 11:19:19 PM POST /file/upload 201 - 347.760 ms
+error: 2021-10-01 11:19:19 PM POST /api/v1/shop 400 - 62.350 ms - message: address validation failed: number: Path `number` is required.
+request: 2021-10-01 11:19:50 PM POST /file/upload 201 - 318.163 ms
+error: 2021-10-01 11:19:50 PM POST /api/v1/shop 400 - 48.596 ms - message: address validation failed: home: Path `home` is required.
+request: 2021-10-01 11:20:03 PM POST /file/upload 201 - 315.808 ms
+error: 2021-10-01 11:20:03 PM POST /api/v1/shop 400 - 64.470 ms - message: address validation failed: home: Path `home` is required.
+request: 2021-10-01 11:20:33 PM POST /file/upload 201 - 332.899 ms
+request: 2021-10-01 11:20:34 PM POST /api/v1/shop 201 - 245.657 ms
+request: 2021-10-01 11:21:27 PM GET /api/v1/shop 200 - 168.919 ms
+request: 2021-10-01 11:21:45 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 200 - 36.857 ms
+request: 2021-10-01 11:22:05 PM GET /api/v1/shop 200 - 156.933 ms
+request: 2021-10-01 11:23:06 PM GET /api/v1/category?limit=-1 304 - 92.138 ms
+request: 2021-10-01 11:24:13 PM GET /api/v1/category?limit=-1 304 - 93.982 ms
+request: 2021-10-01 11:24:17 PM GET /api/v1/category?limit=-1 304 - 91.448 ms
+request: 2021-10-01 11:24:19 PM POST /api/v1/shop 201 - 191.193 ms
+request: 2021-10-01 11:24:37 PM GET /api/v1/shop 200 - 138.229 ms
+request: 2021-10-02 12:00:16 AM GET /api/v1/shop 200 - 160.767 ms
+request: 2021-10-02 12:04:50 AM GET /api/v1/shop 304 - 123.802 ms
+request: 2021-10-02 12:05:01 AM GET /api/v1/category?limit=-1 304 - 80.032 ms
+request: 2021-10-02 12:05:03 AM GET /api/v1/shop 304 - 126.890 ms
+request: 2021-10-02 12:05:05 AM GET /api/v1/category?limit=-1 304 - 94.146 ms
+request: 2021-10-02 12:05:06 AM GET /api/v1/shop 304 - 122.662 ms
+request: 2021-10-02 12:05:19 AM GET /api/v1/category?limit=-1 304 - 79.363 ms
+request: 2021-10-02 12:07:40 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 39.482 ms
+request: 2021-10-02 12:07:49 AM GET /api/v1/category?limit=-1 304 - 79.385 ms
+request: 2021-10-02 12:07:49 AM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 200 - 37.440 ms
+request: 2021-10-02 12:07:50 AM GET /api/v1/shop 304 - 126.685 ms
+request: 2021-10-02 12:07:52 AM GET /api/v1/category?limit=-1 304 - 91.878 ms
+request: 2021-10-02 12:07:53 AM GET /api/v1/shop 304 - 125.260 ms
+request: 2021-10-02 12:07:54 AM GET /api/v1/category?limit=-1 304 - 78.062 ms
+request: 2021-10-02 12:08:07 AM GET /api/v1/shop 304 - 129.724 ms
+request: 2021-10-02 12:08:10 AM GET /api/v1/category?limit=-1 304 - 95.494 ms
+request: 2021-10-02 12:08:39 AM GET /api/v1/category?limit=-1 304 - 89.001 ms
+request: 2021-10-02 12:08:42 AM GET /api/v1/shop 304 - 122.815 ms
+request: 2021-10-02 12:08:44 AM GET /api/v1/category?limit=-1 304 - 85.094 ms
+request: 2021-10-02 12:09:38 AM GET /api/v1/user/info 304 - 78.141 ms
+request: 2021-10-02 12:09:38 AM GET /api/v1/category?limit=-1 304 - 82.788 ms
+request: 2021-10-02 12:09:39 AM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 200 - 37.424 ms
+request: 2021-10-02 12:09:39 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 37.552 ms
+request: 2021-10-02 12:09:44 AM GET /api/v1/user/info 304 - 89.188 ms
+request: 2021-10-02 12:09:44 AM GET /api/v1/shop 304 - 114.682 ms
+request: 2021-10-02 12:09:45 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 38.773 ms
+request: 2021-10-02 12:09:48 AM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 200 - 37.872 ms
+request: 2021-10-02 12:09:49 AM GET /api/v1/category?limit=-1 304 - 75.929 ms
+request: 2021-10-02 12:10:04 AM GET /api/v1/category?limit=-1 304 - 79.160 ms
+request: 2021-10-02 12:10:08 AM GET /api/v1/user/info 304 - 71.814 ms
+request: 2021-10-02 12:10:08 AM GET /api/v1/shop 304 - 126.141 ms
+request: 2021-10-02 12:10:08 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 37.777 ms
+request: 2021-10-02 12:10:14 AM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 200 - 37.097 ms
+request: 2021-10-02 12:10:14 AM GET /api/v1/category?limit=-1 304 - 91.975 ms
+request: 2021-10-02 12:10:20 AM GET /api/v1/category?limit=-1 304 - 90.987 ms
+request: 2021-10-02 12:10:29 AM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 200 - 36.425 ms
+request: 2021-10-02 12:10:29 AM GET /api/v1/category?limit=-1 304 - 74.994 ms
+request: 2021-10-02 12:10:29 AM GET /api/v1/user/info 304 - 88.971 ms
+request: 2021-10-02 12:10:30 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 36.746 ms
+request: 2021-10-02 12:11:17 AM GET /api/v1/category?limit=-1 304 - 89.020 ms
+request: 2021-10-02 12:11:19 AM GET /api/v1/shop 304 - 117.712 ms
+request: 2021-10-02 12:11:20 AM GET /api/v1/category?limit=-1 304 - 74.107 ms
+request: 2021-10-02 12:11:56 AM GET /api/v1/category?limit=-1 304 - 77.960 ms
+request: 2021-10-02 12:11:58 AM GET /api/v1/shop 304 - 113.559 ms
+request: 2021-10-02 12:12:00 AM GET /api/v1/category?limit=-1 304 - 78.182 ms
+request: 2021-10-02 12:13:29 AM GET /api/v1/category?limit=-1 304 - 75.117 ms
+request: 2021-10-02 12:13:30 AM GET /api/v1/shop 304 - 124.077 ms
+request: 2021-10-02 12:13:31 AM GET /api/v1/category?limit=-1 304 - 89.321 ms
+request: 2021-10-02 12:13:38 AM GET /api/v1/shop 304 - 120.716 ms
+error: 2021-10-02 12:15:22 AM GET /file/ 404 - 0.824 ms - message: /file/ not found
+error: 2021-10-02 12:15:59 AM GET /file/ 404 - 0.694 ms - message: /file/ not found
+request: 2021-10-02 12:17:05 AM GET /api/v1/category?limit=-1 304 - 75.504 ms
+request: 2021-10-02 12:17:07 AM GET /api/v1/shop 304 - 114.409 ms
+error: 2021-10-02 12:17:07 AM GET /file/ 404 - 0.407 ms - message: /file/ not found
+request: 2021-10-02 12:17:08 AM GET /api/v1/category?limit=-1 304 - 73.915 ms
+request: 2021-10-02 12:17:10 AM GET /api/v1/shop 304 - 120.282 ms
+error: 2021-10-02 12:17:10 AM GET /file/ 404 - 0.275 ms - message: /file/ not found
+request: 2021-10-02 12:17:28 AM GET /api/v1/category?limit=-1 304 - 88.554 ms
+request: 2021-10-02 12:17:29 AM GET /api/v1/shop 304 - 118.509 ms
+error: 2021-10-02 12:17:29 AM GET /file/ 404 - 0.354 ms - message: /file/ not found
+request: 2021-10-02 12:18:08 AM GET /api/v1/category?limit=-1 304 - 74.271 ms
+request: 2021-10-02 12:18:09 AM GET /api/v1/shop 304 - 118.561 ms
+request: 2021-10-02 12:18:28 AM GET /api/v1/category?limit=-1 304 - 91.611 ms
+request: 2021-10-02 12:18:38 AM GET /api/v1/shop 304 - 118.946 ms
+request: 2021-10-02 12:18:40 AM GET /api/v1/category?limit=-1 304 - 75.300 ms
+request: 2021-10-02 12:18:51 AM POST /file/upload 201 - 335.878 ms
+error: 2021-10-02 12:18:51 AM PATCH /api/v1/shop/615735512e08227744425c01 400 - 39.160 ms - message: "[0]" must be a string, "categories" does not contain 1 required value(s)
+error: 2021-10-02 12:18:51 AM POST /api/v1/shop 400 - 40.703 ms - message: "[0]" must be a string, "categories" does not contain 1 required value(s)
+request: 2021-10-02 12:18:58 AM POST /file/upload 201 - 240.832 ms
+error: 2021-10-02 12:18:58 AM PATCH /api/v1/shop/615735512e08227744425c01 400 - 37.992 ms - message: "[0]" must be a string
+error: 2021-10-02 12:18:58 AM POST /api/v1/shop 400 - 38.857 ms - message: "[0]" must be a string
+request: 2021-10-02 12:19:34 AM GET /api/v1/category?limit=-1 304 - 79.738 ms
+request: 2021-10-02 12:19:35 AM GET /api/v1/shop 304 - 124.633 ms
+request: 2021-10-02 12:19:36 AM GET /api/v1/category?limit=-1 304 - 77.957 ms
+request: 2021-10-02 12:19:43 AM POST /file/upload 201 - 250.540 ms
+error: 2021-10-02 12:19:43 AM POST /api/v1/shop 400 - 36.651 ms - message: "[0]" must be a string

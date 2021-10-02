@@ -1,4 +1,5 @@
 import httpStatus from "http-status";
+import { addressService } from ".";
 import { Shop } from "../models";
 import ApiError from "../utils/ApiError";
 
@@ -8,6 +9,10 @@ import ApiError from "../utils/ApiError";
  * @returns {Promise<Shop>}
  */
 const CreateShop = async (shopBody) => {
+    const address = await addressService.CreateAddress(shopBody.address);
+    
+    shopBody.address = address._id;
+
     const shop = await Shop.create(shopBody);
 
     return shop;
@@ -48,6 +53,8 @@ const GetShopById = async (shopId) => {
  * @returns {Promise<Shop>}
  */
 const UpdateShop = async (shopId, shopBody) => {
+    //Check for changes in address object, if so update first, otherwise, skip
+
     let shop = await GetShopById(shopId);
 
     Object.assign(shop, JSON.parse(JSON.stringify(shopBody)));
