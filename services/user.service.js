@@ -1,4 +1,5 @@
 import httpStatus from "http-status";
+import { addressService } from ".";
 import { User } from "../models";
 import ApiError from "../utils/ApiError";
 
@@ -58,9 +59,28 @@ const QueryUsers = async (filter, options) => {
  * @returns 
  */
 const UpdateUser = async (userId, userBody) => {
+    let dbAddress = await addressService.GetAddressById(userBody.address.id);
     let user = await GetUserById(userId);
+    const obj = {
+        id: dbAddress._id,
+        house: dbAddress.house,
+        street: dbAddress.street,
+        state: dbAddress.state,
+        city: dbAddress.city,
+        house: dbAddress.house,
+        country: dbAddress.country,
+        zipCode: dbAddress.zipCode,
+    }
 
-    Object.assign(user, userBody);
+    if (JSON.stringify(obj) !== JSON.stringify(userBody.address)) {
+        Object.assign(dbAddress, JSON.parse(JSON.stringify(userBody.address)));
+        await dbAddress.save();
+    }
+
+    userBody.address = dbAddress._id;
+    userBody.sellCompany = userBody.sellCompany.id;
+
+    Object.assign(user, JSON.parse(JSON.stringify(userBody)));
     await user.save();
 
     return user;

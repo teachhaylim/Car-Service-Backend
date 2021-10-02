@@ -1,6 +1,6 @@
 import express from "express";
 import { rateController } from "../controllers";
-import { auth, validate } from "../middlewares";
+import { auth, validate } from "../middleware";
 import { rateValidation } from "../validations";
 
 const rateRoute = express.Router();

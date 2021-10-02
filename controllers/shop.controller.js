@@ -1,5 +1,5 @@
 import httpStatus from "http-status";
-import { shopService } from "../services";
+import { shopService, userService } from "../services";
 import catchAsync from "../utils/catchAsync";
 import { pick } from "../utils/generalFuncs";
 
@@ -23,6 +23,13 @@ const GetShop = catchAsync(async (req, res) => {
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, data: shop });
 });
 
+const GetShopInfo = catchAsync(async (req, res) => {
+    const user = await userService.GetUserById(req.user._id);
+    const shop = await shopService.GetShopById(user.sellCompany);
+
+    res.status(httpStatus.OK).send({meta: httpStatus.OK, data: shop});
+});
+
 const UpdateShop = catchAsync(async (req, res) => {
     const shop = await shopService.UpdateShop(req.params.shopId, req.body);
 
@@ -39,6 +46,7 @@ export default {
     CreateShop,
     QueryShops,
     GetShop,
+    GetShopInfo,
     UpdateShop,
     DeleteShop,
 }

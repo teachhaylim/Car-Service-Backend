@@ -1,6 +1,6 @@
 import express from "express";
 import { appointmentController } from "../controllers";
-import { auth, validate } from "../middlewares";
+import { auth, validate } from "../middleware";
 import { appointmentValidation } from "../validations";
 
 const appointmentRoute = express.Router();

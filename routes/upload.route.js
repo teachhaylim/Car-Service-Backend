@@ -1,7 +1,7 @@
 import express from 'express';
 import { upload } from '../config';
 import { uploadController } from '../controllers';
-import { auth } from '../middlewares';
+import { auth } from '../middleware';
 
 const uploadRoute = express.Router();
 

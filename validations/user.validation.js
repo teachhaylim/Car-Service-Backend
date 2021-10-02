@@ -10,10 +10,12 @@ const createUser = {
         type: Joi.string(),
         dob: Joi.date(),
         email: Joi.string().email().required(),
-        password: Joi.string().custom(customValidation.password).required(),
+        password: Joi.string().custom(customValidation.password).optional().allow(""),
         isActive: Joi.boolean().valid(true, false),
         createdAt: Joi.date(),
         updatedAt: Joi.date(),
+        address: Joi.string().custom(customValidation.objectId).required(),
+        sellCompany: Joi.string().custom(customValidation.objectId).allow(""),
         id: Joi.string().custom(customValidation.objectId),
     }),
 };

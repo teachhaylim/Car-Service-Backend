@@ -53,9 +53,24 @@ const GetShopById = async (shopId) => {
  * @returns {Promise<Shop>}
  */
 const UpdateShop = async (shopId, shopBody) => {
-    //Check for changes in address object, if so update first, otherwise, skip
-
+    let dbAddress = await addressService.GetAddressById(shopBody.address.id);
     let shop = await GetShopById(shopId);
+    const obj = {
+        id: dbAddress._id,
+        house: dbAddress.house,
+        street: dbAddress.street,
+        state: dbAddress.state,
+        city: dbAddress.city,
+        house: dbAddress.house,
+        country: dbAddress.country,
+        zipCode: dbAddress.zipCode,
+    }
+
+    if (JSON.stringify(obj) !== JSON.stringify(shopBody.address)){
+        Object.assign(dbAddress, JSON.parse(JSON.stringify(shopBody.address)));
+        await dbAddress.save();
+        shopBody.address = dbAddress._id;
+    }
 
     Object.assign(shop, JSON.parse(JSON.stringify(shopBody)));
     await shop.save();

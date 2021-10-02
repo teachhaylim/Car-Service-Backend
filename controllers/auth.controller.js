@@ -1,17 +1,26 @@
 import httpStatus from "http-status";
-import { authService, tokenService } from "../services";
+import { authService, shopService, tokenService, userService } from "../services";
 import catchAsync from "../utils/catchAsync";
 
 const Login = catchAsync(async (req, res) => {
     const { email, password } = req.body;
     const user = await authService.loginWithEmailAndPassword(email, password);
+    const shop = await shopService.GetShopById(user.sellCompany);
     const token = tokenService.GenerateToken(user.id);
 
-    res.status(httpStatus.OK).send({ meta: httpStatus.OK, token, user });
+    res.status(httpStatus.OK).send({ meta: httpStatus.OK, token, user, shop });
+});
+
+const LoggedInfo = catchAsync(async (req, res) => {
+    const user = await userService.GetUserById(req.user._id);
+    const shop = await shopService.GetShopById(user.sellCompany);
+
+    res.status(httpStatus.OK).send({ meta: httpStatus.OK, user, shop });
 });
 
 //TODO register, forget password
 
 export default {
     Login,
+    LoggedInfo,
 }

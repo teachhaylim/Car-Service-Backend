@@ -1,5 +1,5 @@
 import httpStatus from "http-status";
-import { Address, Appointment } from "../models";
+import { Address } from "../models";
 import ApiError from "../utils/ApiError";
 
 /**
@@ -30,7 +30,7 @@ const QueryAddress = async(filter, options) => {
  * @returns 
  */
 const GetAddressById = async(addressId) => {
-    const address = await Appointment.findById(addressId);
+    const address = await Address.findById(addressId);
 
     if(!address) throw new ApiError(httpStatus.NOT_FOUND, "Address not found");
 
@@ -46,7 +46,7 @@ const GetAddressById = async(addressId) => {
 const UpdateAddress = async(addressId, addressBody) => {
     const address = await GetAddressById(addressId);
 
-    Object.assign(address, JSON.parse(JSON.stringify(address)));
+    Object.assign(address, JSON.parse(JSON.stringify(addressBody)));
     address.save();
 
     return address;

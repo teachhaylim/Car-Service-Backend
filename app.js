@@ -7,9 +7,9 @@ import mongoSanitize from "express-mongo-sanitize";
 
 import router, { generalRouter } from "./routes";
 import config from "./config/config";
-import { authLimiter, publicLimiter } from "./middlewares/limiter";
+import { authLimiter, publicLimiter } from "./middleware/limiter";
 import morgan from "./config/morgan";
-import { errorConverter, errorHandler } from './middlewares/error';
+import { errorConverter, errorHandler } from './middleware/error';
 import httpStatus from "http-status";
 import ApiError from "./utils/ApiError";
 
@@ -19,11 +19,11 @@ import ApiError from "./utils/ApiError";
 const app = express();
 
 // configuration
+app.use(cors());
 app.use(helmet());
+app.options("*", cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
-app.options("*", cors());
 app.use(xss());
 app.use(mongoSanitize());
 app.use(compression());

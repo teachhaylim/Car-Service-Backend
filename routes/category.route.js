@@ -1,6 +1,6 @@
 import express from "express";
 import { categoryController } from "../controllers";
-import { auth, validate } from "../middlewares";
+import { auth, validate } from "../middleware";
 import { categoryValidation } from "../validations";
 
 const categoryRoute = express.Router();

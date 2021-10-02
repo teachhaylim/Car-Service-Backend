@@ -1,6 +1,6 @@
 import express from "express";
 import { serviceController } from "../controllers";
-import { auth, validate } from "../middlewares";
+import { auth, validate } from "../middleware";
 import { serviceValidation } from "../validations";
 
 const serviceRoute = express.Router();

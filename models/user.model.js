@@ -40,10 +40,10 @@ const userSchema = mongoose.Schema(
         },
         password: {
             type: String,
-            required: true,
+            required: false,
             trim: true,
-            minlength: 8,
-            private: true,
+            // minlength: 8,
+            private: false,
         },
         type: {
             type: Number,
@@ -55,17 +55,16 @@ const userSchema = mongoose.Schema(
             default: true,
         },
         address: {
-            type: [mongoose.Types.ObjectId],
+            type: mongoose.Types.ObjectId,
             ref: "address",
-            default: [],
+            default: "",
             autopopulate: true,
         },
-        shop: {
-            type: [mongoose.Types.ObjectId],
+        sellCompany: {
+            type: mongoose.Types.ObjectId,
             ref: "shops",
-            default: [],
-            required: true,
-            autopopulate: false,
+            default: "",
+            autopopulate: true,
         },
     },
     {
@@ -98,9 +97,9 @@ userSchema.statics.isEmailTaken = async function (email, excludeUserId) {
 };
 
 userSchema.pre('save', async function (next) {
-    if (this.isModified('password')) {
-        this.password = await bcrypt.hash(this.password, 10);
-    }
+    // if (this.isModified('password')) {
+    //     this.password = await bcrypt.hash(this.password, 10);
+    // }
 
     // if (this.isModified('profilePic')) {
     //     this.profilePic = `https://avatars.dicebear.com/api/identicon/${this.firstName}.svg`;

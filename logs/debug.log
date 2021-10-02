@@ -1420,3 +1420,187 @@ error: 2021-10-02 12:18:51 AM POST /api/v1/shop 400 - 40.703 ms - message: "[0]"
 error: 2021-10-02 12:18:58 AM PATCH /api/v1/shop/615735512e08227744425c01 400 - 37.992 ms - message: "[0]" must be a string
 error: 2021-10-02 12:18:58 AM POST /api/v1/shop 400 - 38.857 ms - message: "[0]" must be a string
 error: 2021-10-02 12:19:43 AM POST /api/v1/shop 400 - 36.651 ms - message: "[0]" must be a string
+error: 2021-10-02 08:22:50 AM CastError: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "address.0"
+    at SchemaArray._castForPopulate (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\schema\array.js:437:15)
+    at convertTo_id (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:602:28)
+    at _getLocalFieldValues (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:575:12)
+    at getModelsMapForPopulate (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:151:17)
+    at populate (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\model.js:4434:21)
+    at _populate (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\model.js:4405:5)
+    at C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\model.js:4382:5
+    at promiseOrCallback (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:10:12)
+    at Mongoose._promiseOrCallback (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.Model.populate (C:\Users\teach\Desktop\Projects\2. Test Project\Graduation_Backend\node_modules\mongoose\lib\model.js:4380:23)
+error: 2021-10-02 08:43:12 AM GET /file/ 404 - 1.710 ms - message: /file/ not found
+error: 2021-10-02 09:56:12 AM PUT /api/v1/shop/615736322e08227744425c1b 400 - 104.050 ms - message: "[0]" must be a string, "categories" does not contain 1 required value(s)
+error: 2021-10-02 10:10:46 AM PUT /api/v1/shop/615736322e08227744425c1b 404 - 151.291 ms - message: Address not found
+error: 2021-10-02 10:11:15 AM PUT /api/v1/shop/615736322e08227744425c1b 404 - 154.638 ms - message: Address not found
+error: 2021-10-02 10:11:32 AM PUT /api/v1/shop/615736322e08227744425c1b 404 - 153.048 ms - message: Address not found
+error: 2021-10-02 10:12:50 AM PUT /api/v1/shop/615736322e08227744425c1b 404 - 150.277 ms - message: Address not found
+error: 2021-10-02 10:19:01 AM GET /favicon.ico 404 - 0.814 ms - message: /favicon.ico not found
+error: 2021-10-02 10:19:03 AM GET /worker.js 404 - 0.241 ms - message: /worker.js not found
+error: 2021-10-02 10:19:11 AM GET /worker.js 404 - 0.237 ms - message: /worker.js not found
+error: 2021-10-02 10:21:06 AM GET /worker.js 404 - 0.338 ms - message: /worker.js not found
+error: 2021-10-02 12:23:58 PM PUT /api/v1/shop/615736322e08227744425c1b 404 - 127.902 ms - message: Address not found
+error: 2021-10-02 12:24:55 PM PUT /api/v1/shop/615736322e08227744425c1b 404 - 129.614 ms - message: Address not found
+error: 2021-10-02 12:25:43 PM PUT /api/v1/shop/615736322e08227744425c1b 404 - 125.709 ms - message: Address not found
+error: 2021-10-02 12:26:15 PM PUT /api/v1/shop/615736322e08227744425c1b 404 - 127.631 ms - message: Address not found
+error: 2021-10-02 12:41:58 PM GET /auth/logginfo 404 - 1.121 ms - message: /auth/logginfo not found
+error: 2021-10-02 12:47:36 PM GET /api/v1/shop/undefined 400 - 120.176 ms - message: ""shopId"" must be a valid mongo id
+error: 2021-10-02 12:47:54 PM GET /api/v1/shop/undefined 400 - 97.684 ms - message: ""shopId"" must be a valid mongo id
+error: 2021-10-02 02:35:23 PM POST /api/v1/user/61445dd13e57b9c71d2c90cd 404 - 2.762 ms - message: /api/v1/user/61445dd13e57b9c71d2c90cd not found
+error: 2021-10-02 02:36:15 PM POST /api/v1/user/61445dd13e57b9c71d2c90cd 404 - 1.081 ms - message: /api/v1/user/61445dd13e57b9c71d2c90cd not found
+error: 2021-10-02 02:36:41 PM POST /api/v1/user/61445dd13e57b9c71d2c90cd 404 - 2.571 ms - message: /api/v1/user/61445dd13e57b9c71d2c90cd not found
+error: 2021-10-02 02:38:38 PM POST /api/v1/user/61445dd13e57b9c71d2c90cd 404 - 1.472 ms - message: /api/v1/user/61445dd13e57b9c71d2c90cd not found
+error: 2021-10-02 02:39:22 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 123.653 ms - message: "dob" must be a valid date, "password" is not allowed to be empty, "address" must be an array
+error: 2021-10-02 02:39:57 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 104.668 ms - message: "dob" must be a valid date, "password" is not allowed to be empty, "address" must be an array
+error: 2021-10-02 02:40:36 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 98.102 ms - message: "dob" must be a valid date, "password" is not allowed to be empty, "address" must be an array
+error: 2021-10-02 02:40:52 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 98.004 ms - message: "dob" must be a valid date, "password" is not allowed to be empty, "address" must be an array
+error: 2021-10-02 02:41:52 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 118.517 ms - message: "dob" must be a valid date, "password" is not allowed to be empty
+error: 2021-10-02 02:42:05 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 123.097 ms - message: "dob" must be a valid date
+error: 2021-10-02 02:42:54 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 404 - 138.235 ms - message: Address not found
+error: 2021-10-02 02:43:32 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 404 - 158.872 ms - message: Address not found
+error: 2021-10-02 02:43:55 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 300.035 ms - message: users validation failed: sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", password: Path `password` is required.
+error: 2021-10-02 02:50:38 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 262.168 ms - message: users validation failed: sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", password: Path `password` is required.
+error: 2021-10-02 02:51:04 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 302.797 ms - message: users validation failed: sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", password: Path `password` is required.
+error: 2021-10-02 02:52:02 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 265.560 ms - message: users validation failed: password: Path `password` is required.
+error: 2021-10-02 02:52:23 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 306.071 ms - message: users validation failed: password: Path `password` (``) is shorter than the minimum allowed length (8).
+error: 2021-10-02 02:52:42 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 297.853 ms - message: users validation failed: password: Path `password` (``) is shorter than the minimum allowed length (8).
+error: 2021-10-02 02:55:31 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 404 - 168.354 ms - message: Address not found
+error: 2021-10-02 02:56:31 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 99.056 ms - message: "address" must be an array
+error: 2021-10-02 03:14:18 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 101.506 ms - message: "type" must be a string, "sellCompany" must be a string
+error: 2021-10-02 03:14:57 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 123.640 ms - message: "type" must be a string, "address" must be a string, "sellCompany" must be a string
+error: 2021-10-02 03:15:45 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 160.242 ms - message: Cast to ObjectId failed for value "{
+  name: 'Shop 2',
+  description: 'Shop 2 descriptionssd',
+  logo: '78a197398cc9876d12fc892908cc8b9e.jpg',
+  categories: [],
+  address: {
+    house: '227',
+    street: '7',
+    state: 'dfd',
+    city: 'Phnom Penh',
+    country: 'Cambodia',
+    isActive: true,
+    createdAt: '2021-10-01T16:24:18.880Z',
+    updatedAt: '2021-10-02T06:39:02.626Z',
+    zipCode: '2344',
+    id: '615736322e08227744425c19'
+  },
+  isActive: true,
+  createdAt: '2021-10-01T16:24:18.928Z',
+  updatedAt: '2021-10-02T06:47:42.950Z',
+  id: '615736322e08227744425c1b'
+}" (type Object) at path "sellCompany"
+error: 2021-10-02 03:16:47 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 137.215 ms - message: Cast to ObjectId failed for value "{
+  name: 'Shop 2',
+  description: 'Shop 2 descriptionssd',
+  logo: '78a197398cc9876d12fc892908cc8b9e.jpg',
+  categories: [],
+  address: {
+    house: '227',
+    street: '7',
+    state: 'dfd',
+    city: 'Phnom Penh',
+    country: 'Cambodia',
+    isActive: true,
+    createdAt: '2021-10-01T16:24:18.880Z',
+    updatedAt: '2021-10-02T06:39:02.626Z',
+    zipCode: '2344',
+    id: '615736322e08227744425c19'
+  },
+  isActive: true,
+  createdAt: '2021-10-01T16:24:18.928Z',
+  updatedAt: '2021-10-02T06:47:42.950Z',
+  id: '615736322e08227744425c1b'
+}" (type Object) at path "sellCompany"
+error: 2021-10-02 03:17:27 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 161.610 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
+error: 2021-10-02 03:17:59 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 164.349 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
+error: 2021-10-02 03:18:42 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 164.967 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
+error: 2021-10-02 03:19:08 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 163.962 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
+error: 2021-10-02 03:29:09 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 164.123 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
+error: 2021-10-02 03:40:18 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 119.464 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "_id" for model "address"
+error: 2021-10-02 03:40:47 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 134.573 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
+error: 2021-10-02 03:41:31 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 161.658 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
+error: 2021-10-02 03:42:21 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 164.342 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
+error: 2021-10-02 03:43:45 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 162.227 ms - message: Cast to ObjectId failed for value "{
+  id: '615735512e08227744425bff',
+  house: 'f',
+  street: 'dg',
+  state: 'g',
+  city: 'd',
+  country: 'd',
+  zipCode: '123'
+}" (type Object) at path "address"
