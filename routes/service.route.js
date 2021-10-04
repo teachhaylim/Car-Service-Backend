@@ -11,7 +11,7 @@ serviceRoute.route("/")
 
 serviceRoute.route("/:serviceId")
     .get(auth, validate(serviceValidation.getService), serviceController.GetService)
-    .patch(auth, validate(serviceValidation.updateService), serviceController.UpdateService)
+    .put(auth, validate(serviceValidation.updateService), serviceController.UpdateService)
     .delete(auth, validate(serviceValidation.deleteService), serviceController.DeleteService);
 
 export default serviceRoute;

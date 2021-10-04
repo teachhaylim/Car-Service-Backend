@@ -9461,3 +9461,76 @@ request: 2021-10-02 04:29:24 PM GET /api/v1/category?limit=-1 304 - 125.715 ms
 request: 2021-10-02 04:30:30 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 31.384 ms
 request: 2021-10-02 04:30:30 PM GET /api/v1/category?limit=-1 304 - 126.100 ms
 request: 2021-10-02 04:31:14 PM GET /api/v1/category?limit=-1 304 - 128.849 ms
+info: 2021-10-02 08:05:02 PM Grid connected to db
+info: 2021-10-02 08:05:02 PM MongoDB successfully connected
+info: 2021-10-02 08:05:02 PM Listening on port 5000 (development)
+error: 2021-10-03 07:25:57 AM GET /auth/info 401 - 77.572 ms - message: token expired
+request: 2021-10-03 07:26:13 AM POST /auth/login 200 - 359.971 ms
+request: 2021-10-03 07:26:13 AM GET /auth/info 200 - 356.733 ms
+request: 2021-10-03 07:26:14 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 47.711 ms
+request: 2021-10-03 07:26:14 AM GET /auth/info 304 - 355.557 ms
+request: 2021-10-03 07:26:14 AM GET /auth/info 304 - 340.337 ms
+request: 2021-10-03 07:26:16 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 45.643 ms
+request: 2021-10-03 07:26:16 AM GET /api/v1/category?limit=-1 304 - 187.505 ms
+request: 2021-10-03 07:27:03 AM GET /api/v1/category?limit=-1 304 - 184.204 ms
+request: 2021-10-03 02:44:50 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 200 - 555.420 ms
+request: 2021-10-03 02:44:54 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 49.969 ms
+request: 2021-10-03 02:44:54 PM GET /api/v1/category?limit=-1 304 - 178.070 ms
+request: 2021-10-03 03:20:00 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 47.424 ms
+request: 2021-10-03 03:20:00 PM GET /api/v1/category?limit=-1 304 - 184.996 ms
+request: 2021-10-03 10:09:35 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 67.962 ms
+request: 2021-10-03 10:09:35 PM GET /api/v1/category?limit=-1 304 - 229.281 ms
+request: 2021-10-03 10:09:42 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.446 ms
+request: 2021-10-03 10:09:42 PM GET /api/v1/category?limit=-1 304 - 183.377 ms
+request: 2021-10-03 10:09:49 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 49.465 ms
+request: 2021-10-03 10:09:49 PM GET /api/v1/category?limit=-1 304 - 229.285 ms
+error: 2021-10-04 08:16:43 AM GET /auth/info 401 - 60.336 ms - message: token expired
+error: 2021-10-04 08:16:44 AM GET /auth/info 401 - 47.731 ms - message: token expired
+request: 2021-10-04 08:17:26 AM GET /auth/info 200 - 338.550 ms
+request: 2021-10-04 08:17:26 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 44.023 ms
+request: 2021-10-04 08:17:59 AM GET /auth/info 304 - 339.515 ms
+request: 2021-10-04 08:18:00 AM GET /auth/info 304 - 341.912 ms
+request: 2021-10-04 08:18:00 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 43.000 ms
+request: 2021-10-04 08:32:04 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 44.566 ms
+request: 2021-10-04 08:32:04 AM GET /api/v1/category?limit=-1 304 - 192.197 ms
+error: 2021-10-04 09:06:47 AM POST /api/v1/service 400 - 137.240 ms - message: "sellCompany" is not allowed to be empty, "id" is not allowed, "remark" is not allowed, "isActive" is not allowed
+info: 2021-10-04 09:07:36 AM MongoDB successfully connected
+info: 2021-10-04 09:07:36 AM Listening on port 5000 (development)
+info: 2021-10-04 09:07:36 AM Grid connected to db
+info: 2021-10-04 09:08:04 AM Grid connected to db
+info: 2021-10-04 09:08:04 AM MongoDB successfully connected
+info: 2021-10-04 09:08:04 AM Listening on port 5000 (development)
+error: 2021-10-04 09:08:12 AM POST /api/v1/service 400 - 174.419 ms - message: services validation failed: sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+request: 2021-10-04 09:12:00 AM GET /auth/info 304 - 360.025 ms
+request: 2021-10-04 09:12:00 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 36.904 ms
+request: 2021-10-04 09:22:39 AM POST /api/v1/service 201 - 280.828 ms
+error: 2021-10-04 09:42:03 AM GET /auth/info 401 - 46.669 ms - message: token expired
+error: 2021-10-04 09:42:04 AM GET /auth/info 401 - 91.162 ms - message: token expired
+request: 2021-10-04 09:42:10 AM GET /auth/info 304 - 468.455 ms
+request: 2021-10-04 09:42:11 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 34.958 ms
+request: 2021-10-04 09:42:12 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 36.917 ms
+request: 2021-10-04 09:42:12 AM GET /api/v1/category?limit=-1 304 - 187.181 ms
+request: 2021-10-04 09:45:26 AM GET /auth/info 304 - 350.286 ms
+request: 2021-10-04 09:45:27 AM GET /auth/info 304 - 354.089 ms
+request: 2021-10-04 09:45:28 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 43.387 ms
+error: 2021-10-04 09:46:20 AM GET /api/v1/service?name=&limit=10&page=0&sortBy=%7B%7D 400 - 133.922 ms - message: "name" is not allowed to be empty
+request: 2021-10-04 09:46:33 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 257.185 ms
+error: 2021-10-04 09:46:49 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 404 - 0.380 ms - message: /api/v1/service/615a656f35d8e2a06b5c11e6 not found
+request: 2021-10-04 09:46:49 AM POST /api/v1/service 201 - 274.881 ms
+request: 2021-10-04 09:46:50 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 262.021 ms
+request: 2021-10-04 09:47:55 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 243.798 ms
+error: 2021-10-04 09:48:02 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 404 - 0.288 ms - message: /api/v1/service/615a656f35d8e2a06b5c11e6 not found
+info: 2021-10-04 09:48:37 AM Grid connected to db
+info: 2021-10-04 09:48:37 AM MongoDB successfully connected
+info: 2021-10-04 09:48:37 AM Listening on port 5000 (development)
+request: 2021-10-04 09:48:39 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 200 - 441.160 ms
+request: 2021-10-04 09:48:43 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 296.097 ms
+request: 2021-10-04 09:48:53 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 200 - 441.554 ms
+request: 2021-10-04 09:49:07 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 200 - 407.797 ms
+request: 2021-10-04 09:49:09 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 275.131 ms
+request: 2021-10-04 09:55:08 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 45.866 ms
+request: 2021-10-04 09:55:08 AM GET /api/v1/category?limit=-1 304 - 180.041 ms
+request: 2021-10-04 09:55:08 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 263.500 ms
+request: 2021-10-04 09:55:13 AM GET /api/v1/category?limit=-1 304 - 182.828 ms
+request: 2021-10-04 09:55:13 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 277.956 ms
+request: 2021-10-04 09:55:14 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 340.510 ms

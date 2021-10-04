@@ -1602,3 +1602,13 @@ error: 2021-10-02 03:43:45 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 16
   country: 'd',
   zipCode: '123'
 }" (type Object) at path "address"
+error: 2021-10-03 07:25:57 AM GET /auth/info 401 - 77.572 ms - message: token expired
+error: 2021-10-04 08:16:43 AM GET /auth/info 401 - 60.336 ms - message: token expired
+error: 2021-10-04 08:16:44 AM GET /auth/info 401 - 47.731 ms - message: token expired
+error: 2021-10-04 09:06:47 AM POST /api/v1/service 400 - 137.240 ms - message: "sellCompany" is not allowed to be empty, "id" is not allowed, "remark" is not allowed, "isActive" is not allowed
+error: 2021-10-04 09:08:12 AM POST /api/v1/service 400 - 174.419 ms - message: services validation failed: sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-10-04 09:42:03 AM GET /auth/info 401 - 46.669 ms - message: token expired
+error: 2021-10-04 09:42:04 AM GET /auth/info 401 - 91.162 ms - message: token expired
+error: 2021-10-04 09:46:20 AM GET /api/v1/service?name=&limit=10&page=0&sortBy=%7B%7D 400 - 133.922 ms - message: "name" is not allowed to be empty
+error: 2021-10-04 09:46:49 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 404 - 0.380 ms - message: /api/v1/service/615a656f35d8e2a06b5c11e6 not found
+error: 2021-10-04 09:48:02 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 404 - 0.288 ms - message: /api/v1/service/615a656f35d8e2a06b5c11e6 not found

@@ -3,9 +3,12 @@ import { customValidation } from ".";
 
 const createService = {
     body: Joi.object().keys({
+        id: Joi.string().custom(customValidation.objectId).allow(""),
         name: Joi.string().required(),
         price: Joi.number().optional().default(0),
-        sellCompany: Joi.string().custom(customValidation.objectId).required(),
+        remark: Joi.string().allow(""),
+        sellCompany: Joi.string().custom(customValidation.objectId).allow(""),
+        isActive: Joi.bool(),
     }),
 };
 
