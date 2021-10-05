@@ -1612,3 +1612,25 @@ error: 2021-10-04 09:42:04 AM GET /auth/info 401 - 91.162 ms - message: token ex
 error: 2021-10-04 09:46:20 AM GET /api/v1/service?name=&limit=10&page=0&sortBy=%7B%7D 400 - 133.922 ms - message: "name" is not allowed to be empty
 error: 2021-10-04 09:46:49 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 404 - 0.380 ms - message: /api/v1/service/615a656f35d8e2a06b5c11e6 not found
 error: 2021-10-04 09:48:02 AM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 404 - 0.288 ms - message: /api/v1/service/615a656f35d8e2a06b5c11e6 not found
+error: 2021-10-04 07:36:08 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 2.884 ms - message: Please authenticate
+error: 2021-10-04 07:36:32 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 51.267 ms - message: token expired
+error: 2021-10-04 07:36:39 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 48.672 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 48.351 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 49.402 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 49.034 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 49.181 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 47.614 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 48.197 ms - message: token expired
+error: 2021-10-04 07:36:56 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 47.597 ms - message: token expired
+error: 2021-10-04 07:37:28 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 87.325 ms - message: token expired
+error: 2021-10-04 07:38:16 PM POST /auth/logic 404 - 1.892 ms - message: /auth/logic not found
+error: 2021-10-04 07:38:20 PM POST /auth/login 400 - 56.528 ms - message: Cast to ObjectId failed for value "" (type string) at path "_id" for model "address"
+error: 2021-10-04 07:38:57 PM POST /auth/login 400 - 58.113 ms - message: Cast to ObjectId failed for value "" (type string) at path "_id" for model "address"
+error: 2021-10-04 07:39:34 PM GET /api/v1/service?sellCompany 400 - 121.226 ms - message: "sellCompany" is not allowed to be empty
+error: 2021-10-04 07:39:50 PM GET /api/v1/service?sellCompany 400 - 162.312 ms - message: Cast to ObjectId failed for value "" (type string) at path "sellCompany" for model "services"
+error: 2021-10-04 07:40:10 PM GET /api/v1/service?sellCompany=-1 400 - 127.580 ms - message: ""sellCompany"" must be a valid mongo id
+error: 2021-10-04 07:44:08 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 34.999 ms - message: File no exist
+error: 2021-10-04 11:06:15 PM GET /api/v1/appointment 401 - 3.418 ms - message: Please authenticate
+error: 2021-10-04 11:09:09 PM POST /api/v1/appointment 400 - 168.871 ms - message: appointments validation failed: sellCompany: Path `sellCompany` is required., userId: Path `userId` is required.
+error: 2021-10-04 11:11:53 PM GET /api/v1/appointment 401 - 0.727 ms - message: Please authenticate
+error: 2021-10-04 11:11:54 PM GET /favicon.ico 404 - 0.492 ms - message: /favicon.ico not found

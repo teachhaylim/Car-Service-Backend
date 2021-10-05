@@ -11,7 +11,7 @@ const CreateService = catchAsync(async (req, res) => {
 
 const QueryServices = catchAsync(async (req, res) => {
     const filter = pick(req.query, ["name", "sellCompany", "price"]);
-    const options = pick(req.params, ["limit", "page", "sortBy"]);
+    const options = pick(req.query, ["limit", "page", "sortBy"]);
     const service = await serviceService.QueryServices(filter, options);
 
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, ...service });

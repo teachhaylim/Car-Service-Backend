@@ -15,7 +15,7 @@ const createService = {
 const queryServices = {
     query: Joi.object().keys({
         name: Joi.string(),
-        sellCompany: Joi.string(),
+        sellCompany: Joi.string().custom(customValidation.objectId).allow(""),
         price: Joi.number(),
         limit: Joi.number().integer(),
         page: Joi.number().integer(),

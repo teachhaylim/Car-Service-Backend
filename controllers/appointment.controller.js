@@ -14,7 +14,7 @@ const QueryAppointments = catchAsync(async (req, res) => {
     const options = pick(req.query, ["limit", "sortBy", "page"]);
     const appointment = await appointmentService.QueryAppointments(filter, options);
 
-    res.status(httpStatus.OK).send({ meta: httpStatus.OK, data: appointment });
+    res.status(httpStatus.OK).send({ meta: httpStatus.OK, ...appointment });
 });
 
 const GetAppointment = catchAsync(async (req, res) => {

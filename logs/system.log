@@ -9534,3 +9534,261 @@ request: 2021-10-04 09:55:08 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7
 request: 2021-10-04 09:55:13 AM GET /api/v1/category?limit=-1 304 - 182.828 ms
 request: 2021-10-04 09:55:13 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 277.956 ms
 request: 2021-10-04 09:55:14 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 340.510 ms
+request: 2021-10-04 05:08:23 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 43.863 ms
+request: 2021-10-04 05:08:23 PM GET /api/v1/category?limit=-1 304 - 182.421 ms
+request: 2021-10-04 05:08:23 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 277.735 ms
+request: 2021-10-04 05:08:24 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 275.522 ms
+request: 2021-10-04 05:10:43 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 264.094 ms
+request: 2021-10-04 05:10:45 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 272.272 ms
+request: 2021-10-04 05:11:23 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 273.654 ms
+request: 2021-10-04 05:11:44 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 273.229 ms
+request: 2021-10-04 05:11:56 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 269.536 ms
+request: 2021-10-04 05:39:12 PM GET /auth/info 304 - 362.253 ms
+request: 2021-10-04 05:39:13 PM GET /auth/info 304 - 360.586 ms
+request: 2021-10-04 05:39:14 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 43.483 ms
+request: 2021-10-04 05:39:16 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 281.394 ms
+request: 2021-10-04 05:46:28 PM GET /auth/info 304 - 359.768 ms
+request: 2021-10-04 05:46:28 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 42.891 ms
+request: 2021-10-04 05:46:30 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 43.025 ms
+request: 2021-10-04 05:46:30 PM GET /api/v1/category?limit=-1 304 - 184.853 ms
+request: 2021-10-04 05:46:32 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 265.589 ms
+request: 2021-10-04 05:47:10 PM GET /auth/info 304 - 357.095 ms
+request: 2021-10-04 05:47:10 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 42.402 ms
+request: 2021-10-04 05:47:11 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 269.188 ms
+request: 2021-10-04 05:47:26 PM GET /auth/info 304 - 358.403 ms
+request: 2021-10-04 05:47:26 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 42.152 ms
+request: 2021-10-04 05:47:27 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 267.834 ms
+request: 2021-10-04 05:47:45 PM GET /auth/info 304 - 355.279 ms
+request: 2021-10-04 05:47:45 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 42.881 ms
+request: 2021-10-04 05:47:46 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 271.538 ms
+request: 2021-10-04 05:48:00 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 265.477 ms
+request: 2021-10-04 05:52:14 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 269.327 ms
+request: 2021-10-04 05:52:47 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 277.235 ms
+request: 2021-10-04 05:52:51 PM DELETE /api/v1/service/615a656f35d8e2a06b5c11e6 200 - 413.703 ms
+request: 2021-10-04 05:52:51 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 283.793 ms
+request: 2021-10-04 05:52:55 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 276.613 ms
+info: 2021-10-04 05:53:34 PM Grid connected to db
+info: 2021-10-04 05:53:34 PM MongoDB successfully connected
+info: 2021-10-04 05:53:34 PM Listening on port 5000 (development)
+request: 2021-10-04 05:53:37 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 313.558 ms
+info: 2021-10-04 05:54:13 PM Grid connected to db
+info: 2021-10-04 05:54:13 PM MongoDB successfully connected
+info: 2021-10-04 05:54:13 PM Listening on port 5000 (development)
+request: 2021-10-04 05:54:16 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 270.379 ms
+info: 2021-10-04 05:54:30 PM MongoDB successfully connected
+info: 2021-10-04 05:54:30 PM Listening on port 5000 (development)
+info: 2021-10-04 05:54:30 PM Grid connected to db
+request: 2021-10-04 05:54:31 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 251.189 ms
+request: 2021-10-04 05:55:46 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 194.879 ms
+request: 2021-10-04 05:55:51 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 191.154 ms
+request: 2021-10-04 05:55:59 PM POST /api/v1/service 201 - 300.690 ms
+request: 2021-10-04 05:56:01 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 285.561 ms
+request: 2021-10-04 05:56:19 PM PUT /api/v1/service/615addbf82ce7a167529e1fb 200 - 424.650 ms
+request: 2021-10-04 05:56:20 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 285.367 ms
+request: 2021-10-04 05:56:37 PM PUT /api/v1/service/615addbf82ce7a167529e1fb 200 - 422.826 ms
+request: 2021-10-04 05:56:38 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 297.719 ms
+request: 2021-10-04 05:57:33 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 296.775 ms
+request: 2021-10-04 05:57:36 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 200 - 332.517 ms
+request: 2021-10-04 05:57:38 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 284.425 ms
+request: 2021-10-04 05:57:42 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 304 - 294.615 ms
+request: 2021-10-04 05:57:44 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 281.230 ms
+request: 2021-10-04 05:58:20 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 283.900 ms
+request: 2021-10-04 05:58:23 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 304 - 315.500 ms
+request: 2021-10-04 05:58:25 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 297.607 ms
+info: 2021-10-04 05:58:39 PM Grid connected to db
+info: 2021-10-04 05:58:39 PM MongoDB successfully connected
+info: 2021-10-04 05:58:39 PM Listening on port 5000 (development)
+request: 2021-10-04 06:06:27 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 304 - 305.104 ms
+request: 2021-10-04 06:06:28 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 262.065 ms
+request: 2021-10-04 06:07:06 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 235.797 ms
+request: 2021-10-04 06:07:12 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 304 - 257.441 ms
+request: 2021-10-04 06:07:13 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 267.874 ms
+request: 2021-10-04 06:07:36 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 245.489 ms
+request: 2021-10-04 06:07:39 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 304 - 233.386 ms
+request: 2021-10-04 06:07:40 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 258.401 ms
+info: 2021-10-04 06:08:04 PM Grid connected to db
+info: 2021-10-04 06:08:04 PM MongoDB successfully connected
+info: 2021-10-04 06:08:04 PM Listening on port 5000 (development)
+request: 2021-10-04 06:08:06 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 304 - 314.274 ms
+request: 2021-10-04 06:08:07 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 310.694 ms
+info: 2021-10-04 06:08:42 PM Grid connected to db
+info: 2021-10-04 06:08:42 PM MongoDB successfully connected
+info: 2021-10-04 06:08:42 PM Listening on port 5000 (development)
+info: 2021-10-04 06:08:57 PM MongoDB successfully connected
+info: 2021-10-04 06:08:57 PM Listening on port 5000 (development)
+info: 2021-10-04 06:08:57 PM Grid connected to db
+request: 2021-10-04 06:08:59 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 327.851 ms
+request: 2021-10-04 06:09:03 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 200 - 261.148 ms
+request: 2021-10-04 06:09:07 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 260.586 ms
+info: 2021-10-04 07:14:21 PM Grid connected to db
+info: 2021-10-04 07:14:21 PM MongoDB successfully connected
+info: 2021-10-04 07:14:21 PM Listening on port 5000 (development)
+request: 2021-10-04 07:19:16 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 273.035 ms
+request: 2021-10-04 07:19:18 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 47.075 ms
+request: 2021-10-04 07:19:18 PM GET /api/v1/category?limit=-1 304 - 153.511 ms
+request: 2021-10-04 07:19:20 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 49.996 ms
+request: 2021-10-04 07:19:20 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 234.225 ms
+request: 2021-10-04 07:19:25 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 269.484 ms
+request: 2021-10-04 07:19:29 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 304 - 266.415 ms
+request: 2021-10-04 07:19:31 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 238.373 ms
+info: 2021-10-04 07:34:50 PM Grid connected to db
+info: 2021-10-04 07:34:51 PM MongoDB successfully connected
+info: 2021-10-04 07:34:51 PM Listening on port 5000 (development)
+error: 2021-10-04 07:36:08 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 2.884 ms - message: Please authenticate
+error: 2021-10-04 07:36:32 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 51.267 ms - message: token expired
+error: 2021-10-04 07:36:39 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 48.672 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 48.351 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 49.402 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 49.034 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 49.181 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 47.614 ms - message: token expired
+error: 2021-10-04 07:36:40 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 48.197 ms - message: token expired
+error: 2021-10-04 07:36:56 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 47.597 ms - message: token expired
+info: 2021-10-04 07:37:27 PM MongoDB successfully connected
+info: 2021-10-04 07:37:27 PM Listening on port 5000 (development)
+info: 2021-10-04 07:37:27 PM Grid connected to db
+error: 2021-10-04 07:37:28 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 401 - 87.325 ms - message: token expired
+info: 2021-10-04 07:37:36 PM Grid connected to db
+info: 2021-10-04 07:37:36 PM MongoDB successfully connected
+info: 2021-10-04 07:37:36 PM Listening on port 5000 (development)
+error: 2021-10-04 07:38:16 PM POST /auth/logic 404 - 1.892 ms - message: /auth/logic not found
+error: 2021-10-04 07:38:20 PM POST /auth/login 400 - 56.528 ms - message: Cast to ObjectId failed for value "" (type string) at path "_id" for model "address"
+info: 2021-10-04 07:38:56 PM MongoDB successfully connected
+info: 2021-10-04 07:38:56 PM Listening on port 5000 (development)
+info: 2021-10-04 07:38:56 PM Grid connected to db
+error: 2021-10-04 07:38:57 PM POST /auth/login 400 - 58.113 ms - message: Cast to ObjectId failed for value "" (type string) at path "_id" for model "address"
+request: 2021-10-04 07:39:10 PM POST /auth/login 200 - 271.920 ms
+request: 2021-10-04 07:39:23 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 247.981 ms
+error: 2021-10-04 07:39:34 PM GET /api/v1/service?sellCompany 400 - 121.226 ms - message: "sellCompany" is not allowed to be empty
+info: 2021-10-04 07:39:49 PM Grid connected to db
+info: 2021-10-04 07:39:49 PM MongoDB successfully connected
+info: 2021-10-04 07:39:49 PM Listening on port 5000 (development)
+error: 2021-10-04 07:39:50 PM GET /api/v1/service?sellCompany 400 - 162.312 ms - message: Cast to ObjectId failed for value "" (type string) at path "sellCompany" for model "services"
+error: 2021-10-04 07:40:10 PM GET /api/v1/service?sellCompany=-1 400 - 127.580 ms - message: ""sellCompany"" must be a valid mongo id
+request: 2021-10-04 07:40:38 PM GET /api/v1/service 200 - 249.475 ms
+request: 2021-10-04 07:41:24 PM POST /auth/login 200 - 273.884 ms
+request: 2021-10-04 07:43:00 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 200 - 250.108 ms
+request: 2021-10-04 07:43:20 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 246.208 ms
+request: 2021-10-04 07:43:45 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 249.064 ms
+request: 2021-10-04 07:43:55 PM POST /auth/login 200 - 313.712 ms
+request: 2021-10-04 07:43:56 PM GET /auth/info 200 - 333.146 ms
+request: 2021-10-04 07:43:56 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 36.803 ms
+request: 2021-10-04 07:43:56 PM GET /auth/info 304 - 313.995 ms
+request: 2021-10-04 07:43:56 PM GET /auth/info 304 - 319.970 ms
+request: 2021-10-04 07:44:01 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 249.030 ms
+request: 2021-10-04 07:44:03 PM GET /api/v1/service?limit=10&page=1&sortBy=%7B%7D 304 - 235.104 ms
+request: 2021-10-04 07:44:06 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 246.197 ms
+error: 2021-10-04 07:44:08 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 34.999 ms - message: File no exist
+request: 2021-10-04 07:44:08 PM GET /api/v1/category?limit=-1 304 - 166.344 ms
+request: 2021-10-04 07:44:14 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 262.111 ms
+request: 2021-10-04 07:44:33 PM POST /auth/login 200 - 278.755 ms
+request: 2021-10-04 07:44:34 PM GET /auth/info 200 - 315.274 ms
+request: 2021-10-04 07:44:34 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 38.167 ms
+request: 2021-10-04 07:44:34 PM GET /auth/info 304 - 326.263 ms
+request: 2021-10-04 07:44:34 PM GET /auth/info 304 - 331.026 ms
+request: 2021-10-04 07:44:37 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 238.162 ms
+request: 2021-10-04 07:44:39 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 263.044 ms
+request: 2021-10-04 07:44:40 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 38.307 ms
+request: 2021-10-04 07:44:40 PM GET /api/v1/category?limit=-1 304 - 165.633 ms
+request: 2021-10-04 07:44:42 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 263.547 ms
+request: 2021-10-04 07:44:55 PM PUT /api/v1/service/615ade19712347929e5d9200 200 - 367.607 ms
+request: 2021-10-04 07:44:56 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 200 - 248.312 ms
+request: 2021-10-04 08:10:46 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 238.390 ms
+request: 2021-10-04 08:20:51 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 245.809 ms
+request: 2021-10-04 08:21:02 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 236.739 ms
+request: 2021-10-04 09:22:47 PM GET /auth/info 304 - 331.298 ms
+request: 2021-10-04 09:22:47 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 38.840 ms
+request: 2021-10-04 09:32:55 PM GET /auth/info 304 - 336.855 ms
+request: 2021-10-04 09:32:55 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 34.853 ms
+request: 2021-10-04 09:34:42 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 34.669 ms
+request: 2021-10-04 09:40:32 PM GET /auth/info 304 - 336.776 ms
+request: 2021-10-04 09:40:32 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 34.938 ms
+request: 2021-10-04 09:40:32 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 547.288 ms
+request: 2021-10-04 09:41:14 PM GET /auth/info 304 - 323.092 ms
+request: 2021-10-04 09:41:14 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 35.583 ms
+request: 2021-10-04 09:41:14 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 45.700 ms
+request: 2021-10-04 09:42:15 PM GET /auth/info 304 - 328.253 ms
+request: 2021-10-04 09:42:15 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 35.064 ms
+request: 2021-10-04 09:42:15 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 42.352 ms
+request: 2021-10-04 09:44:45 PM GET /auth/info 304 - 323.605 ms
+request: 2021-10-04 09:44:45 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 34.863 ms
+request: 2021-10-04 09:44:45 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 42.110 ms
+info: 2021-10-04 11:01:43 PM Grid connected to db
+info: 2021-10-04 11:01:43 PM MongoDB successfully connected
+info: 2021-10-04 11:01:43 PM Listening on port 5000 (development)
+info: 2021-10-04 11:02:23 PM MongoDB successfully connected
+info: 2021-10-04 11:02:23 PM Listening on port 5000 (development)
+info: 2021-10-04 11:02:23 PM Grid connected to db
+error: 2021-10-04 11:06:15 PM GET /api/v1/appointment 401 - 3.418 ms - message: Please authenticate
+request: 2021-10-04 11:06:30 PM GET /api/v1/appointment 200 - 293.123 ms
+info: 2021-10-04 11:07:00 PM MongoDB successfully connected
+info: 2021-10-04 11:07:00 PM Listening on port 5000 (development)
+info: 2021-10-04 11:07:00 PM Grid connected to db
+request: 2021-10-04 11:07:02 PM GET /api/v1/appointment 200 - 254.026 ms
+info: 2021-10-04 11:09:01 PM MongoDB successfully connected
+info: 2021-10-04 11:09:01 PM Listening on port 5000 (development)
+info: 2021-10-04 11:09:01 PM Grid connected to db
+error: 2021-10-04 11:09:09 PM POST /api/v1/appointment 400 - 168.871 ms - message: appointments validation failed: sellCompany: Path `sellCompany` is required., userId: Path `userId` is required.
+request: 2021-10-04 11:09:46 PM POST /api/v1/appointment 201 - 283.832 ms
+request: 2021-10-04 11:10:38 PM POST /api/v1/appointment 201 - 280.371 ms
+request: 2021-10-04 11:10:55 PM POST /api/v1/appointment 201 - 358.765 ms
+request: 2021-10-04 11:11:13 PM GET /api/v1/appointment 200 - 567.299 ms
+error: 2021-10-04 11:11:53 PM GET /api/v1/appointment 401 - 0.727 ms - message: Please authenticate
+error: 2021-10-04 11:11:54 PM GET /favicon.ico 404 - 0.492 ms - message: /favicon.ico not found
+info: 2021-10-04 11:12:09 PM MongoDB successfully connected
+info: 2021-10-04 11:12:09 PM Listening on port 5000 (development)
+info: 2021-10-04 11:12:09 PM Grid connected to db
+request: 2021-10-04 11:12:10 PM GET /api/v1/appointment 200 - 296.475 ms
+info: 2021-10-04 11:14:12 PM MongoDB successfully connected
+info: 2021-10-04 11:14:12 PM Listening on port 5000 (development)
+info: 2021-10-04 11:14:13 PM Grid connected to db
+info: 2021-10-04 11:15:00 PM MongoDB successfully connected
+info: 2021-10-04 11:15:00 PM Listening on port 5000 (development)
+info: 2021-10-04 11:15:00 PM Grid connected to db
+info: 2021-10-04 11:15:04 PM MongoDB successfully connected
+info: 2021-10-04 11:15:04 PM Listening on port 5000 (development)
+info: 2021-10-04 11:15:04 PM Grid connected to db
+info: 2021-10-04 11:15:16 PM Grid connected to db
+info: 2021-10-04 11:15:16 PM MongoDB successfully connected
+info: 2021-10-04 11:15:16 PM Listening on port 5000 (development)
+request: 2021-10-04 11:15:32 PM POST /api/v1/appointment 201 - 348.819 ms
+request: 2021-10-05 12:19:39 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 200 - 179.970 ms
+request: 2021-10-05 12:19:40 AM GET /api/v1/appointment?sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 200 - 145.299 ms
+request: 2021-10-05 12:23:19 AM GET /auth/info 304 - 297.069 ms
+request: 2021-10-05 12:23:20 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 45.135 ms
+request: 2021-10-05 12:23:21 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 200 - 554.242 ms
+request: 2021-10-05 12:23:22 AM GET /api/v1/appointment?sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 200 - 150.452 ms
+request: 2021-10-05 12:24:17 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 200 - 142.831 ms
+request: 2021-10-05 12:24:18 AM GET /api/v1/appointment?sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 152.589 ms
+request: 2021-10-05 12:24:27 AM GET /auth/info 304 - 306.555 ms
+request: 2021-10-05 12:24:27 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 42.706 ms
+request: 2021-10-05 12:24:28 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 253.319 ms
+request: 2021-10-05 12:24:29 AM GET /api/v1/appointment?sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 151.956 ms
+info: 2021-10-05 12:25:31 AM MongoDB successfully connected
+info: 2021-10-05 12:25:31 AM Listening on port 5000 (development)
+info: 2021-10-05 12:25:31 AM Grid connected to db
+request: 2021-10-05 12:25:32 AM GET /auth/info 304 - 595.329 ms
+request: 2021-10-05 12:25:32 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 44.538 ms
+request: 2021-10-05 12:25:32 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 200 - 411.136 ms
+request: 2021-10-05 12:30:13 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 200 - 177.725 ms
+request: 2021-10-05 12:30:16 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 239.950 ms
+request: 2021-10-05 12:30:17 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 181.782 ms
+request: 2021-10-05 12:30:31 AM GET /auth/info 304 - 333.243 ms
+request: 2021-10-05 12:30:31 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 44.390 ms
+request: 2021-10-05 12:30:32 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 248.473 ms
+request: 2021-10-05 12:33:01 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 265.707 ms
+request: 2021-10-05 12:35:25 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 43.475 ms
+request: 2021-10-05 12:39:37 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 259.470 ms
+request: 2021-10-05 12:40:35 AM GET /api/v1/category?limit=-1 304 - 171.292 ms
+request: 2021-10-05 12:40:50 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 258.661 ms
+request: 2021-10-05 12:40:52 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 259.862 ms
+request: 2021-10-05 12:40:56 AM GET /api/v1/category?limit=-1 304 - 183.983 ms
+request: 2021-10-05 12:41:05 AM GET /api/v1/category?limit=-1 304 - 168.260 ms
+request: 2021-10-05 12:41:05 AM GET /auth/info 304 - 249.370 ms
+request: 2021-10-05 12:41:06 AM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 43.865 ms
+request: 2021-10-05 12:41:11 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 257.149 ms
+request: 2021-10-05 12:41:12 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 216.230 ms
+request: 2021-10-05 12:41:13 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 233.065 ms
+request: 2021-10-05 12:41:14 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 43.662 ms
+request: 2021-10-05 12:41:17 AM GET /api/v1/category?limit=-1 304 - 150.122 ms
+request: 2021-10-05 12:41:19 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 546.332 ms

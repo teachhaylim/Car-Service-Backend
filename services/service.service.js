@@ -21,6 +21,8 @@ const CreateService = async (serviceBody) => {
  * @returns {Promise<QueryResult>}
  */
 const QueryServices = async (filter, options) => {
+    filter.isActive = true;
+
     return await Service.paginate(filter, options);
 };
 

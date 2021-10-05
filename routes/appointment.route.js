@@ -7,7 +7,8 @@ const appointmentRoute = express.Router();
 
 appointmentRoute.route("/")
     .get(auth, validate(appointmentValidation.queryAppointments), appointmentController.QueryAppointments)
-    .post(auth, validate(appointmentValidation.createAppointment), appointmentController.CreateAppointment);
+    // .post(auth, validate(appointmentValidation.createAppointment), appointmentController.CreateAppointment);
+    .post(auth, appointmentController.CreateAppointment);
 
 appointmentRoute.route("/:appointmentId")
     .get(auth, validate(appointmentValidation.getAppointment), appointmentController.GetAppointment)

@@ -1,6 +1,26 @@
+import moment from "moment";
 import mongoose from "mongoose";
 import mongooseAutoPopulate from "mongoose-autopopulate";
 import { paginate, toJSON } from "./plugins";
+
+const subServiceSchema = mongoose.Schema(
+    {
+        item: {
+            type: mongoose.Types.ObjectId,
+            ref: "services",
+            required: true,
+            autopopulate: true,
+        },
+        qty: {
+            type: Number,
+            required: true,
+            default: 0,
+        },
+    },
+    {
+        timestamps: true,
+    }
+);
 
 const appointmentSchema = mongoose.Schema(
     {
@@ -17,19 +37,17 @@ const appointmentSchema = mongoose.Schema(
             autopopulate: true,
         },
         services: {
-            type: [mongoose.Types.ObjectId],
+            type: [subServiceSchema],
+            required: true,
             ref: "services",
             required: true,
             autopopulate: true,
         },
         status: {
             type: Array,
-            default: [],
-        },
-        totalAmount: {
-            type: Number,
-            min: 0,
-            default: 0,
+            default: [
+                { date: moment(), type: 1 },
+            ],
         },
         remark: {
             type: String,
@@ -45,6 +63,10 @@ const appointmentSchema = mongoose.Schema(
         timestamps: true,
     }
 );
+
+subServiceSchema.plugin(mongooseAutoPopulate);
+subServiceSchema.plugin(toJSON);
+subServiceSchema.plugin(paginate);
 
 appointmentSchema.plugin(mongooseAutoPopulate);
 appointmentSchema.plugin(toJSON);
