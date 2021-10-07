@@ -9792,3 +9792,89 @@ request: 2021-10-05 12:41:13 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%
 request: 2021-10-05 12:41:14 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 43.662 ms
 request: 2021-10-05 12:41:17 AM GET /api/v1/category?limit=-1 304 - 150.122 ms
 request: 2021-10-05 12:41:19 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 546.332 ms
+info: 2021-10-05 01:29:35 PM Grid connected to db
+info: 2021-10-05 01:29:35 PM MongoDB successfully connected
+info: 2021-10-05 01:29:35 PM Listening on port 5000 (development)
+request: 2021-10-05 01:31:25 PM POST /auth/login 200 - 278.231 ms
+request: 2021-10-05 01:31:25 PM GET /auth/info 200 - 311.634 ms
+request: 2021-10-05 01:31:26 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 28.028 ms
+request: 2021-10-05 01:31:26 PM GET /auth/info 304 - 289.234 ms
+request: 2021-10-05 01:31:26 PM GET /auth/info 304 - 287.610 ms
+request: 2021-10-05 01:32:09 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 27.203 ms
+request: 2021-10-05 01:32:25 PM POST /auth/login 200 - 243.961 ms
+request: 2021-10-05 01:32:26 PM GET /auth/info 200 - 317.807 ms
+request: 2021-10-05 01:32:26 PM GET /file/fae38fd9c041d493ce060357deb8aa73.jpg 200 - 26.730 ms
+request: 2021-10-05 01:32:26 PM GET /auth/info 304 - 321.234 ms
+request: 2021-10-05 01:32:26 PM GET /auth/info 304 - 288.715 ms
+request: 2021-10-05 01:32:29 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 27.258 ms
+request: 2021-10-05 01:32:29 PM GET /api/v1/category?limit=-1 200 - 169.332 ms
+request: 2021-10-05 01:32:31 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 200 - 233.869 ms
+request: 2021-10-05 01:32:35 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 200 - 277.252 ms
+request: 2021-10-05 01:32:37 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 27.142 ms
+request: 2021-10-05 01:32:44 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 282.757 ms
+request: 2021-10-05 01:32:45 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 29.744 ms
+request: 2021-10-05 01:32:45 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 550.307 ms
+request: 2021-10-05 01:32:46 PM GET /api/v1/category?limit=-1 304 - 619.650 ms
+request: 2021-10-05 01:32:46 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 403.914 ms
+request: 2021-10-05 01:32:47 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 220.863 ms
+request: 2021-10-05 01:32:52 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=615736322e08227744425c1b 304 - 237.583 ms
+request: 2021-10-05 01:32:53 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 283.122 ms
+request: 2021-10-05 02:08:16 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 44.186 ms
+request: 2021-10-05 02:09:18 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 294.712 ms
+info: 2021-10-06 04:02:57 AM Grid connected to db
+info: 2021-10-06 05:56:43 AM Grid connected to db
+info: 2021-10-06 06:05:26 AM Grid connected to db
+info: 2021-10-06 07:23:07 PM Grid connected to db
+info: 2021-10-06 07:23:07 PM MongoDB successfully connected
+info: 2021-10-06 07:23:07 PM Listening on port 5000 (development)
+info: 2021-10-06 07:25:19 PM Grid connected to db
+info: 2021-10-06 09:55:10 PM Grid connected to db
+info: 2021-10-07 01:57:55 AM Grid connected to db
+info: 2021-10-07 09:25:33 AM MongoDB successfully connected
+info: 2021-10-07 09:25:33 AM Listening on port 5000 (development)
+info: 2021-10-07 09:25:34 AM Grid connected to db
+error: 2021-10-07 09:28:00 AM POST /auth/login 404 - 227.640 ms - message: Shop not found
+error: 2021-10-07 09:29:57 AM POST /auth/login 404 - 207.006 ms - message: Shop not found
+error: 2021-10-07 09:30:39 AM POST /auth/login 404 - 470.966 ms - message: Shop not found
+info: 2021-10-07 09:32:00 AM Grid connected to db
+info: 2021-10-07 09:32:00 AM MongoDB successfully connected
+info: 2021-10-07 09:32:00 AM Listening on port 5000 (development)
+info: 2021-10-07 09:32:18 AM MongoDB successfully connected
+info: 2021-10-07 09:32:18 AM Listening on port 5000 (development)
+info: 2021-10-07 09:32:18 AM Grid connected to db
+request: 2021-10-07 09:32:48 AM POST /auth/userlogin 200 - 195.724 ms
+request: 2021-10-07 09:33:18 AM POST /auth/userlogin 200 - 166.403 ms
+request: 2021-10-07 09:34:24 AM POST /auth/userlogin 200 - 169.681 ms
+request: 2021-10-07 09:34:34 AM POST /auth/userlogin 200 - 162.223 ms
+request: 2021-10-07 09:37:08 AM POST /auth/userlogin 200 - 158.877 ms
+request: 2021-10-07 09:42:18 AM POST /auth/userlogin 200 - 164.149 ms
+request: 2021-10-07 09:42:28 AM POST /auth/userlogin 200 - 157.807 ms
+request: 2021-10-07 09:43:06 AM POST /auth/userlogin 200 - 158.930 ms
+request: 2021-10-07 09:43:57 AM POST /auth/userlogin 200 - 158.639 ms
+request: 2021-10-07 09:44:04 AM POST /auth/userlogin 200 - 177.348 ms
+request: 2021-10-07 09:58:43 AM POST /auth/userlogin 200 - 163.499 ms
+request: 2021-10-07 09:58:53 AM POST /auth/userlogin 200 - 162.502 ms
+request: 2021-10-07 09:59:18 AM POST /auth/userlogin 200 - 174.275 ms
+request: 2021-10-07 09:59:37 AM POST /auth/userlogin 200 - 160.767 ms
+request: 2021-10-07 10:00:00 AM POST /auth/userlogin 200 - 171.557 ms
+request: 2021-10-07 10:00:13 AM POST /auth/userlogin 200 - 156.812 ms
+request: 2021-10-07 10:00:45 AM POST /auth/userlogin 200 - 161.420 ms
+request: 2021-10-07 10:02:40 AM POST /auth/userlogin 200 - 172.901 ms
+request: 2021-10-07 10:03:07 AM POST /auth/userlogin 200 - 157.614 ms
+request: 2021-10-07 10:03:19 AM POST /auth/userlogin 200 - 159.578 ms
+request: 2021-10-07 10:03:34 AM POST /auth/userlogin 200 - 156.354 ms
+request: 2021-10-07 10:03:44 AM POST /auth/userlogin 200 - 159.822 ms
+request: 2021-10-07 10:04:15 AM POST /auth/userlogin 200 - 174.984 ms
+request: 2021-10-07 10:05:29 AM POST /auth/userlogin 200 - 161.707 ms
+request: 2021-10-07 10:10:09 AM POST /auth/userlogin 200 - 159.114 ms
+request: 2021-10-07 10:11:11 AM POST /auth/userlogin 200 - 161.934 ms
+request: 2021-10-07 10:11:28 AM POST /auth/userlogin 200 - 162.065 ms
+request: 2021-10-07 10:19:36 AM POST /auth/userlogin 200 - 176.432 ms
+request: 2021-10-07 02:05:55 PM POST /auth/userlogin 200 - 173.300 ms
+request: 2021-10-07 02:09:04 PM POST /auth/userlogin 200 - 165.334 ms
+request: 2021-10-07 02:10:14 PM POST /auth/userlogin 200 - 162.020 ms
+request: 2021-10-07 02:10:27 PM POST /auth/userlogin 200 - 182.512 ms
+request: 2021-10-07 02:13:24 PM POST /auth/userlogin 200 - 166.392 ms
+request: 2021-10-07 02:13:27 PM POST /auth/userlogin 200 - 169.843 ms
+request: 2021-10-07 02:13:30 PM POST /auth/userlogin 200 - 170.493 ms
+info: 2021-10-07 10:19:02 PM Grid connected to db

@@ -1636,3 +1636,6 @@ error: 2021-10-04 11:06:15 PM GET /api/v1/appointment 401 - 3.418 ms - message: 
 error: 2021-10-04 11:09:09 PM POST /api/v1/appointment 400 - 168.871 ms - message: appointments validation failed: sellCompany: Path `sellCompany` is required., userId: Path `userId` is required.
 error: 2021-10-04 11:11:53 PM GET /api/v1/appointment 401 - 0.727 ms - message: Please authenticate
 error: 2021-10-04 11:11:54 PM GET /favicon.ico 404 - 0.492 ms - message: /favicon.ico not found
+error: 2021-10-07 09:28:00 AM POST /auth/login 404 - 227.640 ms - message: Shop not found
+error: 2021-10-07 09:29:57 AM POST /auth/login 404 - 207.006 ms - message: Shop not found
+error: 2021-10-07 09:30:39 AM POST /auth/login 404 - 470.966 ms - message: Shop not found

@@ -11,6 +11,14 @@ const Login = catchAsync(async (req, res) => {
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, token, user, shop });
 });
 
+const LoginUser = catchAsync(async (req, res) => {
+    const { email, password } = req.body;
+    const user = await authService.loginWithEmailAndPassword(email, password);
+    const token = await tokenService.GenerateToken(user.id);
+
+    res.status(httpStatus.OK).send({ meta: httpStatus.OK, token, user });
+})
+
 const LoggedInfo = catchAsync(async (req, res) => {
     const user = await userService.GetUserById(req.user._id);
     const shop = await shopService.GetShopById(user.sellCompany);
@@ -23,4 +31,5 @@ const LoggedInfo = catchAsync(async (req, res) => {
 export default {
     Login,
     LoggedInfo,
+    LoginUser,
 }
