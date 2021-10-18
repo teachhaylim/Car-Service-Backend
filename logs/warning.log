@@ -1639,3 +1639,19 @@ error: 2021-10-04 11:11:54 PM GET /favicon.ico 404 - 0.492 ms - message: /favico
 error: 2021-10-07 09:28:00 AM POST /auth/login 404 - 227.640 ms - message: Shop not found
 error: 2021-10-07 09:29:57 AM POST /auth/login 404 - 207.006 ms - message: Shop not found
 error: 2021-10-07 09:30:39 AM POST /auth/login 404 - 470.966 ms - message: Shop not found
+error: 2021-10-16 03:18:07 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 42.502 ms - message: File no exist
+error: 2021-10-16 03:20:00 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 31.973 ms - message: File no exist
+error: 2021-10-16 03:20:00 PM GET /favicon.ico 404 - 0.417 ms - message: /favicon.ico not found
+error: 2021-10-16 03:25:41 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 29.736 ms - message: File no exist
+error: 2021-10-18 10:14:01 AM GET /api/v1/categor 404 - 2.172 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:16:30 AM GET /api/v1/categor 404 - 1.068 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:16:40 AM GET /api/v1/categor 404 - 0.275 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:16:47 AM GET /api/v1/categor 404 - 0.272 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:17:23 AM GET /api/v1/categor 404 - 0.321 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:17:41 AM GET /api/v1/categor 404 - 0.273 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:18:36 AM GET /api/v1/categor 404 - 0.423 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:18:36 AM GET /api/v1/categor 404 - 0.262 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:19:11 AM GET /api/v1/categor 404 - 0.267 ms - message: /api/v1/categor not found
+error: 2021-10-18 10:24:51 AM GET /api/v1/categore 404 - 0.273 ms - message: /api/v1/categore not found
+error: 2021-10-18 10:34:59 AM GET /api/v1/categor 404 - 0.941 ms - message: /api/v1/categor not found
+error: 2021-10-18 02:29:16 PM GET /api/v1/shop?id=615735512e08227744425c01 400 - 96.765 ms - message: "id" is not allowed
