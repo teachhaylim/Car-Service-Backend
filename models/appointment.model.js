@@ -5,17 +5,16 @@ import { paginate, toJSON } from "./plugins";
 
 const subServiceSchema = mongoose.Schema(
     {
-        item: {
+        appointment: {
             type: mongoose.Types.ObjectId,
             ref: "services",
             required: true,
             autopopulate: true,
         },
-        qty: {
-            type: Number,
+        date: {
+            type: Date,
             required: true,
-            default: 0,
-        },
+        }
     },
     {
         timestamps: true,
@@ -46,7 +45,7 @@ const appointmentSchema = mongoose.Schema(
         status: {
             type: Array,
             default: [
-                { date: moment(), type: 1 },
+                { date: moment().toDate(), type: 1 },
             ],
         },
         remark: {

@@ -9,6 +9,11 @@ const categorySchema = mongoose.Schema(
             trim: true,
             // unique: true,
         },
+        image: {
+            type: String,
+            required: true,
+            trim: true,
+        },
         remark: {
             type: String,
             trim: true,
