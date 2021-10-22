@@ -10,7 +10,7 @@ const CreateShop = catchAsync(async (req, res) => {
 });
 
 const QueryShops = catchAsync(async (req, res) => {
-    const filter = pick(req.query, ["name"]);
+    const filter = pick(req.query, ["name", "categories"]);
     const options = pick(req.query, ["sortBy", "limit", "page"]);
     const users = await shopService.QueryShops(filter, options);
 

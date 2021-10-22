@@ -24,6 +24,7 @@ const getShop = {
 const queryShops = {
     query: Joi.object().keys({
         name: Joi.string(),
+        categories: Joi.string().custom(customValidation.objectId),
         role: Joi.string(),
         sortBy: Joi.string(),
         limit: Joi.number().integer(),
