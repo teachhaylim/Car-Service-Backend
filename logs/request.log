@@ -8219,3 +8219,479 @@ request: 2021-10-22 03:41:42 PM GET /api/v1//category 200 - 203.556 ms
 request: 2021-10-22 03:41:42 PM GET /api/v1//shop 200 - 259.794 ms
 request: 2021-10-22 03:41:44 PM GET /api/v1//category 200 - 238.024 ms
 request: 2021-10-22 03:41:44 PM GET /api/v1//shop 200 - 288.969 ms
+request: 2021-10-24 12:04:54 PM GET /api/v1//category 200 - 338.225 ms
+request: 2021-10-24 12:04:54 PM GET /api/v1//shop 200 - 422.430 ms
+request: 2021-10-24 12:05:01 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 36.557 ms
+request: 2021-10-24 12:05:17 PM GET /api/v1//shop?categories=6149ce7560019f57486e78a8 200 - 203.372 ms
+request: 2021-10-24 12:05:26 PM GET /api/v1//shop?categories=6149ce9160019f57486e78d4 200 - 400.643 ms
+request: 2021-10-24 12:05:58 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 242.171 ms
+request: 2021-10-24 02:04:50 PM GET /api/v1//shop 200 - 679.736 ms
+request: 2021-10-24 02:04:50 PM GET /api/v1//category 200 - 750.878 ms
+request: 2021-10-24 02:04:53 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 39.328 ms
+request: 2021-10-24 02:05:17 PM GET /api/v1//shop?categories=6149ce7560019f57486e78a8 200 - 200.391 ms
+request: 2021-10-24 02:06:23 PM GET /api/v1//category 200 - 517.820 ms
+request: 2021-10-24 02:06:23 PM GET /api/v1/shop 200 - 529.929 ms
+request: 2021-10-24 02:06:23 PM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 558.115 ms
+request: 2021-10-24 02:06:36 PM GET /api/v1//category 200 - 160.510 ms
+request: 2021-10-24 02:06:36 PM GET /api/v1/shop 200 - 200.930 ms
+request: 2021-10-24 02:06:46 PM GET /api/v1/category 200 - 161.509 ms
+request: 2021-10-24 02:06:46 PM GET /api/v1/shop 200 - 196.124 ms
+request: 2021-10-24 02:06:49 PM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 192.070 ms
+request: 2021-10-24 02:06:52 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 227.609 ms
+request: 2021-10-24 02:23:55 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 215.870 ms
+request: 2021-10-24 02:31:50 PM GET /api/v1/category 200 - 443.679 ms
+request: 2021-10-24 02:31:50 PM GET /api/v1/shop 200 - 492.975 ms
+request: 2021-10-24 02:44:35 PM GET /api/v1/category 200 - 540.575 ms
+request: 2021-10-24 02:44:35 PM GET /api/v1/shop 200 - 887.692 ms
+request: 2021-10-24 02:44:36 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 45.456 ms
+request: 2021-10-24 02:45:37 PM GET /api/v1/category 200 - 163.171 ms
+request: 2021-10-24 02:45:37 PM GET /api/v1/shop 200 - 222.142 ms
+request: 2021-10-24 02:45:55 PM GET /api/v1/shop 200 - 252.970 ms
+request: 2021-10-24 02:45:55 PM GET /api/v1/category 200 - 430.145 ms
+request: 2021-10-24 02:46:11 PM GET /api/v1/shop 200 - 221.344 ms
+request: 2021-10-24 02:46:12 PM GET /api/v1/category 200 - 1449.045 ms
+request: 2021-10-24 02:46:30 PM GET /api/v1/category 200 - 249.718 ms
+request: 2021-10-24 02:46:30 PM GET /api/v1/shop 200 - 457.118 ms
+request: 2021-10-24 02:56:36 PM GET /api/v1/category 200 - 446.401 ms
+request: 2021-10-24 02:56:36 PM GET /api/v1/shop 200 - 449.330 ms
+request: 2021-10-24 02:56:40 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 46.809 ms
+request: 2021-10-24 02:57:16 PM GET /api/v1/shop 200 - 522.511 ms
+request: 2021-10-24 02:57:16 PM GET /api/v1/category 200 - 592.506 ms
+request: 2021-10-24 02:57:22 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 293.822 ms
+request: 2021-10-24 02:57:34 PM GET /api/v1/category 200 - 178.868 ms
+request: 2021-10-24 02:57:34 PM GET /api/v1/shop 200 - 212.903 ms
+request: 2021-10-24 02:57:38 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 43.065 ms
+request: 2021-10-24 02:58:47 PM GET /api/v1/category 200 - 205.854 ms
+request: 2021-10-24 02:58:48 PM GET /api/v1/shop 200 - 467.610 ms
+request: 2021-10-24 02:59:42 PM GET /api/v1/category 200 - 174.613 ms
+request: 2021-10-24 02:59:42 PM GET /api/v1/shop 200 - 208.470 ms
+request: 2021-10-24 02:59:58 PM GET /api/v1/category 200 - 360.370 ms
+request: 2021-10-24 02:59:58 PM GET /api/v1/shop 200 - 486.996 ms
+request: 2021-10-24 03:01:42 PM GET /api/v1/category 200 - 190.953 ms
+request: 2021-10-24 03:01:42 PM GET /api/v1/shop 200 - 211.150 ms
+request: 2021-10-24 03:01:57 PM GET /api/v1/shop 200 - 257.953 ms
+request: 2021-10-24 03:01:58 PM GET /api/v1/category 200 - 722.362 ms
+request: 2021-10-24 03:02:38 PM GET /api/v1/category 200 - 646.237 ms
+request: 2021-10-24 03:02:38 PM GET /api/v1/shop 200 - 737.082 ms
+request: 2021-10-24 03:03:43 PM GET /api/v1/shop 200 - 722.260 ms
+request: 2021-10-24 03:03:43 PM GET /api/v1/category 200 - 930.543 ms
+request: 2021-10-24 03:03:54 PM GET /api/v1/shop 200 - 264.274 ms
+request: 2021-10-24 03:03:55 PM GET /api/v1/category 200 - 683.972 ms
+request: 2021-10-24 03:04:29 PM GET /api/v1/category 200 - 165.385 ms
+request: 2021-10-24 03:04:29 PM GET /api/v1/shop 200 - 257.552 ms
+request: 2021-10-24 03:19:08 PM GET /api/v1/category 200 - 172.601 ms
+request: 2021-10-24 03:19:08 PM GET /api/v1/shop 200 - 196.142 ms
+request: 2021-10-24 03:19:14 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 42.846 ms
+request: 2021-10-24 03:19:17 PM GET /api/v1/category 200 - 162.467 ms
+request: 2021-10-24 03:19:17 PM GET /api/v1/shop 200 - 203.068 ms
+request: 2021-10-24 03:19:36 PM GET /api/v1/category 200 - 171.733 ms
+request: 2021-10-24 03:19:36 PM GET /api/v1/shop 200 - 195.797 ms
+request: 2021-10-24 03:20:44 PM GET /api/v1/category 200 - 698.655 ms
+request: 2021-10-24 03:20:45 PM GET /api/v1/shop 200 - 1393.851 ms
+request: 2021-10-24 03:20:51 PM GET /api/v1/shop 200 - 903.784 ms
+request: 2021-10-24 03:20:51 PM GET /api/v1/category 200 - 923.609 ms
+request: 2021-10-24 03:21:37 PM GET /api/v1/shop 200 - 203.819 ms
+request: 2021-10-24 03:21:37 PM GET /api/v1/category 200 - 403.477 ms
+request: 2021-10-24 03:21:48 PM GET /api/v1/category 200 - 175.207 ms
+request: 2021-10-24 03:21:48 PM GET /api/v1/shop 200 - 190.822 ms
+request: 2021-10-24 03:21:50 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 42.527 ms
+request: 2021-10-24 03:22:09 PM GET /api/v1/category 200 - 444.312 ms
+request: 2021-10-24 03:22:09 PM GET /api/v1/shop 200 - 929.581 ms
+request: 2021-10-24 03:22:16 PM GET /api/v1/category 200 - 174.231 ms
+request: 2021-10-24 03:22:16 PM GET /api/v1/shop 200 - 198.506 ms
+request: 2021-10-24 04:14:37 PM GET /api/v1/category 200 - 202.394 ms
+request: 2021-10-24 04:14:38 PM GET /api/v1/shop 200 - 744.556 ms
+request: 2021-10-24 04:25:18 PM GET /api/v1/category 200 - 161.891 ms
+request: 2021-10-24 04:25:18 PM GET /api/v1/shop 200 - 224.707 ms
+request: 2021-10-24 04:25:22 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 44.855 ms
+request: 2021-10-24 04:25:28 PM GET /api/v1/category 200 - 165.306 ms
+request: 2021-10-24 04:25:28 PM GET /api/v1/shop 200 - 225.860 ms
+request: 2021-10-24 04:25:34 PM GET /api/v1/category 200 - 180.037 ms
+request: 2021-10-24 04:25:34 PM GET /api/v1/shop 200 - 187.962 ms
+request: 2021-10-24 04:25:38 PM GET /api/v1/category 200 - 171.575 ms
+request: 2021-10-24 04:25:38 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 42.238 ms
+request: 2021-10-24 04:25:38 PM GET /api/v1/shop 200 - 217.752 ms
+request: 2021-10-24 04:25:45 PM GET /api/v1/shop 200 - 191.810 ms
+request: 2021-10-24 04:25:45 PM GET /api/v1/category 200 - 439.474 ms
+request: 2021-10-24 04:25:50 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 43.068 ms
+request: 2021-10-24 04:26:10 PM GET /api/v1/category 200 - 177.624 ms
+request: 2021-10-24 04:26:10 PM GET /api/v1/shop 200 - 199.000 ms
+request: 2021-10-24 04:27:00 PM GET /api/v1/category 200 - 184.608 ms
+request: 2021-10-24 04:27:00 PM GET /api/v1/shop 200 - 188.173 ms
+request: 2021-10-24 04:27:05 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 43.063 ms
+request: 2021-10-24 04:27:14 PM GET /api/v1/category 200 - 463.158 ms
+request: 2021-10-24 04:27:15 PM GET /api/v1/shop 200 - 680.087 ms
+request: 2021-10-24 04:27:21 PM GET /api/v1/shop 200 - 648.275 ms
+request: 2021-10-24 04:27:21 PM GET /api/v1/category 200 - 705.504 ms
+request: 2021-10-24 04:27:25 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 44.204 ms
+request: 2021-10-24 04:27:37 PM GET /api/v1/shop 200 - 431.253 ms
+request: 2021-10-24 04:27:38 PM GET /api/v1/category 200 - 716.341 ms
+request: 2021-10-24 04:27:43 PM GET /api/v1/category 200 - 189.709 ms
+request: 2021-10-24 04:27:43 PM GET /api/v1/shop 200 - 203.685 ms
+request: 2021-10-24 04:27:47 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 42.374 ms
+request: 2021-10-24 04:27:49 PM GET /api/v1/category 200 - 445.209 ms
+request: 2021-10-24 04:27:49 PM GET /api/v1/shop 200 - 447.960 ms
+request: 2021-10-24 04:30:03 PM GET /api/v1/category 200 - 169.356 ms
+request: 2021-10-24 04:30:03 PM GET /api/v1/shop 200 - 188.624 ms
+request: 2021-10-24 04:30:03 PM GET /api/v1/category 200 - 173.075 ms
+request: 2021-10-24 04:30:03 PM GET /api/v1/shop 200 - 192.292 ms
+request: 2021-10-24 04:30:09 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 43.728 ms
+request: 2021-10-24 04:30:20 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 397.268 ms
+request: 2021-10-24 08:02:06 PM GET /api/v1/category 200 - 519.042 ms
+request: 2021-10-24 08:02:06 PM GET /api/v1/shop 200 - 549.053 ms
+request: 2021-10-24 08:02:09 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 39.832 ms
+request: 2021-10-24 08:02:16 PM GET /api/v1/category 200 - 185.890 ms
+request: 2021-10-24 08:02:16 PM GET /api/v1/shop 200 - 203.831 ms
+request: 2021-10-24 08:02:18 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 39.072 ms
+request: 2021-10-24 08:03:33 PM GET /api/v1/category 200 - 187.262 ms
+request: 2021-10-24 08:03:33 PM GET /api/v1/shop 200 - 204.854 ms
+request: 2021-10-24 08:04:16 PM GET /api/v1/category 200 - 185.584 ms
+request: 2021-10-24 08:04:16 PM GET /api/v1/shop 200 - 220.883 ms
+request: 2021-10-24 08:04:19 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 37.471 ms
+request: 2021-10-24 08:04:34 PM GET /api/v1/category 200 - 209.059 ms
+request: 2021-10-24 08:04:34 PM GET /api/v1/shop 200 - 223.866 ms
+request: 2021-10-24 08:04:48 PM GET /api/v1/category 200 - 175.747 ms
+request: 2021-10-24 08:04:48 PM GET /api/v1/shop 200 - 514.253 ms
+request: 2021-10-24 08:04:59 PM GET /api/v1/category 200 - 192.265 ms
+request: 2021-10-24 08:04:59 PM GET /api/v1/shop 200 - 223.862 ms
+request: 2021-10-24 09:14:50 PM GET /api/v1/shop 200 - 460.820 ms
+request: 2021-10-24 09:14:50 PM GET /api/v1/category 200 - 496.710 ms
+request: 2021-10-24 09:14:55 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 45.516 ms
+error: 2021-10-24 09:15:19 PM POST /api/v1/userlogin 404 - 1.167 ms - message: /api/v1/userlogin not found
+error: 2021-10-24 09:18:17 PM POST /auth/userlogin 401 - 29309.877 ms - message: Incorrect email or password
+error: 2021-10-24 09:18:34 PM POST /auth/userlogin 401 - 28.987 ms - message: Incorrect email or password
+error: 2021-10-24 09:19:18 PM POST /auth/userlogin 401 - 31.655 ms - message: Incorrect email or password
+error: 2021-10-24 09:20:49 PM POST /auth/userlogin 401 - 273.658 ms - message: Incorrect email or password
+request: 2021-10-24 09:22:36 PM POST /auth/userlogin 200 - 135.043 ms
+error: 2021-10-24 09:25:36 PM POST /auth/userlogin 401 - 29.854 ms - message: Incorrect email or password
+error: 2021-10-24 09:26:36 PM POST /auth/userlogin 401 - 28.690 ms - message: Incorrect email or password
+request: 2021-10-24 09:26:57 PM POST /auth/userlogin 200 - 135.295 ms
+request: 2021-10-24 09:27:06 PM POST /auth/userlogin 200 - 130.898 ms
+error: 2021-10-24 09:30:51 PM POST /auth/userlogin 401 - 386.719 ms - message: Incorrect email or password
+error: 2021-10-24 09:31:15 PM POST /auth/userlogin 401 - 377.757 ms - message: Incorrect email or password
+request: 2021-10-24 09:34:29 PM POST /auth/userlogin 200 - 146.372 ms
+request: 2021-10-24 09:34:44 PM POST /auth/userlogin 200 - 130.436 ms
+request: 2021-10-24 09:35:02 PM POST /auth/userlogin 200 - 132.183 ms
+request: 2021-10-24 09:35:31 PM POST /auth/userlogin 200 - 134.061 ms
+request: 2021-10-24 09:36:54 PM POST /auth/userlogin 200 - 144.101 ms
+request: 2021-10-24 09:37:17 PM POST /auth/userlogin 200 - 133.783 ms
+request: 2021-10-24 09:37:39 PM POST /auth/userlogin 200 - 129.713 ms
+request: 2021-10-24 09:37:56 PM POST /auth/userlogin 200 - 130.244 ms
+request: 2021-10-24 09:43:59 PM POST /auth/userlogin 200 - 138.708 ms
+request: 2021-10-24 09:44:20 PM POST /auth/userlogin 200 - 130.439 ms
+request: 2021-10-24 09:45:24 PM POST /auth/userlogin 200 - 130.906 ms
+error: 2021-10-24 09:48:18 PM POST /auth/userlogin 401 - 126.034 ms - message: Incorrect email or password
+error: 2021-10-24 09:53:55 PM POST /auth/userlogin 401 - 132.912 ms - message: Incorrect email or password
+error: 2021-10-24 09:54:44 PM POST /auth/userlogin 401 - 130.760 ms - message: Incorrect email or password
+request: 2021-10-24 09:55:06 PM POST /auth/userlogin 200 - 126.486 ms
+request: 2021-10-24 09:55:37 PM POST /auth/userlogin 200 - 132.034 ms
+error: 2021-10-24 09:57:15 PM POST /auth/userlogin 401 - 133.081 ms - message: Incorrect email or password
+error: 2021-10-24 09:57:23 PM POST /auth/userlogin 401 - 127.452 ms - message: Incorrect email or password
+error: 2021-10-24 10:14:23 PM POST /auth/userlogin 401 - 130.371 ms - message: Incorrect email or password
+error: 2021-10-24 10:14:51 PM POST /auth/userlogin 401 - 127.255 ms - message: Incorrect email or password
+error: 2021-10-24 10:15:12 PM POST /auth/userlogin 401 - 131.531 ms - message: Incorrect email or password
+error: 2021-10-24 10:15:23 PM POST /auth/userlogin 401 - 635.027 ms - message: Incorrect email or password
+error: 2021-10-24 10:16:47 PM POST /auth/userlogin 401 - 137.815 ms - message: Incorrect email or password
+error: 2021-10-24 10:17:25 PM POST /auth/userlogin 401 - 126.092 ms - message: Incorrect email or password
+error: 2021-10-24 10:19:03 PM POST /auth/userlogin 401 - 129.907 ms - message: Incorrect email or password
+error: 2021-10-24 10:21:25 PM POST /auth/userlogin 401 - 124.119 ms - message: Incorrect email or password
+error: 2021-10-24 10:22:22 PM POST /auth/userlogin 401 - 128.115 ms - message: Incorrect email or password
+request: 2021-10-24 10:22:41 PM POST /auth/userlogin 200 - 127.881 ms
+error: 2021-10-24 10:24:31 PM POST /auth/userlogin 401 - 128.769 ms - message: Incorrect email or password
+error: 2021-10-24 10:25:29 PM POST /auth/userlogin 401 - 127.871 ms - message: Incorrect email or password
+error: 2021-10-25 07:27:35 AM POST /auth/userlogin 401 - 454.419 ms - message: Incorrect email or password
+error: 2021-10-25 07:28:05 AM POST /auth/userlogin 401 - 172.782 ms - message: Incorrect email or password
+request: 2021-10-25 07:34:50 AM POST /auth/userlogin 200 - 167.314 ms
+request: 2021-10-25 07:34:53 AM GET /api/v1/category 200 - 608.038 ms
+request: 2021-10-25 07:34:53 AM GET /api/v1/shop 200 - 880.446 ms
+request: 2021-10-25 07:35:01 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 37.166 ms
+request: 2021-10-25 07:35:21 AM GET /api/v1/category 200 - 148.237 ms
+request: 2021-10-25 07:35:21 AM GET /api/v1/shop 200 - 209.238 ms
+request: 2021-10-25 07:35:29 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 35.947 ms
+error: 2021-10-25 07:39:17 AM POST /auth/userlogin 401 - 45.097 ms - message: Incorrect email or password
+error: 2021-10-25 07:49:57 AM POST /auth/userlogin 401 - 43.542 ms - message: Incorrect email or password
+error: 2021-10-25 07:50:17 AM POST /auth/userlogin 401 - 44.735 ms - message: Incorrect email or password
+request: 2021-10-25 07:50:50 AM POST /auth/userlogin 200 - 163.720 ms
+request: 2021-10-25 07:50:52 AM GET /api/v1/category 200 - 140.403 ms
+request: 2021-10-25 07:50:53 AM GET /api/v1/shop 200 - 765.309 ms
+request: 2021-10-25 07:51:02 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 37.456 ms
+request: 2021-10-25 07:51:37 AM GET /api/v1/category 200 - 231.096 ms
+request: 2021-10-25 07:51:37 AM GET /api/v1/shop 200 - 249.569 ms
+request: 2021-10-25 07:53:32 AM GET /api/v1/category 200 - 1379.819 ms
+request: 2021-10-25 07:53:32 AM GET /api/v1/shop 200 - 1746.800 ms
+request: 2021-10-25 07:55:25 AM GET /api/v1/category 200 - 165.506 ms
+request: 2021-10-25 07:55:25 AM GET /api/v1/shop 200 - 686.359 ms
+request: 2021-10-25 07:55:43 AM GET /api/v1/category 200 - 165.620 ms
+request: 2021-10-25 07:55:43 AM GET /api/v1/shop 200 - 207.548 ms
+request: 2021-10-25 07:56:18 AM GET /api/v1/category 200 - 399.320 ms
+request: 2021-10-25 07:56:18 AM GET /api/v1/shop 200 - 677.421 ms
+request: 2021-10-25 07:56:23 AM GET /api/v1/category 200 - 146.659 ms
+request: 2021-10-25 07:56:23 AM GET /api/v1/shop 200 - 190.473 ms
+request: 2021-10-25 07:56:33 AM GET /api/v1/category 200 - 172.621 ms
+request: 2021-10-25 07:56:33 AM GET /api/v1/shop 200 - 927.634 ms
+error: 2021-10-25 07:56:53 AM POST /auth/userlogin 401 - 35.467 ms - message: Incorrect email or password
+request: 2021-10-25 07:57:21 AM POST /auth/userlogin 200 - 397.986 ms
+request: 2021-10-25 07:57:23 AM GET /api/v1/category 200 - 729.133 ms
+request: 2021-10-25 07:57:24 AM GET /api/v1/shop 200 - 1288.464 ms
+request: 2021-10-25 07:57:32 AM GET /api/v1/category 200 - 165.550 ms
+request: 2021-10-25 07:57:32 AM GET /api/v1/shop 200 - 395.599 ms
+request: 2021-10-25 07:57:51 AM POST /auth/userlogin 200 - 132.089 ms
+request: 2021-10-25 07:57:53 AM GET /api/v1/category 200 - 153.889 ms
+request: 2021-10-25 07:57:53 AM GET /api/v1/shop 200 - 201.870 ms
+request: 2021-10-25 07:58:18 AM POST /auth/userlogin 200 - 163.251 ms
+request: 2021-10-25 07:58:20 AM GET /api/v1/category 200 - 184.098 ms
+request: 2021-10-25 07:58:20 AM GET /api/v1/shop 200 - 210.797 ms
+request: 2021-10-25 07:58:46 AM POST /auth/userlogin 200 - 143.893 ms
+request: 2021-10-25 07:58:49 AM GET /api/v1/category 200 - 170.399 ms
+request: 2021-10-25 07:58:49 AM GET /api/v1/shop 200 - 205.553 ms
+request: 2021-10-25 07:59:12 AM POST /auth/userlogin 200 - 140.282 ms
+request: 2021-10-25 07:59:14 AM GET /api/v1/category 200 - 169.427 ms
+request: 2021-10-25 07:59:14 AM GET /api/v1/shop 200 - 440.880 ms
+request: 2021-10-25 07:59:22 AM GET /api/v1/category 200 - 170.223 ms
+request: 2021-10-25 07:59:22 AM GET /api/v1/shop 200 - 203.980 ms
+request: 2021-10-25 07:59:34 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 35.920 ms
+request: 2021-10-25 08:02:31 AM GET /api/v1/category 200 - 140.699 ms
+request: 2021-10-25 08:02:31 AM GET /api/v1/shop 200 - 201.823 ms
+request: 2021-10-25 08:02:34 AM GET /api/v1/shop 200 - 422.499 ms
+request: 2021-10-25 08:02:34 AM GET /api/v1/category 200 - 688.979 ms
+request: 2021-10-25 08:02:42 AM GET /api/v1/category 200 - 378.892 ms
+request: 2021-10-25 08:02:43 AM GET /api/v1/shop 200 - 773.019 ms
+request: 2021-10-25 08:03:21 AM GET /api/v1/category 200 - 161.073 ms
+request: 2021-10-25 08:03:21 AM GET /api/v1/shop 200 - 400.958 ms
+request: 2021-10-25 08:03:29 AM GET /api/v1/shop 200 - 135.370 ms
+request: 2021-10-25 08:03:29 AM GET /api/v1/category 200 - 164.084 ms
+request: 2021-10-25 08:09:01 AM POST /auth/userlogin 200 - 127.860 ms
+error: 2021-10-25 08:09:03 AM GET /api/v1/category 401 - 2.657 ms - message: token expired
+error: 2021-10-25 08:09:03 AM GET /api/v1/shop 401 - 1.109 ms - message: token expired
+request: 2021-10-25 08:09:40 AM POST /auth/userlogin 200 - 127.697 ms
+error: 2021-10-25 08:09:42 AM GET /api/v1/shop 401 - 0.792 ms - message: token expired
+error: 2021-10-25 08:09:42 AM GET /api/v1/category 401 - 0.737 ms - message: token expired
+request: 2021-10-25 08:10:01 AM GET /api/v1/shop 200 - 161.965 ms
+request: 2021-10-25 08:10:02 AM GET /api/v1/category 200 - 351.126 ms
+request: 2021-10-25 08:10:06 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 34.870 ms
+request: 2021-10-25 08:10:14 AM POST /auth/userlogin 200 - 418.467 ms
+request: 2021-10-25 08:10:16 AM GET /api/v1/category 200 - 131.425 ms
+request: 2021-10-25 08:10:16 AM GET /api/v1/shop 200 - 186.000 ms
+request: 2021-10-25 08:10:22 AM GET /api/v1/category 200 - 136.171 ms
+request: 2021-10-25 08:10:22 AM GET /api/v1/shop 200 - 420.172 ms
+request: 2021-10-25 08:10:34 AM GET /api/v1/category 200 - 97.138 ms
+request: 2021-10-25 08:10:34 AM GET /api/v1/shop 200 - 199.053 ms
+request: 2021-10-25 08:11:05 AM POST /auth/userlogin 200 - 158.148 ms
+error: 2021-10-25 08:11:07 AM GET /api/v1/category 401 - 0.494 ms - message: token expired
+error: 2021-10-25 08:11:07 AM GET /api/v1/shop 401 - 0.664 ms - message: token expired
+request: 2021-10-25 08:12:08 AM GET /api/v1/category 200 - 110.853 ms
+request: 2021-10-25 08:12:08 AM GET /api/v1/shop 200 - 143.254 ms
+request: 2021-10-25 08:12:11 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 36.381 ms
+request: 2021-10-25 08:12:36 AM POST /auth/userlogin 200 - 139.382 ms
+request: 2021-10-25 08:12:38 AM GET /api/v1/category 200 - 107.849 ms
+request: 2021-10-25 08:12:39 AM GET /api/v1/shop 200 - 427.964 ms
+request: 2021-10-25 08:12:43 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 35.272 ms
+request: 2021-10-25 08:13:09 AM GET /api/v1/category 200 - 618.237 ms
+request: 2021-10-25 08:13:10 AM GET /api/v1/shop 200 - 1342.860 ms
+request: 2021-10-25 08:13:12 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 36.388 ms
+request: 2021-10-25 08:14:02 AM GET /api/v1/category 200 - 108.739 ms
+request: 2021-10-25 08:14:03 AM GET /api/v1/shop 200 - 470.106 ms
+request: 2021-10-25 08:15:05 AM GET /api/v1/category 200 - 131.656 ms
+request: 2021-10-25 08:15:05 AM GET /api/v1/shop 200 - 130.828 ms
+request: 2021-10-25 08:16:26 AM GET /api/v1/category 200 - 106.513 ms
+request: 2021-10-25 08:16:26 AM GET /api/v1/shop 200 - 428.527 ms
+request: 2021-10-25 08:18:38 AM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 151.340 ms
+request: 2021-10-25 08:18:42 AM GET /api/v1/shop?categories=6149ce7a60019f57486e78b0 200 - 1198.934 ms
+request: 2021-10-25 08:18:47 AM GET /api/v1/shop?categories=6149ce8660019f57486e78c4 200 - 96.920 ms
+request: 2021-10-25 08:18:51 AM GET /api/v1/shop?categories=6149ce9160019f57486e78d4 200 - 110.051 ms
+request: 2021-10-25 08:18:55 AM GET /api/v1/shop?categories=6151ecbdc11949419818e70e 200 - 109.550 ms
+request: 2021-10-25 08:19:03 AM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 418.911 ms
+request: 2021-10-25 08:19:07 AM GET /api/v1/service?sellCompany=615736322e08227744425c1b 200 - 434.133 ms
+request: 2021-10-25 08:21:27 AM GET /api/v1/category 200 - 108.729 ms
+request: 2021-10-25 08:21:27 AM GET /api/v1/shop 200 - 411.996 ms
+request: 2021-10-25 08:21:42 AM GET /api/v1/category 200 - 163.014 ms
+request: 2021-10-25 08:21:42 AM GET /api/v1/shop 200 - 192.340 ms
+request: 2021-10-25 08:21:47 AM GET /api/v1/shop 200 - 173.637 ms
+request: 2021-10-25 08:21:48 AM GET /api/v1/category 200 - 926.683 ms
+error: 2021-10-25 08:23:23 AM GET /api/v1/category 401 - 0.375 ms - message: Please authenticate
+error: 2021-10-25 08:23:23 AM GET /api/v1/shop 401 - 0.303 ms - message: Please authenticate
+error: 2021-10-25 08:25:32 AM GET /api/v1/category 401 - 0.330 ms - message: Please authenticate
+error: 2021-10-25 08:25:32 AM GET /api/v1/shop 401 - 0.287 ms - message: Please authenticate
+error: 2021-10-25 08:25:58 AM GET /api/v1/category 401 - 0.260 ms - message: Please authenticate
+error: 2021-10-25 08:25:58 AM GET /api/v1/shop 401 - 0.509 ms - message: Please authenticate
+error: 2021-10-25 08:26:25 AM GET /api/v1/category 401 - 0.431 ms - message: Please authenticate
+error: 2021-10-25 08:26:25 AM GET /api/v1/shop 401 - 0.296 ms - message: Please authenticate
+error: 2021-10-25 08:26:54 AM GET /api/v1/category 401 - 0.322 ms - message: Please authenticate
+error: 2021-10-25 08:26:54 AM GET /api/v1/shop 401 - 0.473 ms - message: Please authenticate
+error: 2021-10-25 08:27:22 AM GET /api/v1/category 401 - 0.292 ms - message: Please authenticate
+error: 2021-10-25 08:27:22 AM GET /api/v1/shop 401 - 0.346 ms - message: Please authenticate
+error: 2021-10-25 08:28:59 AM GET /api/v1/category 401 - 0.382 ms - message: Please authenticate
+error: 2021-10-25 08:28:59 AM GET /api/v1/shop 401 - 0.357 ms - message: Please authenticate
+error: 2021-10-25 08:34:48 AM GET /api/v1/shop 401 - 0.474 ms - message: Please authenticate
+request: 2021-10-25 08:35:02 AM GET /api/v1/shop 200 - 742.063 ms
+error: 2021-10-25 08:36:15 AM GET /api/v1/category 401 - 0.363 ms - message: Please authenticate
+error: 2021-10-25 08:36:15 AM GET /api/v1/shop 401 - 0.441 ms - message: Please authenticate
+error: 2021-10-25 08:37:17 AM GET /api/v1/category 401 - 0.682 ms - message: Please authenticate
+error: 2021-10-25 08:37:17 AM GET /api/v1/shop 401 - 0.343 ms - message: Please authenticate
+error: 2021-10-25 08:38:13 AM GET /api/v1/category 401 - 0.260 ms - message: Please authenticate
+error: 2021-10-25 08:38:13 AM GET /api/v1/shop 401 - 0.519 ms - message: Please authenticate
+error: 2021-10-25 08:38:44 AM GET /api/v1/category 401 - 0.259 ms - message: Please authenticate
+error: 2021-10-25 08:38:44 AM GET /api/v1/shop 401 - 0.377 ms - message: Please authenticate
+error: 2021-10-25 08:39:21 AM GET /api/v1/category 401 - 0.570 ms - message: Please authenticate
+error: 2021-10-25 08:39:21 AM GET /api/v1/shop 401 - 0.271 ms - message: Please authenticate
+error: 2021-10-25 08:39:25 AM GET /api/v1/category 401 - 0.540 ms - message: Please authenticate
+error: 2021-10-25 08:39:25 AM GET /api/v1/shop 401 - 0.499 ms - message: Please authenticate
+error: 2021-10-25 08:39:34 AM GET /api/v1/category 401 - 0.263 ms - message: Please authenticate
+error: 2021-10-25 08:39:34 AM GET /api/v1/shop 401 - 0.615 ms - message: Please authenticate
+error: 2021-10-25 08:39:52 AM GET /api/v1/category 401 - 0.431 ms - message: Please authenticate
+error: 2021-10-25 08:39:52 AM GET /api/v1/shop 401 - 0.515 ms - message: Please authenticate
+error: 2021-10-25 08:40:21 AM GET /api/v1/category 401 - 0.241 ms - message: Please authenticate
+error: 2021-10-25 08:40:21 AM GET /api/v1/shop 401 - 0.458 ms - message: Please authenticate
+error: 2021-10-25 08:40:35 AM GET /api/v1/category 401 - 0.239 ms - message: Please authenticate
+error: 2021-10-25 08:40:35 AM GET /api/v1/shop 401 - 0.406 ms - message: Please authenticate
+error: 2021-10-25 08:40:54 AM GET /api/v1/category 401 - 0.305 ms - message: Please authenticate
+error: 2021-10-25 08:40:54 AM GET /api/v1/shop 401 - 0.362 ms - message: Please authenticate
+error: 2021-10-25 08:41:26 AM GET /api/v1/category 401 - 0.435 ms - message: Please authenticate
+error: 2021-10-25 08:41:26 AM GET /api/v1/shop 401 - 0.461 ms - message: Please authenticate
+error: 2021-10-25 08:47:04 AM GET /api/v1/category 401 - 0.467 ms - message: Please authenticate
+error: 2021-10-25 08:47:04 AM GET /api/v1/shop 401 - 0.287 ms - message: Please authenticate
+error: 2021-10-25 08:47:31 AM GET /api/v1/category 401 - 0.295 ms - message: Please authenticate
+error: 2021-10-25 08:47:31 AM GET /api/v1/shop 401 - 0.363 ms - message: Please authenticate
+error: 2021-10-25 08:47:36 AM GET /api/v1/category 401 - 0.599 ms - message: Please authenticate
+error: 2021-10-25 08:47:36 AM GET /api/v1/shop 401 - 0.288 ms - message: Please authenticate
+error: 2021-10-25 08:47:40 AM GET /api/v1/category 401 - 1.059 ms - message: Please authenticate
+error: 2021-10-25 08:47:40 AM GET /api/v1/shop 401 - 0.267 ms - message: Please authenticate
+error: 2021-10-25 08:47:44 AM GET /api/v1/category 401 - 0.259 ms - message: Please authenticate
+error: 2021-10-25 08:47:44 AM GET /api/v1/shop 401 - 0.351 ms - message: Please authenticate
+error: 2021-10-25 08:47:54 AM GET /api/v1/category 401 - 0.336 ms - message: Please authenticate
+error: 2021-10-25 08:47:54 AM GET /api/v1/shop 401 - 0.539 ms - message: Please authenticate
+error: 2021-10-25 08:49:06 AM GET /api/v1/category 401 - 0.551 ms - message: Please authenticate
+error: 2021-10-25 08:49:06 AM GET /api/v1/shop 401 - 0.348 ms - message: Please authenticate
+error: 2021-10-25 08:49:12 AM GET /api/v1/category 401 - 0.249 ms - message: Please authenticate
+error: 2021-10-25 08:49:12 AM GET /api/v1/shop 401 - 0.358 ms - message: Please authenticate
+error: 2021-10-25 08:49:46 AM GET /api/v1/category 401 - 0.238 ms - message: Please authenticate
+error: 2021-10-25 08:49:46 AM GET /api/v1/shop 401 - 0.427 ms - message: Please authenticate
+error: 2021-10-25 08:49:49 AM GET /api/v1/category 401 - 0.246 ms - message: Please authenticate
+error: 2021-10-25 08:49:50 AM GET /api/v1/shop 401 - 0.263 ms - message: Please authenticate
+error: 2021-10-25 08:49:54 AM GET /api/v1/category 401 - 0.248 ms - message: Please authenticate
+error: 2021-10-25 08:49:54 AM GET /api/v1/shop 401 - 0.238 ms - message: Please authenticate
+error: 2021-10-25 08:49:56 AM GET /api/v1/category 401 - 0.236 ms - message: Please authenticate
+error: 2021-10-25 08:49:56 AM GET /api/v1/shop 401 - 0.356 ms - message: Please authenticate
+error: 2021-10-25 08:49:58 AM GET /api/v1/category 401 - 0.234 ms - message: Please authenticate
+error: 2021-10-25 08:49:58 AM GET /api/v1/shop 401 - 0.230 ms - message: Please authenticate
+error: 2021-10-25 08:50:05 AM GET /api/v1/category 401 - 0.242 ms - message: Please authenticate
+error: 2021-10-25 08:50:05 AM GET /api/v1/shop 401 - 0.359 ms - message: Please authenticate
+error: 2021-10-25 08:50:08 AM GET /api/v1/category 401 - 0.267 ms - message: Please authenticate
+error: 2021-10-25 08:50:08 AM GET /api/v1/shop 401 - 0.297 ms - message: Please authenticate
+error: 2021-10-25 08:50:16 AM GET /api/v1/category 401 - 0.228 ms - message: Please authenticate
+error: 2021-10-25 08:50:16 AM GET /api/v1/shop 401 - 0.300 ms - message: Please authenticate
+error: 2021-10-25 08:50:21 AM GET /api/v1/category 401 - 0.303 ms - message: Please authenticate
+error: 2021-10-25 08:50:21 AM GET /api/v1/shop 401 - 0.226 ms - message: Please authenticate
+error: 2021-10-25 08:50:36 AM GET /api/v1/category 401 - 0.257 ms - message: Please authenticate
+error: 2021-10-25 08:50:36 AM GET /api/v1/shop 401 - 0.371 ms - message: Please authenticate
+error: 2021-10-25 08:50:39 AM GET /api/v1/category 401 - 0.306 ms - message: Please authenticate
+error: 2021-10-25 08:50:39 AM GET /api/v1/shop 401 - 0.505 ms - message: Please authenticate
+error: 2021-10-25 08:50:57 AM GET /api/v1/category 401 - 0.286 ms - message: Please authenticate
+error: 2021-10-25 08:50:57 AM GET /api/v1/shop 401 - 0.340 ms - message: Please authenticate
+error: 2021-10-25 08:51:14 AM GET /api/v1/category 401 - 0.397 ms - message: Please authenticate
+error: 2021-10-25 08:51:14 AM GET /api/v1/shop 401 - 0.286 ms - message: Please authenticate
+error: 2021-10-25 08:51:42 AM GET /api/v1/category 401 - 0.250 ms - message: Please authenticate
+error: 2021-10-25 08:51:42 AM GET /api/v1/shop 401 - 0.437 ms - message: Please authenticate
+error: 2021-10-25 08:52:02 AM GET /api/v1/category 401 - 0.230 ms - message: Please authenticate
+error: 2021-10-25 08:52:02 AM GET /api/v1/shop 401 - 0.303 ms - message: Please authenticate
+error: 2021-10-25 08:52:24 AM GET /api/v1/categori 404 - 0.675 ms - message: /api/v1/categori not found
+error: 2021-10-25 08:52:24 AM GET /api/v1/shop 401 - 0.357 ms - message: Please authenticate
+error: 2021-10-25 08:52:32 AM GET /api/v1/category 401 - 0.334 ms - message: Please authenticate
+error: 2021-10-25 08:52:32 AM GET /api/v1/shop 401 - 0.363 ms - message: Please authenticate
+request: 2021-10-25 08:52:46 AM GET /api/v1/category 200 - 135.474 ms
+request: 2021-10-25 08:52:46 AM GET /api/v1/shop 200 - 154.596 ms
+request: 2021-10-25 08:54:27 AM GET /api/v1/category 200 - 138.032 ms
+request: 2021-10-25 08:54:27 AM GET /api/v1/shop 200 - 158.858 ms
+request: 2021-10-25 08:54:43 AM GET /api/v1/category 200 - 146.560 ms
+request: 2021-10-25 08:54:43 AM GET /api/v1/shop 200 - 452.573 ms
+request: 2021-10-25 08:55:03 AM GET /api/v1/category 200 - 167.931 ms
+request: 2021-10-25 08:55:04 AM GET /api/v1/shop 200 - 634.529 ms
+request: 2021-10-25 08:55:20 AM GET /api/v1/category 200 - 114.384 ms
+request: 2021-10-25 08:55:20 AM GET /api/v1/shop 200 - 454.441 ms
+request: 2021-10-25 08:55:35 AM GET /api/v1/category 200 - 140.234 ms
+request: 2021-10-25 08:55:36 AM GET /api/v1/shop 200 - 712.401 ms
+request: 2021-10-25 08:56:01 AM GET /api/v1/category 200 - 142.657 ms
+request: 2021-10-25 08:56:02 AM GET /api/v1/shop 200 - 242.663 ms
+request: 2021-10-25 08:57:05 AM GET /api/v1/category 200 - 252.737 ms
+request: 2021-10-25 08:57:05 AM GET /api/v1/shop 200 - 433.410 ms
+request: 2021-10-25 08:57:08 AM GET /api/v1/shop 200 - 170.624 ms
+request: 2021-10-25 08:57:08 AM GET /api/v1/category 200 - 414.643 ms
+request: 2021-10-25 08:57:17 AM GET /api/v1/category 200 - 137.902 ms
+request: 2021-10-25 08:57:17 AM GET /api/v1/shop 200 - 158.280 ms
+request: 2021-10-25 08:57:26 AM GET /api/v1/category 200 - 110.618 ms
+request: 2021-10-25 08:57:28 AM GET /api/v1/shop 200 - 2039.488 ms
+request: 2021-10-25 08:57:38 AM GET /api/v1/category 200 - 137.893 ms
+request: 2021-10-25 08:57:38 AM GET /api/v1/shop 200 - 154.212 ms
+request: 2021-10-25 08:57:44 AM GET /api/v1/category 200 - 135.460 ms
+request: 2021-10-25 08:57:44 AM GET /api/v1/shop 200 - 153.564 ms
+request: 2021-10-25 08:57:57 AM GET /api/v1/category 200 - 142.024 ms
+request: 2021-10-25 08:57:57 AM GET /api/v1/shop 200 - 161.058 ms
+request: 2021-10-25 08:58:11 AM GET /api/v1/category 200 - 133.477 ms
+request: 2021-10-25 08:58:11 AM GET /api/v1/shop 200 - 149.304 ms
+request: 2021-10-25 08:58:21 AM GET /api/v1/category 200 - 200.575 ms
+request: 2021-10-25 08:58:22 AM GET /api/v1/shop 200 - 449.410 ms
+request: 2021-10-25 08:58:29 AM GET /api/v1/category 200 - 138.715 ms
+request: 2021-10-25 08:58:29 AM GET /api/v1/shop 200 - 395.652 ms
+request: 2021-10-25 08:58:54 AM GET /api/v1/category 200 - 138.389 ms
+request: 2021-10-25 08:58:54 AM GET /api/v1/shop 200 - 409.926 ms
+request: 2021-10-25 08:59:06 AM GET /api/v1/category 200 - 173.466 ms
+request: 2021-10-25 08:59:06 AM GET /api/v1/shop 200 - 169.630 ms
+error: 2021-10-25 08:59:10 AM GET /api/v1/category 401 - 0.278 ms - message: Please authenticate
+error: 2021-10-25 08:59:10 AM GET /api/v1/shop 401 - 0.265 ms - message: Please authenticate
+request: 2021-10-25 08:59:16 AM GET /api/v1/category 200 - 137.102 ms
+request: 2021-10-25 08:59:16 AM GET /api/v1/shop 200 - 812.544 ms
+request: 2021-10-25 10:55:48 AM GET /api/v1/category 200 - 90.846 ms
+request: 2021-10-25 10:55:48 AM GET /api/v1/shop 200 - 171.256 ms
+request: 2021-10-25 10:55:54 AM GET /api/v1/category 200 - 135.905 ms
+request: 2021-10-25 10:55:54 AM GET /api/v1/shop 200 - 146.434 ms
+request: 2021-10-25 03:10:20 PM GET /api/v1/category 200 - 167.251 ms
+request: 2021-10-25 03:10:20 PM GET /api/v1/shop 200 - 180.271 ms
+request: 2021-10-25 03:10:23 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 38.148 ms
+request: 2021-10-25 03:10:33 PM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 169.803 ms
+request: 2021-10-25 03:10:47 PM GET /api/v1/shop?categories=6149ce8e60019f57486e78d0 200 - 143.987 ms
+request: 2021-10-25 06:57:54 PM GET /api/v1/category 200 - 137.167 ms
+request: 2021-10-25 06:57:54 PM GET /api/v1/shop 200 - 150.877 ms
+request: 2021-10-25 06:57:57 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 35.739 ms
+request: 2021-10-25 07:22:44 PM GET /api/v1/category 200 - 145.360 ms
+request: 2021-10-25 07:22:44 PM GET /api/v1/shop 200 - 155.319 ms
+request: 2021-10-25 07:26:12 PM GET /api/v1/category 200 - 139.498 ms
+request: 2021-10-25 07:26:12 PM GET /api/v1/shop 200 - 170.861 ms
+request: 2021-10-25 07:26:45 PM GET /api/v1/category 200 - 139.060 ms
+request: 2021-10-25 07:26:45 PM GET /api/v1/shop 200 - 171.987 ms
+request: 2021-10-25 07:26:53 PM GET /api/v1/category 200 - 140.598 ms
+request: 2021-10-25 07:26:53 PM GET /api/v1/shop 200 - 155.295 ms
+request: 2021-10-25 07:27:04 PM GET /api/v1/category 200 - 139.450 ms
+request: 2021-10-25 07:27:04 PM GET /api/v1/shop 200 - 167.962 ms
+request: 2021-10-25 07:28:52 PM GET /api/v1/category 200 - 137.121 ms
+request: 2021-10-25 07:28:52 PM GET /api/v1/shop 200 - 168.336 ms
+request: 2021-10-25 07:29:03 PM GET /api/v1/category 200 - 138.641 ms
+request: 2021-10-25 07:29:03 PM GET /api/v1/shop 200 - 154.193 ms
+request: 2021-10-25 07:29:58 PM GET /api/v1/category 200 - 132.831 ms
+request: 2021-10-25 07:29:58 PM GET /api/v1/shop 200 - 166.605 ms
+request: 2021-10-25 07:30:53 PM GET /api/v1/category 200 - 135.477 ms
+request: 2021-10-25 07:30:53 PM GET /api/v1/shop 200 - 151.941 ms
+request: 2021-10-25 07:31:19 PM GET /api/v1/category 200 - 130.673 ms
+request: 2021-10-25 07:31:19 PM GET /api/v1/shop 200 - 147.236 ms
+request: 2021-10-25 07:31:30 PM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 175.069 ms
+request: 2021-10-25 07:32:33 PM GET /api/v1/category 200 - 136.688 ms
+request: 2021-10-25 07:32:33 PM GET /api/v1/shop 200 - 146.970 ms
+request: 2021-10-25 07:32:37 PM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 163.721 ms
+request: 2021-10-25 07:32:42 PM GET /api/v1/shop?categories=6149ce7a60019f57486e78b0 200 - 178.520 ms
+request: 2021-10-25 07:32:48 PM GET /api/v1/shop?categories=6149ce8e60019f57486e78d0 200 - 399.878 ms
+request: 2021-10-25 07:32:55 PM GET /api/v1/shop?categories=6149ce9160019f57486e78d4 200 - 130.401 ms
+request: 2021-10-25 07:33:00 PM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 164.789 ms
+request: 2021-10-25 07:33:05 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 193.337 ms
+request: 2021-10-25 07:39:18 PM GET /api/v1/category 200 - 133.830 ms
+request: 2021-10-25 07:39:18 PM GET /api/v1/shop 200 - 147.478 ms
+request: 2021-10-25 07:39:36 PM GET /api/v1/category 200 - 132.630 ms
+request: 2021-10-25 07:39:36 PM GET /api/v1/shop 200 - 155.764 ms
+request: 2021-10-25 07:44:43 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 210.262 ms
+request: 2021-10-25 07:44:53 PM GET /api/v1/category 200 - 133.832 ms
+request: 2021-10-25 07:44:53 PM GET /api/v1/shop 200 - 148.741 ms
+request: 2021-10-25 07:45:00 PM GET /api/v1/category 200 - 136.783 ms
+request: 2021-10-25 07:45:00 PM GET /api/v1/shop 200 - 137.595 ms
+request: 2021-10-25 07:45:03 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 42.831 ms
+request: 2021-10-26 06:07:31 AM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 1014.468 ms
+request: 2021-10-26 06:07:42 AM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 225.133 ms
+request: 2021-10-26 06:07:53 AM GET /api/v1/category 200 - 330.148 ms
+request: 2021-10-26 06:07:54 AM GET /api/v1/shop 200 - 584.893 ms
