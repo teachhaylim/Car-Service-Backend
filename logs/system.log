@@ -11940,3 +11940,25 @@ request: 2021-10-26 04:26:12 PM GET /api/v1/shop 200 - 218.874 ms
 request: 2021-10-26 04:26:16 PM GET /api/v1/category 200 - 161.521 ms
 request: 2021-10-26 04:26:17 PM GET /api/v1/shop 200 - 209.518 ms
 request: 2021-10-26 04:26:18 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 50.252 ms
+info: 2021-10-26 05:44:29 PM MongoDB successfully connected
+info: 2021-10-26 05:44:29 PM Listening on port 5000 (development)
+info: 2021-10-26 05:44:29 PM Grid connected to db
+info: 2021-10-26 08:35:44 PM Grid connected to db
+info: 2021-10-26 08:35:44 PM MongoDB successfully connected
+info: 2021-10-26 08:35:44 PM Listening on port 5000 (development)
+request: 2021-10-26 08:37:38 PM POST /auth/userlogin 200 - 275.834 ms
+request: 2021-10-26 08:37:39 PM GET /api/v1/category 200 - 221.886 ms
+request: 2021-10-26 08:37:39 PM GET /api/v1/shop 200 - 317.594 ms
+request: 2021-10-26 08:37:41 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 59.429 ms
+request: 2021-10-26 08:37:52 PM GET /api/v1/shop?categories=6149ce7760019f57486e78ac 200 - 241.576 ms
+request: 2021-10-26 08:37:55 PM GET /api/v1/shop?categories=6149ce7e60019f57486e78b8 200 - 183.573 ms
+request: 2021-10-26 08:38:00 PM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 224.792 ms
+request: 2021-10-26 08:38:02 PM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 296.679 ms
+info: 2021-10-26 08:45:06 PM Grid connected to db
+request: 2021-10-26 08:49:20 PM GET /api/v1/category 200 - 1536.359 ms
+request: 2021-10-26 08:49:20 PM GET /api/v1/shop 200 - 1480.402 ms
+request: 2021-10-26 08:49:38 PM GET /api/v1/category 200 - 240.547 ms
+request: 2021-10-26 08:49:38 PM GET /api/v1/shop 200 - 767.878 ms
+request: 2021-10-26 08:49:52 PM GET /api/v1/category 200 - 221.926 ms
+request: 2021-10-26 08:49:52 PM GET /api/v1/shop 200 - 304.057 ms
+info: 2021-10-26 10:25:04 PM Grid connected to db
