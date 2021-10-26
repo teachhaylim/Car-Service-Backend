@@ -3,7 +3,7 @@ import ApiError from "../utils/ApiError";
 import { tokenService, userService } from "../services";
 import moment from "moment";
 
-const auth = async (req, _, next) => {
+const auth = async (req, res, next) => {
     try {
         const bearerHeader = req.headers["authorization"];
 
@@ -23,7 +23,8 @@ const auth = async (req, _, next) => {
         }
     }
     catch {
-        next(new ApiError(httpStatus.UNAUTHORIZED, "token expired"));
+        res.status(401).send({meta: 4001, message: "token expired"});
+        // next(new ApiError(httpStatus.UNAUTHORIZED, "token expired"));
     }
 }
 

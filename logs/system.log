@@ -11802,3 +11802,141 @@ request: 2021-10-26 06:07:31 AM GET /api/v1/service?sellCompany=615735512e082277
 request: 2021-10-26 06:07:42 AM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 225.133 ms
 request: 2021-10-26 06:07:53 AM GET /api/v1/category 200 - 330.148 ms
 request: 2021-10-26 06:07:54 AM GET /api/v1/shop 200 - 584.893 ms
+info: 2021-10-26 10:27:43 AM MongoDB successfully connected
+info: 2021-10-26 10:27:43 AM Listening on port 5000 (development)
+info: 2021-10-26 10:27:43 AM Grid connected to db
+error: 2021-10-26 10:56:06 AM GET /api/v1/category 401 - 4.830 ms - message: token expired
+error: 2021-10-26 10:56:06 AM GET /api/v1/shop 401 - 0.866 ms - message: token expired
+error: 2021-10-26 10:56:45 AM GET /api/v1/category 401 - 0.496 ms - message: token expired
+error: 2021-10-26 10:56:45 AM GET /api/v1/shop 401 - 0.737 ms - message: token expired
+info: 2021-10-26 10:57:44 AM MongoDB successfully connected
+info: 2021-10-26 10:57:44 AM Listening on port 5000 (development)
+info: 2021-10-26 10:57:44 AM Grid connected to db
+error: 2021-10-26 10:57:47 AM GET /api/v1/category 500 - 7.912 ms - message: token expired
+error: 2021-10-26 10:57:47 AM GET /api/v1/shop 500 - 1.051 ms - message: token expired
+error: 2021-10-26 10:58:20 AM GET /api/v1/category 500 - 0.521 ms - message: token expired
+error: 2021-10-26 10:58:20 AM GET /api/v1/shop 500 - 0.564 ms - message: token expired
+info: 2021-10-26 10:58:43 AM MongoDB successfully connected
+info: 2021-10-26 10:58:43 AM Listening on port 5000 (development)
+info: 2021-10-26 10:58:43 AM Grid connected to db
+error: 2021-10-26 10:58:49 AM GET /api/v1/category 401 - 3.357 ms - message: token expired
+error: 2021-10-26 10:58:49 AM GET /api/v1/shop 401 - 1.487 ms - message: token expired
+info: 2021-10-26 11:00:28 AM Grid connected to db
+info: 2021-10-26 11:00:28 AM MongoDB successfully connected
+info: 2021-10-26 11:00:28 AM Listening on port 5000 (development)
+error: 2021-10-26 11:00:34 AM GET /api/v1/category 401 - 3.198 ms - message: [object Object]
+error: 2021-10-26 11:00:34 AM GET /api/v1/shop 401 - 0.914 ms - message: [object Object]
+error: 2021-10-26 11:01:28 AM GET /api/v1/category 401 - 0.820 ms - message: [object Object]
+error: 2021-10-26 11:01:28 AM GET /api/v1/shop 401 - 0.841 ms - message: [object Object]
+error: 2021-10-26 11:01:37 AM GET /api/v1/category 401 - 1.029 ms - message: [object Object]
+error: 2021-10-26 11:01:37 AM GET /api/v1/shop 401 - 0.451 ms - message: [object Object]
+error: 2021-10-26 11:01:55 AM GET /api/v1/category 401 - 0.421 ms - message: [object Object]
+error: 2021-10-26 11:01:55 AM GET /api/v1/shop 401 - 0.466 ms - message: [object Object]
+error: 2021-10-26 11:02:04 AM GET /api/v1/category 401 - 0.397 ms - message: [object Object]
+error: 2021-10-26 11:02:04 AM GET /api/v1/shop 401 - 0.440 ms - message: [object Object]
+error: 2021-10-26 11:02:10 AM GET /api/v1/category 401 - 0.390 ms - message: [object Object]
+error: 2021-10-26 11:02:10 AM GET /api/v1/shop 401 - 0.460 ms - message: [object Object]
+error: 2021-10-26 11:02:28 AM GET /api/v1/category 401 - 0.427 ms - message: [object Object]
+error: 2021-10-26 11:02:28 AM GET /api/v1/shop 401 - 0.402 ms - message: [object Object]
+error: 2021-10-26 11:02:33 AM GET /api/v1/category 401 - 0.476 ms - message: [object Object]
+error: 2021-10-26 11:02:33 AM GET /api/v1/shop 401 - 0.394 ms - message: [object Object]
+info: 2021-10-26 11:02:44 AM Grid connected to db
+info: 2021-10-26 11:02:44 AM MongoDB successfully connected
+info: 2021-10-26 11:02:44 AM Listening on port 5000 (development)
+error: 2021-10-26 11:02:46 AM GET /api/v1/category 401 - 4.396 ms - message: [object Object]
+error: 2021-10-26 11:02:46 AM GET /api/v1/shop 401 - 2.486 ms - message: [object Object]
+info: 2021-10-26 11:02:58 AM MongoDB successfully connected
+info: 2021-10-26 11:02:58 AM Listening on port 5000 (development)
+info: 2021-10-26 11:02:58 AM Grid connected to db
+info: 2021-10-26 11:03:08 AM MongoDB successfully connected
+info: 2021-10-26 11:03:08 AM Listening on port 5000 (development)
+info: 2021-10-26 11:03:08 AM Grid connected to db
+error: 2021-10-26 11:03:28 AM GET /api/v1/category 500 - 3.160 ms - message: token expired
+error: 2021-10-26 11:03:28 AM GET /api/v1/shop 500 - 1.978 ms - message: token expired
+info: 2021-10-26 11:04:22 AM Grid connected to db
+info: 2021-10-26 11:04:22 AM MongoDB successfully connected
+info: 2021-10-26 11:04:22 AM Listening on port 5000 (development)
+error: 2021-10-26 11:04:26 AM TypeError: res.stutus is not a function
+    at _callee$ (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\middleware\/auth.js:26:13)
+    at tryCatch (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.throw (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\middleware\auth.js:18:103)
+    at _throw (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\middleware\auth.js:20:291)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+error: 2021-10-26 11:04:26 AM TypeError: res.stutus is not a function
+    at _callee$ (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\middleware\/auth.js:26:13)
+    at tryCatch (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.throw (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\middleware\auth.js:18:103)
+    at _throw (C:\Users\User\Desktop\Projects\0. Others\Graduation_Backend\middleware\auth.js:20:291)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+info: 2021-10-26 11:04:56 AM MongoDB successfully connected
+info: 2021-10-26 11:04:56 AM Listening on port 5000 (development)
+info: 2021-10-26 11:04:56 AM Grid connected to db
+error: 2021-10-26 11:05:03 AM GET /api/v1/category 401 - 5.094 ms - message: route not found
+error: 2021-10-26 11:05:03 AM GET /api/v1/shop 401 - 1.086 ms - message: route not found
+error: 2021-10-26 11:05:17 AM GET /api/v1/category 401 - 0.433 ms - message: route not found
+error: 2021-10-26 11:05:17 AM GET /api/v1/shop 401 - 0.782 ms - message: route not found
+info: 2021-10-26 11:28:27 AM Grid connected to db
+error: 2021-10-26 11:30:10 AM GET /api/v1/category 401 - 0.382 ms - message: route not found
+error: 2021-10-26 11:30:10 AM GET /api/v1/shop 401 - 0.361 ms - message: route not found
+error: 2021-10-26 11:30:12 AM GET /api/v1/category 401 - 0.327 ms - message: route not found
+error: 2021-10-26 11:30:12 AM GET /api/v1/shop 401 - 0.536 ms - message: route not found
+info: 2021-10-26 11:30:21 AM MongoDB successfully connected
+info: 2021-10-26 11:30:21 AM Listening on port 5000 (development)
+info: 2021-10-26 11:30:21 AM Grid connected to db
+error: 2021-10-26 11:30:26 AM GET /api/v1/category 401 - 5.099 ms - message: token expired
+error: 2021-10-26 11:30:26 AM GET /api/v1/shop 401 - 1.087 ms - message: token expired
+error: 2021-10-26 11:31:45 AM GET /api/v1/category 401 - 0.515 ms - message: token expired
+error: 2021-10-26 11:31:45 AM GET /api/v1/shop 401 - 0.622 ms - message: token expired
+error: 2021-10-26 11:32:09 AM GET /api/v1/category 401 - 0.517 ms - message: token expired
+error: 2021-10-26 11:32:09 AM GET /api/v1/shop 401 - 0.429 ms - message: token expired
+error: 2021-10-26 11:33:00 AM GET /api/v1/category 401 - 0.633 ms - message: token expired
+error: 2021-10-26 11:33:00 AM GET /api/v1/shop 401 - 0.398 ms - message: token expired
+error: 2021-10-26 11:33:16 AM GET /api/v1/category 401 - 0.397 ms - message: token expired
+error: 2021-10-26 11:33:16 AM GET /api/v1/shop 401 - 0.573 ms - message: token expired
+error: 2021-10-26 11:33:35 AM GET /api/v1/category 401 - 0.628 ms - message: token expired
+error: 2021-10-26 11:33:35 AM GET /api/v1/shop 401 - 0.424 ms - message: token expired
+error: 2021-10-26 11:33:38 AM GET /api/v1/category 401 - 0.404 ms - message: token expired
+error: 2021-10-26 11:33:38 AM GET /api/v1/shop 401 - 0.386 ms - message: token expired
+error: 2021-10-26 11:33:42 AM GET /api/v1/category 401 - 0.376 ms - message: token expired
+error: 2021-10-26 11:33:42 AM GET /api/v1/shop 401 - 0.386 ms - message: token expired
+info: 2021-10-26 11:33:50 AM Grid connected to db
+info: 2021-10-26 11:33:50 AM MongoDB successfully connected
+info: 2021-10-26 11:33:50 AM Listening on port 5000 (development)
+error: 2021-10-26 11:33:54 AM GET /api/v1/category 401 - 2.558 ms - message: route not found
+error: 2021-10-26 11:33:54 AM GET /api/v1/shop 401 - 0.817 ms - message: route not found
+error: 2021-10-26 11:34:07 AM GET /api/v1/category 401 - 0.522 ms - message: route not found
+error: 2021-10-26 11:34:07 AM GET /api/v1/shop 401 - 0.776 ms - message: route not found
+error: 2021-10-26 11:35:10 AM GET /api/v1/category 401 - 0.353 ms - message: route not found
+error: 2021-10-26 11:35:10 AM GET /api/v1/shop 401 - 0.386 ms - message: route not found
+error: 2021-10-26 11:35:26 AM GET /api/v1/category 401 - 0.355 ms - message: route not found
+error: 2021-10-26 11:35:26 AM GET /api/v1/shop 401 - 0.580 ms - message: route not found
+request: 2021-10-26 11:36:21 AM POST /auth/userlogin 200 - 192.415 ms
+request: 2021-10-26 11:36:21 AM GET /api/v1/category 200 - 171.037 ms
+request: 2021-10-26 11:36:21 AM GET /api/v1/shop 200 - 240.137 ms
+request: 2021-10-26 11:36:23 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 64.750 ms
+request: 2021-10-26 11:36:28 AM GET /api/v1/category 200 - 160.196 ms
+request: 2021-10-26 11:36:28 AM GET /api/v1/shop 200 - 221.834 ms
+request: 2021-10-26 11:42:21 AM GET /api/v1/shop?categories=6149ce7a60019f57486e78b0 200 - 209.698 ms
+request: 2021-10-26 11:42:25 AM GET /api/v1/shop?categories=6149ce9160019f57486e78d4 200 - 159.373 ms
+request: 2021-10-26 11:42:29 AM GET /api/v1/service?sellCompany=615735512e08227744425c01 200 - 264.120 ms
+request: 2021-10-26 01:33:03 PM GET /api/v1/appointment 200 - 529.092 ms
+request: 2021-10-26 01:35:30 PM GET /api/v1/appointment/615b28a431f02c4d08a079fe 200 - 367.973 ms
+error: 2021-10-26 02:31:06 PM POST /auth/userlogin 401 - 53.891 ms - message: Incorrect email or password
+error: 2021-10-26 02:31:13 PM POST /auth/userlogin 401 - 52.245 ms - message: Incorrect email or password
+error: 2021-10-26 02:31:22 PM POST /auth/userlogin 401 - 51.539 ms - message: Incorrect email or password
+error: 2021-10-26 02:31:38 PM POST /auth/userlogin 401 - 52.086 ms - message: Incorrect email or password
+request: 2021-10-26 04:25:54 PM POST /auth/userlogin 200 - 226.610 ms
+request: 2021-10-26 04:25:54 PM GET /api/v1/category 200 - 178.847 ms
+request: 2021-10-26 04:25:54 PM GET /api/v1/shop 200 - 228.040 ms
+request: 2021-10-26 04:26:09 PM GET /api/v1/category 200 - 157.584 ms
+request: 2021-10-26 04:26:09 PM GET /api/v1/shop 200 - 213.542 ms
+request: 2021-10-26 04:26:11 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 68.267 ms
+request: 2021-10-26 04:26:12 PM GET /api/v1/category 200 - 165.127 ms
+request: 2021-10-26 04:26:12 PM GET /api/v1/shop 200 - 218.874 ms
+request: 2021-10-26 04:26:16 PM GET /api/v1/category 200 - 161.521 ms
+request: 2021-10-26 04:26:17 PM GET /api/v1/shop 200 - 209.518 ms
+request: 2021-10-26 04:26:18 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 50.252 ms
