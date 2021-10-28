@@ -14,6 +14,7 @@ const serviecSchema = mongoose.Schema(
             ref: "shops",
             autopopulate: true,
             required: true,
+            private: false, //will change in the future
         },
         price: {
             type: Number,

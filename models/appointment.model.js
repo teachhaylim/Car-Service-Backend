@@ -5,7 +5,7 @@ import { paginate, toJSON } from "./plugins";
 
 const subServiceSchema = mongoose.Schema(
     {
-        appointment: {
+        service: {
             type: mongoose.Types.ObjectId,
             ref: "services",
             required: true,
@@ -16,9 +16,9 @@ const subServiceSchema = mongoose.Schema(
             required: true,
         },
     },
-    {
-        timestamps: true,
-    },
+    // {
+    //     timestamps: true,
+    // },
 );
 
 const appointmentSchema = mongoose.Schema(
