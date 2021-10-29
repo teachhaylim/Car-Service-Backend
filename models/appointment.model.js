@@ -16,9 +16,10 @@ const subServiceSchema = mongoose.Schema(
             required: true,
         },
     },
-    // {
-    //     timestamps: true,
-    // },
+    {
+        timestamps: false,
+        id: false,
+    },
 );
 
 const appointmentSchema = mongoose.Schema(
