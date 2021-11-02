@@ -48,7 +48,7 @@ const appointmentSchema = mongoose.Schema(
             default: [
                 { date: moment().toDate(), type: 1 },
             ],
-        },
+        }, // 1 = pending, 0 = cancel, 2 = completed
         remark: {
             type: String,
             default: "",

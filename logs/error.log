@@ -1905,3 +1905,17 @@ error: 2021-10-26 02:31:13 PM POST /auth/userlogin 401 - 52.245 ms - message: In
 error: 2021-10-26 02:31:22 PM POST /auth/userlogin 401 - 51.539 ms - message: Incorrect email or password
 error: 2021-10-26 02:31:38 PM POST /auth/userlogin 401 - 52.086 ms - message: Incorrect email or password
 error: 2021-10-28 11:04:33 AM GET /api/v1/apointment 404 - 1.933 ms - message: /api/v1/apointment not found
+error: 2021-11-02 08:22:03 AM POST /api/v1/test 500 - 5.851 ms - message: print is not defined
+error: 2021-11-02 08:49:38 AM POST /api/v1/appointment 400 - 112.584 ms - message: appointments validation failed: sellCompany: Path `sellCompany` is required., userId: Path `userId` is required.
+error: 2021-11-02 09:30:00 AM POST /auth/userlogin 401 - 52.002 ms - message: Incorrect email or password
+error: 2021-11-02 09:30:03 AM POST /auth/userlogin 401 - 48.989 ms - message: Incorrect email or password
+error: 2021-11-02 09:30:13 AM POST /auth/userlogin 401 - 49.140 ms - message: Incorrect email or password
+error: 2021-11-02 09:30:39 AM POST /auth/userlogin 401 - 49.608 ms - message: Incorrect email or password
+error: 2021-11-02 09:30:41 AM POST /auth/userlogin 401 - 49.034 ms - message: Incorrect email or password
+error: 2021-11-02 09:30:44 AM POST /auth/userlogin 401 - 49.195 ms - message: Incorrect email or password
+error: 2021-11-02 09:32:37 AM POST /auth/userlogin 401 - 48.607 ms - message: Incorrect email or password
+error: 2021-11-02 09:32:43 AM POST /auth/userlogin 401 - 49.421 ms - message: Incorrect email or password
+error: 2021-11-02 09:33:10 AM POST /auth/userlogin 401 - 49.443 ms - message: Incorrect email or password
+error: 2021-11-02 09:33:31 AM POST /auth/userlogin 401 - 57.849 ms - message: Incorrect email or password
+error: 2021-11-02 09:33:31 AM POST /auth/userlogin 401 - 48.414 ms - message: Incorrect email or password
+error: 2021-11-02 09:33:48 AM POST /auth/userlogin 401 - 216.913 ms - message: Incorrect email or password
