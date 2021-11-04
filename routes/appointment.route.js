@@ -12,7 +12,7 @@ appointmentRoute.route("/")
 
 appointmentRoute.route("/:appointmentId")
     .get(auth, validate(appointmentValidation.getAppointment), appointmentController.GetAppointment)
-    .patch(auth, validate(appointmentValidation.updateAppointment), appointmentController.UpdateAppointment)
+    .put(auth, appointmentController.UpdateAppointment)
     .delete(auth, validate(appointmentValidation.deleteAppointment), appointmentController.DeleteAppointment);
 
 export default appointmentRoute;

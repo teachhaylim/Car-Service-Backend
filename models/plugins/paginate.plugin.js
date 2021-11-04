@@ -25,15 +25,16 @@ const paginate = (schema) => {
         const page = options.page && parseInt(options.page, 10) > 0 ? parseInt(options.page, 10) : 0;
         const skip = page * limit;
         const countPromise = this.countDocuments(filter).exec();
-        let sortBy = {};
+        let sortBy = { createdAt: -1 };
         let docsPromise = null;
 
         if (sortByObject) {
-            sortBy = pick(sortByObject, [...Object.keys(sortByObject).filter(p => sortByObject[p])])
+            sortBy = pick(sortByObject, [...Object.keys(sortByObject).filter(p => sortByObject[p])]);
+            sortBy.createdAt = -1;
         }
-        else {
-            sortBy = { createdAt: -1 };
-        }
+        // else {
+        //     sortBy = { createdAt: -1 };
+        // }
 
         docsPromise = this.find(filter).sort(sortBy).skip(skip).limit(limit).exec();
 

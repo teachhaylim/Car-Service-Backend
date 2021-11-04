@@ -1921,3 +1921,39 @@ error: 2021-11-02 09:33:10 AM POST /auth/userlogin 401 - 49.443 ms - message: In
 error: 2021-11-02 09:33:31 AM POST /auth/userlogin 401 - 57.849 ms - message: Incorrect email or password
 error: 2021-11-02 09:33:31 AM POST /auth/userlogin 401 - 48.414 ms - message: Incorrect email or password
 error: 2021-11-02 09:33:48 AM POST /auth/userlogin 401 - 216.913 ms - message: Incorrect email or password
+error: 2021-11-04 10:00:26 AM GET /api/v1/appointments 404 - 0.930 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:00:51 AM GET /api/v1/appointments 404 - 0.445 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:01:08 AM GET /api/v1/appointments 404 - 0.219 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:01:28 AM GET /api/v1/appointments 404 - 0.360 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:01:39 AM GET /api/v1/appointments 404 - 0.263 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:04:45 AM GET /api/v1/appointments 404 - 0.270 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:04:49 AM GET /api/v1/appointments 404 - 0.226 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:06:06 AM GET /api/v1/appointments 404 - 0.225 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:11:54 AM GET /api/v1/appointments 404 - 0.260 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:11:56 AM GET /api/v1/appointments 404 - 0.228 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:11:56 AM GET /api/v1/appointments 404 - 0.490 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:11:57 AM GET /api/v1/appointments 404 - 0.262 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:11:57 AM GET /api/v1/appointments 404 - 0.227 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:11:58 AM GET /api/v1/appointments 404 - 0.330 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:12:15 AM GET /api/v1/appointments 404 - 0.292 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:12:17 AM GET /api/v1/appointments 404 - 0.223 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:12:17 AM GET /api/v1/appointments 404 - 0.437 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:12:18 AM GET /api/v1/appointments 404 - 0.214 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:12:46 AM GET /api/v1/appointments 404 - 0.226 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:12:59 AM GET /api/v1/appointments 404 - 0.210 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:13:22 AM GET /api/v1/appointments 404 - 0.207 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:13:37 AM GET /api/v1/appointments 404 - 0.258 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:14:04 AM GET /api/v1/appointments 404 - 0.333 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:14:37 AM GET /api/v1/appointments 404 - 0.250 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:14:50 AM GET /api/v1/appointments 404 - 0.212 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:15:09 AM GET /api/v1/appointments 404 - 0.251 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:15:10 AM GET /api/v1/appointments 404 - 0.205 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:15:15 AM GET /api/v1/appointments 404 - 0.203 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:15:18 AM GET /api/v1/appointments 404 - 0.423 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:15:20 AM GET /api/v1/appointments 404 - 0.207 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:15:22 AM GET /api/v1/appointments 404 - 0.313 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:15:40 AM GET /api/v1/appointments 404 - 0.212 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:15:51 AM GET /api/v1/appointments 404 - 0.270 ms - message: /api/v1/appointments not found
+error: 2021-11-04 10:28:29 AM GET /api/v1/appointments 404 - 0.295 ms - message: /api/v1/appointments not found
+error: 2021-11-04 04:49:38 PM PUT /api/v1/appointment/61833350b01a904a3782c2b7 404 - 2.496 ms - message: /api/v1/appointment/61833350b01a904a3782c2b7 not found
+error: 2021-11-04 04:50:39 PM PUT /api/v1/appointment/61833350b01a904a3782c2b7 400 - 107.135 ms - message: "[0]" must be a string, "[1]" must be a string, "[2]" must be a string, "totalAmount" is required, "remark" is not allowed, "isActive" is not allowed
