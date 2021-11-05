@@ -30,7 +30,7 @@ const paginate = (schema) => {
 
         if (sortByObject) {
             sortBy = pick(sortByObject, [...Object.keys(sortByObject).filter(p => sortByObject[p])]);
-            sortBy.createdAt = -1;
+            // sortBy.createdAt = -1;
         }
         // else {
         //     sortBy = { createdAt: -1 };
