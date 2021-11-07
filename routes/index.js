@@ -12,7 +12,19 @@ import addressRoute from "./address.route";
 const router = express.Router();
 export const generalRouter = express.Router();
 
+const testRouter = express.Router();
+
+testRouter.post("/", (req, res) => {
+    console.log(req.body);
+
+    res.status(200).send({ meta: 200, data: req.body});
+});
+
 const apiRoutes = [
+    {
+        path: "/test",
+        route: testRouter,
+    },
     {
         path: "/user",
         route: userRoute,

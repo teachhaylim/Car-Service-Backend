@@ -13545,3 +13545,223 @@ request: 2021-11-05 09:56:37 AM GET /api/v1/category 200 - 159.314 ms
 request: 2021-11-05 09:56:37 AM GET /api/v1/shop 200 - 212.646 ms
 request: 2021-11-05 09:56:45 AM GET /api/v1/category 200 - 156.164 ms
 request: 2021-11-05 09:56:45 AM GET /api/v1/shop 200 - 206.629 ms
+info: 2021-11-07 12:32:11 PM Grid connected to db
+info: 2021-11-07 12:32:11 PM MongoDB successfully connected
+info: 2021-11-07 12:32:11 PM Listening on port 5000 (development)
+request: 2021-11-07 12:49:39 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 57.684 ms
+request: 2021-11-07 12:50:58 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 47.104 ms
+info: 2021-11-07 01:39:24 PM MongoDB successfully connected
+info: 2021-11-07 01:39:24 PM Listening on port 5000 (development)
+info: 2021-11-07 01:39:24 PM Grid connected to db
+error: 2021-11-07 01:40:59 PM POST /api/v1/ 404 - 4.361 ms - message: /api/v1/ not found
+info: 2021-11-07 01:41:10 PM Grid connected to db
+info: 2021-11-07 01:41:10 PM MongoDB successfully connected
+info: 2021-11-07 01:41:10 PM Listening on port 5000 (development)
+info: 2021-11-07 01:41:28 PM Grid connected to db
+info: 2021-11-07 01:41:28 PM MongoDB successfully connected
+info: 2021-11-07 01:41:28 PM Listening on port 5000 (development)
+error: 2021-11-07 01:41:34 PM POST /api/v1/test 404 - 2.409 ms - message: /api/v1/test not found
+info: 2021-11-07 01:41:55 PM Grid connected to db
+info: 2021-11-07 01:41:55 PM MongoDB successfully connected
+info: 2021-11-07 01:41:55 PM Listening on port 5000 (development)
+request: 2021-11-07 01:41:58 PM POST /api/v1/test 200 - 5.343 ms
+request: 2021-11-07 01:42:08 PM POST /api/v1/test 200 - 1.142 ms
+request: 2021-11-07 01:46:24 PM POST /api/v1/test 200 - 0.787 ms
+request: 2021-11-07 01:52:45 PM POST /api/v1/test 200 - 0.950 ms
+request: 2021-11-07 01:52:52 PM POST /api/v1/test 200 - 0.705 ms
+request: 2021-11-07 01:54:01 PM POST /api/v1/test 200 - 0.806 ms
+info: 2021-11-07 01:54:17 PM Grid connected to db
+info: 2021-11-07 01:54:17 PM MongoDB successfully connected
+info: 2021-11-07 01:54:17 PM Listening on port 5000 (development)
+error: 2021-11-07 01:54:18 PM POST /api/v1/test 400 - 5.488 ms - message: route not found
+error: 2021-11-07 01:54:20 PM POST /api/v1/test 400 - 0.945 ms - message: route not found
+info: 2021-11-07 01:54:33 PM MongoDB successfully connected
+info: 2021-11-07 01:54:33 PM Listening on port 5000 (development)
+info: 2021-11-07 01:54:33 PM Grid connected to db
+error: 2021-11-07 01:54:34 PM POST /api/v1/test 404 - 6.725 ms - message: route not found
+error: 2021-11-07 01:54:36 PM POST /api/v1/test 404 - 1.937 ms - message: route not found
+info: 2021-11-07 01:54:50 PM MongoDB successfully connected
+info: 2021-11-07 01:54:50 PM Listening on port 5000 (development)
+info: 2021-11-07 01:54:50 PM Grid connected to db
+info: 2021-11-07 01:55:22 PM Grid connected to db
+info: 2021-11-07 01:55:22 PM MongoDB successfully connected
+info: 2021-11-07 01:55:22 PM Listening on port 5000 (development)
+error: 2021-11-07 01:55:23 PM POST /api/v1/test 400 - 5.901 ms - message: route not found
+error: 2021-11-07 01:55:41 PM POST /api/v1/test 400 - 1.249 ms - message: route not found
+error: 2021-11-07 01:55:56 PM POST /api/v1/test 400 - 0.965 ms - message: route not found
+error: 2021-11-07 01:56:25 PM POST /api/v1/test 400 - 0.872 ms - message: route not found
+error: 2021-11-07 01:56:39 PM POST /api/v1/test2 404 - 1.381 ms - message: /api/v1/test2 not found
+error: 2021-11-07 01:57:30 PM POST /api/v1/test2 404 - 1.399 ms - message: /api/v1/test2 not found
+error: 2021-11-07 01:57:53 PM POST /api/v1/test2 404 - 0.634 ms - message: /api/v1/test2 not found
+error: 2021-11-07 01:58:01 PM POST /api/v1/test2 404 - 0.576 ms - message: /api/v1/test2 not found
+error: 2021-11-07 01:58:10 PM POST /api/v1/test2 404 - 0.329 ms - message: /api/v1/test2 not found
+error: 2021-11-07 01:58:29 PM POST /api/v1/test2 404 - 0.246 ms - message: /api/v1/test2 not found
+error: 2021-11-07 01:59:18 PM POST /api/v1/test2 404 - 0.253 ms - message: /api/v1/test2 not found
+error: 2021-11-07 01:59:41 PM POST /api/v1/test2 404 - 0.595 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:15:44 PM POST /api/v1/test2 404 - 0.446 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:16:10 PM POST /api/v1/test2 404 - 0.298 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:16:29 PM POST /api/v1/test2 404 - 0.257 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:19:24 PM POST /api/v1/test2 404 - 0.417 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:23:12 PM POST /api/v1/test2 404 - 0.462 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:24:50 PM POST /api/v1/test2 404 - 0.399 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:25:02 PM POST /api/v1/test2 404 - 0.277 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:25:13 PM POST /api/v1/test2 404 - 0.412 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:25:29 PM POST /api/v1/test2 404 - 0.297 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:25:45 PM POST /api/v1/test2 404 - 0.291 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:26:30 PM POST /api/v1/test2 404 - 0.397 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:27:32 PM POST /api/v1/test2 404 - 0.439 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:27:52 PM POST /api/v1/test2 404 - 0.376 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:28:31 PM POST /api/v1/test2 404 - 0.292 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:28:34 PM POST /api/v1/test2 404 - 0.387 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:29:09 PM POST /api/v1/test2 404 - 0.377 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:29:29 PM POST /api/v1/test2 404 - 0.275 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:29:40 PM POST /api/v1/test2 404 - 0.241 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:29:53 PM POST /api/v1/test2 404 - 0.486 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:30:05 PM POST /api/v1/test2 404 - 0.220 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:30:37 PM POST /api/v1/test2 404 - 0.268 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:30:48 PM POST /api/v1/test2 404 - 0.281 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:30:59 PM POST /api/v1/test2 404 - 0.318 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:31:09 PM POST /api/v1/test2 404 - 0.242 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:31:28 PM POST /api/v1/test2 404 - 0.297 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:33:40 PM POST /api/v1/test2 404 - 0.260 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:33:51 PM POST /api/v1/test2 404 - 0.225 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:34:06 PM POST /api/v1/test2 404 - 0.390 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:34:36 PM POST /api/v1/test2 404 - 0.291 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:34:51 PM POST /api/v1/test2 404 - 0.308 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:35:40 PM POST /api/v1/test2 404 - 0.238 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:35:51 PM POST /api/v1/test2 404 - 0.315 ms - message: /api/v1/test2 not found
+error: 2021-11-07 02:35:59 PM POST /api/v1/test 400 - 0.874 ms - message: route not found
+info: 2021-11-07 02:36:17 PM Grid connected to db
+info: 2021-11-07 02:36:17 PM MongoDB successfully connected
+info: 2021-11-07 02:36:17 PM Listening on port 5000 (development)
+request: 2021-11-07 02:36:18 PM POST /api/v1/test 200 - 4.684 ms
+request: 2021-11-07 02:36:18 PM POST /api/v1/test 200 - 0.963 ms
+request: 2021-11-07 02:36:21 PM POST /api/v1/test 200 - 0.873 ms
+request: 2021-11-07 02:36:47 PM POST /api/v1/test 200 - 1.241 ms
+request: 2021-11-07 02:36:53 PM POST /api/v1/test 200 - 0.995 ms
+info: 2021-11-07 05:21:11 PM Grid connected to db
+info: 2021-11-07 05:21:11 PM MongoDB successfully connected
+info: 2021-11-07 05:21:11 PM Listening on port 5000 (development)
+info: 2021-11-07 06:21:08 PM MongoDB successfully connected
+info: 2021-11-07 06:21:08 PM Listening on port 5000 (development)
+info: 2021-11-07 06:21:08 PM Grid connected to db
+info: 2021-11-07 06:30:08 PM Grid connected to db
+info: 2021-11-07 06:30:09 PM MongoDB successfully connected
+info: 2021-11-07 06:30:09 PM Listening on port 5000 (development)
+info: 2021-11-07 06:58:52 PM MongoDB successfully connected
+info: 2021-11-07 06:58:52 PM Listening on port 5000 (development)
+info: 2021-11-07 06:58:52 PM Grid connected to db
+request: 2021-11-07 06:59:28 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 38.746 ms
+request: 2021-11-07 07:18:24 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 70.795 ms
+info: 2021-11-07 07:29:21 PM Grid connected to db
+info: 2021-11-07 07:29:21 PM MongoDB successfully connected
+info: 2021-11-07 07:29:21 PM Listening on port 5000 (development)
+request: 2021-11-07 07:30:39 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 74.846 ms
+request: 2021-11-07 07:31:37 PM POST /api/v1/test 200 - 6.972 ms
+request: 2021-11-07 07:33:39 PM POST /api/v1/test 200 - 2.196 ms
+request: 2021-11-07 07:33:42 PM POST /api/v1/test 200 - 1.721 ms
+request: 2021-11-07 07:33:43 PM POST /api/v1/test 200 - 1.524 ms
+request: 2021-11-07 07:34:43 PM POST /api/v1/test 200 - 1.703 ms
+request: 2021-11-07 07:34:47 PM POST /api/v1/test 200 - 1.532 ms
+info: 2021-11-07 09:29:25 PM MongoDB successfully connected
+info: 2021-11-07 09:29:25 PM Listening on port 5000 (development)
+info: 2021-11-07 09:29:25 PM Grid connected to db
+request: 2021-11-07 10:07:48 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 85.012 ms
+info: 2021-11-07 10:39:44 PM Grid connected to db
+info: 2021-11-07 10:39:44 PM MongoDB successfully connected
+info: 2021-11-07 10:39:44 PM Listening on port 5000 (development)
+error: 2021-11-07 10:43:21 PM GET /api/v1/info 404 - 2.859 ms - message: /api/v1/info not found
+error: 2021-11-07 10:46:11 PM GET /api/v1/info 404 - 1.146 ms - message: /api/v1/info not found
+error: 2021-11-07 10:46:50 PM GET /api/v1/info 404 - 0.261 ms - message: /api/v1/info not found
+request: 2021-11-07 10:47:20 PM GET /auth/info 200 - 328.129 ms
+request: 2021-11-07 10:47:31 PM GET /auth/info 200 - 253.445 ms
+request: 2021-11-07 10:48:11 PM GET /auth/info 200 - 344.231 ms
+request: 2021-11-07 10:48:42 PM GET /auth/info 200 - 325.961 ms
+request: 2021-11-07 10:49:16 PM GET /auth/info 200 - 590.033 ms
+request: 2021-11-07 10:49:30 PM GET /auth/info 200 - 328.769 ms
+request: 2021-11-07 10:49:52 PM GET /auth/info 200 - 320.844 ms
+request: 2021-11-07 10:50:02 PM GET /auth/info 200 - 315.115 ms
+request: 2021-11-07 10:50:04 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 365.256 ms
+request: 2021-11-07 10:50:38 PM GET /auth/info 200 - 323.081 ms
+request: 2021-11-07 10:50:47 PM GET /auth/info 200 - 324.390 ms
+request: 2021-11-07 10:50:56 PM GET /auth/info 200 - 314.115 ms
+request: 2021-11-07 10:50:58 PM GET /auth/info 200 - 305.237 ms
+request: 2021-11-07 10:51:18 PM GET /auth/info 200 - 310.080 ms
+request: 2021-11-07 10:51:47 PM GET /auth/info 200 - 317.740 ms
+request: 2021-11-07 10:51:53 PM GET /auth/info 200 - 326.577 ms
+request: 2021-11-07 10:52:05 PM GET /auth/info 200 - 315.021 ms
+error: 2021-11-07 10:52:07 PM GET /auth/info2 404 - 0.399 ms - message: /auth/info2 not found
+request: 2021-11-07 10:52:14 PM GET /auth/info 200 - 310.725 ms
+request: 2021-11-07 10:52:49 PM GET /auth/info 200 - 313.172 ms
+request: 2021-11-07 10:53:34 PM GET /auth/info 200 - 285.363 ms
+request: 2021-11-07 10:55:52 PM GET /auth/info 200 - 314.957 ms
+request: 2021-11-07 10:56:10 PM GET /auth/info 200 - 306.461 ms
+request: 2021-11-07 10:57:18 PM GET /auth/info 200 - 280.203 ms
+request: 2021-11-07 10:57:37 PM GET /auth/info 200 - 270.125 ms
+request: 2021-11-07 10:58:08 PM GET /auth/info 200 - 280.564 ms
+request: 2021-11-07 10:58:22 PM GET /auth/info 200 - 309.665 ms
+request: 2021-11-07 10:58:41 PM GET /auth/info 200 - 286.322 ms
+request: 2021-11-07 10:58:53 PM GET /auth/info 200 - 276.227 ms
+request: 2021-11-07 10:59:00 PM GET /auth/info 200 - 319.393 ms
+request: 2021-11-07 10:59:44 PM GET /auth/info 200 - 283.393 ms
+request: 2021-11-07 10:59:53 PM GET /auth/info 200 - 302.522 ms
+request: 2021-11-07 10:59:57 PM GET /auth/info 200 - 290.718 ms
+request: 2021-11-07 11:00:25 PM GET /auth/info 200 - 263.229 ms
+request: 2021-11-07 11:00:27 PM GET /auth/info 200 - 584.244 ms
+error: 2021-11-07 11:01:12 PM GET /auth/info3 404 - 0.427 ms - message: /auth/info3 not found
+error: 2021-11-07 11:01:22 PM GET /auth/info3 404 - 0.352 ms - message: /auth/info3 not found
+error: 2021-11-07 11:01:46 PM GET /auth/info3 404 - 0.347 ms - message: /auth/info3 not found
+error: 2021-11-07 11:01:48 PM GET /auth/info3 404 - 0.504 ms - message: /auth/info3 not found
+error: 2021-11-07 11:01:59 PM GET /auth/info3 404 - 0.284 ms - message: /auth/info3 not found
+error: 2021-11-07 11:02:07 PM GET /auth/info3 404 - 0.290 ms - message: /auth/info3 not found
+error: 2021-11-07 11:02:47 PM GET /auth/info3 404 - 0.384 ms - message: /auth/info3 not found
+error: 2021-11-07 11:04:03 PM GET /auth/info3 404 - 0.347 ms - message: /auth/info3 not found
+error: 2021-11-07 11:04:10 PM GET /auth/info3 404 - 0.352 ms - message: /auth/info3 not found
+error: 2021-11-07 11:04:27 PM GET /auth/info3 404 - 0.376 ms - message: /auth/info3 not found
+error: 2021-11-07 11:04:35 PM GET /auth/info3 404 - 0.359 ms - message: /auth/info3 not found
+error: 2021-11-07 11:04:50 PM GET /auth/info3 404 - 0.336 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:04 PM GET /auth/info3 404 - 0.295 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:11 PM GET /auth/info3 404 - 0.379 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:16 PM GET /auth/info3 404 - 0.642 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:26 PM GET /auth/info3 404 - 0.331 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:31 PM GET /auth/info3 404 - 0.327 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:34 PM GET /auth/info3 404 - 0.514 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:45 PM GET /auth/info3 404 - 0.297 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:49 PM GET /auth/info3 404 - 0.288 ms - message: /auth/info3 not found
+error: 2021-11-07 11:05:53 PM GET /auth/info3 404 - 0.294 ms - message: /auth/info3 not found
+error: 2021-11-07 11:06:27 PM GET /auth/info3 404 - 0.542 ms - message: /auth/info3 not found
+error: 2021-11-07 11:06:31 PM GET /auth/info3 404 - 0.299 ms - message: /auth/info3 not found
+error: 2021-11-07 11:06:34 PM GET /auth/info3 404 - 0.392 ms - message: /auth/info3 not found
+error: 2021-11-07 11:06:42 PM GET /auth/info3 404 - 0.286 ms - message: /auth/info3 not found
+error: 2021-11-07 11:06:46 PM GET /auth/info3 404 - 0.574 ms - message: /auth/info3 not found
+error: 2021-11-07 11:06:54 PM GET /auth/info3 404 - 0.300 ms - message: /auth/info3 not found
+error: 2021-11-07 11:06:59 PM GET /auth/info3 404 - 0.464 ms - message: /auth/info3 not found
+error: 2021-11-07 11:07:03 PM GET /auth/info3 404 - 0.403 ms - message: /auth/info3 not found
+error: 2021-11-07 11:07:06 PM GET /auth/info3 404 - 0.273 ms - message: /auth/info3 not found
+error: 2021-11-07 11:07:08 PM GET /auth/info3 404 - 0.285 ms - message: /auth/info3 not found
+error: 2021-11-07 11:07:13 PM GET /auth/info3 404 - 0.331 ms - message: /auth/info3 not found
+request: 2021-11-07 11:07:22 PM GET /auth/info 200 - 304.093 ms
+request: 2021-11-07 11:07:39 PM GET /auth/info 200 - 248.468 ms
+request: 2021-11-07 11:08:43 PM GET /auth/info 200 - 267.822 ms
+error: 2021-11-07 11:11:46 PM GET /auth/info2 404 - 0.297 ms - message: /auth/info2 not found
+error: 2021-11-07 11:11:52 PM GET /auth/info2 404 - 0.489 ms - message: /auth/info2 not found
+error: 2021-11-07 11:11:57 PM GET /auth/info2 404 - 0.572 ms - message: /auth/info2 not found
+request: 2021-11-07 11:12:05 PM GET /auth/info 200 - 260.406 ms
+request: 2021-11-07 11:12:11 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 69.267 ms
+request: 2021-11-07 11:12:45 PM GET /auth/info 200 - 166.646 ms
+request: 2021-11-07 11:12:46 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 45.477 ms
+request: 2021-11-07 11:15:09 PM GET /auth/info 200 - 172.290 ms
+request: 2021-11-07 11:15:10 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 44.135 ms
+error: 2021-11-07 11:26:12 PM GET /file/ 404 - 0.754 ms - message: /file/ not found
+request: 2021-11-07 11:26:57 PM GET /auth/info 200 - 148.029 ms
+request: 2021-11-07 11:26:57 PM GET /auth/info 200 - 183.331 ms
+error: 2021-11-07 11:26:58 PM GET /file/ 404 - 0.402 ms - message: /file/ not found
+request: 2021-11-07 11:28:29 PM GET /auth/info 200 - 176.411 ms
+error: 2021-11-07 11:28:29 PM GET /file/ 404 - 0.298 ms - message: /file/ not found
+error: 2021-11-07 11:28:46 PM GET /file/ 404 - 0.262 ms - message: /file/ not found
+request: 2021-11-07 11:28:55 PM GET /auth/info 200 - 179.522 ms
+error: 2021-11-07 11:28:55 PM GET /file/ 404 - 0.246 ms - message: /file/ not found
+error: 2021-11-07 11:29:38 PM GET /file/ 404 - 0.343 ms - message: /file/ not found
+request: 2021-11-07 11:29:47 PM GET /auth/info 200 - 177.084 ms
+request: 2021-11-07 11:31:26 PM GET /auth/info 200 - 186.031 ms
+request: 2021-11-07 11:31:28 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 48.688 ms

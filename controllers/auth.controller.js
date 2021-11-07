@@ -21,7 +21,7 @@ const LoginUser = catchAsync(async (req, res) => {
 
 const LoggedInfo = catchAsync(async (req, res) => {
     const user = await userService.GetUserById(req.user._id);
-    const shop = await shopService.GetShopById(user.sellCompany);
+    const shop = user.sellCompany ? await shopService.GetShopById(user.sellCompany) : null;
 
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, user, shop });
 });
