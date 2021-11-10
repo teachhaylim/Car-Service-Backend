@@ -2060,3 +2060,6 @@ error: 2021-11-07 11:28:29 PM GET /file/ 404 - 0.298 ms - message: /file/ not fo
 error: 2021-11-07 11:28:46 PM GET /file/ 404 - 0.262 ms - message: /file/ not found
 error: 2021-11-07 11:28:55 PM GET /file/ 404 - 0.246 ms - message: /file/ not found
 error: 2021-11-07 11:29:38 PM GET /file/ 404 - 0.343 ms - message: /file/ not found
+error: 2021-11-10 11:05:08 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&name=New&sellCompany=617222fe0065218fc409ccdc 401 - 1.737 ms - message: route not found
+error: 2021-11-10 11:06:35 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&name=&sellCompany=617222fe0065218fc409ccdc 400 - 179.444 ms - message: "name" is not allowed to be empty
+error: 2021-11-10 11:10:54 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 400 - 170.508 ms - message: Cast to ObjectId failed for value "" (type string) at path "sellCompany" for model "services"

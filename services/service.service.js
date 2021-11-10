@@ -20,9 +20,8 @@ const CreateService = async (serviceBody) => {
  * @param {number} [options.page] - Current page (default = 1)
  * @returns {Promise<QueryResult>}
  */
-const QueryServices = async (filter, options) => {
-    filter.isActive = true;
-
+const QueryServices = async (query, options) => {
+    const filter = { name: { $regex: new RegExp(query.name), $options: "i" }, sellCompany: query.sellCompany, isActive: query.isActive || true };
     return await Service.paginate(filter, options);
 };
 
