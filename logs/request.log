@@ -10538,3 +10538,379 @@ request: 2021-11-10 11:10:24 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7
 request: 2021-11-10 11:10:26 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 309.829 ms
 request: 2021-11-10 11:10:52 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 688.339 ms
 error: 2021-11-10 11:10:54 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 400 - 170.508 ms - message: Cast to ObjectId failed for value "" (type string) at path "sellCompany" for model "services"
+request: 2021-11-10 01:13:02 PM POST /auth/login 200 - 356.305 ms
+request: 2021-11-10 01:13:02 PM GET /auth/info 304 - 427.861 ms
+request: 2021-11-10 01:13:03 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.807 ms
+request: 2021-11-10 01:13:03 PM GET /auth/info 304 - 436.535 ms
+request: 2021-11-10 01:13:03 PM GET /auth/info 304 - 433.835 ms
+request: 2021-11-10 01:13:08 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 317.261 ms
+request: 2021-11-10 01:13:14 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 322.359 ms
+request: 2021-11-10 01:13:24 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 311.655 ms
+request: 2021-11-10 01:13:30 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&name=new&sellCompany=617222fe0065218fc409ccdc 304 - 345.734 ms
+request: 2021-11-10 01:13:32 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 309.642 ms
+request: 2021-11-10 01:13:41 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 316.595 ms
+request: 2021-11-10 01:14:38 PM GET /api/v1/category?limit=-1 304 - 230.078 ms
+request: 2021-11-10 01:14:38 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.293 ms
+request: 2021-11-10 01:14:52 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 312.350 ms
+request: 2021-11-10 01:14:53 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 372.306 ms
+request: 2021-11-10 01:14:54 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.634 ms
+request: 2021-11-10 01:14:57 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 382.822 ms
+request: 2021-11-10 01:15:00 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 722.766 ms
+request: 2021-11-10 01:15:03 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 314.624 ms
+request: 2021-11-10 01:15:06 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 414.744 ms
+request: 2021-11-10 01:16:05 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.442 ms
+request: 2021-11-10 01:16:07 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 385.797 ms
+request: 2021-11-10 01:16:19 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 372.924 ms
+request: 2021-11-10 01:33:54 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 432.281 ms
+request: 2021-11-10 01:34:21 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 381.297 ms
+request: 2021-11-10 01:34:49 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 417.849 ms
+request: 2021-11-10 01:35:21 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 324.226 ms
+request: 2021-11-10 01:35:21 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 402.379 ms
+request: 2021-11-10 01:35:33 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.108 ms
+request: 2021-11-10 01:35:35 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 435.532 ms
+request: 2021-11-10 01:37:34 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 385.199 ms
+request: 2021-11-10 01:38:06 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 680.533 ms
+request: 2021-11-10 01:38:12 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 404.125 ms
+request: 2021-11-10 01:44:40 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 325.274 ms
+request: 2021-11-10 01:44:42 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 385.827 ms
+request: 2021-11-10 01:45:10 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 403.273 ms
+request: 2021-11-10 01:45:23 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 403.290 ms
+request: 2021-11-10 01:45:57 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 369.732 ms
+request: 2021-11-10 01:46:17 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 394.684 ms
+error: 2021-11-10 01:47:43 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&statusType=1&sellCompany=617222fe0065218fc409ccdc 400 - 158.578 ms - message: "statusType" is not allowed
+request: 2021-11-10 01:47:51 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 380.473 ms
+request: 2021-11-10 02:06:16 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 54.041 ms
+request: 2021-11-10 02:06:18 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 401.194 ms
+request: 2021-11-10 02:06:21 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 312.936 ms
+request: 2021-11-10 02:06:22 PM GET /api/v1/category?limit=-1 304 - 211.472 ms
+request: 2021-11-10 02:06:22 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.684 ms
+request: 2021-11-10 02:06:24 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 330.060 ms
+request: 2021-11-10 02:06:25 PM GET /api/v1/category?limit=-1 304 - 218.115 ms
+request: 2021-11-10 02:06:30 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 331.087 ms
+request: 2021-11-10 02:06:34 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 322.099 ms
+request: 2021-11-10 02:07:46 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 373.930 ms
+request: 2021-11-10 02:08:01 PM GET /auth/info 304 - 431.194 ms
+request: 2021-11-10 02:08:01 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.406 ms
+request: 2021-11-10 02:08:05 PM GET /auth/info 304 - 444.964 ms
+request: 2021-11-10 02:08:05 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.552 ms
+request: 2021-11-10 02:08:08 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 373.543 ms
+request: 2021-11-10 02:08:43 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 324.242 ms
+request: 2021-11-10 02:08:43 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 390.919 ms
+request: 2021-11-10 02:09:32 PM HEAD /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 52.497 ms
+error: 2021-11-10 02:09:41 PM POST /auth/login 401 - 55.931 ms - message: Incorrect email or password
+error: 2021-11-10 02:09:56 PM POST /auth/login 401 - 54.166 ms - message: Incorrect email or password
+request: 2021-11-10 02:10:14 PM POST /auth/login 200 - 321.622 ms
+request: 2021-11-10 02:10:14 PM GET /auth/info 200 - 428.913 ms
+request: 2021-11-10 02:10:15 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.161 ms
+request: 2021-11-10 02:10:15 PM GET /auth/info 304 - 445.675 ms
+request: 2021-11-10 02:10:15 PM GET /auth/info 304 - 431.748 ms
+request: 2021-11-10 02:10:17 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 206.859 ms
+request: 2021-11-10 02:10:23 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 200 - 388.753 ms
+request: 2021-11-10 02:10:26 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 219.075 ms
+error: 2021-11-10 02:10:27 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.931 ms - message: File no exist
+request: 2021-11-10 02:10:27 PM GET /api/v1/category?limit=-1 304 - 220.870 ms
+request: 2021-11-10 02:11:08 PM GET /auth/info 200 - 423.601 ms
+request: 2021-11-10 02:11:08 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 49.680 ms
+request: 2021-11-10 02:11:08 PM GET /auth/info 304 - 443.769 ms
+request: 2021-11-10 02:11:11 PM HEAD /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 49.994 ms
+request: 2021-11-10 02:11:16 PM HEAD /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 58.000 ms
+request: 2021-11-10 02:11:36 PM POST /auth/login 200 - 321.621 ms
+request: 2021-11-10 02:11:36 PM GET /auth/info 200 - 472.597 ms
+request: 2021-11-10 02:11:36 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.442 ms
+request: 2021-11-10 02:11:37 PM GET /auth/info 304 - 447.324 ms
+request: 2021-11-10 02:11:37 PM GET /auth/info 304 - 445.141 ms
+request: 2021-11-10 02:12:41 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 200 - 224.434 ms
+request: 2021-11-10 02:12:42 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 217.064 ms
+request: 2021-11-10 02:13:01 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 212.955 ms
+request: 2021-11-10 02:13:02 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 221.661 ms
+error: 2021-11-10 02:13:05 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.480 ms - message: File no exist
+request: 2021-11-10 02:13:05 PM GET /api/v1/category?limit=-1 304 - 208.024 ms
+request: 2021-11-10 02:13:05 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 208.618 ms
+error: 2021-11-10 02:13:07 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.001 ms - message: File no exist
+request: 2021-11-10 02:13:07 PM GET /api/v1/category?limit=-1 304 - 218.596 ms
+request: 2021-11-10 02:13:07 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 208.512 ms
+error: 2021-11-10 02:13:08 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.826 ms - message: File no exist
+request: 2021-11-10 02:13:08 PM GET /api/v1/category?limit=-1 304 - 223.202 ms
+request: 2021-11-10 02:13:09 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 218.111 ms
+request: 2021-11-10 02:13:10 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 228.764 ms
+request: 2021-11-10 02:13:37 PM GET /auth/info 304 - 471.903 ms
+request: 2021-11-10 02:13:37 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.486 ms
+error: 2021-11-10 02:13:39 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.208 ms - message: File no exist
+request: 2021-11-10 02:13:39 PM GET /api/v1/category?limit=-1 304 - 222.750 ms
+error: 2021-11-10 02:13:40 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.502 ms - message: File no exist
+request: 2021-11-10 02:13:40 PM GET /api/v1/category?limit=-1 304 - 228.565 ms
+request: 2021-11-10 02:13:41 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 218.826 ms
+request: 2021-11-10 02:14:40 PM GET /api/v1/shop 200 - 795.204 ms
+request: 2021-11-10 02:14:40 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 944.138 ms
+request: 2021-11-10 02:14:40 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 542.698 ms
+request: 2021-11-10 02:14:41 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 216.716 ms
+request: 2021-11-10 02:14:41 PM GET /api/v1/shop 304 - 274.582 ms
+error: 2021-11-10 02:14:41 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.930 ms - message: File no exist
+request: 2021-11-10 02:14:42 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 312.572 ms
+request: 2021-11-10 02:14:42 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 361.553 ms
+request: 2021-11-10 02:14:42 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 311.180 ms
+request: 2021-11-10 02:14:44 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 210.143 ms
+request: 2021-11-10 02:14:45 PM GET /api/v1/shop 304 - 272.662 ms
+error: 2021-11-10 02:14:45 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.999 ms - message: File no exist
+request: 2021-11-10 02:19:51 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.203 ms
+request: 2021-11-10 02:20:06 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 368.544 ms
+request: 2021-11-10 02:20:17 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 400.084 ms
+request: 2021-11-10 02:20:20 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 209.538 ms
+request: 2021-11-10 02:20:21 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 364.255 ms
+request: 2021-11-10 02:20:21 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 206.479 ms
+request: 2021-11-10 02:20:22 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 376.513 ms
+request: 2021-11-10 02:20:22 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 204.860 ms
+request: 2021-11-10 02:20:22 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 381.923 ms
+request: 2021-11-10 02:20:23 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 214.721 ms
+request: 2021-11-10 02:20:24 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 388.887 ms
+request: 2021-11-10 02:20:25 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 212.070 ms
+request: 2021-11-10 02:20:27 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 374.682 ms
+request: 2021-11-10 02:20:27 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 304 - 206.799 ms
+request: 2021-11-10 02:20:28 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 381.831 ms
+request: 2021-11-10 02:21:09 PM GET /api/v1/shop 304 - 276.899 ms
+error: 2021-11-10 02:21:09 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.948 ms - message: File no exist
+request: 2021-11-10 02:21:10 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 51.048 ms
+request: 2021-11-10 02:21:10 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 371.098 ms
+request: 2021-11-10 02:21:15 PM GET /api/v1/shop 304 - 544.458 ms
+error: 2021-11-10 02:21:15 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.975 ms - message: File no exist
+request: 2021-11-10 02:21:17 PM GET /api/v1/category?limit=-1 304 - 227.147 ms
+request: 2021-11-10 02:21:20 PM GET /api/v1/shop 304 - 272.652 ms
+error: 2021-11-10 02:21:20 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 52.276 ms - message: File no exist
+error: 2021-11-10 02:24:48 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 54.554 ms - message: File no exist
+request: 2021-11-10 02:24:48 PM GET /api/v1/category?limit=-1 304 - 230.718 ms
+error: 2021-11-10 02:25:16 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 52.195 ms - message: File no exist
+request: 2021-11-10 02:25:16 PM GET /api/v1/category?limit=-1 304 - 218.641 ms
+error: 2021-11-10 02:25:18 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.940 ms - message: File no exist
+request: 2021-11-10 02:25:18 PM GET /api/v1/category?limit=-1 304 - 220.570 ms
+error: 2021-11-10 02:25:45 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.564 ms - message: File no exist
+request: 2021-11-10 02:25:45 PM GET /api/v1/category?limit=-1 304 - 220.981 ms
+request: 2021-11-10 02:25:45 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 212.189 ms
+error: 2021-11-10 02:26:15 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 52.023 ms - message: File no exist
+request: 2021-11-10 02:26:15 PM GET /api/v1/category?limit=-1 304 - 218.989 ms
+request: 2021-11-10 02:26:17 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 205.916 ms
+error: 2021-11-10 02:26:17 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.756 ms - message: File no exist
+request: 2021-11-10 02:26:17 PM GET /api/v1/category?limit=-1 304 - 214.668 ms
+request: 2021-11-10 02:26:19 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 224.219 ms
+request: 2021-11-10 02:26:44 PM POST /auth/login 200 - 342.489 ms
+request: 2021-11-10 02:26:44 PM GET /auth/info 304 - 429.982 ms
+request: 2021-11-10 02:26:45 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.913 ms
+request: 2021-11-10 02:26:45 PM GET /auth/info 304 - 416.368 ms
+request: 2021-11-10 02:26:45 PM GET /auth/info 304 - 424.522 ms
+request: 2021-11-10 02:40:23 PM GET /auth/info 304 - 450.001 ms
+request: 2021-11-10 02:40:23 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 52.688 ms
+request: 2021-11-10 02:41:05 PM POST /auth/login 200 - 372.499 ms
+request: 2021-11-10 02:41:06 PM GET /auth/info 304 - 484.194 ms
+request: 2021-11-10 02:41:06 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.563 ms
+request: 2021-11-10 02:41:06 PM GET /auth/info 304 - 440.699 ms
+request: 2021-11-10 02:41:07 PM GET /auth/info 304 - 438.275 ms
+request: 2021-11-10 02:44:11 PM GET /auth/info 304 - 418.195 ms
+request: 2021-11-10 02:44:12 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 52.887 ms
+request: 2021-11-10 02:44:13 PM GET /api/v1/shop 304 - 259.923 ms
+error: 2021-11-10 02:44:13 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.295 ms - message: File no exist
+request: 2021-11-10 02:44:13 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 52.536 ms
+request: 2021-11-10 02:44:13 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.075 ms
+request: 2021-11-10 02:44:15 PM GET /api/v1/shop 304 - 258.535 ms
+error: 2021-11-10 02:44:15 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.534 ms - message: File no exist
+request: 2021-11-10 02:44:15 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 214.644 ms
+request: 2021-11-10 02:44:31 PM GET /auth/info 304 - 437.984 ms
+request: 2021-11-10 02:44:31 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.248 ms
+request: 2021-11-10 02:44:32 PM GET /api/v1/shop 304 - 263.217 ms
+error: 2021-11-10 02:44:33 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.910 ms - message: File no exist
+request: 2021-11-10 02:44:33 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 51.186 ms
+request: 2021-11-10 02:44:33 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.433 ms
+request: 2021-11-10 02:44:34 PM GET /api/v1/shop 304 - 291.300 ms
+error: 2021-11-10 02:44:34 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.373 ms - message: File no exist
+request: 2021-11-10 02:44:36 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 210.165 ms
+request: 2021-11-10 02:44:41 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 200 - 205.277 ms
+request: 2021-11-10 02:44:42 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 200 - 218.198 ms
+request: 2021-11-10 02:45:17 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 222.026 ms
+request: 2021-11-10 02:46:14 PM GET /auth/info 304 - 425.510 ms
+request: 2021-11-10 02:46:15 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 62.807 ms
+request: 2021-11-10 02:47:40 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 208.575 ms
+request: 2021-11-10 02:47:46 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 214.996 ms
+request: 2021-11-10 02:47:53 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name=23 200 - 224.524 ms
+request: 2021-11-10 02:47:57 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name=cate 200 - 237.505 ms
+request: 2021-11-10 02:48:05 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 229.335 ms
+request: 2021-11-10 02:48:08 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 223.921 ms
+request: 2021-11-10 02:48:10 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 214.601 ms
+request: 2021-11-10 02:48:14 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 236.905 ms
+request: 2021-11-10 02:49:47 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.883 ms
+request: 2021-11-10 02:49:50 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.084 ms
+request: 2021-11-10 02:49:59 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 216.432 ms
+request: 2021-11-10 02:50:01 PM GET /api/v1/shop 304 - 275.475 ms
+error: 2021-11-10 02:50:02 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 52.008 ms - message: File no exist
+request: 2021-11-10 02:50:02 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 51.082 ms
+request: 2021-11-10 02:50:02 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.239 ms
+request: 2021-11-10 03:13:35 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 229.136 ms
+request: 2021-11-10 03:27:49 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 310.757 ms
+request: 2021-11-10 03:27:57 PM GET /auth/info 304 - 425.064 ms
+request: 2021-11-10 03:27:57 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 52.086 ms
+request: 2021-11-10 03:27:59 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 213.925 ms
+request: 2021-11-10 03:34:58 PM GET /auth/info 304 - 425.475 ms
+request: 2021-11-10 03:34:58 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.679 ms
+request: 2021-11-10 03:34:58 PM GET /auth/info 304 - 430.197 ms
+request: 2021-11-10 03:35:01 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 207.428 ms
+error: 2021-11-10 04:00:39 PM GET /file/https://source.unsplash.com/random 404 - 0.571 ms - message: /file/https://source.unsplash.com/random not found
+request: 2021-11-10 04:06:46 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 221.901 ms
+error: 2021-11-10 04:06:49 PM GET /file/https://source.unsplash.com/random 404 - 0.284 ms - message: /file/https://source.unsplash.com/random not found
+request: 2021-11-10 04:06:53 PM POST /file/upload 201 - 377.062 ms
+error: 2021-11-10 04:06:53 PM PATCH /api/v1/category/6149ce8660019f57486e78c4 400 - 159.565 ms - message: "image" is not allowed
+request: 2021-11-10 04:07:15 PM POST /file/upload 201 - 375.790 ms
+error: 2021-11-10 04:07:15 PM PATCH /api/v1/category/6149ce8660019f57486e78c4 400 - 154.685 ms - message: "image" is not allowed
+request: 2021-11-10 04:07:22 PM GET /auth/info 304 - 433.167 ms
+request: 2021-11-10 04:07:22 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 58.497 ms
+request: 2021-11-10 04:07:25 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 204.003 ms
+error: 2021-11-10 04:07:25 PM GET /file/https://source.unsplash.com/random 404 - 0.213 ms - message: /file/https://source.unsplash.com/random not found
+request: 2021-11-10 04:07:28 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 217.318 ms
+error: 2021-11-10 04:07:29 PM GET /file/https://source.unsplash.com/random 404 - 0.211 ms - message: /file/https://source.unsplash.com/random not found
+request: 2021-11-10 04:07:33 PM POST /file/upload 201 - 320.565 ms
+error: 2021-11-10 04:07:33 PM PUT /api/v1/category/6149ce8660019f57486e78c4 404 - 0.215 ms - message: /api/v1/category/6149ce8660019f57486e78c4 not found
+request: 2021-11-10 04:08:19 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 204.171 ms
+request: 2021-11-10 04:08:21 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 50.572 ms
+request: 2021-11-10 04:08:23 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 218.189 ms
+request: 2021-11-10 04:08:31 PM POST /file/upload 201 - 1565.601 ms
+error: 2021-11-10 04:08:31 PM PUT /api/v1/category/6149ce7760019f57486e78ac 404 - 0.498 ms - message: /api/v1/category/6149ce7760019f57486e78ac not found
+request: 2021-11-10 04:08:56 PM POST /file/upload 201 - 1688.131 ms
+request: 2021-11-10 04:08:56 PM PUT /api/v1/category/6149ce7760019f57486e78ac 200 - 307.430 ms
+request: 2021-11-10 04:08:58 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 200 - 230.343 ms
+request: 2021-11-10 04:08:59 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 52.299 ms
+request: 2021-11-10 04:09:02 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 226.309 ms
+request: 2021-11-10 04:09:05 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 232.697 ms
+request: 2021-11-10 04:09:42 PM POST /file/upload 201 - 1036.679 ms
+error: 2021-11-10 04:09:42 PM POST /api/v1/category 400 - 159.126 ms - message: "image" is not allowed
+request: 2021-11-10 04:10:05 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 243.193 ms
+request: 2021-11-10 04:10:07 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 205.349 ms
+request: 2021-11-10 04:10:10 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 200 - 237.971 ms
+request: 2021-11-10 04:10:52 PM POST /file/upload 201 - 985.722 ms
+error: 2021-11-10 04:10:52 PM POST /api/v1/category 400 - 167.461 ms - message: "image" is not allowed
+request: 2021-11-10 04:11:22 PM POST /file/upload 201 - 1419.786 ms
+request: 2021-11-10 04:11:23 PM POST /api/v1/category 201 - 291.580 ms
+request: 2021-11-10 04:11:24 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 200 - 212.358 ms
+request: 2021-11-10 04:11:27 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 200 - 211.760 ms
+request: 2021-11-10 04:11:30 PM GET /file/0f87ec830278703386824aa5d311b6eb.png 200 - 54.837 ms
+request: 2021-11-10 04:11:34 PM POST /file/upload 201 - 321.441 ms
+request: 2021-11-10 04:11:35 PM PUT /api/v1/category/618b8cbb894c1cbbfae5d76c 200 - 273.186 ms
+request: 2021-11-10 04:11:36 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 223.860 ms
+request: 2021-11-10 04:11:38 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 200 - 232.982 ms
+request: 2021-11-10 04:11:40 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.084 ms
+request: 2021-11-10 04:11:42 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 209.629 ms
+request: 2021-11-10 04:12:58 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 54.971 ms
+request: 2021-11-10 04:12:58 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 370.043 ms
+request: 2021-11-10 04:15:00 PM HEAD /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 52.122 ms
+request: 2021-11-10 04:15:16 PM HEAD /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 52.176 ms
+request: 2021-11-10 04:15:22 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 212.754 ms
+request: 2021-11-10 04:15:22 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.487 ms
+request: 2021-11-10 04:15:25 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 200 - 215.234 ms
+request: 2021-11-10 04:16:07 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 219.381 ms
+request: 2021-11-10 04:16:07 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.850 ms
+request: 2021-11-10 04:16:09 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 206.595 ms
+request: 2021-11-10 04:16:09 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.749 ms
+request: 2021-11-10 04:16:24 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 218.757 ms
+request: 2021-11-10 04:16:24 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.381 ms
+request: 2021-11-10 04:16:27 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 206.487 ms
+request: 2021-11-10 04:16:43 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 212.538 ms
+request: 2021-11-10 04:16:43 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.602 ms
+request: 2021-11-10 04:16:45 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 213.659 ms
+request: 2021-11-10 04:16:46 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.730 ms
+request: 2021-11-10 04:19:21 PM GET /api/v1/shop 200 - 274.527 ms
+error: 2021-11-10 04:19:21 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 55.637 ms - message: File no exist
+request: 2021-11-10 04:19:22 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 54.539 ms
+request: 2021-11-10 04:19:22 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 385.950 ms
+request: 2021-11-10 04:25:37 PM GET /api/v1/shop 304 - 254.224 ms
+request: 2021-11-10 04:26:31 PM GET /api/v1/shop 304 - 285.043 ms
+request: 2021-11-10 04:28:35 PM GET /auth/info 200 - 424.230 ms
+request: 2021-11-10 04:28:35 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.137 ms
+request: 2021-11-10 04:33:20 PM GET /api/v1/shop 304 - 270.191 ms
+error: 2021-11-10 04:33:20 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.871 ms - message: File no exist
+request: 2021-11-10 04:33:20 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.089 ms
+request: 2021-11-10 04:33:20 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.252 ms
+request: 2021-11-10 04:34:14 PM GET /auth/info 304 - 427.022 ms
+request: 2021-11-10 04:34:15 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.853 ms
+request: 2021-11-10 04:34:16 PM GET /api/v1/shop 304 - 273.765 ms
+error: 2021-11-10 04:34:16 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.819 ms - message: File no exist
+request: 2021-11-10 04:34:16 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.721 ms
+request: 2021-11-10 04:34:16 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.809 ms
+error: 2021-11-10 04:34:53 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 58.079 ms - message: File no exist
+request: 2021-11-10 04:35:15 PM GET /auth/info 304 - 421.202 ms
+request: 2021-11-10 04:35:16 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.868 ms
+request: 2021-11-10 04:35:17 PM GET /api/v1/shop 304 - 260.095 ms
+error: 2021-11-10 04:35:17 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.464 ms - message: File no exist
+request: 2021-11-10 04:35:17 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.817 ms
+request: 2021-11-10 04:35:17 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 49.164 ms
+request: 2021-11-10 04:37:23 PM HEAD /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 49.997 ms
+request: 2021-11-10 04:37:24 PM HEAD /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.248 ms
+request: 2021-11-10 04:37:24 PM HEAD /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.042 ms
+request: 2021-11-10 04:37:27 PM HEAD /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.870 ms
+request: 2021-11-10 04:37:56 PM GET /api/v1/shop 304 - 280.068 ms
+error: 2021-11-10 04:37:56 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 60.743 ms - message: File no exist
+request: 2021-11-10 04:38:23 PM GET /api/v1/shop 304 - 265.943 ms
+error: 2021-11-10 04:38:23 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.725 ms - message: File no exist
+request: 2021-11-10 04:38:34 PM GET /api/v1/category?limit=-1 200 - 214.107 ms
+request: 2021-11-10 04:38:34 PM GET /auth/info 304 - 415.518 ms
+request: 2021-11-10 04:38:34 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.329 ms
+request: 2021-11-10 04:38:35 PM GET /api/v1/shop 304 - 257.048 ms
+error: 2021-11-10 04:38:35 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 60.392 ms - message: File no exist
+request: 2021-11-10 04:38:35 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.371 ms
+request: 2021-11-10 04:38:35 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.858 ms
+request: 2021-11-10 04:38:38 PM GET /api/v1/shop 304 - 543.917 ms
+error: 2021-11-10 04:38:38 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.657 ms - message: File no exist
+request: 2021-11-10 04:38:40 PM GET /api/v1/shop 304 - 258.019 ms
+error: 2021-11-10 04:38:40 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.766 ms - message: File no exist
+request: 2021-11-10 04:38:41 PM GET /api/v1/shop 304 - 257.538 ms
+error: 2021-11-10 04:38:41 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.697 ms - message: File no exist
+request: 2021-11-10 04:39:02 PM GET /api/v1/shop 200 - 264.984 ms
+request: 2021-11-10 04:39:02 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.550 ms
+request: 2021-11-10 04:39:35 PM GET /api/v1/category?limit=-1 304 - 213.240 ms
+request: 2021-11-10 04:40:12 PM GET /api/v1/category?limit=-1 304 - 225.335 ms
+request: 2021-11-10 04:40:16 PM GET /api/v1/shop 304 - 257.622 ms
+request: 2021-11-10 04:40:16 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.363 ms
+request: 2021-11-10 04:40:26 PM GET /api/v1/shop 200 - 259.227 ms
+request: 2021-11-10 04:41:52 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 59.953 ms
+request: 2021-11-10 04:41:52 PM GET /api/v1/category?limit=-1 304 - 212.091 ms
+request: 2021-11-10 04:41:54 PM GET /api/v1/shop 304 - 258.451 ms
+request: 2021-11-10 04:41:54 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.512 ms
+request: 2021-11-10 04:41:54 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 49.268 ms
+request: 2021-11-10 04:42:00 PM GET /api/v1/category?limit=-1 304 - 206.811 ms
+request: 2021-11-10 04:42:01 PM GET /api/v1/shop 304 - 258.038 ms
+request: 2021-11-10 04:42:04 PM GET /api/v1/shop 304 - 265.146 ms
+request: 2021-11-10 04:42:05 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 214.438 ms
+request: 2021-11-10 04:42:06 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 49.635 ms
+request: 2021-11-10 04:42:06 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.345 ms
+request: 2021-11-10 04:42:10 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 218.302 ms
+request: 2021-11-10 04:43:01 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 206.004 ms
+request: 2021-11-10 04:43:03 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 215.036 ms
+request: 2021-11-10 04:43:21 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.113 ms
+request: 2021-11-10 04:43:24 PM GET /auth/info 200 - 433.786 ms
+request: 2021-11-10 04:43:24 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 53.049 ms
+request: 2021-11-10 04:43:26 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 209.075 ms
+request: 2021-11-10 04:43:27 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 332.516 ms
+request: 2021-11-10 04:43:27 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 49.700 ms
+request: 2021-11-10 04:43:37 PM PUT /api/v1/user/614429a6b81d2b21ac338fd3 200 - 526.019 ms
+request: 2021-11-10 04:43:39 PM PUT /api/v1/user/614429a6b81d2b21ac338fd3 200 - 525.314 ms
+request: 2021-11-10 04:45:56 PM GET /auth/info 200 - 430.045 ms
+request: 2021-11-10 04:45:57 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 52.151 ms
+request: 2021-11-10 04:45:57 PM GET /auth/info 304 - 418.943 ms
+request: 2021-11-10 04:48:00 PM GET /auth/info 304 - 434.662 ms
+request: 2021-11-10 04:48:00 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.169 ms
+request: 2021-11-10 04:48:03 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 214.891 ms
+request: 2021-11-10 04:48:03 PM GET /api/v1/shop 304 - 266.263 ms
+request: 2021-11-10 04:48:04 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.368 ms
+request: 2021-11-10 04:48:04 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 49.425 ms
+request: 2021-11-10 04:48:04 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.277 ms
+request: 2021-11-10 04:48:05 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 208.927 ms
+request: 2021-11-10 04:48:06 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 51.188 ms
+request: 2021-11-10 04:48:07 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 49.198 ms
+request: 2021-11-10 04:48:08 PM GET /api/v1/shop 304 - 261.917 ms
+request: 2021-11-10 04:48:10 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 218.271 ms
+request: 2021-11-10 04:48:11 PM GET /api/v1/shop 304 - 260.438 ms
+request: 2021-11-10 04:48:24 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 349.968 ms
+request: 2021-11-10 04:48:25 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 49.375 ms
+request: 2021-11-10 04:48:25 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.523 ms
+request: 2021-11-10 04:48:46 PM GET /api/v1/shop 304 - 257.192 ms
+request: 2021-11-10 04:48:46 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 49.897 ms
+request: 2021-11-10 04:48:46 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.612 ms
+request: 2021-11-10 04:48:46 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.702 ms
+request: 2021-11-10 04:48:50 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 206.524 ms
+request: 2021-11-10 04:48:50 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 51.829 ms
+request: 2021-11-10 04:48:51 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.639 ms
+request: 2021-11-10 04:48:51 PM GET /api/v1/shop 304 - 556.821 ms

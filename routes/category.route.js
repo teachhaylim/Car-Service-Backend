@@ -11,7 +11,7 @@ categoryRoute.route("/")
 
 categoryRoute.route("/:categoryId")
     .get(auth, validate(categoryValidation.getCategory), categoryController.GetCategory)
-    .patch(auth, validate(categoryValidation.updateCategory), categoryController.UpdateCategory)
+    .put(auth, validate(categoryValidation.updateCategory), categoryController.UpdateCategory)
     .delete(auth, validate(categoryValidation.deleteCategory), categoryController.DeleteCategory);
 
 export default categoryRoute;

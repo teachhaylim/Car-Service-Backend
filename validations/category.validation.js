@@ -5,6 +5,7 @@ const createCategory = {
     body: Joi.object().keys({
         name: Joi.string().required(),
         remark: Joi.string().allow(""),
+        image: Joi.string().allow(""),
         // isActive: Joi.boolean().valid(true, false),
         // createdAt: Joi.date(),
         // updatedAt: Joi.date(),

@@ -2065,3 +2065,49 @@ error: 2021-11-07 11:29:38 PM GET /file/ 404 - 0.343 ms - message: /file/ not fo
 error: 2021-11-10 11:05:08 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&name=New&sellCompany=617222fe0065218fc409ccdc 401 - 1.737 ms - message: route not found
 error: 2021-11-10 11:06:35 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&name=&sellCompany=617222fe0065218fc409ccdc 400 - 179.444 ms - message: "name" is not allowed to be empty
 error: 2021-11-10 11:10:54 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 400 - 170.508 ms - message: Cast to ObjectId failed for value "" (type string) at path "sellCompany" for model "services"
+error: 2021-11-10 01:47:43 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&statusType=1&sellCompany=617222fe0065218fc409ccdc 400 - 158.578 ms - message: "statusType" is not allowed
+error: 2021-11-10 02:09:41 PM POST /auth/login 401 - 55.931 ms - message: Incorrect email or password
+error: 2021-11-10 02:09:56 PM POST /auth/login 401 - 54.166 ms - message: Incorrect email or password
+error: 2021-11-10 02:10:27 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.931 ms - message: File no exist
+error: 2021-11-10 02:13:05 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.480 ms - message: File no exist
+error: 2021-11-10 02:13:07 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.001 ms - message: File no exist
+error: 2021-11-10 02:13:08 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.826 ms - message: File no exist
+error: 2021-11-10 02:13:39 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.208 ms - message: File no exist
+error: 2021-11-10 02:13:40 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.502 ms - message: File no exist
+error: 2021-11-10 02:14:41 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.930 ms - message: File no exist
+error: 2021-11-10 02:14:45 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.999 ms - message: File no exist
+error: 2021-11-10 02:21:09 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.948 ms - message: File no exist
+error: 2021-11-10 02:21:15 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.975 ms - message: File no exist
+error: 2021-11-10 02:21:20 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 52.276 ms - message: File no exist
+error: 2021-11-10 02:24:48 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 54.554 ms - message: File no exist
+error: 2021-11-10 02:25:16 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 52.195 ms - message: File no exist
+error: 2021-11-10 02:25:18 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.940 ms - message: File no exist
+error: 2021-11-10 02:25:45 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.564 ms - message: File no exist
+error: 2021-11-10 02:26:15 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 52.023 ms - message: File no exist
+error: 2021-11-10 02:26:17 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.756 ms - message: File no exist
+error: 2021-11-10 02:44:13 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.295 ms - message: File no exist
+error: 2021-11-10 02:44:15 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 49.534 ms - message: File no exist
+error: 2021-11-10 02:44:33 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.910 ms - message: File no exist
+error: 2021-11-10 02:44:34 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.373 ms - message: File no exist
+error: 2021-11-10 02:50:02 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 52.008 ms - message: File no exist
+error: 2021-11-10 04:00:39 PM GET /file/https://source.unsplash.com/random 404 - 0.571 ms - message: /file/https://source.unsplash.com/random not found
+error: 2021-11-10 04:06:49 PM GET /file/https://source.unsplash.com/random 404 - 0.284 ms - message: /file/https://source.unsplash.com/random not found
+error: 2021-11-10 04:06:53 PM PATCH /api/v1/category/6149ce8660019f57486e78c4 400 - 159.565 ms - message: "image" is not allowed
+error: 2021-11-10 04:07:15 PM PATCH /api/v1/category/6149ce8660019f57486e78c4 400 - 154.685 ms - message: "image" is not allowed
+error: 2021-11-10 04:07:25 PM GET /file/https://source.unsplash.com/random 404 - 0.213 ms - message: /file/https://source.unsplash.com/random not found
+error: 2021-11-10 04:07:29 PM GET /file/https://source.unsplash.com/random 404 - 0.211 ms - message: /file/https://source.unsplash.com/random not found
+error: 2021-11-10 04:07:33 PM PUT /api/v1/category/6149ce8660019f57486e78c4 404 - 0.215 ms - message: /api/v1/category/6149ce8660019f57486e78c4 not found
+error: 2021-11-10 04:08:31 PM PUT /api/v1/category/6149ce7760019f57486e78ac 404 - 0.498 ms - message: /api/v1/category/6149ce7760019f57486e78ac not found
+error: 2021-11-10 04:09:42 PM POST /api/v1/category 400 - 159.126 ms - message: "image" is not allowed
+error: 2021-11-10 04:10:52 PM POST /api/v1/category 400 - 167.461 ms - message: "image" is not allowed
+error: 2021-11-10 04:19:21 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 55.637 ms - message: File no exist
+error: 2021-11-10 04:33:20 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 51.871 ms - message: File no exist
+error: 2021-11-10 04:34:16 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.819 ms - message: File no exist
+error: 2021-11-10 04:34:53 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 58.079 ms - message: File no exist
+error: 2021-11-10 04:35:17 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.464 ms - message: File no exist
+error: 2021-11-10 04:37:56 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 60.743 ms - message: File no exist
+error: 2021-11-10 04:38:23 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.725 ms - message: File no exist
+error: 2021-11-10 04:38:35 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 60.392 ms - message: File no exist
+error: 2021-11-10 04:38:38 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.657 ms - message: File no exist
+error: 2021-11-10 04:38:40 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.766 ms - message: File no exist
+error: 2021-11-10 04:38:41 PM GET /file/48f2bbca09b9887d7a30c1f06d9a15a8.jpg 404 - 50.697 ms - message: File no exist
