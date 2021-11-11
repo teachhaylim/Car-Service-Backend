@@ -97,9 +97,9 @@ userSchema.statics.isEmailTaken = async function (email, excludeUserId) {
 };
 
 userSchema.pre('save', async function (next) {
-    // if (this.isModified('password')) {
-    //     this.password = await bcrypt.hash(this.password, 10);
-    // }
+    if (this.isModified('password')) {
+        this.password = await bcrypt.hash(this.password, 10);
+    }
 
     // if (this.isModified('profilePic')) {
     //     this.profilePic = `https://avatars.dicebear.com/api/identicon/${this.firstName}.svg`;

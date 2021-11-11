@@ -18,6 +18,20 @@ const loginWithEmailAndPassword = async (email, password) => {
     return user;
 };
 
+const changePassword = async (userId, newPassword) => {
+    const user = await userService.GetUserById(userId);
+
+    if (!user) throw new ApiError(httpStatus.NOT_FOUND, "User not found");
+
+    user.address = user?.address;
+    user.sellCompany = user.sellCompany?.id;
+    user.password = newPassword;
+    user.save();
+
+    return user;
+};
+
 export default {
     loginWithEmailAndPassword,
+    changePassword,
 }
