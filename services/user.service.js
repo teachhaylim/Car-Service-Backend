@@ -9,9 +9,12 @@ import ApiError from "../utils/ApiError";
  * @returns {Promise<User>}
  */
 const CreateUser = async (userBody) => {
-    if (await User.isEmailTaken(userBody.email)) {
-        throw new ApiError(httpStatus.BAD_REQUEST, 'Email already taken');
-    }
+    if (await User.isEmailTaken(userBody.email)) throw new ApiError(httpStatus.BAD_REQUEST, 'Email is already taken');
+    if (await User.isPhoneNumberTaken(userBody.phoneNumber)) throw new ApiError(httpStatus.BAD_REQUEST, 'Phonenumber is already taken');
+
+    const address = await addressService.CreateAddress(userBody.address);
+    userBody.address = address._id;
+
     return User.create(userBody);
 };
 
@@ -59,7 +62,7 @@ const QueryUsers = async (filter, options) => {
  * @returns 
  */
 const UpdateUser = async (userId, userBody) => {
-    let dbAddress = await addressService.GetAddressById(userBody.address.id);
+    let dbAddress = await addressService.GetAddressById(userBody?.address?.id);
     let user = await GetUserById(userId);
     const obj = {
         id: dbAddress._id,
@@ -78,7 +81,9 @@ const UpdateUser = async (userId, userBody) => {
     }
 
     userBody.address = dbAddress._id;
-    userBody.sellCompany = userBody.sellCompany.id;
+    userBody.sellCompany = userBody.sellCompany == null ? null : userBody.sellCompany;
+
+    console.log(userBody);
 
     Object.assign(user, JSON.parse(JSON.stringify(userBody)));
     await user.save();

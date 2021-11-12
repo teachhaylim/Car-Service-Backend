@@ -47,7 +47,7 @@ const userSchema = mongoose.Schema(
         },
         type: {
             type: Number,
-            enum: [0, 1, 2],
+            enum: [-1, 1, 2],
             default: 0,
         }, // 0 = user role (not allow access at all), 1 = admin (allow access related info), 2 = superadmin (God level access xd)
         isActive: {
@@ -93,6 +93,11 @@ userSchema.methods.isPasswordMatch = async function (password) {
  */
 userSchema.statics.isEmailTaken = async function (email, excludeUserId) {
     const user = await this.findOne({ email, _id: { $ne: excludeUserId } });
+    return !!user;
+};
+
+userSchema.statics.isPhoneNumberTaken = async function (phoneNumber, excludeUserId) {
+    const user = await this.findOne({ phoneNumber, _id: { $ne: excludeUserId } });
     return !!user;
 };
 

@@ -2147,3 +2147,235 @@ error: 2021-11-11 02:24:52 PM POST /auth/changepassword 404 - 208.374 ms - messa
 error: 2021-11-11 02:27:22 PM POST /auth/userlogin 401 - 164.957 ms - message: Incorrect email or password
 error: 2021-11-11 02:41:43 PM POST /auth/userlogin 401 - 180.360 ms - message: Incorrect email or password
 error: 2021-11-11 02:45:20 PM POST /auth/userlogin 401 - 178.213 ms - message: Incorrect email or password
+error: 2021-11-12 08:17:50 AM POST /auth/login 401 - 73.427 ms - message: Incorrect email or password
+error: 2021-11-12 08:44:00 AM POST /api/v1/user 400 - 525.126 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", type: `-1` is not a valid enum value for path `type`.
+error: 2021-11-12 08:46:18 AM POST /api/v1/user 400 - 234.075 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", type: `-1` is not a valid enum value for path `type`.
+error: 2021-11-12 08:48:24 AM POST /api/v1/user 400 - 235.736 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", type: `-1` is not a valid enum value for path `type`.
+error: 2021-11-12 08:49:22 AM POST /api/v1/user 400 - 237.281 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:49:59 AM POST /api/v1/user 400 - 227.557 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:52:09 AM POST /api/v1/user 400 - 208.838 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:52:54 AM POST /api/v1/user 400 - 258.556 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:55:15 AM POST /api/v1/user 400 - 237.762 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:56:21 AM POST /api/v1/user 400 - 216.380 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:56:28 AM POST /api/v1/user 400 - 221.381 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:56:51 AM POST /api/v1/user 400 - 281.299 ms - message: Email already taken
+error: 2021-11-12 08:58:10 AM POST /api/v1/user 400 - 217.584 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:59:38 AM POST /api/v1/user 400 - 255.673 ms - message: Email already taken
+error: 2021-11-12 09:00:08 AM POST /api/v1/user 400 - 253.639 ms - message: Email already taken
+error: 2021-11-12 09:01:20 AM POST /api/v1/user 400 - 266.979 ms - message: Email already taken
+error: 2021-11-12 09:01:39 AM POST /api/v1/user 400 - 255.797 ms - message: Email already taken
+error: 2021-11-12 09:02:12 AM POST /api/v1/user 400 - 257.986 ms - message: Email already taken
+error: 2021-11-12 09:03:32 AM POST /api/v1/user 400 - 259.423 ms - message: Email already taken
+error: 2021-11-12 09:04:24 AM POST /api/v1/user 400 - 293.928 ms - message: Email already taken
+error: 2021-11-12 09:04:52 AM POST /api/v1/user 400 - 267.075 ms - message: Email already taken
+error: 2021-11-12 09:06:17 AM POST /api/v1/user 400 - 254.020 ms - message: Email already taken
+error: 2021-11-12 09:08:29 AM POST /api/v1/user 400 - 255.659 ms - message: Email already taken
+error: 2021-11-12 09:09:13 AM POST /api/v1/user 400 - 251.469 ms - message: Email already taken
+error: 2021-11-12 09:10:25 AM POST /api/v1/user 400 - 252.372 ms - message: Email already taken
+error: 2021-11-12 09:10:40 AM POST /api/v1/user 400 - 260.392 ms - message: Email already taken
+error: 2021-11-12 09:11:07 AM POST /api/v1/user 400 - 251.961 ms - message: Email already taken
+error: 2021-11-12 09:13:32 AM POST /api/v1/user 500 - 429.948 ms - message: E11000 duplicate key error collection: GraduationProjectDB.users index: phoneNumber_1 dup key: { phoneNumber: "123" }
+error: 2021-11-12 09:16:23 AM POST /api/v1/user 400 - 345.978 ms - message: Phonenumber is already taken
+error: 2021-11-12 09:19:36 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 500 - 382.322 ms - message: Cannot read property 'id' of null
+error: 2021-11-12 09:20:20 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 500 - 369.883 ms - message: Cannot read property 'id' of null
+error: 2021-11-12 09:21:08 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 400 - 409.520 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 09:21:59 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 404 - 214.995 ms - message: Address not found
+error: 2021-11-12 09:22:39 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 400 - 364.099 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 09:30:21 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 400 - 386.796 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 09:33:05 AM PUT /api/v1/user/618dce113fd6613ced09c53a 400 - 422.432 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 09:33:48 AM PUT /api/v1/user/618dce113fd6613ced09c53a 400 - 407.991 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 10:29:43 AM GET /auth/info 401 - 507.113 ms - message: route not found
+error: 2021-11-12 10:31:00 AM GET /auth/info 401 - 1.135 ms - message: route not found
+error: 2021-11-12 10:31:10 AM GET /auth/info 401 - 0.457 ms - message: route not found
+error: 2021-11-12 10:31:32 AM GET /auth/info 401 - 0.383 ms - message: route not found
+error: 2021-11-12 10:31:40 AM GET /auth/info 401 - 0.481 ms - message: route not found
+error: 2021-11-12 10:31:48 AM GET /auth/info 401 - 0.776 ms - message: route not found
+error: 2021-11-12 10:31:57 AM GET /auth/info 401 - 0.394 ms - message: route not found
+error: 2021-11-12 10:32:05 AM GET /auth/info 401 - 0.375 ms - message: route not found
+error: 2021-11-12 10:32:05 AM GET /auth/info 401 - 0.368 ms - message: route not found
+error: 2021-11-12 10:33:45 AM GET /auth/info 401 - 0.560 ms - message: route not found
+error: 2021-11-12 10:33:51 AM GET /auth/info 401 - 1.038 ms - message: route not found
+error: 2021-11-12 10:33:52 AM GET /api/v1/category 401 - 0.416 ms - message: route not found
+error: 2021-11-12 10:33:52 AM GET /api/v1/shop 401 - 0.628 ms - message: route not found
+error: 2021-11-12 10:34:09 AM POST /auth/userlogin 401 - 170.375 ms - message: Incorrect email or password
+error: 2021-11-12 10:35:08 AM GET /auth/info 401 - 0.396 ms - message: route not found
+error: 2021-11-12 10:35:08 AM GET /api/v1/category 401 - 0.385 ms - message: route not found
+error: 2021-11-12 10:35:08 AM GET /api/v1/shop 401 - 0.431 ms - message: route not found
+error: 2021-11-12 10:35:59 AM GET /auth/info 401 - 0.587 ms - message: route not found
+error: 2021-11-12 10:36:00 AM GET /api/v1/category 401 - 0.390 ms - message: route not found
+error: 2021-11-12 10:36:00 AM GET /api/v1/shop 401 - 0.392 ms - message: route not found
+error: 2021-11-12 10:36:45 AM GET /auth/info 401 - 0.428 ms - message: route not found
+error: 2021-11-12 10:36:45 AM GET /api/v1/category 401 - 0.395 ms - message: route not found
+error: 2021-11-12 10:36:45 AM GET /api/v1/shop 401 - 0.761 ms - message: route not found
+error: 2021-11-12 10:37:24 AM GET /auth/info 401 - 1.888 ms - message: route not found
+error: 2021-11-12 10:37:24 AM GET /api/v1/category 401 - 0.897 ms - message: route not found
+error: 2021-11-12 10:37:24 AM GET /api/v1/shop 401 - 1.169 ms - message: route not found
+error: 2021-11-12 10:38:54 AM GET /auth/info 401 - 0.714 ms - message: route not found
+error: 2021-11-12 10:38:55 AM GET /api/v1/category 401 - 0.636 ms - message: route not found
+error: 2021-11-12 10:38:55 AM GET /api/v1/shop 401 - 0.810 ms - message: route not found
+error: 2021-11-12 10:39:10 AM GET /auth/info 401 - 0.464 ms - message: route not found
+error: 2021-11-12 10:39:11 AM GET /api/v1/category 401 - 0.508 ms - message: route not found
+error: 2021-11-12 10:39:11 AM GET /api/v1/shop 401 - 0.538 ms - message: route not found
+error: 2021-11-12 10:39:45 AM GET /auth/info 401 - 0.429 ms - message: route not found
+error: 2021-11-12 10:39:45 AM GET /api/v1/category 401 - 0.483 ms - message: route not found
+error: 2021-11-12 10:39:45 AM GET /api/v1/shop 401 - 0.443 ms - message: route not found
+error: 2021-11-12 10:42:42 AM GET /api/v1/category 401 - 0.497 ms - message: route not found
+error: 2021-11-12 10:42:42 AM GET /api/v1/shop 401 - 0.449 ms - message: route not found
+error: 2021-11-12 10:43:15 AM GET /auth/info 401 - 0.431 ms - message: route not found
+error: 2021-11-12 10:43:15 AM GET /api/v1/category 401 - 0.434 ms - message: route not found
+error: 2021-11-12 10:43:15 AM GET /api/v1/shop 401 - 0.414 ms - message: route not found
+error: 2021-11-12 10:44:37 AM GET /auth/info 401 - 0.417 ms - message: route not found
+error: 2021-11-12 10:44:37 AM GET /api/v1/category 401 - 1.172 ms - message: route not found
+error: 2021-11-12 10:44:37 AM GET /api/v1/shop 401 - 0.541 ms - message: route not found
+error: 2021-11-12 10:44:42 AM GET /auth/info 401 - 0.643 ms - message: route not found
+error: 2021-11-12 10:44:43 AM GET /api/v1/category 401 - 0.384 ms - message: route not found
+error: 2021-11-12 10:44:43 AM GET /api/v1/shop 401 - 0.484 ms - message: route not found
+error: 2021-11-12 10:45:08 AM GET /auth/info 401 - 0.392 ms - message: route not found
+error: 2021-11-12 10:45:08 AM GET /api/v1/category 401 - 0.413 ms - message: route not found
+error: 2021-11-12 10:45:08 AM GET /api/v1/shop 401 - 2.508 ms - message: route not found
+error: 2021-11-12 10:45:22 AM GET /auth/info 401 - 0.401 ms - message: route not found
+error: 2021-11-12 10:45:22 AM GET /api/v1/category 401 - 0.555 ms - message: route not found
+error: 2021-11-12 10:45:22 AM GET /api/v1/shop 401 - 2.127 ms - message: route not found
+error: 2021-11-12 10:45:42 AM GET /auth/info 401 - 0.441 ms - message: route not found
+error: 2021-11-12 10:45:42 AM GET /api/v1/category 401 - 0.442 ms - message: route not found
+error: 2021-11-12 10:45:42 AM GET /api/v1/shop 401 - 0.886 ms - message: route not found
+error: 2021-11-12 10:45:59 AM GET /auth/info 401 - 0.359 ms - message: route not found
+error: 2021-11-12 10:45:59 AM GET /api/v1/category 401 - 0.953 ms - message: route not found
+error: 2021-11-12 10:45:59 AM GET /api/v1/shop 401 - 0.387 ms - message: route not found
+error: 2021-11-12 10:46:06 AM GET /auth/info 401 - 0.369 ms - message: route not found
+error: 2021-11-12 10:46:06 AM GET /api/v1/category 401 - 0.797 ms - message: route not found
+error: 2021-11-12 10:46:06 AM GET /api/v1/shop 401 - 0.394 ms - message: route not found
+error: 2021-11-12 10:46:26 AM GET /auth/info 401 - 1.200 ms - message: route not found
+error: 2021-11-12 10:46:26 AM GET /api/v1/category 401 - 0.434 ms - message: route not found
+error: 2021-11-12 10:46:26 AM GET /api/v1/shop 401 - 0.767 ms - message: route not found
+error: 2021-11-12 10:46:40 AM GET /auth/info 401 - 0.424 ms - message: route not found
+error: 2021-11-12 10:46:40 AM GET /api/v1/category 401 - 1.213 ms - message: route not found
+error: 2021-11-12 10:46:40 AM GET /api/v1/shop 401 - 0.442 ms - message: route not found
+error: 2021-11-12 10:46:49 AM GET /auth/info 401 - 0.366 ms - message: route not found
+error: 2021-11-12 10:46:49 AM GET /api/v1/category 401 - 0.954 ms - message: route not found
+error: 2021-11-12 10:46:49 AM GET /api/v1/shop 401 - 0.377 ms - message: route not found
+error: 2021-11-12 10:47:02 AM GET /auth/info 401 - 0.361 ms - message: route not found
+error: 2021-11-12 10:47:02 AM GET /api/v1/category 401 - 0.436 ms - message: route not found
+error: 2021-11-12 10:47:02 AM GET /api/v1/shop 401 - 0.857 ms - message: route not found
+error: 2021-11-12 10:47:29 AM GET /auth/info 401 - 0.567 ms - message: route not found
+error: 2021-11-12 10:47:29 AM GET /api/v1/category 401 - 0.383 ms - message: route not found
+error: 2021-11-12 10:47:29 AM GET /api/v1/shop 401 - 0.372 ms - message: route not found
+error: 2021-11-12 10:47:47 AM GET /auth/info 401 - 0.387 ms - message: route not found
+error: 2021-11-12 10:47:47 AM GET /api/v1/category 401 - 0.379 ms - message: route not found
+error: 2021-11-12 10:47:47 AM GET /api/v1/shop 401 - 0.430 ms - message: route not found
+error: 2021-11-12 10:47:59 AM GET /auth/info 401 - 0.769 ms - message: route not found
+error: 2021-11-12 10:47:59 AM GET /api/v1/category 401 - 0.639 ms - message: route not found
+error: 2021-11-12 10:47:59 AM GET /api/v1/shop 401 - 1.749 ms - message: route not found
+error: 2021-11-12 10:48:16 AM GET /auth/info 401 - 0.368 ms - message: route not found
+error: 2021-11-12 10:48:16 AM GET /api/v1/category 401 - 0.476 ms - message: route not found
+error: 2021-11-12 10:48:16 AM GET /api/v1/shop 401 - 0.544 ms - message: route not found
+error: 2021-11-12 10:48:24 AM GET /auth/info 401 - 0.365 ms - message: route not found
+error: 2021-11-12 10:48:24 AM GET /api/v1/category 401 - 1.091 ms - message: route not found
+error: 2021-11-12 10:48:24 AM GET /api/v1/shop 401 - 0.768 ms - message: route not found
+error: 2021-11-12 10:48:40 AM GET /auth/info 401 - 0.622 ms - message: route not found
+error: 2021-11-12 10:48:40 AM GET /api/v1/category 401 - 0.671 ms - message: route not found
+error: 2021-11-12 10:48:40 AM GET /api/v1/shop 401 - 0.938 ms - message: route not found
+error: 2021-11-12 10:48:45 AM GET /auth/info 401 - 0.480 ms - message: route not found
+error: 2021-11-12 10:48:46 AM GET /api/v1/category 401 - 0.926 ms - message: route not found
+error: 2021-11-12 10:48:46 AM GET /api/v1/shop 401 - 1.013 ms - message: route not found
+error: 2021-11-12 10:49:13 AM GET /auth/info 401 - 0.455 ms - message: route not found
+error: 2021-11-12 10:49:13 AM GET /api/v1/category 401 - 0.375 ms - message: route not found
+error: 2021-11-12 10:49:13 AM GET /api/v1/shop 401 - 0.624 ms - message: route not found
+error: 2021-11-12 10:50:14 AM GET /auth/info 401 - 0.359 ms - message: route not found
+error: 2021-11-12 10:50:15 AM GET /api/v1/category 401 - 0.372 ms - message: route not found
+error: 2021-11-12 10:50:15 AM GET /api/v1/shop 401 - 0.666 ms - message: route not found
+error: 2021-11-12 10:50:48 AM GET /auth/info 401 - 0.348 ms - message: route not found
+error: 2021-11-12 10:50:48 AM GET /api/v1/category 401 - 0.511 ms - message: route not found
+error: 2021-11-12 10:50:48 AM GET /api/v1/shop 401 - 0.875 ms - message: route not found
+error: 2021-11-12 10:51:10 AM GET /auth/info 401 - 0.354 ms - message: route not found
+error: 2021-11-12 10:51:10 AM GET /api/v1/category 401 - 0.383 ms - message: route not found
+error: 2021-11-12 10:51:10 AM GET /api/v1/shop 401 - 0.388 ms - message: route not found
+error: 2021-11-12 10:51:16 AM GET /auth/info 401 - 0.581 ms - message: route not found
+error: 2021-11-12 10:51:16 AM GET /api/v1/category 401 - 0.371 ms - message: route not found
+error: 2021-11-12 10:51:16 AM GET /api/v1/shop 401 - 0.456 ms - message: route not found
+error: 2021-11-12 10:51:26 AM GET /auth/info 401 - 0.351 ms - message: route not found
+error: 2021-11-12 10:51:26 AM GET /api/v1/category 401 - 1.178 ms - message: route not found
+error: 2021-11-12 10:51:26 AM GET /api/v1/shop 401 - 0.633 ms - message: route not found
+error: 2021-11-12 10:51:53 AM GET /auth/info 401 - 0.516 ms - message: route not found
+error: 2021-11-12 10:51:53 AM GET /api/v1/category 401 - 0.405 ms - message: route not found
+error: 2021-11-12 10:51:53 AM GET /api/v1/shop 401 - 0.837 ms - message: route not found
+error: 2021-11-12 10:52:04 AM GET /auth/info 401 - 0.446 ms - message: route not found
+error: 2021-11-12 10:52:04 AM GET /api/v1/category 401 - 0.440 ms - message: route not found
+error: 2021-11-12 10:52:04 AM GET /api/v1/shop 401 - 0.871 ms - message: route not found
+error: 2021-11-12 10:52:25 AM GET /auth/info 401 - 0.652 ms - message: route not found
+error: 2021-11-12 10:52:25 AM GET /api/v1/category 401 - 0.369 ms - message: route not found
+error: 2021-11-12 10:52:25 AM GET /api/v1/shop 401 - 0.599 ms - message: route not found
+error: 2021-11-12 10:52:33 AM GET /auth/info 401 - 0.426 ms - message: route not found
+error: 2021-11-12 10:52:33 AM GET /api/v1/category 401 - 0.389 ms - message: route not found
+error: 2021-11-12 10:52:33 AM GET /api/v1/shop 401 - 0.552 ms - message: route not found
+error: 2021-11-12 10:52:43 AM GET /auth/info 401 - 0.385 ms - message: route not found
+error: 2021-11-12 10:52:43 AM GET /api/v1/category 401 - 0.989 ms - message: route not found
+error: 2021-11-12 10:52:43 AM GET /api/v1/shop 401 - 0.494 ms - message: route not found
+error: 2021-11-12 10:53:56 AM GET /auth/info 401 - 0.353 ms - message: route not found
+error: 2021-11-12 10:53:56 AM GET /api/v1/category 401 - 0.467 ms - message: route not found
+error: 2021-11-12 10:53:56 AM GET /api/v1/shop 401 - 0.799 ms - message: route not found
+error: 2021-11-12 10:54:04 AM GET /auth/info 401 - 0.418 ms - message: route not found
+error: 2021-11-12 10:54:04 AM GET /api/v1/category 401 - 0.522 ms - message: route not found
+error: 2021-11-12 10:54:04 AM GET /api/v1/shop 401 - 0.892 ms - message: route not found
+error: 2021-11-12 10:54:10 AM GET /auth/info 401 - 0.569 ms - message: route not found
+error: 2021-11-12 10:54:10 AM GET /api/v1/category 401 - 0.426 ms - message: route not found
+error: 2021-11-12 10:54:10 AM GET /api/v1/shop 401 - 0.489 ms - message: route not found
+error: 2021-11-12 10:54:16 AM GET /auth/info 401 - 0.346 ms - message: route not found
+error: 2021-11-12 10:54:16 AM GET /api/v1/category 401 - 0.464 ms - message: route not found
+error: 2021-11-12 10:54:16 AM GET /api/v1/shop 401 - 0.662 ms - message: route not found
+error: 2021-11-12 10:54:19 AM GET /auth/info 401 - 0.442 ms - message: route not found
+error: 2021-11-12 10:54:19 AM GET /api/v1/category 401 - 1.470 ms - message: route not found
+error: 2021-11-12 10:54:19 AM GET /api/v1/shop 401 - 1.270 ms - message: route not found
+error: 2021-11-12 10:55:07 AM GET /auth/info 401 - 0.486 ms - message: route not found
+error: 2021-11-12 10:55:07 AM GET /api/v1/category 401 - 0.568 ms - message: route not found
+error: 2021-11-12 10:55:07 AM GET /api/v1/shop 401 - 0.944 ms - message: route not found
+error: 2021-11-12 10:55:33 AM GET /auth/info 401 - 0.457 ms - message: route not found
+error: 2021-11-12 10:55:33 AM GET /api/v1/category 401 - 0.591 ms - message: route not found
+error: 2021-11-12 10:55:33 AM GET /api/v1/shop 401 - 0.529 ms - message: route not found
+error: 2021-11-12 10:55:57 AM GET /auth/info 401 - 0.361 ms - message: route not found
+error: 2021-11-12 10:55:57 AM GET /api/v1/category 401 - 0.369 ms - message: route not found
+error: 2021-11-12 10:55:57 AM GET /api/v1/shop 401 - 0.410 ms - message: route not found
+error: 2021-11-12 10:56:02 AM GET /auth/info 401 - 0.358 ms - message: route not found
+error: 2021-11-12 10:56:02 AM GET /api/v1/category 401 - 0.713 ms - message: route not found
+error: 2021-11-12 10:56:02 AM GET /api/v1/shop 401 - 0.811 ms - message: route not found
+error: 2021-11-12 10:56:06 AM GET /auth/info 401 - 0.370 ms - message: route not found
+error: 2021-11-12 10:56:06 AM GET /api/v1/category 401 - 0.459 ms - message: route not found
+error: 2021-11-12 10:56:06 AM GET /api/v1/shop 401 - 0.671 ms - message: route not found
+error: 2021-11-12 10:56:13 AM GET /auth/info 401 - 0.463 ms - message: route not found
+error: 2021-11-12 10:56:13 AM GET /api/v1/category 401 - 0.373 ms - message: route not found
+error: 2021-11-12 10:56:13 AM GET /api/v1/shop 401 - 0.414 ms - message: route not found
+error: 2021-11-12 10:56:18 AM GET /auth/info 401 - 0.372 ms - message: route not found
+error: 2021-11-12 10:56:18 AM GET /api/v1/category 401 - 0.580 ms - message: route not found
+error: 2021-11-12 10:56:19 AM GET /api/v1/shop 401 - 1.722 ms - message: route not found
+error: 2021-11-12 10:56:42 AM GET /auth/info 401 - 0.382 ms - message: route not found
+error: 2021-11-12 10:56:43 AM GET /api/v1/category 401 - 0.377 ms - message: route not found
+error: 2021-11-12 10:56:43 AM GET /api/v1/shop 401 - 0.384 ms - message: route not found
+error: 2021-11-12 10:56:56 AM GET /auth/info 401 - 0.360 ms - message: route not found
+error: 2021-11-12 10:56:56 AM GET /api/v1/category 401 - 0.551 ms - message: route not found
+error: 2021-11-12 10:56:56 AM GET /api/v1/shop 401 - 0.371 ms - message: route not found
+error: 2021-11-12 10:57:00 AM GET /auth/info 401 - 0.377 ms - message: route not found
+error: 2021-11-12 10:57:00 AM GET /api/v1/category 401 - 0.378 ms - message: route not found
+error: 2021-11-12 10:57:00 AM GET /api/v1/shop 401 - 0.576 ms - message: route not found
+error: 2021-11-12 11:04:26 AM GET /auth/info 401 - 0.456 ms - message: route not found
+error: 2021-11-12 11:04:26 AM GET /api/v1/category 401 - 0.403 ms - message: route not found
+error: 2021-11-12 11:04:26 AM GET /api/v1/shop 401 - 1.196 ms - message: route not found
+error: 2021-11-12 11:04:40 AM GET /auth/info 401 - 0.411 ms - message: route not found
+error: 2021-11-12 11:04:40 AM GET /api/v1/category 401 - 0.601 ms - message: route not found
+error: 2021-11-12 11:04:40 AM GET /api/v1/shop 401 - 0.670 ms - message: route not found
+error: 2021-11-12 11:04:49 AM GET /auth/info 401 - 0.355 ms - message: route not found
+error: 2021-11-12 11:04:49 AM GET /api/v1/category 401 - 0.420 ms - message: route not found
+error: 2021-11-12 11:04:49 AM GET /api/v1/shop 401 - 0.427 ms - message: route not found
+error: 2021-11-12 11:05:01 AM GET /auth/info 401 - 0.923 ms - message: route not found
+error: 2021-11-12 11:05:02 AM GET /api/v1/category 401 - 0.421 ms - message: route not found
+error: 2021-11-12 11:05:02 AM GET /api/v1/shop 401 - 0.890 ms - message: route not found
+error: 2021-11-12 11:05:10 AM GET /auth/info 401 - 0.427 ms - message: route not found
+error: 2021-11-12 11:05:11 AM GET /api/v1/category 401 - 0.473 ms - message: route not found
+error: 2021-11-12 11:05:11 AM GET /api/v1/shop 401 - 0.708 ms - message: route not found
+error: 2021-11-12 01:11:40 PM DELETE /api/v1/category/6151ee07c11949419818e72e 400 - 211.594 ms - message: categories validation failed: image: Path `image` is required.
+error: 2021-11-12 01:42:33 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 446.997 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 01:43:53 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 415.312 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 01:44:12 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 418.098 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 01:44:59 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 409.614 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 01:45:10 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 372.377 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 01:45:47 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 432.337 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 02:18:00 PM DELETE /api/v1/category/6151ee07c11949419818e72e 400 - 233.278 ms - message: categories validation failed: image: Path `image` is required.

@@ -14959,3 +14959,1056 @@ request: 2021-11-11 04:44:44 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 2
 request: 2021-11-11 04:44:48 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 211.972 ms
 request: 2021-11-11 04:44:48 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 51.418 ms
 request: 2021-11-11 04:44:48 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 49.331 ms
+info: 2021-11-12 08:10:15 AM Grid connected to db
+info: 2021-11-12 08:10:15 AM MongoDB successfully connected
+info: 2021-11-12 08:10:15 AM Listening on port 5000 (development)
+info: 2021-11-12 08:12:03 AM MongoDB successfully connected
+info: 2021-11-12 08:12:03 AM Listening on port 5000 (development)
+info: 2021-11-12 08:12:03 AM Grid connected to db
+error: 2021-11-12 08:17:50 AM POST /auth/login 401 - 73.427 ms - message: Incorrect email or password
+request: 2021-11-12 08:17:55 AM POST /auth/login 200 - 402.871 ms
+request: 2021-11-12 08:17:56 AM GET /auth/info 304 - 489.422 ms
+request: 2021-11-12 08:17:56 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 53.568 ms
+request: 2021-11-12 08:17:56 AM GET /auth/info 304 - 424.455 ms
+request: 2021-11-12 08:17:57 AM GET /auth/info 304 - 421.789 ms
+request: 2021-11-12 08:17:57 AM GET /api/v1/user 304 - 336.004 ms
+request: 2021-11-12 08:17:58 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.323 ms
+request: 2021-11-12 08:17:58 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 377.682 ms
+request: 2021-11-12 08:17:59 AM GET /api/v1/shop 304 - 270.294 ms
+request: 2021-11-12 08:17:59 AM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.074 ms
+request: 2021-11-12 08:17:59 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 322.857 ms
+request: 2021-11-12 08:17:59 AM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.009 ms
+request: 2021-11-12 08:18:00 AM GET /api/v1/user 304 - 312.447 ms
+request: 2021-11-12 08:18:04 AM GET /api/v1/user 304 - 350.914 ms
+request: 2021-11-12 08:21:16 AM GET /api/v1/user 304 - 321.188 ms
+request: 2021-11-12 08:21:29 AM GET /api/v1/user 304 - 325.798 ms
+request: 2021-11-12 08:22:53 AM GET /api/v1/user 304 - 319.202 ms
+request: 2021-11-12 08:23:15 AM GET /api/v1/user 304 - 313.963 ms
+request: 2021-11-12 08:23:18 AM GET /api/v1/user 304 - 309.477 ms
+request: 2021-11-12 08:23:22 AM GET /api/v1/user 304 - 312.190 ms
+request: 2021-11-12 08:25:46 AM GET /api/v1/user 304 - 328.270 ms
+request: 2021-11-12 08:25:51 AM GET /api/v1/user 304 - 320.597 ms
+request: 2021-11-12 08:26:24 AM GET /api/v1/user 304 - 335.328 ms
+request: 2021-11-12 08:26:27 AM GET /api/v1/user 304 - 319.392 ms
+request: 2021-11-12 08:26:30 AM GET /api/v1/user 304 - 312.932 ms
+request: 2021-11-12 08:28:22 AM GET /auth/info 304 - 437.106 ms
+request: 2021-11-12 08:28:23 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.223 ms
+request: 2021-11-12 08:30:42 AM GET /api/v1/user 304 - 325.797 ms
+request: 2021-11-12 08:30:42 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.304 ms
+request: 2021-11-12 08:30:42 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.671 ms
+request: 2021-11-12 08:30:45 AM GET /api/v1/user 304 - 321.777 ms
+request: 2021-11-12 08:30:48 AM GET /api/v1/user 304 - 310.892 ms
+request: 2021-11-12 08:31:39 AM GET /api/v1/user 304 - 315.035 ms
+request: 2021-11-12 08:32:09 AM GET /api/v1/user 304 - 318.279 ms
+request: 2021-11-12 08:32:32 AM GET /api/v1/user 304 - 312.333 ms
+request: 2021-11-12 08:32:41 AM GET /api/v1/user 304 - 336.421 ms
+request: 2021-11-12 08:32:44 AM GET /api/v1/user 304 - 316.417 ms
+request: 2021-11-12 08:33:17 AM GET /api/v1/user 304 - 312.530 ms
+request: 2021-11-12 08:34:01 AM GET /auth/info 304 - 421.399 ms
+request: 2021-11-12 08:34:01 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.936 ms
+request: 2021-11-12 08:34:04 AM GET /api/v1/user 304 - 322.664 ms
+request: 2021-11-12 08:34:04 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 51.276 ms
+request: 2021-11-12 08:34:04 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.807 ms
+request: 2021-11-12 08:34:26 AM GET /api/v1/user 304 - 314.753 ms
+request: 2021-11-12 08:34:29 AM GET /api/v1/user 304 - 318.078 ms
+request: 2021-11-12 08:35:23 AM GET /auth/info 200 - 412.972 ms
+request: 2021-11-12 08:35:23 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 52.261 ms
+request: 2021-11-12 08:35:23 AM GET /auth/info 304 - 422.313 ms
+request: 2021-11-12 08:35:48 AM GET /auth/info 200 - 416.605 ms
+request: 2021-11-12 08:35:48 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.897 ms
+request: 2021-11-12 08:35:48 AM GET /auth/info 304 - 430.214 ms
+request: 2021-11-12 08:35:59 AM GET /api/v1/user 200 - 308.981 ms
+request: 2021-11-12 08:36:00 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 53.018 ms
+request: 2021-11-12 08:36:00 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.249 ms
+request: 2021-11-12 08:41:42 AM POST /auth/login 200 - 320.703 ms
+request: 2021-11-12 08:41:42 AM GET /auth/info 200 - 452.149 ms
+request: 2021-11-12 08:41:43 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.750 ms
+request: 2021-11-12 08:41:43 AM GET /auth/info 304 - 431.407 ms
+request: 2021-11-12 08:41:43 AM GET /auth/info 304 - 427.630 ms
+request: 2021-11-12 08:41:45 AM GET /api/v1/user 200 - 323.866 ms
+request: 2021-11-12 08:41:46 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 53.272 ms
+request: 2021-11-12 08:41:46 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 70.464 ms
+request: 2021-11-12 08:42:07 AM GET /api/v1/user 304 - 335.463 ms
+request: 2021-11-12 08:43:00 AM GET /api/v1/user 304 - 313.325 ms
+request: 2021-11-12 08:43:17 AM GET /api/v1/user 304 - 331.260 ms
+request: 2021-11-12 08:43:27 AM GET /api/v1/user 304 - 310.095 ms
+request: 2021-11-12 08:43:51 AM GET /api/v1/user 304 - 311.536 ms
+error: 2021-11-12 08:44:00 AM POST /api/v1/user 400 - 525.126 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", type: `-1` is not a valid enum value for path `type`.
+request: 2021-11-12 08:44:24 AM GET /api/v1/user 304 - 310.777 ms
+request: 2021-11-12 08:45:13 AM GET /api/v1/user 304 - 400.525 ms
+error: 2021-11-12 08:46:18 AM POST /api/v1/user 400 - 234.075 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", type: `-1` is not a valid enum value for path `type`.
+info: 2021-11-12 08:48:01 AM Grid connected to db
+info: 2021-11-12 08:48:01 AM MongoDB successfully connected
+info: 2021-11-12 08:48:01 AM Listening on port 5000 (development)
+info: 2021-11-12 08:48:13 AM Grid connected to db
+info: 2021-11-12 08:48:13 AM MongoDB successfully connected
+info: 2021-11-12 08:48:13 AM Listening on port 5000 (development)
+error: 2021-11-12 08:48:24 AM POST /api/v1/user 400 - 235.736 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany", type: `-1` is not a valid enum value for path `type`.
+info: 2021-11-12 08:49:20 AM Grid connected to db
+info: 2021-11-12 08:49:20 AM MongoDB successfully connected
+info: 2021-11-12 08:49:20 AM Listening on port 5000 (development)
+error: 2021-11-12 08:49:22 AM POST /api/v1/user 400 - 237.281 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:49:59 AM POST /api/v1/user 400 - 227.557 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:52:09 AM POST /api/v1/user 400 - 208.838 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+info: 2021-11-12 08:52:38 AM MongoDB successfully connected
+info: 2021-11-12 08:52:38 AM Listening on port 5000 (development)
+info: 2021-11-12 08:52:38 AM Grid connected to db
+request: 2021-11-12 08:52:44 AM GET /api/v1/user 304 - 341.905 ms
+error: 2021-11-12 08:52:54 AM POST /api/v1/user 400 - 258.556 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+info: 2021-11-12 08:53:36 AM Grid connected to db
+info: 2021-11-12 08:53:36 AM MongoDB successfully connected
+info: 2021-11-12 08:53:36 AM Listening on port 5000 (development)
+error: 2021-11-12 08:55:15 AM POST /api/v1/user 400 - 237.762 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:56:21 AM POST /api/v1/user 400 - 216.380 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 08:56:28 AM POST /api/v1/user 400 - 221.381 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+request: 2021-11-12 08:56:44 AM POST /api/v1/user 201 - 335.518 ms
+error: 2021-11-12 08:56:51 AM POST /api/v1/user 400 - 281.299 ms - message: Email already taken
+info: 2021-11-12 08:57:21 AM Grid connected to db
+info: 2021-11-12 08:57:21 AM MongoDB successfully connected
+info: 2021-11-12 08:57:21 AM Listening on port 5000 (development)
+info: 2021-11-12 08:57:28 AM Grid connected to db
+info: 2021-11-12 08:57:28 AM MongoDB successfully connected
+info: 2021-11-12 08:57:28 AM Listening on port 5000 (development)
+info: 2021-11-12 08:57:33 AM MongoDB successfully connected
+info: 2021-11-12 08:57:33 AM Listening on port 5000 (development)
+info: 2021-11-12 08:57:33 AM Grid connected to db
+request: 2021-11-12 08:57:52 AM GET /api/v1/user 304 - 357.937 ms
+request: 2021-11-12 08:57:52 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 312.954 ms
+request: 2021-11-12 08:57:52 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 52.992 ms
+request: 2021-11-12 08:57:52 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 311.597 ms
+error: 2021-11-12 08:58:10 AM POST /api/v1/user 400 - 217.584 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+request: 2021-11-12 08:58:26 AM GET /auth/info 304 - 417.125 ms
+request: 2021-11-12 08:58:26 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 57.859 ms
+request: 2021-11-12 08:58:43 AM GET /api/v1/shop 200 - 272.997 ms
+request: 2021-11-12 08:58:43 AM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 49.459 ms
+request: 2021-11-12 08:58:43 AM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.585 ms
+request: 2021-11-12 08:58:43 AM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 49.196 ms
+request: 2021-11-12 08:58:45 AM GET /api/v1/user 304 - 338.067 ms
+request: 2021-11-12 08:58:45 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.546 ms
+request: 2021-11-12 08:58:45 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 49.413 ms
+request: 2021-11-12 08:59:05 AM POST /api/v1/user 201 - 315.007 ms
+request: 2021-11-12 08:59:06 AM GET /api/v1/user 200 - 357.750 ms
+request: 2021-11-12 08:59:06 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 108.260 ms
+request: 2021-11-12 08:59:06 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 109.013 ms
+request: 2021-11-12 08:59:16 AM GET /api/v1/user 304 - 329.043 ms
+error: 2021-11-12 08:59:38 AM POST /api/v1/user 400 - 255.673 ms - message: Email already taken
+error: 2021-11-12 09:00:08 AM POST /api/v1/user 400 - 253.639 ms - message: Email already taken
+request: 2021-11-12 09:01:01 AM GET /api/v1/user 304 - 314.880 ms
+request: 2021-11-12 09:01:01 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 51.122 ms
+request: 2021-11-12 09:01:01 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.015 ms
+error: 2021-11-12 09:01:20 AM POST /api/v1/user 400 - 266.979 ms - message: Email already taken
+error: 2021-11-12 09:01:39 AM POST /api/v1/user 400 - 255.797 ms - message: Email already taken
+error: 2021-11-12 09:02:12 AM POST /api/v1/user 400 - 257.986 ms - message: Email already taken
+request: 2021-11-12 09:03:13 AM GET /api/v1/user 304 - 313.195 ms
+error: 2021-11-12 09:03:32 AM POST /api/v1/user 400 - 259.423 ms - message: Email already taken
+request: 2021-11-12 09:04:11 AM GET /api/v1/user 304 - 312.082 ms
+error: 2021-11-12 09:04:24 AM POST /api/v1/user 400 - 293.928 ms - message: Email already taken
+error: 2021-11-12 09:04:52 AM POST /api/v1/user 400 - 267.075 ms - message: Email already taken
+request: 2021-11-12 09:06:06 AM GET /api/v1/user 304 - 314.410 ms
+error: 2021-11-12 09:06:17 AM POST /api/v1/user 400 - 254.020 ms - message: Email already taken
+request: 2021-11-12 09:08:15 AM GET /api/v1/user 304 - 316.778 ms
+error: 2021-11-12 09:08:29 AM POST /api/v1/user 400 - 255.659 ms - message: Email already taken
+request: 2021-11-12 09:08:51 AM GET /api/v1/user 304 - 339.688 ms
+request: 2021-11-12 09:08:54 AM GET /auth/info 304 - 412.909 ms
+request: 2021-11-12 09:08:55 AM GET /auth/info 304 - 414.079 ms
+request: 2021-11-12 09:08:55 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.638 ms
+request: 2021-11-12 09:08:56 AM GET /api/v1/user 304 - 316.755 ms
+request: 2021-11-12 09:08:56 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.743 ms
+request: 2021-11-12 09:08:56 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 49.702 ms
+error: 2021-11-12 09:09:13 AM POST /api/v1/user 400 - 251.469 ms - message: Email already taken
+error: 2021-11-12 09:10:25 AM POST /api/v1/user 400 - 252.372 ms - message: Email already taken
+error: 2021-11-12 09:10:40 AM POST /api/v1/user 400 - 260.392 ms - message: Email already taken
+request: 2021-11-12 09:10:56 AM GET /api/v1/user 304 - 308.525 ms
+error: 2021-11-12 09:11:07 AM POST /api/v1/user 400 - 251.961 ms - message: Email already taken
+request: 2021-11-12 09:11:08 AM GET /api/v1/user 304 - 327.257 ms
+info: 2021-11-12 09:11:28 AM MongoDB successfully connected
+info: 2021-11-12 09:11:28 AM Listening on port 5000 (development)
+info: 2021-11-12 09:11:28 AM Grid connected to db
+info: 2021-11-12 09:12:32 AM Grid connected to db
+info: 2021-11-12 09:12:32 AM MongoDB successfully connected
+info: 2021-11-12 09:12:32 AM Listening on port 5000 (development)
+info: 2021-11-12 09:12:48 AM Grid connected to db
+info: 2021-11-12 09:12:48 AM MongoDB successfully connected
+info: 2021-11-12 09:12:48 AM Listening on port 5000 (development)
+error: 2021-11-12 09:13:32 AM POST /api/v1/user 500 - 429.948 ms - message: E11000 duplicate key error collection: GraduationProjectDB.users index: phoneNumber_1 dup key: { phoneNumber: "123" }
+request: 2021-11-12 09:13:33 AM GET /api/v1/user 304 - 328.178 ms
+request: 2021-11-12 09:14:41 AM POST /api/v1/user 201 - 363.289 ms
+request: 2021-11-12 09:14:42 AM GET /api/v1/user 200 - 535.402 ms
+info: 2021-11-12 09:15:19 AM Grid connected to db
+info: 2021-11-12 09:15:19 AM MongoDB successfully connected
+info: 2021-11-12 09:15:19 AM Listening on port 5000 (development)
+info: 2021-11-12 09:15:34 AM MongoDB successfully connected
+info: 2021-11-12 09:15:34 AM Listening on port 5000 (development)
+info: 2021-11-12 09:15:34 AM Grid connected to db
+info: 2021-11-12 09:16:03 AM MongoDB successfully connected
+info: 2021-11-12 09:16:03 AM Listening on port 5000 (development)
+info: 2021-11-12 09:16:03 AM Grid connected to db
+info: 2021-11-12 09:16:06 AM Grid connected to db
+info: 2021-11-12 09:16:06 AM MongoDB successfully connected
+info: 2021-11-12 09:16:06 AM Listening on port 5000 (development)
+error: 2021-11-12 09:16:23 AM POST /api/v1/user 400 - 345.978 ms - message: Phonenumber is already taken
+request: 2021-11-12 09:16:24 AM GET /api/v1/user 304 - 320.831 ms
+request: 2021-11-12 09:18:45 AM GET /api/v1/user 304 - 323.948 ms
+request: 2021-11-12 09:19:33 AM GET /api/v1/user 304 - 346.172 ms
+request: 2021-11-12 09:19:33 AM GET /api/v1/user 304 - 332.022 ms
+error: 2021-11-12 09:19:36 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 500 - 382.322 ms - message: Cannot read property 'id' of null
+request: 2021-11-12 09:19:43 AM GET /api/v1/user 304 - 323.295 ms
+request: 2021-11-12 09:19:44 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 200 - 218.915 ms
+request: 2021-11-12 09:19:54 AM GET /api/v1/user 304 - 330.680 ms
+request: 2021-11-12 09:19:57 AM GET /api/v1/user 304 - 336.252 ms
+request: 2021-11-12 09:20:18 AM GET /api/v1/user 304 - 336.596 ms
+error: 2021-11-12 09:20:20 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 500 - 369.883 ms - message: Cannot read property 'id' of null
+info: 2021-11-12 09:20:50 AM MongoDB successfully connected
+info: 2021-11-12 09:20:50 AM Listening on port 5000 (development)
+info: 2021-11-12 09:20:50 AM Grid connected to db
+info: 2021-11-12 09:20:58 AM Grid connected to db
+info: 2021-11-12 09:20:58 AM MongoDB successfully connected
+info: 2021-11-12 09:20:58 AM Listening on port 5000 (development)
+request: 2021-11-12 09:21:05 AM GET /api/v1/user 304 - 379.302 ms
+request: 2021-11-12 09:21:06 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 215.112 ms
+error: 2021-11-12 09:21:08 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 400 - 409.520 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+request: 2021-11-12 09:21:43 AM GET /api/v1/user 304 - 338.406 ms
+request: 2021-11-12 09:21:43 AM GET /api/v1/user 304 - 335.663 ms
+request: 2021-11-12 09:21:51 AM GET /api/v1/user 304 - 319.297 ms
+request: 2021-11-12 09:21:56 AM GET /api/v1/user 304 - 331.602 ms
+error: 2021-11-12 09:21:59 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 404 - 214.995 ms - message: Address not found
+request: 2021-11-12 09:22:20 AM GET /api/v1/user 304 - 319.961 ms
+request: 2021-11-12 09:22:21 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 217.956 ms
+request: 2021-11-12 09:22:23 AM GET /api/v1/user 304 - 324.258 ms
+request: 2021-11-12 09:22:37 AM GET /api/v1/user 304 - 375.635 ms
+error: 2021-11-12 09:22:39 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 400 - 364.099 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+info: 2021-11-12 09:30:01 AM Grid connected to db
+info: 2021-11-12 09:30:01 AM MongoDB successfully connected
+info: 2021-11-12 09:30:01 AM Listening on port 5000 (development)
+request: 2021-11-12 09:30:18 AM GET /api/v1/user 304 - 378.248 ms
+request: 2021-11-12 09:30:19 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 215.351 ms
+error: 2021-11-12 09:30:21 AM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 400 - 386.796 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+info: 2021-11-12 09:31:38 AM Grid connected to db
+info: 2021-11-12 09:31:38 AM MongoDB successfully connected
+info: 2021-11-12 09:31:38 AM Listening on port 5000 (development)
+info: 2021-11-12 09:32:58 AM MongoDB successfully connected
+info: 2021-11-12 09:32:58 AM Listening on port 5000 (development)
+info: 2021-11-12 09:32:58 AM Grid connected to db
+request: 2021-11-12 09:33:01 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 274.740 ms
+request: 2021-11-12 09:33:01 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 54.515 ms
+request: 2021-11-12 09:33:02 AM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 316.274 ms
+request: 2021-11-12 09:33:02 AM GET /api/v1/user 304 - 401.668 ms
+error: 2021-11-12 09:33:05 AM PUT /api/v1/user/618dce113fd6613ced09c53a 400 - 422.432 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+info: 2021-11-12 09:33:41 AM Grid connected to db
+info: 2021-11-12 09:33:41 AM MongoDB successfully connected
+info: 2021-11-12 09:33:41 AM Listening on port 5000 (development)
+request: 2021-11-12 09:33:44 AM GET /api/v1/user 304 - 375.091 ms
+request: 2021-11-12 09:33:45 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 250.444 ms
+error: 2021-11-12 09:33:48 AM PUT /api/v1/user/618dce113fd6613ced09c53a 400 - 407.991 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+info: 2021-11-12 09:34:17 AM Grid connected to db
+info: 2021-11-12 09:34:17 AM MongoDB successfully connected
+info: 2021-11-12 09:34:17 AM Listening on port 5000 (development)
+request: 2021-11-12 09:34:20 AM GET /api/v1/user 304 - 365.272 ms
+request: 2021-11-12 09:34:20 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 232.607 ms
+request: 2021-11-12 09:34:23 AM PUT /api/v1/user/618dce113fd6613ced09c53a 200 - 487.281 ms
+request: 2021-11-12 09:34:31 AM GET /api/v1/user 200 - 317.345 ms
+request: 2021-11-12 09:34:32 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 209.159 ms
+info: 2021-11-12 09:34:56 AM Grid connected to db
+info: 2021-11-12 09:34:56 AM MongoDB successfully connected
+info: 2021-11-12 09:34:56 AM Listening on port 5000 (development)
+request: 2021-11-12 09:35:00 AM PUT /api/v1/user/618dce113fd6613ced09c53a 200 - 517.363 ms
+request: 2021-11-12 09:35:37 AM GET /api/v1/user 200 - 335.903 ms
+request: 2021-11-12 09:36:44 AM GET /api/v1/user 304 - 354.792 ms
+request: 2021-11-12 09:36:45 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 216.557 ms
+request: 2021-11-12 09:36:51 AM PUT /api/v1/user/618dce113fd6613ced09c53a 200 - 508.563 ms
+request: 2021-11-12 09:36:52 AM GET /api/v1/user 200 - 319.254 ms
+request: 2021-11-12 09:36:56 AM GET /api/v1/user 304 - 609.889 ms
+request: 2021-11-12 09:37:22 AM PUT /api/v1/user/618dce113fd6613ced09c53a 200 - 477.234 ms
+request: 2021-11-12 09:37:27 AM PUT /api/v1/user/618dce113fd6613ced09c53a 200 - 476.977 ms
+request: 2021-11-12 09:38:30 AM PUT /api/v1/user/618dce113fd6613ced09c53a 200 - 420.075 ms
+request: 2021-11-12 09:38:31 AM GET /api/v1/user 200 - 328.521 ms
+request: 2021-11-12 09:55:47 AM GET /api/v1/shop 304 - 300.021 ms
+request: 2021-11-12 09:56:09 AM GET /api/v1/shop 304 - 291.914 ms
+request: 2021-11-12 09:56:49 AM GET /api/v1/shop 304 - 285.023 ms
+request: 2021-11-12 09:57:12 AM GET /api/v1/shop 304 - 271.244 ms
+request: 2021-11-12 09:57:52 AM GET /api/v1/shop 304 - 301.256 ms
+request: 2021-11-12 10:05:19 AM GET /api/v1/shop 304 - 259.125 ms
+request: 2021-11-12 10:06:58 AM GET /api/v1/shop 304 - 302.973 ms
+request: 2021-11-12 10:06:59 AM GET /api/v1/shop 304 - 259.414 ms
+request: 2021-11-12 10:07:20 AM GET /api/v1/shop 304 - 503.910 ms
+request: 2021-11-12 10:10:32 AM GET /api/v1/shop 304 - 257.854 ms
+request: 2021-11-12 10:10:45 AM GET /api/v1/shop 304 - 267.717 ms
+request: 2021-11-12 10:10:46 AM GET /api/v1/shop 304 - 298.952 ms
+request: 2021-11-12 10:10:48 AM GET /api/v1/shop 304 - 255.651 ms
+request: 2021-11-12 10:11:53 AM GET /api/v1/shop 304 - 264.074 ms
+request: 2021-11-12 10:11:55 AM GET /api/v1/shop 304 - 276.513 ms
+request: 2021-11-12 10:20:12 AM GET /api/v1/shop 304 - 287.242 ms
+request: 2021-11-12 10:21:06 AM GET /api/v1/user 304 - 318.595 ms
+request: 2021-11-12 10:21:06 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 382.475 ms
+request: 2021-11-12 10:21:06 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 385.473 ms
+request: 2021-11-12 10:21:06 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.713 ms
+request: 2021-11-12 10:21:10 AM GET /api/v1/shop 304 - 264.697 ms
+request: 2021-11-12 10:22:12 AM GET /api/v1/shop 304 - 273.017 ms
+request: 2021-11-12 10:22:54 AM GET /api/v1/user 304 - 346.940 ms
+request: 2021-11-12 10:22:55 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.750 ms
+request: 2021-11-12 10:22:55 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.349 ms
+request: 2021-11-12 10:22:55 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.866 ms
+request: 2021-11-12 10:23:04 AM GET /api/v1/shop 304 - 273.084 ms
+request: 2021-11-12 10:23:43 AM GET /api/v1/user 304 - 341.970 ms
+request: 2021-11-12 10:23:43 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 52.507 ms
+request: 2021-11-12 10:23:43 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 52.610 ms
+request: 2021-11-12 10:23:43 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.295 ms
+error: 2021-11-12 10:29:43 AM GET /auth/info 401 - 507.113 ms - message: route not found
+request: 2021-11-12 10:30:50 AM GET /auth/info 200 - 437.189 ms
+error: 2021-11-12 10:31:00 AM GET /auth/info 401 - 1.135 ms - message: route not found
+error: 2021-11-12 10:31:10 AM GET /auth/info 401 - 0.457 ms - message: route not found
+error: 2021-11-12 10:31:32 AM GET /auth/info 401 - 0.383 ms - message: route not found
+error: 2021-11-12 10:31:40 AM GET /auth/info 401 - 0.481 ms - message: route not found
+error: 2021-11-12 10:31:48 AM GET /auth/info 401 - 0.776 ms - message: route not found
+error: 2021-11-12 10:31:57 AM GET /auth/info 401 - 0.394 ms - message: route not found
+error: 2021-11-12 10:32:05 AM GET /auth/info 401 - 0.375 ms - message: route not found
+error: 2021-11-12 10:32:05 AM GET /auth/info 401 - 0.368 ms - message: route not found
+error: 2021-11-12 10:33:45 AM GET /auth/info 401 - 0.560 ms - message: route not found
+error: 2021-11-12 10:33:51 AM GET /auth/info 401 - 1.038 ms - message: route not found
+error: 2021-11-12 10:33:52 AM GET /api/v1/category 401 - 0.416 ms - message: route not found
+error: 2021-11-12 10:33:52 AM GET /api/v1/shop 401 - 0.628 ms - message: route not found
+error: 2021-11-12 10:34:09 AM POST /auth/userlogin 401 - 170.375 ms - message: Incorrect email or password
+error: 2021-11-12 10:35:08 AM GET /auth/info 401 - 0.396 ms - message: route not found
+error: 2021-11-12 10:35:08 AM GET /api/v1/category 401 - 0.385 ms - message: route not found
+error: 2021-11-12 10:35:08 AM GET /api/v1/shop 401 - 0.431 ms - message: route not found
+error: 2021-11-12 10:35:59 AM GET /auth/info 401 - 0.587 ms - message: route not found
+error: 2021-11-12 10:36:00 AM GET /api/v1/category 401 - 0.390 ms - message: route not found
+error: 2021-11-12 10:36:00 AM GET /api/v1/shop 401 - 0.392 ms - message: route not found
+error: 2021-11-12 10:36:45 AM GET /auth/info 401 - 0.428 ms - message: route not found
+error: 2021-11-12 10:36:45 AM GET /api/v1/category 401 - 0.395 ms - message: route not found
+error: 2021-11-12 10:36:45 AM GET /api/v1/shop 401 - 0.761 ms - message: route not found
+info: 2021-11-12 10:37:19 AM Grid connected to db
+info: 2021-11-12 10:37:19 AM MongoDB successfully connected
+info: 2021-11-12 10:37:19 AM Listening on port 5000 (development)
+request: 2021-11-12 10:37:21 AM GET /auth/info 200 - 710.851 ms
+error: 2021-11-12 10:37:24 AM GET /auth/info 401 - 1.888 ms - message: route not found
+error: 2021-11-12 10:37:24 AM GET /api/v1/category 401 - 0.897 ms - message: route not found
+error: 2021-11-12 10:37:24 AM GET /api/v1/shop 401 - 1.169 ms - message: route not found
+request: 2021-11-12 10:37:36 AM GET /api/v1/shop 200 - 269.498 ms
+error: 2021-11-12 10:38:54 AM GET /auth/info 401 - 0.714 ms - message: route not found
+error: 2021-11-12 10:38:55 AM GET /api/v1/category 401 - 0.636 ms - message: route not found
+error: 2021-11-12 10:38:55 AM GET /api/v1/shop 401 - 0.810 ms - message: route not found
+error: 2021-11-12 10:39:10 AM GET /auth/info 401 - 0.464 ms - message: route not found
+error: 2021-11-12 10:39:11 AM GET /api/v1/category 401 - 0.508 ms - message: route not found
+error: 2021-11-12 10:39:11 AM GET /api/v1/shop 401 - 0.538 ms - message: route not found
+error: 2021-11-12 10:39:45 AM GET /auth/info 401 - 0.429 ms - message: route not found
+error: 2021-11-12 10:39:45 AM GET /api/v1/category 401 - 0.483 ms - message: route not found
+error: 2021-11-12 10:39:45 AM GET /api/v1/shop 401 - 0.443 ms - message: route not found
+request: 2021-11-12 10:40:26 AM POST /auth/userlogin 200 - 162.685 ms
+request: 2021-11-12 10:40:27 AM GET /api/v1/category 200 - 162.123 ms
+request: 2021-11-12 10:40:27 AM GET /api/v1/shop 200 - 219.787 ms
+request: 2021-11-12 10:40:29 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 54.940 ms
+request: 2021-11-12 10:40:29 AM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 366.994 ms
+request: 2021-11-12 10:41:11 AM GET /auth/info 200 - 215.672 ms
+request: 2021-11-12 10:41:12 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 51.462 ms
+request: 2021-11-12 10:41:12 AM GET /api/v1/category 200 - 155.527 ms
+request: 2021-11-12 10:41:12 AM GET /api/v1/shop 200 - 217.861 ms
+request: 2021-11-12 10:41:14 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 49.640 ms
+request: 2021-11-12 10:41:14 AM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.740 ms
+request: 2021-11-12 10:41:26 AM GET /api/v1/appointment?userId=61445de53e57b9c71d2c90ce 200 - 343.280 ms
+request: 2021-11-12 10:41:36 AM GET /api/v1/shop?categories=6149ce7760019f57486e78ac 200 - 210.173 ms
+request: 2021-11-12 10:41:40 AM GET /api/v1/shop?categories=6149ce9160019f57486e78d4 200 - 161.225 ms
+request: 2021-11-12 10:42:15 AM GET /api/v1/category 200 - 158.049 ms
+request: 2021-11-12 10:42:15 AM GET /api/v1/shop 200 - 212.686 ms
+request: 2021-11-12 10:42:24 AM GET /auth/info 200 - 249.342 ms
+request: 2021-11-12 10:42:25 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 52.216 ms
+request: 2021-11-12 10:42:25 AM GET /api/v1/category 200 - 161.621 ms
+request: 2021-11-12 10:42:25 AM GET /api/v1/shop 200 - 213.378 ms
+request: 2021-11-12 10:42:26 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 51.135 ms
+request: 2021-11-12 10:42:27 AM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 49.261 ms
+error: 2021-11-12 10:42:42 AM GET /api/v1/category 401 - 0.497 ms - message: route not found
+error: 2021-11-12 10:42:42 AM GET /api/v1/shop 401 - 0.449 ms - message: route not found
+error: 2021-11-12 10:43:15 AM GET /auth/info 401 - 0.431 ms - message: route not found
+error: 2021-11-12 10:43:15 AM GET /api/v1/category 401 - 0.434 ms - message: route not found
+error: 2021-11-12 10:43:15 AM GET /api/v1/shop 401 - 0.414 ms - message: route not found
+error: 2021-11-12 10:44:37 AM GET /auth/info 401 - 0.417 ms - message: route not found
+error: 2021-11-12 10:44:37 AM GET /api/v1/category 401 - 1.172 ms - message: route not found
+error: 2021-11-12 10:44:37 AM GET /api/v1/shop 401 - 0.541 ms - message: route not found
+error: 2021-11-12 10:44:42 AM GET /auth/info 401 - 0.643 ms - message: route not found
+error: 2021-11-12 10:44:43 AM GET /api/v1/category 401 - 0.384 ms - message: route not found
+error: 2021-11-12 10:44:43 AM GET /api/v1/shop 401 - 0.484 ms - message: route not found
+error: 2021-11-12 10:45:08 AM GET /auth/info 401 - 0.392 ms - message: route not found
+error: 2021-11-12 10:45:08 AM GET /api/v1/category 401 - 0.413 ms - message: route not found
+error: 2021-11-12 10:45:08 AM GET /api/v1/shop 401 - 2.508 ms - message: route not found
+error: 2021-11-12 10:45:22 AM GET /auth/info 401 - 0.401 ms - message: route not found
+error: 2021-11-12 10:45:22 AM GET /api/v1/category 401 - 0.555 ms - message: route not found
+error: 2021-11-12 10:45:22 AM GET /api/v1/shop 401 - 2.127 ms - message: route not found
+error: 2021-11-12 10:45:42 AM GET /auth/info 401 - 0.441 ms - message: route not found
+error: 2021-11-12 10:45:42 AM GET /api/v1/category 401 - 0.442 ms - message: route not found
+error: 2021-11-12 10:45:42 AM GET /api/v1/shop 401 - 0.886 ms - message: route not found
+error: 2021-11-12 10:45:59 AM GET /auth/info 401 - 0.359 ms - message: route not found
+error: 2021-11-12 10:45:59 AM GET /api/v1/category 401 - 0.953 ms - message: route not found
+error: 2021-11-12 10:45:59 AM GET /api/v1/shop 401 - 0.387 ms - message: route not found
+error: 2021-11-12 10:46:06 AM GET /auth/info 401 - 0.369 ms - message: route not found
+error: 2021-11-12 10:46:06 AM GET /api/v1/category 401 - 0.797 ms - message: route not found
+error: 2021-11-12 10:46:06 AM GET /api/v1/shop 401 - 0.394 ms - message: route not found
+error: 2021-11-12 10:46:26 AM GET /auth/info 401 - 1.200 ms - message: route not found
+error: 2021-11-12 10:46:26 AM GET /api/v1/category 401 - 0.434 ms - message: route not found
+error: 2021-11-12 10:46:26 AM GET /api/v1/shop 401 - 0.767 ms - message: route not found
+error: 2021-11-12 10:46:40 AM GET /auth/info 401 - 0.424 ms - message: route not found
+error: 2021-11-12 10:46:40 AM GET /api/v1/category 401 - 1.213 ms - message: route not found
+error: 2021-11-12 10:46:40 AM GET /api/v1/shop 401 - 0.442 ms - message: route not found
+error: 2021-11-12 10:46:49 AM GET /auth/info 401 - 0.366 ms - message: route not found
+error: 2021-11-12 10:46:49 AM GET /api/v1/category 401 - 0.954 ms - message: route not found
+error: 2021-11-12 10:46:49 AM GET /api/v1/shop 401 - 0.377 ms - message: route not found
+error: 2021-11-12 10:47:02 AM GET /auth/info 401 - 0.361 ms - message: route not found
+error: 2021-11-12 10:47:02 AM GET /api/v1/category 401 - 0.436 ms - message: route not found
+error: 2021-11-12 10:47:02 AM GET /api/v1/shop 401 - 0.857 ms - message: route not found
+error: 2021-11-12 10:47:29 AM GET /auth/info 401 - 0.567 ms - message: route not found
+error: 2021-11-12 10:47:29 AM GET /api/v1/category 401 - 0.383 ms - message: route not found
+error: 2021-11-12 10:47:29 AM GET /api/v1/shop 401 - 0.372 ms - message: route not found
+error: 2021-11-12 10:47:47 AM GET /auth/info 401 - 0.387 ms - message: route not found
+error: 2021-11-12 10:47:47 AM GET /api/v1/category 401 - 0.379 ms - message: route not found
+error: 2021-11-12 10:47:47 AM GET /api/v1/shop 401 - 0.430 ms - message: route not found
+error: 2021-11-12 10:47:59 AM GET /auth/info 401 - 0.769 ms - message: route not found
+error: 2021-11-12 10:47:59 AM GET /api/v1/category 401 - 0.639 ms - message: route not found
+error: 2021-11-12 10:47:59 AM GET /api/v1/shop 401 - 1.749 ms - message: route not found
+error: 2021-11-12 10:48:16 AM GET /auth/info 401 - 0.368 ms - message: route not found
+error: 2021-11-12 10:48:16 AM GET /api/v1/category 401 - 0.476 ms - message: route not found
+error: 2021-11-12 10:48:16 AM GET /api/v1/shop 401 - 0.544 ms - message: route not found
+error: 2021-11-12 10:48:24 AM GET /auth/info 401 - 0.365 ms - message: route not found
+error: 2021-11-12 10:48:24 AM GET /api/v1/category 401 - 1.091 ms - message: route not found
+error: 2021-11-12 10:48:24 AM GET /api/v1/shop 401 - 0.768 ms - message: route not found
+error: 2021-11-12 10:48:40 AM GET /auth/info 401 - 0.622 ms - message: route not found
+error: 2021-11-12 10:48:40 AM GET /api/v1/category 401 - 0.671 ms - message: route not found
+error: 2021-11-12 10:48:40 AM GET /api/v1/shop 401 - 0.938 ms - message: route not found
+error: 2021-11-12 10:48:45 AM GET /auth/info 401 - 0.480 ms - message: route not found
+error: 2021-11-12 10:48:46 AM GET /api/v1/category 401 - 0.926 ms - message: route not found
+error: 2021-11-12 10:48:46 AM GET /api/v1/shop 401 - 1.013 ms - message: route not found
+error: 2021-11-12 10:49:13 AM GET /auth/info 401 - 0.455 ms - message: route not found
+error: 2021-11-12 10:49:13 AM GET /api/v1/category 401 - 0.375 ms - message: route not found
+error: 2021-11-12 10:49:13 AM GET /api/v1/shop 401 - 0.624 ms - message: route not found
+error: 2021-11-12 10:50:14 AM GET /auth/info 401 - 0.359 ms - message: route not found
+error: 2021-11-12 10:50:15 AM GET /api/v1/category 401 - 0.372 ms - message: route not found
+error: 2021-11-12 10:50:15 AM GET /api/v1/shop 401 - 0.666 ms - message: route not found
+error: 2021-11-12 10:50:48 AM GET /auth/info 401 - 0.348 ms - message: route not found
+error: 2021-11-12 10:50:48 AM GET /api/v1/category 401 - 0.511 ms - message: route not found
+error: 2021-11-12 10:50:48 AM GET /api/v1/shop 401 - 0.875 ms - message: route not found
+error: 2021-11-12 10:51:10 AM GET /auth/info 401 - 0.354 ms - message: route not found
+error: 2021-11-12 10:51:10 AM GET /api/v1/category 401 - 0.383 ms - message: route not found
+error: 2021-11-12 10:51:10 AM GET /api/v1/shop 401 - 0.388 ms - message: route not found
+error: 2021-11-12 10:51:16 AM GET /auth/info 401 - 0.581 ms - message: route not found
+error: 2021-11-12 10:51:16 AM GET /api/v1/category 401 - 0.371 ms - message: route not found
+error: 2021-11-12 10:51:16 AM GET /api/v1/shop 401 - 0.456 ms - message: route not found
+error: 2021-11-12 10:51:26 AM GET /auth/info 401 - 0.351 ms - message: route not found
+error: 2021-11-12 10:51:26 AM GET /api/v1/category 401 - 1.178 ms - message: route not found
+error: 2021-11-12 10:51:26 AM GET /api/v1/shop 401 - 0.633 ms - message: route not found
+error: 2021-11-12 10:51:53 AM GET /auth/info 401 - 0.516 ms - message: route not found
+error: 2021-11-12 10:51:53 AM GET /api/v1/category 401 - 0.405 ms - message: route not found
+error: 2021-11-12 10:51:53 AM GET /api/v1/shop 401 - 0.837 ms - message: route not found
+error: 2021-11-12 10:52:04 AM GET /auth/info 401 - 0.446 ms - message: route not found
+error: 2021-11-12 10:52:04 AM GET /api/v1/category 401 - 0.440 ms - message: route not found
+error: 2021-11-12 10:52:04 AM GET /api/v1/shop 401 - 0.871 ms - message: route not found
+error: 2021-11-12 10:52:25 AM GET /auth/info 401 - 0.652 ms - message: route not found
+error: 2021-11-12 10:52:25 AM GET /api/v1/category 401 - 0.369 ms - message: route not found
+error: 2021-11-12 10:52:25 AM GET /api/v1/shop 401 - 0.599 ms - message: route not found
+error: 2021-11-12 10:52:33 AM GET /auth/info 401 - 0.426 ms - message: route not found
+error: 2021-11-12 10:52:33 AM GET /api/v1/category 401 - 0.389 ms - message: route not found
+error: 2021-11-12 10:52:33 AM GET /api/v1/shop 401 - 0.552 ms - message: route not found
+error: 2021-11-12 10:52:43 AM GET /auth/info 401 - 0.385 ms - message: route not found
+error: 2021-11-12 10:52:43 AM GET /api/v1/category 401 - 0.989 ms - message: route not found
+error: 2021-11-12 10:52:43 AM GET /api/v1/shop 401 - 0.494 ms - message: route not found
+error: 2021-11-12 10:53:56 AM GET /auth/info 401 - 0.353 ms - message: route not found
+error: 2021-11-12 10:53:56 AM GET /api/v1/category 401 - 0.467 ms - message: route not found
+error: 2021-11-12 10:53:56 AM GET /api/v1/shop 401 - 0.799 ms - message: route not found
+error: 2021-11-12 10:54:04 AM GET /auth/info 401 - 0.418 ms - message: route not found
+error: 2021-11-12 10:54:04 AM GET /api/v1/category 401 - 0.522 ms - message: route not found
+error: 2021-11-12 10:54:04 AM GET /api/v1/shop 401 - 0.892 ms - message: route not found
+error: 2021-11-12 10:54:10 AM GET /auth/info 401 - 0.569 ms - message: route not found
+error: 2021-11-12 10:54:10 AM GET /api/v1/category 401 - 0.426 ms - message: route not found
+error: 2021-11-12 10:54:10 AM GET /api/v1/shop 401 - 0.489 ms - message: route not found
+error: 2021-11-12 10:54:16 AM GET /auth/info 401 - 0.346 ms - message: route not found
+error: 2021-11-12 10:54:16 AM GET /api/v1/category 401 - 0.464 ms - message: route not found
+error: 2021-11-12 10:54:16 AM GET /api/v1/shop 401 - 0.662 ms - message: route not found
+error: 2021-11-12 10:54:19 AM GET /auth/info 401 - 0.442 ms - message: route not found
+error: 2021-11-12 10:54:19 AM GET /api/v1/category 401 - 1.470 ms - message: route not found
+error: 2021-11-12 10:54:19 AM GET /api/v1/shop 401 - 1.270 ms - message: route not found
+error: 2021-11-12 10:55:07 AM GET /auth/info 401 - 0.486 ms - message: route not found
+error: 2021-11-12 10:55:07 AM GET /api/v1/category 401 - 0.568 ms - message: route not found
+error: 2021-11-12 10:55:07 AM GET /api/v1/shop 401 - 0.944 ms - message: route not found
+error: 2021-11-12 10:55:33 AM GET /auth/info 401 - 0.457 ms - message: route not found
+error: 2021-11-12 10:55:33 AM GET /api/v1/category 401 - 0.591 ms - message: route not found
+error: 2021-11-12 10:55:33 AM GET /api/v1/shop 401 - 0.529 ms - message: route not found
+error: 2021-11-12 10:55:57 AM GET /auth/info 401 - 0.361 ms - message: route not found
+error: 2021-11-12 10:55:57 AM GET /api/v1/category 401 - 0.369 ms - message: route not found
+error: 2021-11-12 10:55:57 AM GET /api/v1/shop 401 - 0.410 ms - message: route not found
+error: 2021-11-12 10:56:02 AM GET /auth/info 401 - 0.358 ms - message: route not found
+error: 2021-11-12 10:56:02 AM GET /api/v1/category 401 - 0.713 ms - message: route not found
+error: 2021-11-12 10:56:02 AM GET /api/v1/shop 401 - 0.811 ms - message: route not found
+error: 2021-11-12 10:56:06 AM GET /auth/info 401 - 0.370 ms - message: route not found
+error: 2021-11-12 10:56:06 AM GET /api/v1/category 401 - 0.459 ms - message: route not found
+error: 2021-11-12 10:56:06 AM GET /api/v1/shop 401 - 0.671 ms - message: route not found
+error: 2021-11-12 10:56:13 AM GET /auth/info 401 - 0.463 ms - message: route not found
+error: 2021-11-12 10:56:13 AM GET /api/v1/category 401 - 0.373 ms - message: route not found
+error: 2021-11-12 10:56:13 AM GET /api/v1/shop 401 - 0.414 ms - message: route not found
+error: 2021-11-12 10:56:18 AM GET /auth/info 401 - 0.372 ms - message: route not found
+error: 2021-11-12 10:56:18 AM GET /api/v1/category 401 - 0.580 ms - message: route not found
+error: 2021-11-12 10:56:19 AM GET /api/v1/shop 401 - 1.722 ms - message: route not found
+error: 2021-11-12 10:56:42 AM GET /auth/info 401 - 0.382 ms - message: route not found
+error: 2021-11-12 10:56:43 AM GET /api/v1/category 401 - 0.377 ms - message: route not found
+error: 2021-11-12 10:56:43 AM GET /api/v1/shop 401 - 0.384 ms - message: route not found
+error: 2021-11-12 10:56:56 AM GET /auth/info 401 - 0.360 ms - message: route not found
+error: 2021-11-12 10:56:56 AM GET /api/v1/category 401 - 0.551 ms - message: route not found
+error: 2021-11-12 10:56:56 AM GET /api/v1/shop 401 - 0.371 ms - message: route not found
+error: 2021-11-12 10:57:00 AM GET /auth/info 401 - 0.377 ms - message: route not found
+error: 2021-11-12 10:57:00 AM GET /api/v1/category 401 - 0.378 ms - message: route not found
+error: 2021-11-12 10:57:00 AM GET /api/v1/shop 401 - 0.576 ms - message: route not found
+error: 2021-11-12 11:04:26 AM GET /auth/info 401 - 0.456 ms - message: route not found
+error: 2021-11-12 11:04:26 AM GET /api/v1/category 401 - 0.403 ms - message: route not found
+error: 2021-11-12 11:04:26 AM GET /api/v1/shop 401 - 1.196 ms - message: route not found
+error: 2021-11-12 11:04:40 AM GET /auth/info 401 - 0.411 ms - message: route not found
+error: 2021-11-12 11:04:40 AM GET /api/v1/category 401 - 0.601 ms - message: route not found
+error: 2021-11-12 11:04:40 AM GET /api/v1/shop 401 - 0.670 ms - message: route not found
+error: 2021-11-12 11:04:49 AM GET /auth/info 401 - 0.355 ms - message: route not found
+error: 2021-11-12 11:04:49 AM GET /api/v1/category 401 - 0.420 ms - message: route not found
+error: 2021-11-12 11:04:49 AM GET /api/v1/shop 401 - 0.427 ms - message: route not found
+error: 2021-11-12 11:05:01 AM GET /auth/info 401 - 0.923 ms - message: route not found
+error: 2021-11-12 11:05:02 AM GET /api/v1/category 401 - 0.421 ms - message: route not found
+error: 2021-11-12 11:05:02 AM GET /api/v1/shop 401 - 0.890 ms - message: route not found
+error: 2021-11-12 11:05:10 AM GET /auth/info 401 - 0.427 ms - message: route not found
+error: 2021-11-12 11:05:11 AM GET /api/v1/category 401 - 0.473 ms - message: route not found
+error: 2021-11-12 11:05:11 AM GET /api/v1/shop 401 - 0.708 ms - message: route not found
+request: 2021-11-12 11:05:25 AM GET /auth/info 200 - 208.449 ms
+request: 2021-11-12 11:05:26 AM GET /api/v1/category 200 - 184.230 ms
+request: 2021-11-12 11:05:26 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.165 ms
+request: 2021-11-12 11:05:26 AM GET /api/v1/shop 200 - 254.120 ms
+request: 2021-11-12 11:05:27 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 50.648 ms
+request: 2021-11-12 11:05:27 AM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.431 ms
+request: 2021-11-12 11:05:34 AM GET /api/v1/shop?categories=61502580c0e4b66fec80798b 200 - 154.243 ms
+request: 2021-11-12 11:06:02 AM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 159.578 ms
+request: 2021-11-12 11:06:05 AM GET /api/v1/shop?categories=6149ce7760019f57486e78ac 200 - 212.053 ms
+request: 2021-11-12 11:06:08 AM GET /api/v1/shop?categories=6149ce7a60019f57486e78b0 200 - 218.207 ms
+request: 2021-11-12 11:06:12 AM GET /api/v1/shop?categories=6149ce7e60019f57486e78b8 200 - 215.473 ms
+request: 2021-11-12 11:06:16 AM GET /api/v1/shop?categories=61502580c0e4b66fec80798b 200 - 159.130 ms
+request: 2021-11-12 11:08:45 AM GET /auth/info 200 - 210.133 ms
+request: 2021-11-12 11:08:45 AM GET /api/v1/category 200 - 157.812 ms
+request: 2021-11-12 11:08:45 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.179 ms
+request: 2021-11-12 11:08:46 AM GET /api/v1/shop 200 - 220.718 ms
+request: 2021-11-12 11:08:48 AM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 56.073 ms
+request: 2021-11-12 11:08:48 AM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 49.465 ms
+request: 2021-11-12 11:09:18 AM GET /api/v1/shop?categories=6149ce7560019f57486e78a8 200 - 177.018 ms
+request: 2021-11-12 11:09:23 AM GET /api/v1/shop?categories=6149ce7e60019f57486e78b8 200 - 220.470 ms
+request: 2021-11-12 11:09:27 AM GET /api/v1/shop?categories=6149ce7a60019f57486e78b0 200 - 218.471 ms
+request: 2021-11-12 11:09:32 AM GET /api/v1/shop?categories=61502580c0e4b66fec80798b 200 - 160.469 ms
+request: 2021-11-12 11:19:38 AM GET /api/v1/user 304 - 314.785 ms
+request: 2021-11-12 11:19:39 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.324 ms
+request: 2021-11-12 11:19:39 AM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 368.749 ms
+request: 2021-11-12 11:19:39 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.400 ms
+request: 2021-11-12 11:19:42 AM GET /api/v1/user 304 - 309.761 ms
+request: 2021-11-12 11:19:43 AM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 468.348 ms
+request: 2021-11-12 11:24:26 AM GET /api/v1/user 304 - 315.539 ms
+request: 2021-11-12 11:24:56 AM GET /api/v1/user 304 - 317.593 ms
+request: 2021-11-12 11:31:16 AM GET /api/v1/user 304 - 311.552 ms
+request: 2021-11-12 11:35:42 AM GET /api/v1/shop 200 - 273.572 ms
+request: 2021-11-12 11:35:44 AM GET /api/v1/user 304 - 307.917 ms
+request: 2021-11-12 11:36:07 AM GET /api/v1/user 304 - 313.383 ms
+request: 2021-11-12 11:36:14 AM GET /api/v1/shop 304 - 274.014 ms
+request: 2021-11-12 11:36:19 AM GET /api/v1/user 304 - 332.333 ms
+request: 2021-11-12 11:36:22 AM GET /api/v1/shop 304 - 259.596 ms
+request: 2021-11-12 11:37:11 AM GET /api/v1/user 304 - 323.924 ms
+request: 2021-11-12 11:37:18 AM GET /api/v1/shop 304 - 260.161 ms
+request: 2021-11-12 11:37:20 AM GET /api/v1/user 304 - 320.575 ms
+request: 2021-11-12 11:37:50 AM GET /api/v1/shop 304 - 257.474 ms
+request: 2021-11-12 11:37:52 AM GET /api/v1/user 304 - 312.499 ms
+request: 2021-11-12 11:37:58 AM GET /api/v1/user 304 - 315.962 ms
+request: 2021-11-12 11:39:51 AM GET /api/v1/user 304 - 312.733 ms
+request: 2021-11-12 11:40:25 AM GET /api/v1/user 304 - 320.968 ms
+request: 2021-11-12 11:47:21 AM GET /api/v1/shop 304 - 257.521 ms
+request: 2021-11-12 11:47:23 AM GET /api/v1/shop 304 - 263.260 ms
+request: 2021-11-12 11:47:25 AM GET /api/v1/shop 304 - 259.219 ms
+request: 2021-11-12 11:47:26 AM GET /api/v1/shop 304 - 283.796 ms
+request: 2021-11-12 11:48:10 AM GET /api/v1/user 304 - 311.795 ms
+request: 2021-11-12 11:48:43 AM GET /api/v1/user 304 - 321.202 ms
+request: 2021-11-12 11:48:47 AM GET /api/v1/shop 304 - 258.212 ms
+request: 2021-11-12 11:49:01 AM GET /api/v1/user 304 - 310.373 ms
+request: 2021-11-12 11:49:59 AM GET /api/v1/user 304 - 328.506 ms
+request: 2021-11-12 11:50:11 AM GET /api/v1/shop 304 - 259.794 ms
+request: 2021-11-12 11:50:51 AM GET /api/v1/user 304 - 321.364 ms
+request: 2021-11-12 11:51:13 AM GET /api/v1/user 304 - 311.815 ms
+request: 2021-11-12 11:51:38 AM GET /api/v1/user 304 - 328.396 ms
+request: 2021-11-12 11:51:57 AM GET /api/v1/user 304 - 333.566 ms
+request: 2021-11-12 11:52:16 AM GET /api/v1/user 304 - 315.065 ms
+request: 2021-11-12 11:52:37 AM GET /api/v1/shop 304 - 256.557 ms
+request: 2021-11-12 01:06:09 PM GET /api/v1/user 304 - 719.674 ms
+request: 2021-11-12 01:06:22 PM PUT /api/v1/user/61445de53e57b9c71d2c90ce 200 - 2816.227 ms
+request: 2021-11-12 01:06:22 PM GET /api/v1/user 200 - 330.642 ms
+request: 2021-11-12 01:06:27 PM GET /api/v1/user 304 - 325.976 ms
+request: 2021-11-12 01:08:00 PM PUT /api/v1/user/618dca69149c6a6cf0f5b0d9 200 - 434.457 ms
+request: 2021-11-12 01:08:01 PM GET /api/v1/user 200 - 338.045 ms
+request: 2021-11-12 01:08:07 PM GET /api/v1/user 304 - 312.214 ms
+request: 2021-11-12 01:09:18 PM GET /api/v1/user 304 - 309.999 ms
+request: 2021-11-12 01:09:27 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 253.814 ms
+request: 2021-11-12 01:09:27 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 67.060 ms
+request: 2021-11-12 01:09:28 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 66.008 ms
+request: 2021-11-12 01:09:35 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 200 - 206.965 ms
+request: 2021-11-12 01:09:36 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.130 ms
+request: 2021-11-12 01:09:38 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 200 - 356.489 ms
+request: 2021-11-12 01:09:41 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 219.832 ms
+request: 2021-11-12 01:09:44 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 223.391 ms
+request: 2021-11-12 01:11:17 PM POST /file/upload 201 - 405.939 ms
+request: 2021-11-12 01:11:18 PM PUT /api/v1/category/6149ce7a60019f57486e78b0 200 - 270.293 ms
+request: 2021-11-12 01:11:19 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 200 - 220.133 ms
+request: 2021-11-12 01:11:20 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 53.285 ms
+request: 2021-11-12 01:11:24 PM GET /api/v1/user 200 - 311.196 ms
+request: 2021-11-12 01:11:25 PM GET /api/v1/shop 200 - 275.321 ms
+request: 2021-11-12 01:11:25 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 49.056 ms
+request: 2021-11-12 01:11:25 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.433 ms
+request: 2021-11-12 01:11:25 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.344 ms
+request: 2021-11-12 01:11:25 PM GET /api/v1/user 304 - 329.604 ms
+request: 2021-11-12 01:11:26 PM GET /api/v1/shop 304 - 265.827 ms
+request: 2021-11-12 01:11:27 PM GET /api/v1/user 304 - 327.669 ms
+request: 2021-11-12 01:11:30 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 211.558 ms
+request: 2021-11-12 01:11:31 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 51.187 ms
+request: 2021-11-12 01:11:34 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 229.913 ms
+request: 2021-11-12 01:11:37 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 216.402 ms
+request: 2021-11-12 01:11:37 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.029 ms
+error: 2021-11-12 01:11:40 PM DELETE /api/v1/category/6151ee07c11949419818e72e 400 - 211.594 ms - message: categories validation failed: image: Path `image` is required.
+request: 2021-11-12 01:11:45 PM GET /api/v1/user 304 - 311.925 ms
+request: 2021-11-12 01:11:46 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 243.057 ms
+request: 2021-11-12 01:11:49 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 224.984 ms
+request: 2021-11-12 01:12:27 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 223.076 ms
+request: 2021-11-12 01:12:29 PM GET /api/v1/user 304 - 328.704 ms
+request: 2021-11-12 01:12:30 PM GET /api/v1/shop 304 - 261.492 ms
+request: 2021-11-12 01:12:31 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 51.022 ms
+request: 2021-11-12 01:12:31 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.266 ms
+request: 2021-11-12 01:12:31 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 208.010 ms
+request: 2021-11-12 01:12:40 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 200 - 205.435 ms
+request: 2021-11-12 01:12:46 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 246.577 ms
+request: 2021-11-12 01:12:59 PM GET /api/v1/user 304 - 316.186 ms
+request: 2021-11-12 01:14:07 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 209.833 ms
+request: 2021-11-12 01:14:08 PM GET /api/v1/user 304 - 320.334 ms
+request: 2021-11-12 01:14:15 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 212.295 ms
+request: 2021-11-12 01:14:20 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 212.972 ms
+request: 2021-11-12 01:14:20 PM GET /api/v1/shop 304 - 266.554 ms
+request: 2021-11-12 01:14:20 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.981 ms
+request: 2021-11-12 01:14:21 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.959 ms
+request: 2021-11-12 01:14:22 PM GET /api/v1/category?limit=-1 200 - 207.410 ms
+request: 2021-11-12 01:14:26 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 208.385 ms
+request: 2021-11-12 01:14:26 PM GET /api/v1/user 304 - 308.812 ms
+request: 2021-11-12 01:14:31 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.795 ms
+request: 2021-11-12 01:14:32 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.183 ms
+request: 2021-11-12 01:14:37 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 215.984 ms
+request: 2021-11-12 01:14:37 PM GET /api/v1/user 304 - 317.423 ms
+request: 2021-11-12 01:14:38 PM GET /api/v1/shop 304 - 256.486 ms
+request: 2021-11-12 01:14:38 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.645 ms
+request: 2021-11-12 01:14:38 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.277 ms
+request: 2021-11-12 01:17:40 PM GET /api/v1/user 304 - 314.666 ms
+request: 2021-11-12 01:17:46 PM GET /auth/info 200 - 451.643 ms
+request: 2021-11-12 01:17:47 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.632 ms
+request: 2021-11-12 01:17:48 PM GET /api/v1/user 304 - 314.381 ms
+request: 2021-11-12 01:17:48 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.735 ms
+request: 2021-11-12 01:17:48 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.545 ms
+request: 2021-11-12 01:17:50 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 210.494 ms
+request: 2021-11-12 01:17:51 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 49.507 ms
+request: 2021-11-12 01:17:51 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 50.969 ms
+request: 2021-11-12 01:17:51 PM GET /api/v1/user 304 - 324.238 ms
+request: 2021-11-12 01:17:52 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.768 ms
+request: 2021-11-12 01:17:52 PM GET /api/v1/shop 304 - 260.693 ms
+request: 2021-11-12 01:17:52 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 51.750 ms
+request: 2021-11-12 01:17:52 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.285 ms
+request: 2021-11-12 01:17:52 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 52.110 ms
+request: 2021-11-12 01:17:53 PM GET /api/v1/user 304 - 325.386 ms
+request: 2021-11-12 01:18:16 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.622 ms
+request: 2021-11-12 01:18:20 PM GET /auth/info 304 - 427.992 ms
+request: 2021-11-12 01:18:20 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.227 ms
+request: 2021-11-12 01:18:25 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 209.265 ms
+request: 2021-11-12 01:18:25 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 49.121 ms
+request: 2021-11-12 01:18:26 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 51.215 ms
+request: 2021-11-12 01:18:26 PM GET /api/v1/user 304 - 323.579 ms
+request: 2021-11-12 01:18:26 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 51.238 ms
+request: 2021-11-12 01:18:27 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 55.595 ms
+request: 2021-11-12 01:18:27 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 54.489 ms
+request: 2021-11-12 01:18:27 PM GET /api/v1/shop 304 - 263.974 ms
+request: 2021-11-12 01:18:27 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 51.188 ms
+request: 2021-11-12 01:18:27 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 53.396 ms
+request: 2021-11-12 01:18:28 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 52.853 ms
+request: 2021-11-12 01:18:28 PM GET /api/v1/user 304 - 480.540 ms
+request: 2021-11-12 01:18:28 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 107.783 ms
+request: 2021-11-12 01:18:29 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 107.536 ms
+request: 2021-11-12 01:19:09 PM GET /api/v1/shop 304 - 267.802 ms
+request: 2021-11-12 01:19:14 PM GET /api/v1/user 304 - 318.478 ms
+request: 2021-11-12 01:19:17 PM GET /api/v1/shop 304 - 261.036 ms
+request: 2021-11-12 01:24:39 PM GET /api/v1/shop 304 - 288.019 ms
+request: 2021-11-12 01:24:43 PM GET /auth/info 304 - 447.017 ms
+request: 2021-11-12 01:24:44 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 53.379 ms
+request: 2021-11-12 01:24:44 PM GET /auth/info 304 - 427.641 ms
+request: 2021-11-12 01:24:45 PM GET /api/v1/user 304 - 326.076 ms
+request: 2021-11-12 01:24:45 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.754 ms
+request: 2021-11-12 01:24:46 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 56.149 ms
+request: 2021-11-12 01:24:46 PM GET /api/v1/shop 304 - 264.763 ms
+request: 2021-11-12 01:25:03 PM GET /api/v1/shop 304 - 256.431 ms
+request: 2021-11-12 01:26:15 PM GET /api/v1/shop 304 - 269.639 ms
+request: 2021-11-12 01:26:22 PM GET /auth/info 304 - 426.146 ms
+request: 2021-11-12 01:26:22 PM GET /auth/info 304 - 437.289 ms
+request: 2021-11-12 01:26:23 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.476 ms
+request: 2021-11-12 01:26:25 PM GET /api/v1/user 304 - 313.262 ms
+request: 2021-11-12 01:26:25 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.903 ms
+request: 2021-11-12 01:26:25 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.451 ms
+request: 2021-11-12 01:26:26 PM GET /api/v1/shop 304 - 258.013 ms
+request: 2021-11-12 01:26:58 PM GET /api/v1/shop 304 - 258.988 ms
+request: 2021-11-12 01:27:12 PM GET /api/v1/shop 304 - 283.555 ms
+request: 2021-11-12 01:27:21 PM GET /api/v1/shop 304 - 264.423 ms
+request: 2021-11-12 01:27:42 PM GET /api/v1/shop 304 - 263.844 ms
+request: 2021-11-12 01:28:21 PM GET /api/v1/shop 304 - 271.411 ms
+request: 2021-11-12 01:28:30 PM GET /api/v1/shop 304 - 256.044 ms
+request: 2021-11-12 01:28:52 PM GET /api/v1/shop 304 - 255.669 ms
+request: 2021-11-12 01:41:40 PM GET /api/v1/user 304 - 319.103 ms
+request: 2021-11-12 01:41:41 PM GET /api/v1/shop 304 - 260.362 ms
+request: 2021-11-12 01:41:42 PM GET /api/v1/user 304 - 344.170 ms
+request: 2021-11-12 01:41:44 PM GET /api/v1/shop 304 - 253.839 ms
+request: 2021-11-12 01:42:17 PM GET /api/v1/shop 304 - 271.809 ms
+request: 2021-11-12 01:42:21 PM GET /api/v1/shop 304 - 261.026 ms
+request: 2021-11-12 01:42:25 PM GET /api/v1/user 304 - 312.218 ms
+request: 2021-11-12 01:42:27 PM GET /api/v1/shop 304 - 543.001 ms
+error: 2021-11-12 01:42:33 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 446.997 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+request: 2021-11-12 01:43:13 PM GET /api/v1/shop 200 - 342.990 ms
+request: 2021-11-12 01:43:15 PM GET /api/v1/user 200 - 313.038 ms
+request: 2021-11-12 01:43:17 PM GET /api/v1/shop 304 - 258.982 ms
+request: 2021-11-12 01:43:19 PM GET /api/v1/user 304 - 313.522 ms
+request: 2021-11-12 01:43:21 PM GET /api/v1/shop 304 - 258.967 ms
+request: 2021-11-12 01:43:46 PM GET /api/v1/shop 304 - 254.362 ms
+request: 2021-11-12 01:43:48 PM GET /api/v1/user 304 - 308.141 ms
+request: 2021-11-12 01:43:50 PM GET /api/v1/shop 304 - 262.820 ms
+error: 2021-11-12 01:43:53 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 415.312 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+request: 2021-11-12 01:43:56 PM GET /api/v1/user 200 - 322.888 ms
+request: 2021-11-12 01:43:58 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 203.772 ms
+request: 2021-11-12 01:43:58 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 49.178 ms
+request: 2021-11-12 01:43:58 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 50.694 ms
+request: 2021-11-12 01:43:58 PM GET /api/v1/user 304 - 309.699 ms
+request: 2021-11-12 01:43:59 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.566 ms
+request: 2021-11-12 01:43:59 PM GET /api/v1/shop 200 - 255.242 ms
+request: 2021-11-12 01:44:09 PM GET /api/v1/shop 304 - 268.141 ms
+error: 2021-11-12 01:44:12 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 418.098 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+request: 2021-11-12 01:44:53 PM GET /api/v1/shop 200 - 254.841 ms
+request: 2021-11-12 01:44:55 PM GET /api/v1/user 200 - 308.723 ms
+request: 2021-11-12 01:44:56 PM GET /api/v1/shop 304 - 255.839 ms
+error: 2021-11-12 01:44:59 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 409.614 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-12 01:45:10 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 372.377 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+request: 2021-11-12 01:45:11 PM GET /api/v1/user 200 - 324.028 ms
+request: 2021-11-12 01:45:14 PM GET /api/v1/shop 200 - 264.022 ms
+info: 2021-11-12 01:45:43 PM Grid connected to db
+info: 2021-11-12 01:45:43 PM MongoDB successfully connected
+info: 2021-11-12 01:45:43 PM Listening on port 5000 (development)
+request: 2021-11-12 01:45:44 PM GET /api/v1/user 304 - 1110.359 ms
+request: 2021-11-12 01:45:45 PM GET /api/v1/shop 304 - 270.755 ms
+error: 2021-11-12 01:45:47 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 400 - 432.337 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+info: 2021-11-12 01:46:22 PM Grid connected to db
+info: 2021-11-12 01:46:22 PM MongoDB successfully connected
+info: 2021-11-12 01:46:22 PM Listening on port 5000 (development)
+request: 2021-11-12 01:46:26 PM GET /api/v1/user 200 - 341.624 ms
+request: 2021-11-12 01:46:28 PM GET /api/v1/shop 200 - 300.290 ms
+request: 2021-11-12 01:46:31 PM PUT /api/v1/user/61445dd13e57b9c71d2c90cd 200 - 607.412 ms
+request: 2021-11-12 01:46:31 PM GET /api/v1/user 200 - 348.486 ms
+request: 2021-11-12 01:46:47 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 216.287 ms
+request: 2021-11-12 01:46:47 PM GET /api/v1/user 200 - 337.062 ms
+request: 2021-11-12 01:46:48 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 375.623 ms
+request: 2021-11-12 01:46:48 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 55.367 ms
+request: 2021-11-12 01:46:48 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 376.423 ms
+request: 2021-11-12 01:46:49 PM GET /api/v1/shop 200 - 282.054 ms
+request: 2021-11-12 01:47:15 PM POST /api/v1/user 201 - 511.367 ms
+request: 2021-11-12 01:47:15 PM GET /api/v1/user 200 - 618.412 ms
+request: 2021-11-12 01:47:18 PM GET /api/v1/shop 304 - 293.615 ms
+request: 2021-11-12 01:47:22 PM PUT /api/v1/user/618e0df2e28bafe8ba7b6fea 200 - 541.540 ms
+request: 2021-11-12 01:47:23 PM GET /api/v1/user 200 - 338.846 ms
+request: 2021-11-12 01:47:29 PM GET /api/v1/shop 304 - 267.595 ms
+request: 2021-11-12 01:47:36 PM PUT /api/v1/user/618e0df2e28bafe8ba7b6fea 200 - 482.303 ms
+request: 2021-11-12 01:47:37 PM GET /api/v1/user 200 - 347.584 ms
+request: 2021-11-12 01:47:38 PM GET /api/v1/shop 304 - 702.135 ms
+request: 2021-11-12 01:48:43 PM GET /api/v1/shop 304 - 494.038 ms
+request: 2021-11-12 01:48:46 PM GET /api/v1/shop 304 - 278.928 ms
+request: 2021-11-12 01:48:48 PM GET /api/v1/user 304 - 332.729 ms
+request: 2021-11-12 01:48:49 PM GET /api/v1/shop 304 - 261.442 ms
+request: 2021-11-12 01:48:58 PM PUT /api/v1/user/618e0df2e28bafe8ba7b6fea 200 - 488.738 ms
+request: 2021-11-12 01:48:58 PM GET /api/v1/user 200 - 314.144 ms
+request: 2021-11-12 01:49:04 PM GET /api/v1/shop 304 - 269.047 ms
+request: 2021-11-12 01:49:08 PM PUT /api/v1/user/618e0df2e28bafe8ba7b6fea 200 - 510.424 ms
+request: 2021-11-12 01:49:08 PM GET /api/v1/user 200 - 333.007 ms
+request: 2021-11-12 01:51:19 PM GET /api/v1/shop 304 - 266.486 ms
+request: 2021-11-12 01:51:26 PM GET /api/v1/user 304 - 326.554 ms
+request: 2021-11-12 01:51:34 PM GET /auth/info 200 - 453.734 ms
+request: 2021-11-12 01:51:35 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 51.070 ms
+request: 2021-11-12 01:51:36 PM GET /api/v1/user 304 - 325.162 ms
+request: 2021-11-12 01:51:36 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 49.331 ms
+request: 2021-11-12 01:51:36 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.164 ms
+request: 2021-11-12 01:51:38 PM GET /api/v1/shop 304 - 263.345 ms
+request: 2021-11-12 01:52:00 PM GET /api/v1/shop 304 - 264.348 ms
+request: 2021-11-12 01:52:01 PM GET /api/v1/user 304 - 319.765 ms
+request: 2021-11-12 01:52:04 PM GET /api/v1/shop 304 - 260.997 ms
+request: 2021-11-12 01:52:23 PM GET /api/v1/shop 304 - 546.740 ms
+request: 2021-11-12 01:52:51 PM GET /api/v1/shop 304 - 309.611 ms
+request: 2021-11-12 01:52:53 PM GET /api/v1/shop 304 - 274.320 ms
+request: 2021-11-12 01:53:21 PM GET /api/v1/shop 304 - 270.707 ms
+request: 2021-11-12 01:53:22 PM GET /api/v1/user 304 - 377.634 ms
+request: 2021-11-12 01:53:24 PM GET /api/v1/shop 304 - 259.319 ms
+request: 2021-11-12 01:53:57 PM GET /api/v1/shop 304 - 283.568 ms
+request: 2021-11-12 01:54:34 PM GET /api/v1/user 304 - 327.294 ms
+request: 2021-11-12 01:54:39 PM GET /api/v1/shop 304 - 264.013 ms
+request: 2021-11-12 01:54:46 PM GET /api/v1/shop 304 - 297.911 ms
+request: 2021-11-12 01:54:47 PM GET /api/v1/user 304 - 313.861 ms
+request: 2021-11-12 01:54:49 PM GET /api/v1/shop 304 - 273.843 ms
+request: 2021-11-12 01:54:51 PM GET /api/v1/user 304 - 334.751 ms
+request: 2021-11-12 01:54:55 PM GET /api/v1/shop 304 - 376.023 ms
+request: 2021-11-12 01:55:03 PM GET /api/v1/user 304 - 320.299 ms
+request: 2021-11-12 01:55:05 PM GET /api/v1/shop 304 - 273.601 ms
+request: 2021-11-12 01:55:15 PM POST /api/v1/user 201 - 429.969 ms
+request: 2021-11-12 01:55:15 PM GET /api/v1/user 200 - 342.750 ms
+request: 2021-11-12 01:55:26 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 209.191 ms
+request: 2021-11-12 01:55:26 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 49.404 ms
+request: 2021-11-12 01:55:26 PM GET /api/v1/user 200 - 327.514 ms
+request: 2021-11-12 01:55:26 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 49.941 ms
+request: 2021-11-12 01:55:28 PM GET /api/v1/shop 304 - 268.693 ms
+request: 2021-11-12 01:55:28 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 49.706 ms
+request: 2021-11-12 01:56:00 PM GET /api/v1/shop 304 - 274.912 ms
+request: 2021-11-12 01:56:02 PM GET /api/v1/user 304 - 315.909 ms
+request: 2021-11-12 01:56:03 PM GET /api/v1/shop 304 - 263.137 ms
+request: 2021-11-12 01:56:32 PM GET /api/v1/shop 304 - 265.573 ms
+request: 2021-11-12 01:56:34 PM GET /api/v1/user 304 - 321.912 ms
+request: 2021-11-12 01:56:35 PM GET /api/v1/shop 304 - 279.990 ms
+request: 2021-11-12 01:56:36 PM GET /api/v1/user 304 - 339.964 ms
+request: 2021-11-12 01:56:37 PM GET /api/v1/shop 304 - 273.098 ms
+request: 2021-11-12 01:56:39 PM GET /api/v1/user 304 - 322.745 ms
+request: 2021-11-12 01:56:41 PM GET /api/v1/shop 304 - 260.178 ms
+request: 2021-11-12 01:56:45 PM PUT /api/v1/user/618e0df2e28bafe8ba7b6fea 200 - 484.806 ms
+request: 2021-11-12 01:56:45 PM GET /api/v1/user 200 - 324.142 ms
+request: 2021-11-12 01:56:47 PM GET /api/v1/shop 304 - 268.720 ms
+request: 2021-11-12 01:56:49 PM GET /api/v1/user 304 - 328.261 ms
+request: 2021-11-12 01:56:50 PM GET /api/v1/shop 304 - 267.611 ms
+request: 2021-11-12 01:57:12 PM GET /api/v1/shop 304 - 294.559 ms
+request: 2021-11-12 01:57:14 PM GET /api/v1/user 304 - 320.706 ms
+request: 2021-11-12 01:57:15 PM GET /api/v1/shop 304 - 261.473 ms
+request: 2021-11-12 01:57:26 PM POST /api/v1/user 201 - 488.071 ms
+request: 2021-11-12 01:57:26 PM GET /api/v1/user 200 - 332.183 ms
+request: 2021-11-12 01:57:41 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 212.210 ms
+request: 2021-11-12 01:57:42 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 52.087 ms
+request: 2021-11-12 01:57:42 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 51.353 ms
+request: 2021-11-12 01:57:42 PM GET /api/v1/user 200 - 322.785 ms
+request: 2021-11-12 01:57:44 PM GET /api/v1/shop 304 - 272.046 ms
+request: 2021-11-12 01:57:44 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.004 ms
+request: 2021-11-12 01:57:47 PM PUT /api/v1/user/618e0df2e28bafe8ba7b6fea 200 - 530.483 ms
+request: 2021-11-12 01:57:47 PM GET /api/v1/user 200 - 318.155 ms
+request: 2021-11-12 01:58:22 PM GET /api/v1/shop 304 - 267.676 ms
+request: 2021-11-12 01:58:25 PM PUT /api/v1/user/618e0df2e28bafe8ba7b6fea 200 - 473.983 ms
+request: 2021-11-12 01:58:25 PM GET /api/v1/user 200 - 326.272 ms
+request: 2021-11-12 01:58:33 PM GET /api/v1/shop 304 - 268.403 ms
+request: 2021-11-12 01:58:36 PM PUT /api/v1/user/618e0df2e28bafe8ba7b6fea 200 - 434.341 ms
+request: 2021-11-12 01:58:36 PM GET /api/v1/user 200 - 325.700 ms
+request: 2021-11-12 01:58:50 PM POST /auth/changepassword 200 - 260.314 ms
+request: 2021-11-12 01:59:07 PM GET /api/v1/shop 304 - 262.192 ms
+request: 2021-11-12 01:59:32 PM GET /api/v1/shop 304 - 266.701 ms
+request: 2021-11-12 01:59:33 PM GET /api/v1/user 200 - 325.699 ms
+request: 2021-11-12 01:59:36 PM GET /api/v1/shop 304 - 260.988 ms
+request: 2021-11-12 02:00:10 PM GET /api/v1/shop 304 - 273.979 ms
+request: 2021-11-12 02:00:11 PM GET /api/v1/user 304 - 311.817 ms
+request: 2021-11-12 02:00:14 PM GET /api/v1/shop 304 - 272.683 ms
+request: 2021-11-12 02:00:14 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.072 ms
+request: 2021-11-12 02:00:14 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.246 ms
+request: 2021-11-12 02:00:15 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 49.616 ms
+request: 2021-11-12 02:00:16 PM GET /api/v1/user 304 - 311.995 ms
+request: 2021-11-12 02:00:34 PM GET /api/v1/shop 304 - 280.293 ms
+request: 2021-11-12 02:01:40 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 208.747 ms
+request: 2021-11-12 02:01:40 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 51.338 ms
+request: 2021-11-12 02:01:40 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 51.356 ms
+request: 2021-11-12 02:01:44 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.732 ms
+request: 2021-11-12 02:02:40 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 208.105 ms
+request: 2021-11-12 02:02:40 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 50.686 ms
+request: 2021-11-12 02:02:40 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 49.383 ms
+request: 2021-11-12 02:02:41 PM GET /api/v1/user 304 - 311.455 ms
+request: 2021-11-12 02:02:41 PM GET /api/v1/shop 304 - 257.849 ms
+request: 2021-11-12 02:02:42 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 50.326 ms
+request: 2021-11-12 02:02:42 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 408.423 ms
+request: 2021-11-12 02:02:42 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 49.853 ms
+request: 2021-11-12 02:02:42 PM GET /api/v1/user 304 - 335.428 ms
+request: 2021-11-12 02:02:43 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 214.388 ms
+request: 2021-11-12 02:02:43 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 49.174 ms
+request: 2021-11-12 02:02:44 PM GET /api/v1/user 304 - 323.311 ms
+request: 2021-11-12 02:02:45 PM GET /api/v1/shop 304 - 260.601 ms
+request: 2021-11-12 02:02:46 PM GET /api/v1/user 304 - 336.659 ms
+request: 2021-11-12 02:02:47 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 215.746 ms
+request: 2021-11-12 02:02:48 PM GET /api/v1/shop 304 - 267.107 ms
+request: 2021-11-12 02:02:48 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 49.039 ms
+request: 2021-11-12 02:02:48 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 49.481 ms
+request: 2021-11-12 02:02:48 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 48.716 ms
+request: 2021-11-12 02:02:48 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 206.889 ms
+request: 2021-11-12 02:08:07 PM GET /api/v1/user 304 - 326.269 ms
+request: 2021-11-12 02:08:08 PM GET /api/v1/shop 304 - 449.495 ms
+request: 2021-11-12 02:08:08 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 49.841 ms
+request: 2021-11-12 02:08:08 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.627 ms
+request: 2021-11-12 02:08:08 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 49.961 ms
+request: 2021-11-12 02:08:09 PM GET /api/v1/user 304 - 319.264 ms
+request: 2021-11-12 02:08:10 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 221.249 ms
+request: 2021-11-12 02:08:10 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 49.365 ms
+request: 2021-11-12 02:08:10 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 49.295 ms
+request: 2021-11-12 02:08:12 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 49.421 ms
+request: 2021-11-12 02:15:55 PM GET /api/v1/user 304 - 319.930 ms
+request: 2021-11-12 02:16:31 PM GET /api/v1/shop 304 - 259.312 ms
+request: 2021-11-12 02:16:31 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 50.550 ms
+request: 2021-11-12 02:16:31 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 52.130 ms
+request: 2021-11-12 02:16:31 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.208 ms
+request: 2021-11-12 02:16:43 PM GET /api/v1/user 304 - 319.306 ms
+request: 2021-11-12 02:16:45 PM GET /api/v1/shop 304 - 280.559 ms
+request: 2021-11-12 02:17:24 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 211.081 ms
+request: 2021-11-12 02:17:49 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 207.962 ms
+request: 2021-11-12 02:17:57 PM GET /api/v1/category?limit=10&page=1&sortBy=%7B%7D&name= 304 - 216.649 ms
+error: 2021-11-12 02:18:00 PM DELETE /api/v1/category/6151ee07c11949419818e72e 400 - 233.278 ms - message: categories validation failed: image: Path `image` is required.
+request: 2021-11-12 02:18:03 PM GET /api/v1/category?limit=10&page=0&sortBy=%7B%7D&name= 304 - 211.732 ms
+request: 2021-11-12 02:20:15 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 212.407 ms
+request: 2021-11-12 02:20:16 PM GET /api/v1/user 304 - 316.613 ms
+request: 2021-11-12 02:20:17 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 216.777 ms
+request: 2021-11-12 02:20:17 PM GET /api/v1/user 304 - 311.132 ms
+request: 2021-11-12 02:20:19 PM GET /api/v1/shop 304 - 268.280 ms
+request: 2021-11-12 02:20:20 PM GET /api/v1/user 304 - 332.136 ms
+request: 2021-11-12 02:21:44 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 207.083 ms
+request: 2021-11-12 02:21:45 PM GET /api/v1/user 304 - 321.400 ms
+request: 2021-11-12 02:21:50 PM GET /auth/info 304 - 429.220 ms
+request: 2021-11-12 02:21:50 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.759 ms
+request: 2021-11-12 02:21:51 PM GET /api/v1/user 304 - 336.157 ms
+request: 2021-11-12 02:21:51 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 49.261 ms
+request: 2021-11-12 02:21:51 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 49.486 ms
+request: 2021-11-12 02:22:14 PM GET /api/v1/user 304 - 320.638 ms
+request: 2021-11-12 02:22:17 PM GET /api/v1/user 304 - 330.202 ms
+request: 2021-11-12 02:26:49 PM GET /auth/info 304 - 419.796 ms
+request: 2021-11-12 02:26:49 PM GET /auth/info 304 - 418.063 ms
+request: 2021-11-12 02:26:50 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.469 ms
+request: 2021-11-12 02:26:51 PM GET /api/v1/user 304 - 316.241 ms
+request: 2021-11-12 02:26:51 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.639 ms
+request: 2021-11-12 02:26:51 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 48.850 ms
+request: 2021-11-12 02:28:00 PM GET /auth/info 304 - 435.093 ms
+request: 2021-11-12 02:28:00 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.002 ms
+request: 2021-11-12 02:28:04 PM GET /api/v1/user 304 - 317.222 ms
+request: 2021-11-12 02:28:04 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 60.740 ms
+request: 2021-11-12 02:28:04 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 49.181 ms
+request: 2021-11-12 02:30:15 PM GET /api/v1/shop 304 - 266.570 ms
+request: 2021-11-12 02:30:20 PM GET /api/v1/user 304 - 321.433 ms
+request: 2021-11-12 02:30:24 PM GET /auth/info 304 - 429.396 ms
+request: 2021-11-12 02:30:24 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.023 ms
+request: 2021-11-12 02:30:25 PM GET /api/v1/user 304 - 318.611 ms
+request: 2021-11-12 02:30:25 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 49.335 ms
+request: 2021-11-12 02:30:25 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 49.408 ms
+request: 2021-11-12 02:30:26 PM GET /api/v1/shop 304 - 257.521 ms
+request: 2021-11-12 02:30:28 PM GET /api/v1/user 304 - 331.808 ms
+request: 2021-11-12 02:31:11 PM GET /api/v1/shop 304 - 264.354 ms
+request: 2021-11-12 02:31:54 PM GET /api/v1/shop 304 - 267.986 ms
+request: 2021-11-12 02:32:07 PM GET /api/v1/shop 304 - 289.513 ms
+request: 2021-11-12 02:32:09 PM GET /api/v1/user 304 - 317.579 ms
+request: 2021-11-12 02:32:10 PM GET /api/v1/shop 304 - 267.269 ms
+request: 2021-11-12 02:32:11 PM GET /api/v1/user 304 - 314.339 ms
+request: 2021-11-12 02:32:15 PM GET /auth/info 304 - 431.821 ms
+request: 2021-11-12 02:32:15 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.234 ms
+request: 2021-11-12 02:32:18 PM GET /api/v1/user 304 - 313.347 ms
+request: 2021-11-12 02:32:18 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.633 ms
+request: 2021-11-12 02:32:18 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 48.785 ms
+request: 2021-11-12 02:32:20 PM GET /api/v1/shop 304 - 261.034 ms
+request: 2021-11-12 02:32:42 PM GET /api/v1/shop 304 - 261.295 ms
+request: 2021-11-12 02:33:10 PM GET /api/v1/shop 304 - 275.983 ms
+request: 2021-11-12 02:33:52 PM GET /api/v1/user 304 - 312.317 ms
+request: 2021-11-12 02:33:55 PM GET /api/v1/shop 304 - 278.292 ms
+request: 2021-11-12 02:33:57 PM GET /api/v1/user 304 - 316.442 ms
+request: 2021-11-12 02:34:03 PM GET /api/v1/shop 304 - 261.716 ms
+request: 2021-11-12 02:34:03 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 51.202 ms
+request: 2021-11-12 02:34:03 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 51.340 ms
+request: 2021-11-12 02:34:03 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.240 ms
+request: 2021-11-12 02:35:22 PM GET /api/v1/category?limit=-1 304 - 209.810 ms
+request: 2021-11-12 02:35:28 PM GET /api/v1/shop 304 - 256.518 ms
+request: 2021-11-12 02:35:32 PM GET /api/v1/category?limit=-1 304 - 226.659 ms
+request: 2021-11-12 02:38:30 PM GET /auth/info 304 - 422.813 ms
+request: 2021-11-12 02:38:30 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 78.645 ms
+request: 2021-11-12 02:38:32 PM GET /api/v1/shop 304 - 257.691 ms
+request: 2021-11-12 02:38:32 PM GET /file/78a197398cc9876d12fc892908cc8b9e.jpg 200 - 51.447 ms
+request: 2021-11-12 02:38:32 PM GET /file/7211296b5dd8b6f859d09a853b4abcab.jpg 200 - 48.795 ms
+request: 2021-11-12 02:38:32 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.928 ms
+request: 2021-11-12 02:38:33 PM GET /api/v1/category?limit=-1 304 - 207.716 ms
+request: 2021-11-12 02:38:56 PM GET /api/v1/category?limit=-1 304 - 222.240 ms
+request: 2021-11-12 02:41:55 PM GET /api/v1/category?limit=-1 304 - 221.094 ms
+request: 2021-11-12 02:42:17 PM GET /api/v1/category?limit=-1 304 - 207.081 ms
+request: 2021-11-12 02:42:28 PM GET /api/v1/category?limit=-1 304 - 209.790 ms
+request: 2021-11-12 02:42:41 PM GET /api/v1/category?limit=-1 304 - 253.450 ms
+request: 2021-11-12 02:42:55 PM GET /api/v1/category?limit=-1 304 - 209.248 ms
+request: 2021-11-12 02:44:06 PM GET /api/v1/shop 304 - 265.662 ms
+request: 2021-11-12 02:44:07 PM GET /api/v1/category?limit=-1 304 - 210.832 ms
+request: 2021-11-12 02:44:09 PM PUT /api/v1/shop/618c7cb2b4c79ff036366419 200 - 502.037 ms
+request: 2021-11-12 02:44:10 PM GET /api/v1/shop 200 - 268.174 ms
+request: 2021-11-12 02:49:07 PM GET /api/v1/category?limit=-1 304 - 501.893 ms
+request: 2021-11-12 02:49:15 PM GET /api/v1/shop 304 - 260.125 ms
+request: 2021-11-12 02:53:49 PM GET /auth/info 304 - 415.764 ms
+request: 2021-11-12 02:53:49 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.549 ms
+request: 2021-11-12 02:55:37 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 53.829 ms
+request: 2021-11-12 02:56:40 PM POST /auth/login 200 - 374.501 ms
+request: 2021-11-12 02:56:40 PM GET /auth/info 200 - 435.574 ms
+request: 2021-11-12 02:56:40 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 48.896 ms
+request: 2021-11-12 02:56:41 PM GET /auth/info 304 - 435.397 ms
+request: 2021-11-12 02:56:41 PM GET /auth/info 304 - 423.446 ms
+request: 2021-11-12 02:56:43 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 758.404 ms
+request: 2021-11-12 02:57:18 PM GET /auth/info 304 - 425.251 ms
+request: 2021-11-12 02:57:19 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 49.586 ms
+request: 2021-11-12 02:57:21 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 373.727 ms
+request: 2021-11-12 02:57:32 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 49.477 ms
+request: 2021-11-12 02:58:20 PM GET /auth/info 304 - 429.226 ms
+request: 2021-11-12 02:58:20 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 48.997 ms
+request: 2021-11-12 02:58:23 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 372.942 ms
+request: 2021-11-12 02:58:24 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 54.901 ms
+request: 2021-11-12 02:58:59 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 393.854 ms
+request: 2021-11-12 02:59:03 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 433.318 ms
+request: 2021-11-12 02:59:07 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 446.009 ms
+request: 2021-11-12 02:59:11 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 412.654 ms
+info: 2021-11-12 03:40:11 PM MongoDB successfully connected
+info: 2021-11-12 03:40:11 PM Listening on port 5000 (development)
+info: 2021-11-12 03:40:11 PM Grid connected to db
+request: 2021-11-12 04:04:25 PM GET /auth/info 304 - 453.417 ms
+request: 2021-11-12 04:04:26 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 55.877 ms
+request: 2021-11-12 04:04:26 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 200 - 393.356 ms
+request: 2021-11-12 04:05:42 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 401.879 ms
+request: 2021-11-12 04:05:47 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 53.223 ms
+request: 2021-11-12 04:05:49 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 449.072 ms
+request: 2021-11-12 04:06:51 PM GET /auth/info 304 - 412.877 ms
+request: 2021-11-12 04:06:51 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.693 ms
+request: 2021-11-12 04:06:52 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D 304 - 368.433 ms
+request: 2021-11-12 04:08:23 PM GET /auth/info 304 - 419.519 ms
+request: 2021-11-12 04:08:24 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.393 ms
+request: 2021-11-12 04:08:26 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 372.508 ms
+request: 2021-11-12 04:08:52 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 367.041 ms
+request: 2021-11-12 04:09:05 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 52.716 ms
+request: 2021-11-12 04:11:18 PM GET /auth/info 304 - 421.115 ms
+request: 2021-11-12 04:11:19 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.660 ms
+request: 2021-11-12 04:11:19 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 357.771 ms
+request: 2021-11-12 04:11:26 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 380.028 ms
+request: 2021-11-12 04:12:09 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 411.921 ms
+request: 2021-11-12 04:12:16 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 363.498 ms
+request: 2021-11-12 04:16:03 PM PUT /api/v1/service/615a656f35d8e2a06b5c11e6 200 - 482.874 ms
+request: 2021-11-12 04:16:05 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 317.518 ms
+request: 2021-11-12 04:17:30 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 311.538 ms
+request: 2021-11-12 04:17:33 PM GET /auth/info 304 - 427.509 ms
+request: 2021-11-12 04:17:33 PM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.424 ms
+request: 2021-11-12 04:17:34 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D 200 - 211.184 ms
+request: 2021-11-12 04:17:37 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 410.747 ms
+request: 2021-11-12 04:17:38 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 323.061 ms
+request: 2021-11-12 04:19:32 PM HEAD /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.332 ms
+request: 2021-11-12 04:19:32 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 311.791 ms
+request: 2021-11-12 04:19:40 PM POST /auth/login 200 - 370.095 ms
+request: 2021-11-12 04:19:40 PM GET /auth/info 200 - 438.375 ms
+request: 2021-11-12 04:19:41 PM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 49.902 ms
+request: 2021-11-12 04:19:41 PM GET /auth/info 304 - 413.925 ms
+request: 2021-11-12 04:19:41 PM GET /auth/info 304 - 422.231 ms
+request: 2021-11-12 04:19:41 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 213.171 ms
+request: 2021-11-12 04:19:42 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 420.906 ms
+request: 2021-11-12 04:19:42 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 50.264 ms
+request: 2021-11-12 04:19:42 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 50.337 ms
+request: 2021-11-12 04:19:44 PM GET /api/v1/category?name=&limit=10&page=0&sortBy=%7B%7D 304 - 216.716 ms
+request: 2021-11-12 04:19:45 PM GET /file/61551479eb7895014620a9151f294f48.jpg 200 - 51.549 ms
+request: 2021-11-12 04:19:45 PM GET /file/993231d5f71122826a4e735fb0ce51a8.jpg 200 - 51.035 ms
+request: 2021-11-12 04:19:45 PM GET /api/v1/user 304 - 351.058 ms
+request: 2021-11-12 04:19:45 PM GET /file/d8db5c79cf7eea644247ba13cdd31e19.png 200 - 51.192 ms
+request: 2021-11-12 04:19:45 PM GET /file/a93194f54c1716c6b0b67a3084b8ac77.jpg 200 - 50.790 ms
+request: 2021-11-12 04:19:46 PM GET /api/v1/shop 304 - 256.884 ms
+request: 2021-11-12 04:20:03 PM GET /api/v1/user 304 - 343.859 ms
+request: 2021-11-12 04:20:04 PM HEAD /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.808 ms
+request: 2021-11-12 04:20:12 PM POST /auth/login 200 - 355.659 ms
+request: 2021-11-12 04:20:12 PM GET /auth/info 200 - 432.884 ms
+request: 2021-11-12 04:20:13 PM GET /auth/info 304 - 446.222 ms
+request: 2021-11-12 04:20:13 PM GET /auth/info 304 - 456.937 ms
+request: 2021-11-12 04:20:14 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 385.745 ms
+request: 2021-11-12 04:20:15 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 314.861 ms
+request: 2021-11-12 04:20:17 PM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 639.098 ms
+request: 2021-11-12 04:20:19 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 355.528 ms
+request: 2021-11-12 04:20:24 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 399.300 ms
+request: 2021-11-12 04:20:33 PM GET /api/v1/category?limit=-1 304 - 210.151 ms
+request: 2021-11-12 04:20:33 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.884 ms
