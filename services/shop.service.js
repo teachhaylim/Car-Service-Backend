@@ -10,7 +10,7 @@ import ApiError from "../utils/ApiError";
  */
 const CreateShop = async (shopBody) => {
     const address = await addressService.CreateAddress(shopBody.address);
-    
+
     shopBody.address = address._id;
 
     const shop = await Shop.create(shopBody);
@@ -66,7 +66,7 @@ const UpdateShop = async (shopId, shopBody) => {
         zipCode: dbAddress.zipCode,
     }
 
-    if (JSON.stringify(obj) !== JSON.stringify(shopBody.address)){
+    if (JSON.stringify(obj) !== JSON.stringify(shopBody.address)) {
         Object.assign(dbAddress, JSON.parse(JSON.stringify(shopBody.address)));
         await dbAddress.save();
         shopBody.address = dbAddress._id;

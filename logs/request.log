@@ -12458,3 +12458,265 @@ request: 2021-11-12 04:20:19 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7
 request: 2021-11-12 04:20:24 PM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 399.300 ms
 request: 2021-11-12 04:20:33 PM GET /api/v1/category?limit=-1 304 - 210.151 ms
 request: 2021-11-12 04:20:33 PM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.884 ms
+request: 2021-11-13 08:17:05 AM POST /auth/login 200 - 362.027 ms
+request: 2021-11-13 08:17:05 AM GET /auth/info 304 - 415.691 ms
+request: 2021-11-13 08:17:06 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 52.357 ms
+request: 2021-11-13 08:17:06 AM GET /auth/info 304 - 428.811 ms
+request: 2021-11-13 08:17:06 AM GET /auth/info 304 - 413.908 ms
+request: 2021-11-13 08:17:08 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 410.680 ms
+request: 2021-11-13 08:17:15 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 332.449 ms
+request: 2021-11-13 08:17:16 AM GET /api/v1/category?limit=-1 304 - 258.438 ms
+request: 2021-11-13 08:17:16 AM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 92.218 ms
+request: 2021-11-13 08:17:30 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 200 - 490.346 ms
+request: 2021-11-13 08:17:33 AM GET /api/v1/category?limit=-1 304 - 210.248 ms
+request: 2021-11-13 08:17:34 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 323.514 ms
+request: 2021-11-13 08:19:51 AM GET /api/v1/category?limit=-1 304 - 209.356 ms
+request: 2021-11-13 08:20:16 AM GET /api/v1/category?limit=-1 304 - 211.156 ms
+request: 2021-11-13 08:21:52 AM GET /api/v1/category?limit=-1 304 - 215.465 ms
+request: 2021-11-13 08:22:01 AM GET /api/v1/category?limit=-1 304 - 232.014 ms
+request: 2021-11-13 08:22:11 AM GET /api/v1/category?limit=-1 304 - 213.380 ms
+request: 2021-11-13 08:24:09 AM GET /api/v1/category?limit=-1 304 - 204.291 ms
+request: 2021-11-13 08:24:15 AM GET /api/v1/category?limit=-1 304 - 213.209 ms
+request: 2021-11-13 08:24:16 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 304.243 ms
+request: 2021-11-13 08:24:35 AM GET /api/v1/category?limit=-1 304 - 303.634 ms
+request: 2021-11-13 08:24:37 AM GET /api/v1/category?limit=-1 304 - 211.087 ms
+request: 2021-11-13 08:24:38 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 317.434 ms
+request: 2021-11-13 08:25:17 AM GET /api/v1/category?limit=-1 304 - 219.970 ms
+request: 2021-11-13 08:25:20 AM GET /api/v1/category?limit=-1 304 - 577.901 ms
+request: 2021-11-13 08:25:20 AM GET /auth/info 200 - 793.184 ms
+request: 2021-11-13 08:25:20 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.823 ms
+request: 2021-11-13 08:25:23 AM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 74.197 ms
+request: 2021-11-13 08:25:23 AM GET /api/v1/category?limit=-1 304 - 217.057 ms
+request: 2021-11-13 08:25:24 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 355.643 ms
+request: 2021-11-13 08:25:42 AM GET /api/v1/category?limit=-1 304 - 226.811 ms
+request: 2021-11-13 08:25:48 AM GET /api/v1/category?limit=-1 304 - 222.786 ms
+request: 2021-11-13 08:26:30 AM GET /api/v1/category?limit=-1 304 - 210.985 ms
+request: 2021-11-13 08:27:02 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 200 - 500.437 ms
+request: 2021-11-13 08:27:04 AM GET /api/v1/category?limit=-1 304 - 222.717 ms
+request: 2021-11-13 08:27:05 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 349.454 ms
+request: 2021-11-13 08:27:08 AM HEAD /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.074 ms
+request: 2021-11-13 08:27:25 AM GET /api/v1/category?limit=-1 304 - 218.227 ms
+request: 2021-11-13 08:27:54 AM GET /api/v1/category?limit=-1 304 - 213.754 ms
+request: 2021-11-13 08:28:22 AM GET /api/v1/category?limit=-1 304 - 229.240 ms
+request: 2021-11-13 08:28:33 AM GET /api/v1/category?limit=-1 304 - 241.442 ms
+request: 2021-11-13 08:30:01 AM GET /auth/info 200 - 440.160 ms
+request: 2021-11-13 08:30:01 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 52.257 ms
+request: 2021-11-13 08:30:03 AM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.500 ms
+request: 2021-11-13 08:30:03 AM GET /api/v1/category?limit=-1 304 - 220.094 ms
+request: 2021-11-13 08:31:59 AM GET /api/v1/category?limit=-1 304 - 216.542 ms
+request: 2021-11-13 08:32:08 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 314.378 ms
+request: 2021-11-13 08:32:24 AM GET /api/v1/category?limit=-1 304 - 217.550 ms
+request: 2021-11-13 08:32:26 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 312.273 ms
+request: 2021-11-13 08:32:28 AM GET /auth/info 304 - 478.406 ms
+request: 2021-11-13 08:32:29 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.846 ms
+request: 2021-11-13 08:32:30 AM GET /api/v1/category?limit=-1 304 - 210.268 ms
+request: 2021-11-13 08:32:30 AM GET /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 50.838 ms
+request: 2021-11-13 08:32:35 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 200 - 523.903 ms
+request: 2021-11-13 08:32:37 AM GET /api/v1/category?limit=-1 304 - 225.896 ms
+request: 2021-11-13 08:32:38 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 317.673 ms
+request: 2021-11-13 08:32:44 AM GET /api/v1/category?limit=-1 304 - 211.411 ms
+request: 2021-11-13 08:33:22 AM HEAD /file/656a554d66152872ed0ba68bf28f5780.jpg 200 - 51.026 ms
+request: 2021-11-13 08:33:31 AM POST /file/upload 201 - 393.370 ms
+request: 2021-11-13 08:33:32 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 200 - 417.986 ms
+request: 2021-11-13 08:33:34 AM GET /file/e5d0da4b34eca502e895e9098f5fd1eb.jpg 200 - 50.912 ms
+request: 2021-11-13 08:33:34 AM GET /api/v1/category?limit=-1 304 - 216.357 ms
+request: 2021-11-13 08:33:34 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 330.974 ms
+request: 2021-11-13 08:34:37 AM GET /api/v1/category?limit=-1 304 - 224.577 ms
+request: 2021-11-13 08:34:37 AM GET /auth/info 200 - 427.935 ms
+request: 2021-11-13 08:34:37 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.466 ms
+request: 2021-11-13 08:34:46 AM GET /api/v1/category?limit=-1 304 - 206.495 ms
+request: 2021-11-13 08:34:47 AM GET /file/e5d0da4b34eca502e895e9098f5fd1eb.jpg 200 - 54.768 ms
+request: 2021-11-13 08:34:47 AM GET /api/v1/category?limit=-1 304 - 209.209 ms
+request: 2021-11-13 08:34:48 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 305.954 ms
+request: 2021-11-13 08:34:54 AM GET /api/v1/category?limit=-1 304 - 213.839 ms
+request: 2021-11-13 08:34:55 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 308.805 ms
+request: 2021-11-13 08:35:03 AM POST /file/upload 201 - 370.020 ms
+error: 2021-11-13 08:35:03 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 400 - 163.046 ms - message: Cast to ObjectId failed for value "" (type string) at path "_id" for model "address"
+request: 2021-11-13 08:35:22 AM GET /api/v1/category?limit=-1 304 - 216.965 ms
+request: 2021-11-13 08:36:06 AM GET /file/e5d0da4b34eca502e895e9098f5fd1eb.jpg 200 - 51.491 ms
+request: 2021-11-13 08:36:06 AM GET /api/v1/category?limit=-1 304 - 215.124 ms
+request: 2021-11-13 08:36:07 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 1161.664 ms
+request: 2021-11-13 08:36:18 AM GET /auth/info 200 - 427.789 ms
+request: 2021-11-13 08:36:19 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.170 ms
+request: 2021-11-13 08:36:20 AM GET /file/e5d0da4b34eca502e895e9098f5fd1eb.jpg 200 - 51.344 ms
+request: 2021-11-13 08:36:20 AM GET /api/v1/category?limit=-1 304 - 209.869 ms
+request: 2021-11-13 08:36:25 AM POST /file/upload 201 - 363.258 ms
+request: 2021-11-13 08:36:26 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 200 - 421.391 ms
+request: 2021-11-13 08:36:38 AM GET /api/v1/category?limit=-1 304 - 208.731 ms
+request: 2021-11-13 08:36:46 AM GET /api/v1/category?limit=-1 304 - 213.204 ms
+request: 2021-11-13 08:37:31 AM GET /api/v1/category?limit=-1 304 - 230.080 ms
+request: 2021-11-13 08:43:36 AM GET /api/v1/category?limit=-1 304 - 205.606 ms
+request: 2021-11-13 08:44:43 AM GET /api/v1/category?limit=-1 304 - 207.800 ms
+request: 2021-11-13 08:44:45 AM GET /api/v1/category?limit=-1 304 - 204.906 ms
+request: 2021-11-13 08:44:53 AM GET /api/v1/category?limit=-1 304 - 205.900 ms
+request: 2021-11-13 08:45:13 AM GET /api/v1/category?limit=-1 304 - 209.899 ms
+request: 2021-11-13 08:53:39 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 383.147 ms
+request: 2021-11-13 08:53:46 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 314.769 ms
+request: 2021-11-13 08:53:47 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 396.485 ms
+request: 2021-11-13 08:53:48 AM GET /api/v1/category?limit=-1 304 - 203.671 ms
+request: 2021-11-13 08:53:48 AM GET /file/3a9273823885aceced7d58434ea86638.jpg 200 - 50.802 ms
+request: 2021-11-13 08:53:56 AM GET /api/v1/category?limit=-1 304 - 207.980 ms
+request: 2021-11-13 08:53:56 AM GET /file/3a9273823885aceced7d58434ea86638.jpg 200 - 51.252 ms
+request: 2021-11-13 08:54:48 AM GET /api/v1/category?limit=-1 304 - 205.262 ms
+request: 2021-11-13 08:58:09 AM GET /api/v1/category?limit=-1 304 - 233.394 ms
+request: 2021-11-13 08:58:10 AM GET /auth/info 200 - 434.626 ms
+request: 2021-11-13 08:58:10 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 58.313 ms
+request: 2021-11-13 09:02:30 AM HEAD /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.697 ms
+request: 2021-11-13 09:06:51 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 368.301 ms
+request: 2021-11-13 09:06:53 AM GET /auth/info 304 - 431.907 ms
+request: 2021-11-13 09:06:53 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.623 ms
+request: 2021-11-13 09:11:31 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 396.119 ms
+request: 2021-11-13 09:11:47 AM GET /auth/info 304 - 444.581 ms
+request: 2021-11-13 09:11:47 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 58.448 ms
+request: 2021-11-13 09:11:49 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 369.500 ms
+request: 2021-11-13 09:12:18 AM GET /file/3a9273823885aceced7d58434ea86638.jpg 200 - 50.446 ms
+request: 2021-11-13 09:12:25 AM GET /api/v1/category?limit=-1 304 - 205.656 ms
+request: 2021-11-13 09:12:27 AM GET /api/v1/category?limit=-1 304 - 208.927 ms
+request: 2021-11-13 09:12:33 AM GET /api/v1/category?limit=-1 304 - 294.359 ms
+error: 2021-11-13 09:12:38 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 400 - 189.739 ms - message: Cast to ObjectId failed for value "" (type string) at path "_id" for model "address"
+request: 2021-11-13 09:13:33 AM GET /api/v1/category?limit=-1 304 - 294.068 ms
+request: 2021-11-13 09:13:36 AM GET /auth/info 200 - 430.809 ms
+request: 2021-11-13 09:13:37 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 53.028 ms
+request: 2021-11-13 09:13:40 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 433.954 ms
+request: 2021-11-13 09:13:41 AM GET /file/3a9273823885aceced7d58434ea86638.jpg 200 - 51.563 ms
+request: 2021-11-13 09:13:43 AM GET /api/v1/category?limit=-1 304 - 220.337 ms
+error: 2021-11-13 09:13:46 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 404 - 212.114 ms - message: Address not found
+request: 2021-11-13 09:13:48 AM GET /api/v1/category?limit=-1 304 - 205.845 ms
+request: 2021-11-13 09:13:49 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 307.403 ms
+request: 2021-11-13 09:13:53 AM GET /auth/info 304 - 430.064 ms
+request: 2021-11-13 09:13:54 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 50.721 ms
+request: 2021-11-13 09:13:56 AM GET /api/v1/category?limit=-1 304 - 228.871 ms
+request: 2021-11-13 09:13:56 AM GET /file/3a9273823885aceced7d58434ea86638.jpg 200 - 51.338 ms
+request: 2021-11-13 09:13:58 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 384.589 ms
+request: 2021-11-13 09:14:30 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 338.409 ms
+request: 2021-11-13 09:14:56 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 365.696 ms
+request: 2021-11-13 09:14:58 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 333.120 ms
+request: 2021-11-13 09:15:02 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 323.550 ms
+request: 2021-11-13 09:15:05 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 313.767 ms
+request: 2021-11-13 09:17:17 AM DELETE /api/v1/service/618b3dadbad9f252e1c6534a 200 - 476.498 ms
+request: 2021-11-13 09:17:18 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 315.994 ms
+request: 2021-11-13 09:17:21 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 394.650 ms
+request: 2021-11-13 09:17:22 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 333.624 ms
+request: 2021-11-13 09:19:32 AM GET /api/v1/category?limit=-1 304 - 270.223 ms
+request: 2021-11-13 09:19:39 AM PUT /api/v1/shop/617222fe0065218fc409ccdc 200 - 507.613 ms
+request: 2021-11-13 09:19:51 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 330.704 ms
+request: 2021-11-13 09:19:52 AM GET /api/v1/category?limit=-1 304 - 208.085 ms
+request: 2021-11-13 09:19:57 AM GET /auth/info 200 - 440.556 ms
+request: 2021-11-13 09:19:57 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 60.083 ms
+request: 2021-11-13 09:19:59 AM GET /file/3a9273823885aceced7d58434ea86638.jpg 200 - 52.323 ms
+request: 2021-11-13 09:19:59 AM GET /api/v1/category?limit=-1 304 - 208.321 ms
+request: 2021-11-13 09:20:12 AM GET /api/v1/category?limit=-1 304 - 239.744 ms
+request: 2021-11-13 09:21:36 AM GET /api/v1/category?limit=-1 304 - 227.394 ms
+request: 2021-11-13 09:25:37 AM GET /api/v1/category?limit=-1 304 - 207.876 ms
+request: 2021-11-13 09:29:12 AM GET /api/v1/category?limit=-1 304 - 219.029 ms
+request: 2021-11-13 09:47:53 AM GET /api/v1/category?limit=-1 304 - 220.689 ms
+request: 2021-11-13 09:47:53 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 200 - 403.237 ms
+request: 2021-11-13 09:47:53 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 320.468 ms
+request: 2021-11-13 09:48:04 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 55.153 ms
+request: 2021-11-13 09:48:11 AM GET /api/v1/appointment?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 742.094 ms
+request: 2021-11-13 09:48:14 AM GET /file/3a9273823885aceced7d58434ea86638.jpg 200 - 49.916 ms
+request: 2021-11-13 09:48:21 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 312.681 ms
+request: 2021-11-13 09:48:26 AM GET /api/v1/service?limit=10&page=0&sortBy=%7B%7D&sellCompany=617222fe0065218fc409ccdc 304 - 331.821 ms
+request: 2021-11-13 09:48:26 AM GET /api/v1/category?limit=-1 304 - 207.924 ms
+request: 2021-11-13 09:48:26 AM GET /file/3a9273823885aceced7d58434ea86638.jpg 200 - 49.909 ms
+error: 2021-11-13 10:02:21 AM GET /api/v1/appointment?createdAt=%7BcreatedAt:%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D%7D 400 - 157.448 ms - message: "createdAt" is not allowed
+request: 2021-11-13 10:02:59 AM GET /api/v1/appointment?createdAt=%7BcreatedAt:%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D%7D 200 - 414.483 ms
+request: 2021-11-13 10:03:16 AM GET /api/v1/appointment?createdAt=%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D 200 - 389.427 ms
+error: 2021-11-13 10:04:00 AM GET /api/v1/appointment?createdAt=%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D 400 - 238.666 ms - message: Cast to date failed for value "{ $gte: new Date("2021-11-01"), $lt: new Date("2021-11-10")}" (type string) at path "createdAt" for model "appointments"
+error: 2021-11-13 10:04:45 AM GET /api/v1/appointment?createdAt=%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D 500 - 539.749 ms - message: Unexpected token $ in JSON at position 2
+error: 2021-11-13 10:05:01 AM GET /api/v1/appointment?createdAt=%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D 400 - 474.800 ms - message: Cast to date failed for value "{ $gte: new Date("2021-11-01"), $lt: new Date("2021-11-10")}" (type string) at path "createdAt" for model "appointments"
+error: 2021-11-13 10:06:19 AM GET /api/v1/appointment?createdAt=%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D 400 - 693.286 ms - message: Cast to date failed for value "{ $gte: new Date("2021-11-01"), $lt: new Date("2021-11-10")}" (type string) at path "createdAt" for model "appointments"
+error: 2021-11-13 10:06:35 AM GET /api/v1/appointment?createdAt=%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D 500 - 183.024 ms - message: Unexpected token $ in JSON at position 2
+error: 2021-11-13 10:06:45 AM GET /api/v1/appointment?createdAt=%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D 500 - 161.746 ms - message: Unexpected token $ in JSON at position 2
+error: 2021-11-13 10:06:55 AM GET /api/v1/appointment?createdAt=%7B%20$gte:%20new%20Date(%222021-11-01%22),%20$lt:%20new%20Date(%222021-11-10%22)%7D 400 - 227.122 ms - message: Cast to date failed for value "{ $gte: new Date("2021-11-01"), $lt: new Date("2021-11-10")}" (type string) at path "createdAt" for model "appointments"
+error: 2021-11-13 10:08:07 AM GET /api/v1/appointment?createdAt=[%222021-11-01%22,%20%222021-11-05%22] 400 - 168.072 ms - message: Cast to date failed for value "["2021-11-01", "2021-11-05"]" (type string) at path "createdAt" for model "appointments"
+error: 2021-11-13 10:08:18 AM GET /api/v1/appointment?createdAt=[%222021-11-01%22,%20%222021-11-05%22] 400 - 434.818 ms - message: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "appointments"
+error: 2021-11-13 10:08:38 AM GET /api/v1/appointment?createdAt=[%222021-11-01%22,%20%222021-11-05%22] 400 - 194.221 ms - message: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "appointments"
+error: 2021-11-13 10:08:44 AM GET /api/v1/appointment?createdAt=%22[%222021-11-01%22,%20%222021-11-05%22]%22 400 - 175.215 ms - message: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "appointments"
+error: 2021-11-13 10:09:46 AM GET /api/v1/appointment?createdAt=%222021-11-01%22&createAt=%222021-11-05%22 400 - 161.518 ms - message: "createAt" is not allowed
+request: 2021-11-13 10:09:51 AM GET /api/v1/appointment?createdAt=%222021-11-01%22&createdAt=%222021-11-05%22 200 - 376.719 ms
+request: 2021-11-13 10:10:25 AM GET /api/v1/appointment?createdAt=2021-11-01&createdAt=2021-11-10 200 - 419.456 ms
+request: 2021-11-13 10:39:18 AM GET /api/v1/shop 200 - 297.155 ms
+request: 2021-11-13 10:40:31 AM GET /api/v1/shop 304 - 276.930 ms
+request: 2021-11-13 10:40:36 AM GET /api/v1/shop 304 - 270.785 ms
+error: 2021-11-13 10:41:16 AM GET /api/v1/shop?createdAt=2021-11-10 400 - 158.860 ms - message: "createdAt" is not allowed
+request: 2021-11-13 10:41:39 AM GET /api/v1/appointment?createdAt=2021-11-10 200 - 242.450 ms
+request: 2021-11-13 10:43:29 AM GET /api/v1/appointment 200 - 728.409 ms
+request: 2021-11-13 10:43:35 AM GET /api/v1/appointment 304 - 385.496 ms
+request: 2021-11-13 10:44:21 AM GET /api/v1/appointment 304 - 413.455 ms
+request: 2021-11-13 10:44:30 AM GET /api/v1/appointment?createdAt=2021-11-01&createdAt=2021-11-10 200 - 399.283 ms
+request: 2021-11-13 11:03:28 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 200 - 476.601 ms
+request: 2021-11-13 11:03:54 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 200 - 472.434 ms
+error: 2021-11-13 11:04:06 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 400 - 536.603 ms - message: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "appointments"
+request: 2021-11-13 11:04:37 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 200 - 931.778 ms
+request: 2021-11-13 11:05:05 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 200 - 400.966 ms
+request: 2021-11-13 11:05:09 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 304 - 370.047 ms
+request: 2021-11-13 11:05:12 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 304 - 380.120 ms
+request: 2021-11-13 11:07:49 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 304 - 435.370 ms
+request: 2021-11-13 11:26:03 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 53.259 ms
+request: 2021-11-13 11:26:07 AM GET /auth/info 304 - 444.279 ms
+request: 2021-11-13 11:26:08 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 57.920 ms
+request: 2021-11-13 11:26:41 AM GET /auth/info 304 - 439.926 ms
+request: 2021-11-13 11:26:41 AM GET /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.459 ms
+request: 2021-11-13 11:27:20 AM HEAD /file/7837d621c12c0822a256e30bf8512256.jpg 200 - 51.361 ms
+request: 2021-11-13 11:27:28 AM POST /auth/login 200 - 347.180 ms
+request: 2021-11-13 11:27:29 AM GET /auth/info 200 - 429.737 ms
+request: 2021-11-13 11:27:29 AM GET /file/08355a38e1897627e62076628d036bc4.jpg 200 - 50.500 ms
+request: 2021-11-13 11:27:30 AM GET /auth/info 304 - 1027.588 ms
+request: 2021-11-13 11:27:30 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 304 - 989.934 ms
+request: 2021-11-13 11:27:30 AM GET /auth/info 304 - 452.861 ms
+request: 2021-11-13 11:27:32 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 304 - 416.962 ms
+request: 2021-11-13 11:27:43 AM POST /auth/login 200 - 336.623 ms
+request: 2021-11-13 11:27:44 AM GET /auth/info 200 - 422.880 ms
+request: 2021-11-13 11:27:44 AM GET /auth/info 304 - 408.648 ms
+request: 2021-11-13 11:27:44 AM GET /auth/info 304 - 419.854 ms
+request: 2021-11-13 11:28:08 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 304 - 401.621 ms
+request: 2021-11-13 11:28:26 AM GET /api/v1/appointment?bd=2021-11-01&ed=2021-11-10 304 - 394.140 ms
+request: 2021-11-13 02:36:07 PM GET /stats/ 200 - 1.618 ms
+error: 2021-11-13 02:37:02 PM GET /stats/totalinome 404 - 1.716 ms - message: /stats/totalinome not found
+error: 2021-11-13 02:37:10 PM GET /stats/totalincome 500 - 5.283 ms - message: Cannot read property 'start' of undefined
+error: 2021-11-13 02:37:26 PM GET /stats/totalincome 500 - 1.955 ms - message: Cannot read property 'start' of undefined
+error: 2021-11-13 02:37:33 PM GET /stats/totalincome 500 - 5.909 ms - message: _models.Appointment.find(...).aggregate is not a function
+request: 2021-11-13 02:37:42 PM GET /stats/totalincome 200 - 763.043 ms
+request: 2021-11-13 02:38:12 PM GET /stats/totalincome 200 - 275.809 ms
+request: 2021-11-13 02:39:49 PM GET /stats/totalincome 200 - 707.518 ms
+request: 2021-11-13 02:40:03 PM GET /stats/totalincome 200 - 232.682 ms
+request: 2021-11-13 02:41:48 PM GET /stats/totalincome 200 - 212.402 ms
+request: 2021-11-13 02:43:28 PM GET /stats/totalincome 200 - 638.447 ms
+request: 2021-11-13 02:44:18 PM GET /stats/totalincome 200 - 287.596 ms
+error: 2021-11-13 02:49:57 PM GET /stats/totalincome 500 - 446.394 ms - message: Cannot read property 'find' of undefined
+error: 2021-11-13 02:51:39 PM GET /stats/totalincome 400 - 215.180 ms - message: Mongoose 5.x disallows passing a spread of operators to `Model.aggregate()`. Instead of `Model.aggregate({ $match }, { $skip })`, do `Model.aggregate([{ $match }, { $skip }])`
+request: 2021-11-13 02:52:06 PM GET /stats/totalincome 200 - 62.945 ms
+request: 2021-11-13 02:52:35 PM GET /stats/totalincome 200 - 112.516 ms
+request: 2021-11-13 02:52:51 PM GET /stats/totalincome 200 - 538.840 ms
+request: 2021-11-13 02:53:00 PM GET /stats/totalincome 200 - 818.108 ms
+request: 2021-11-13 02:53:52 PM GET /stats/totalincome 200 - 914.630 ms
+request: 2021-11-13 02:54:03 PM GET /stats/totalincome 200 - 867.607 ms
+request: 2021-11-13 02:54:17 PM GET /stats/totalincome 200 - 875.044 ms
+request: 2021-11-13 02:54:26 PM GET /stats/totalincome 200 - 1035.951 ms
+request: 2021-11-13 02:54:39 PM GET /stats/totalincome 200 - 986.533 ms
+request: 2021-11-13 02:54:57 PM GET /stats/totalincome 200 - 911.430 ms
+request: 2021-11-13 02:55:07 PM GET /stats/totalincome 200 - 947.242 ms
+error: 2021-11-13 02:55:31 PM GET /stats/totalincome 400 - 964.965 ms - message: Mongoose 5.x disallows passing a spread of operators to `Model.aggregate()`. Instead of `Model.aggregate({ $match }, { $skip })`, do `Model.aggregate([{ $match }, { $skip }])`
+request: 2021-11-13 02:56:49 PM GET /stats/totalincome 200 - 697.221 ms
+error: 2021-11-13 02:56:59 PM GET /stats/totalincome 500 - 815.639 ms - message: the count field must be a non-empty string
+error: 2021-11-13 02:57:10 PM GET /stats/totalincome 500 - 1001.331 ms - message: the count field must be a non-empty string
+request: 2021-11-13 02:57:52 PM GET /stats/totalincome 200 - 986.769 ms
+error: 2021-11-13 03:01:03 PM GET /stats/totalincome 500 - 929.031 ms - message: "data" is read-only
+request: 2021-11-13 03:01:14 PM GET /stats/totalincome 200 - 691.086 ms
+request: 2021-11-13 03:11:34 PM GET /stats/totalincome 200 - 621.204 ms
+request: 2021-11-13 03:12:00 PM GET /stats/totalincome 200 - 1037.217 ms
+request: 2021-11-13 03:12:26 PM GET /stats/totalincome 200 - 848.276 ms
+request: 2021-11-13 03:12:58 PM GET /stats/totalincome 200 - 973.365 ms
+request: 2021-11-13 03:13:42 PM GET /stats/totalincome 200 - 827.275 ms
+request: 2021-11-13 03:13:54 PM GET /stats/totalincome 200 - 949.200 ms
+request: 2021-11-13 03:14:21 PM GET /stats/totalincome 200 - 962.971 ms
+request: 2021-11-13 03:14:30 PM GET /stats/totalincome 200 - 889.432 ms
+request: 2021-11-13 03:14:54 PM GET /stats/totalincome 200 - 917.906 ms
+request: 2021-11-13 03:15:10 PM GET /stats/totalincome 200 - 224.344 ms
+error: 2021-11-13 03:15:37 PM GET /stats/totalincome 500 - 884.543 ms - message: Cannot read property 'reduce' of undefined
+request: 2021-11-13 03:17:01 PM GET /stats/totalincome 200 - 892.099 ms
+request: 2021-11-13 03:18:54 PM GET /stats/totalincome 200 - 531.714 ms
+request: 2021-11-13 03:19:27 PM GET /stats/totalincome 200 - 246.205 ms
+request: 2021-11-13 03:19:55 PM GET /stats/totalincome 200 - 270.350 ms
+request: 2021-11-13 03:20:20 PM GET /stats/totalincome 200 - 234.862 ms

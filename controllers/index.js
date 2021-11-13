@@ -7,3 +7,4 @@ export { default as serviceController } from "./service.controller";
 export { default as appointmentController } from "./appointment.controller";
 export { default as uploadController } from './upload.controller';
 export { default as addressController } from "./address.controller";
+export { default as statsController } from './stats.controller';

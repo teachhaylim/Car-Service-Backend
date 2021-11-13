@@ -8,6 +8,7 @@ import serviceRoute from "./service.route";
 import appointmentRoute from "./appointment.route";
 import uploadRoute from "./upload.route";
 import addressRoute from "./address.route";
+import statsRoute from "./stats.route";
 
 const router = express.Router();
 export const generalRouter = express.Router();
@@ -17,7 +18,7 @@ const testRouter = express.Router();
 testRouter.post("/", (req, res) => {
     console.log(req.body);
 
-    res.status(200).send({ meta: 200, data: req.body});
+    res.status(200).send({ meta: 200, data: req.body });
 });
 
 const apiRoutes = [
@@ -63,6 +64,10 @@ const generalRoute = [
     {
         path: "/auth",
         route: authRoute,
+    },
+    {
+        path: "/stats",
+        route: statsRoute,
     },
 ];
 

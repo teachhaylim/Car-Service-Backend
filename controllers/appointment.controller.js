@@ -10,8 +10,11 @@ const CreateAppointment = catchAsync(async (req, res) => {
 });
 
 const QueryAppointments = catchAsync(async (req, res) => {
-    const filter = pick(req.query, ["userId", "sellCompany", "totalAmount"]);
+    const filter = pick(req.query, ["userId", "sellCompany", "bd", "ed"]);
     const options = pick(req.query, ["limit", "sortBy", "page"]);
+
+    if (filter.bd && filter.ed) filter.createdAt = { $gte: new Date(filter.bd), $lte: new Date(filter.ed) };
+
     const appointment = await appointmentService.QueryAppointments(filter, options);
 
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, ...appointment });

@@ -15,7 +15,9 @@ const queryAppointments = {
     query: Joi.object().keys({
         userId: Joi.string(),
         sellCompany: Joi.string(),
-        totalAmount: Joi.number(),
+        // createdAt: Joi.any(),
+        bd: Joi.any(),
+        ed: Joi.any(),
         limit: Joi.number().integer(),
         page: Joi.number().integer(),
         sortBy: Joi.string(),
