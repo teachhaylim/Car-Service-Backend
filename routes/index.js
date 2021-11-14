@@ -53,7 +53,11 @@ const apiRoutes = [
     {
         path: "/address",
         route: addressRoute,
-    }
+    },
+    {
+        path: "/stats",
+        route: statsRoute,
+    },
 ];
 
 const generalRoute = [
@@ -64,10 +68,6 @@ const generalRoute = [
     {
         path: "/auth",
         route: authRoute,
-    },
-    {
-        path: "/stats",
-        route: statsRoute,
     },
 ];
 
