@@ -12720,3 +12720,123 @@ request: 2021-11-13 03:18:54 PM GET /stats/totalincome 200 - 531.714 ms
 request: 2021-11-13 03:19:27 PM GET /stats/totalincome 200 - 246.205 ms
 request: 2021-11-13 03:19:55 PM GET /stats/totalincome 200 - 270.350 ms
 request: 2021-11-13 03:20:20 PM GET /stats/totalincome 200 - 234.862 ms
+error: 2021-11-13 09:42:08 PM GET /state/sale 404 - 1.967 ms - message: /state/sale not found
+request: 2021-11-13 09:42:24 PM GET /stats/sale 200 - 12327.264 ms
+request: 2021-11-13 09:43:06 PM GET /stats/sale 200 - 18531.425 ms
+request: 2021-11-13 09:44:10 PM GET /stats/sale 200 - 19617.560 ms
+request: 2021-11-13 09:44:57 PM GET /stats/sale 200 - 18736.311 ms
+request: 2021-11-13 09:45:17 PM GET /stats/sale 200 - 1650.924 ms
+request: 2021-11-13 09:47:15 PM GET /stats/sale 200 - 2922.416 ms
+request: 2021-11-13 09:48:20 PM GET /stats/sale 200 - 18489.109 ms
+error: 2021-11-13 09:49:34 PM GET /stats/sale 500 - 12935.182 ms - message: Cannot read property 'name' of undefined
+request: 2021-11-13 09:50:19 PM GET /stats/sale 200 - 19569.008 ms
+request: 2021-11-13 09:51:24 PM GET /stats/sale 200 - 19805.310 ms
+request: 2021-11-13 09:52:45 PM GET /stats/sale 200 - 14169.270 ms
+request: 2021-11-13 09:58:53 PM GET /stats/sale 200 - 522.118 ms
+request: 2021-11-13 10:02:46 PM GET /stats/sale 200 - 1600.346 ms
+request: 2021-11-13 10:03:00 PM GET /stats/sale 200 - 360.931 ms
+request: 2021-11-13 10:03:18 PM GET /stats/sale 200 - 1855.500 ms
+error: 2021-11-13 10:03:37 PM GET /stats/sale 500 - 1111.627 ms - message: count is not defined
+request: 2021-11-13 10:04:05 PM GET /stats/sale 200 - 1054.424 ms
+request: 2021-11-13 10:04:29 PM GET /stats/sale 200 - 829.930 ms
+request: 2021-11-13 10:04:33 PM GET /stats/sale 200 - 244.630 ms
+request: 2021-11-13 10:04:48 PM GET /stats/sale 200 - 377.851 ms
+request: 2021-11-13 10:05:32 PM GET /stats/sale 200 - 301.695 ms
+request: 2021-11-13 10:17:08 PM GET /stats/sale 200 - 492.204 ms
+request: 2021-11-13 10:17:40 PM GET /stats/sale 200 - 767.938 ms
+request: 2021-11-13 10:17:54 PM GET /stats/sale 200 - 540.054 ms
+request: 2021-11-13 10:18:16 PM GET /stats/sale 200 - 782.540 ms
+request: 2021-11-13 10:19:24 PM GET /stats/sale 200 - 729.412 ms
+request: 2021-11-13 10:19:32 PM GET /stats/sale 200 - 799.130 ms
+request: 2021-11-13 10:20:06 PM GET /stats/sale 200 - 227.573 ms
+request: 2021-11-13 10:20:34 PM GET /stats/sale 200 - 788.810 ms
+request: 2021-11-13 10:21:02 PM GET /stats/sale 200 - 537.806 ms
+request: 2021-11-13 10:25:31 PM GET /stats/sale 200 - 706.425 ms
+request: 2021-11-13 10:25:40 PM GET /stats/sale 200 - 481.707 ms
+error: 2021-11-13 10:30:49 PM GET /stats/sale 500 - 787.183 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:31:02 PM GET /stats/sale 500 - 278.615 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:31:20 PM GET /stats/sale 500 - 799.427 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:31:42 PM GET /stats/sale 500 - 1137.645 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:32:05 PM GET /stats/sale 500 - 1353.111 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:32:45 PM GET /stats/sale 500 - 703.865 ms - message: Cannot create property 'count' on number '0'
+request: 2021-11-13 10:37:49 PM GET /stats/sale 200 - 268.499 ms
+request: 2021-11-13 10:38:34 PM GET /stats/sale 200 - 684.426 ms
+request: 2021-11-13 10:38:47 PM GET /stats/sale 200 - 340.386 ms
+request: 2021-11-13 10:41:42 PM GET /stats/sale 200 - 1581.775 ms
+request: 2021-11-13 10:42:15 PM GET /stats/sale 200 - 305.449 ms
+request: 2021-11-13 10:43:10 PM GET /stats/sale 200 - 337.006 ms
+request: 2021-11-13 10:43:40 PM GET /stats/sale 200 - 306.884 ms
+request: 2021-11-13 10:45:01 PM GET /stats/sale 200 - 216.870 ms
+request: 2021-11-13 10:45:16 PM GET /stats/sale 200 - 1207.162 ms
+request: 2021-11-13 10:46:39 PM GET /stats/sale 200 - 1274.295 ms
+request: 2021-11-13 10:48:43 PM GET /stats/sale 200 - 302.186 ms
+request: 2021-11-13 10:49:27 PM GET /stats/sale 200 - 398.527 ms
+request: 2021-11-13 10:50:26 PM GET /stats/sale 200 - 193.348 ms
+request: 2021-11-13 10:51:07 PM GET /stats/sale 200 - 173.657 ms
+request: 2021-11-13 10:51:31 PM GET /stats/sale 200 - 186.723 ms
+request: 2021-11-13 10:51:52 PM GET /stats/sale 200 - 182.224 ms
+request: 2021-11-13 10:52:09 PM GET /stats/sale 200 - 188.899 ms
+request: 2021-11-13 10:52:43 PM GET /stats/sale 200 - 179.148 ms
+request: 2021-11-13 10:53:31 PM GET /stats/sale 200 - 508.347 ms
+request: 2021-11-13 10:53:52 PM GET /stats/sale 200 - 222.149 ms
+request: 2021-11-13 10:54:25 PM GET /stats/sale 200 - 273.574 ms
+error: 2021-11-14 01:25:39 PM GET /stats/sale 500 - 232.982 ms - message: item.services.reduces is not a function
+error: 2021-11-14 01:26:07 PM GET /stats/sale 500 - 741.293 ms - message: item.services.reduces is not a function
+error: 2021-11-14 01:30:16 PM GET /stats/sale 500 - 661.928 ms - message: "total" is read-only
+request: 2021-11-14 01:30:25 PM GET /stats/sale 200 - 686.633 ms
+request: 2021-11-14 01:32:02 PM GET /stats/sale 200 - 521.873 ms
+request: 2021-11-14 01:33:37 PM GET /stats/sale 200 - 254.245 ms
+request: 2021-11-14 01:34:13 PM GET /stats/sale 200 - 240.093 ms
+error: 2021-11-14 01:45:47 PM GET /stats/sale 500 - 9.457 ms - message: Cannot set property 'status.type' of undefined
+request: 2021-11-14 01:47:22 PM GET /stats/sale 200 - 747.422 ms
+request: 2021-11-14 01:47:56 PM GET /stats/sale 200 - 1391.318 ms
+request: 2021-11-14 01:48:05 PM GET /stats/sale 200 - 771.121 ms
+request: 2021-11-14 01:48:19 PM GET /stats/sale 200 - 593.641 ms
+request: 2021-11-14 01:50:49 PM GET /stats/sale 200 - 601.012 ms
+request: 2021-11-14 07:15:27 PM GET /stats/sale 200 - 547.652 ms
+error: 2021-11-14 07:15:55 PM GET /stats/sale 500 - 640.374 ms - message: Cannot read property '$path' of undefined
+request: 2021-11-14 07:16:16 PM GET /stats/sale 200 - 928.425 ms
+error: 2021-11-14 07:16:36 PM GET /stats/sale 500 - 842.658 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:17:05 PM GET /stats/sale 500 - 523.119 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:17:38 PM GET /stats/sale 500 - 410.796 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:17:53 PM GET /stats/sale 500 - 962.036 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:18:39 PM GET /stats/sale 500 - 756.759 ms - message: Cannot read property 'user' of undefined
+request: 2021-11-14 07:19:03 PM GET /stats/sale 200 - 945.172 ms
+request: 2021-11-14 07:19:38 PM GET /stats/sale 200 - 1106.013 ms
+request: 2021-11-14 07:20:01 PM GET /stats/sale 200 - 961.367 ms
+error: 2021-11-14 07:20:10 PM GET /stats/sale 500 - 505.984 ms - message: Cannot read property '$path' of undefined
+request: 2021-11-14 07:20:19 PM GET /stats/sale 200 - 456.872 ms
+request: 2021-11-14 07:21:48 PM GET /stats/sale 200 - 479.772 ms
+request: 2021-11-14 07:22:24 PM GET /stats/sale 200 - 841.400 ms
+request: 2021-11-14 07:25:30 PM GET /stats/sale 200 - 909.243 ms
+request: 2021-11-14 07:26:19 PM GET /stats/sale 200 - 730.973 ms
+request: 2021-11-14 07:26:55 PM GET /stats/sale 200 - 452.649 ms
+request: 2021-11-14 07:27:20 PM GET /stats/sale 200 - 963.890 ms
+request: 2021-11-14 07:28:01 PM GET /stats/sale 200 - 683.968 ms
+error: 2021-11-14 07:28:33 PM GET /stats/sale 500 - 492.895 ms - message: Cannot read property 'filter' of undefined
+request: 2021-11-14 07:29:13 PM GET /stats/sale 200 - 415.054 ms
+request: 2021-11-14 07:29:28 PM GET /stats/sale 200 - 206.467 ms
+error: 2021-11-14 07:31:21 PM GET /stats/sale 500 - 953.925 ms - message: Cannot read property '$path' of undefined
+request: 2021-11-14 07:31:31 PM GET /stats/sale 200 - 936.819 ms
+request: 2021-11-14 07:31:47 PM GET /stats/sale 200 - 914.408 ms
+request: 2021-11-14 07:33:20 PM GET /stats/sale 200 - 945.864 ms
+error: 2021-11-14 07:34:18 PM GET /stats/sale 500 - 1114.476 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:34:37 PM GET /stats/sale 500 - 947.177 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:35:07 PM GET /stats/sale 500 - 937.278 ms - message: Cannot read property '$path' of undefined
+request: 2021-11-14 07:35:23 PM GET /stats/sale 200 - 440.170 ms
+request: 2021-11-14 07:35:57 PM GET /stats/sale 200 - 474.848 ms
+error: 2021-11-14 07:37:47 PM GET /stats/sale 500 - 392.913 ms - message: Cannot read property 'id' of undefined
+error: 2021-11-14 07:37:59 PM GET /stats/sale 500 - 886.612 ms - message: Cannot read property 'firstName' of undefined
+error: 2021-11-14 07:38:12 PM GET /stats/sale 500 - 921.577 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:38:35 PM GET /stats/sale 500 - 721.616 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:38:46 PM GET /stats/sale 500 - 413.224 ms - message: Cannot read property '$path' of undefined
+request: 2021-11-14 07:38:59 PM GET /stats/sale 200 - 458.735 ms
+request: 2021-11-14 07:39:32 PM GET /stats/sale 200 - 519.185 ms
+request: 2021-11-14 07:40:51 PM GET /stats/sale 200 - 239.560 ms
+request: 2021-11-14 07:41:26 PM GET /stats/sale 200 - 483.911 ms
+request: 2021-11-14 07:41:55 PM GET /stats/sale 200 - 1028.725 ms
+request: 2021-11-14 07:42:25 PM GET /stats/sale 200 - 668.823 ms
+request: 2021-11-14 07:44:04 PM GET /stats/sale 200 - 1943.788 ms
+request: 2021-11-14 07:44:53 PM GET /stats/sale 200 - 1575.633 ms
+request: 2021-11-14 07:49:32 PM GET /stats/sale 200 - 2150.157 ms
+request: 2021-11-14 07:51:50 PM GET /stats/sale 200 - 2329.637 ms

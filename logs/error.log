@@ -2408,3 +2408,33 @@ error: 2021-11-13 02:56:59 PM GET /stats/totalincome 500 - 815.639 ms - message:
 error: 2021-11-13 02:57:10 PM GET /stats/totalincome 500 - 1001.331 ms - message: the count field must be a non-empty string
 error: 2021-11-13 03:01:03 PM GET /stats/totalincome 500 - 929.031 ms - message: "data" is read-only
 error: 2021-11-13 03:15:37 PM GET /stats/totalincome 500 - 884.543 ms - message: Cannot read property 'reduce' of undefined
+error: 2021-11-13 09:42:08 PM GET /state/sale 404 - 1.967 ms - message: /state/sale not found
+error: 2021-11-13 09:49:34 PM GET /stats/sale 500 - 12935.182 ms - message: Cannot read property 'name' of undefined
+error: 2021-11-13 10:03:37 PM GET /stats/sale 500 - 1111.627 ms - message: count is not defined
+error: 2021-11-13 10:30:49 PM GET /stats/sale 500 - 787.183 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:31:02 PM GET /stats/sale 500 - 278.615 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:31:20 PM GET /stats/sale 500 - 799.427 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:31:42 PM GET /stats/sale 500 - 1137.645 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:32:05 PM GET /stats/sale 500 - 1353.111 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-13 10:32:45 PM GET /stats/sale 500 - 703.865 ms - message: Cannot create property 'count' on number '0'
+error: 2021-11-14 01:25:39 PM GET /stats/sale 500 - 232.982 ms - message: item.services.reduces is not a function
+error: 2021-11-14 01:26:07 PM GET /stats/sale 500 - 741.293 ms - message: item.services.reduces is not a function
+error: 2021-11-14 01:30:16 PM GET /stats/sale 500 - 661.928 ms - message: "total" is read-only
+error: 2021-11-14 01:45:47 PM GET /stats/sale 500 - 9.457 ms - message: Cannot set property 'status.type' of undefined
+error: 2021-11-14 07:15:55 PM GET /stats/sale 500 - 640.374 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:16:36 PM GET /stats/sale 500 - 842.658 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:17:05 PM GET /stats/sale 500 - 523.119 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:17:38 PM GET /stats/sale 500 - 410.796 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:17:53 PM GET /stats/sale 500 - 962.036 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:18:39 PM GET /stats/sale 500 - 756.759 ms - message: Cannot read property 'user' of undefined
+error: 2021-11-14 07:20:10 PM GET /stats/sale 500 - 505.984 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:28:33 PM GET /stats/sale 500 - 492.895 ms - message: Cannot read property 'filter' of undefined
+error: 2021-11-14 07:31:21 PM GET /stats/sale 500 - 953.925 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:34:18 PM GET /stats/sale 500 - 1114.476 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:34:37 PM GET /stats/sale 500 - 947.177 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:35:07 PM GET /stats/sale 500 - 937.278 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:37:47 PM GET /stats/sale 500 - 392.913 ms - message: Cannot read property 'id' of undefined
+error: 2021-11-14 07:37:59 PM GET /stats/sale 500 - 886.612 ms - message: Cannot read property 'firstName' of undefined
+error: 2021-11-14 07:38:12 PM GET /stats/sale 500 - 921.577 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:38:35 PM GET /stats/sale 500 - 721.616 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-14 07:38:46 PM GET /stats/sale 500 - 413.224 ms - message: Cannot read property '$path' of undefined

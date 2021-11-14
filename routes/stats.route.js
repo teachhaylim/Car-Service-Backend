@@ -3,11 +3,6 @@ import { statsController } from '../controllers';
 
 const statsRoute = express.Router();
 
-statsRoute.route('/')
-    .get((req, res) => {
-        res.status(200).send('stats route');
-    });
-
-statsRoute.get("/totalincome", statsController.TotalIncomeWithPeriod);
+statsRoute.get("/sale", statsController.TotalSale);
 
 export default statsRoute;
