@@ -14,6 +14,7 @@ const SaleDashboard = catchAsync(async (req, res) => {
         completedAppointments: await statsService.getCompletedAppointments(filters, options),
         numberOfServicesOffered: await statsService.getNumberOfServicesOffered(filters, options),
         numberOfServicesByUser: await statsService.getNumberOfServicesByUser(filters, options),
+        countOfDailyAppointments: await statsService.getCountOfDailyAppointments(filters, options),
     };
 
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, data });

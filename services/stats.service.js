@@ -47,23 +47,45 @@ const getCountOfAppointedServices = async (filter = {}, sortBy = {}) => {
     return result;
 };
 
+const getCountOfDailyAppointments = async (filter = {}, sortBy = {}) => {
+    const appointments = await Appointment.find(filter).sort(sortBy);
+    let temp = [];
+
+    for (var i = moment().startOf("month").toDate(); i <= moment().toDate(); i.setDate(i.getDate() + 1)) {
+        if (appointments.filter(p => moment(p.createdAt).format("YYYY-MM-DD") == moment(i).format("YYYY-MM-DD")).length > 0) {
+            temp.push({
+                date: moment(i).format("YYYY-MM-DD"),
+                count: appointments.filter(p => moment(p.createdAt).format("YYYY-MM-DD") == moment(i).format("YYYY-MM-DD")).length,
+            });
+            continue;
+        }
+
+        temp.push({
+            date: moment(i).format("YYYY-MM-DD"),
+            count: 0,
+        });
+    }
+
+    return temp;
+};
+
 //Find pending appointments
 const getPendingAppointments = async (filter = {}, sortBy = {}) => {
-    filter["status.0.type"] = 1; //REWORK check from controller filter or always check here?
+    filter["status.0.type"] = 1;
 
     return await Appointment.find(filter).sort(sortBy);
 };
 
 //Find canceled appointments
 const getCanceledAppointments = async (filter = {}, sortBy = {}) => {
-    filter["status.0.type"] = -1; //REWORK check from controller filter or always check here?
+    filter["status.0.type"] = -1;
 
     return await Appointment.find(filter).sort(sortBy);
 };
 
 //Find completed appointments
 const getCompletedAppointments = async (filter = {}, sortBy = {}) => {
-    filter["status.0.type"] = 2; //REWORK check from controller filter or always check here?
+    filter["status.0.type"] = 2;
 
     return await Appointment.find(filter).sort(sortBy);
 };
@@ -73,7 +95,7 @@ const getNumberOfServicesOffered = async (filter = {}, sortBy = {}) => {
     return await Service.find(filter).sort(sortBy);
 };
 
-//Find number of appointed service by user
+//Find number of appointed service by user - unused
 //FIXME bug
 const getNumberOfServicesByUser = async (filter = {}, sortBy = {}) => {
     const appointments = await Appointment.find(filter).sort(sortBy);
@@ -175,6 +197,9 @@ export default {
     getCompletedAppointments,
     getNumberOfServicesOffered,
     getNumberOfServicesByUser,
+    getCountOfDailyAppointments,
+
+    //Admin Dashboard section
     getTotalCategories,
     getTotalShops,
     getTotalUsers,

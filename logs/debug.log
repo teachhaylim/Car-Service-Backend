@@ -2488,3 +2488,13 @@ error: 2021-11-15 03:55:00 PM PUT /api/v1/category/6149ce8660019f57486e78c4 400 
 error: 2021-11-15 04:01:15 PM POST /file/upload 400 - 154.623 ms - message: Wrong file type(s)
 error: 2021-11-15 04:01:58 PM POST /file/upload 400 - 156.571 ms - message: Wrong file type(s)
 error: 2021-11-15 04:02:21 PM POST /file/upload 400 - 155.791 ms - message: Wrong file type(s)
+error: 2021-11-15 07:43:18 PM GET /auth/info 401 - 2.003 ms - message: route not found
+error: 2021-11-15 07:43:20 PM GET /api/v1/category 401 - 0.719 ms - message: route not found
+error: 2021-11-15 07:43:20 PM GET /api/v1/shop 401 - 1.085 ms - message: route not found
+error: 2021-11-15 08:28:08 PM GET /file/ 404 - 1.392 ms - message: /file/ not found
+error: 2021-11-15 08:29:32 PM GET /file/ 404 - 0.563 ms - message: /file/ not found
+error: 2021-11-15 10:42:16 PM GET /stats/sale 404 - 2.349 ms - message: /stats/sale not found
+error: 2021-11-15 10:42:26 PM GET /api/v1/stats/sale 401 - 1.419 ms - message: Please authenticate
+error: 2021-11-15 11:20:38 PM PUT /api/v1/user/614429a6b81d2b21ac338fd3 400 - 307.929 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-15 11:21:26 PM PUT /api/v1/user/614429a6b81d2b21ac338fd3 400 - 266.436 ms - message: users validation failed: address: Cast to ObjectId failed for value "" (type string) at path "address", sellCompany: Cast to ObjectId failed for value "" (type string) at path "sellCompany"
+error: 2021-11-15 11:25:39 PM POST /auth/login 404 - 221.693 ms - message: Shop not found

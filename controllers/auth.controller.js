@@ -5,7 +5,7 @@ import catchAsync from "../utils/catchAsync";
 const Login = catchAsync(async (req, res) => {
     const { email, password } = req.body;
     const user = await authService.loginWithEmailAndPassword(email, password);
-    const shop = await shopService.GetShopById(user.sellCompany);
+    const shop = user.sellCompany != null ? await shopService.GetShopById(user.sellCompany) : null;
     const token = await tokenService.GenerateToken(user.id);
 
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, token, user, shop });
