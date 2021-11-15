@@ -1,4 +1,5 @@
-import { Appointment, Service } from "../models";
+import moment from "moment";
+import { Appointment, Category, Service, Shop, User } from "../models";
 
 //Find total amount of appointments
 const getTotalAppointment = async (filter = {}, sortBy = {}) => {
@@ -89,6 +90,82 @@ const getNumberOfServicesByUser = async (filter = {}, sortBy = {}) => {
     return users;
 };
 
+//Admin Dashboard section
+const getTotalCategories = async (filter = {}, sortBy = {}) => {
+    const categories = await Category.find(filter).sort(sortBy);
+
+    return {
+        categories: categories,
+        total: categories.length,
+    };
+};
+
+const getTotalShops = async (filter = {}, sortBy = {}) => {
+    const shops = await Shop.find(filter).sort(sortBy);
+
+    return {
+        shops: shops,
+        total: shops.length,
+    };
+};
+
+const getTotalUsers = async (filter = {}, sortBy = {}) => {
+    const users = await User.find(filter).sort(sortBy);
+
+    return {
+        users: users,
+        total: users.length,
+    };
+};
+
+const getNewlyRegisteredUsers = async (filter = {}, sortBy = {}) => {
+    filter.createdAt = { $gte: moment().startOf("month").toDate(), $lte: moment().toDate() };
+
+    const users = await User.find(filter).sort(sortBy);
+    let temp = [];
+
+    for (var i = moment().startOf("month").toDate(); i <= moment().toDate(); i.setDate(i.getDate() + 1)) {
+        if (users.filter(p => moment(p.createdAt).format("YYYY-MM-DD") == moment(i).format("YYYY-MM-DD")).length > 0) {
+            temp.push({
+                date: moment(i).format("YYYY-MM-DD"),
+                count: users.filter(p => moment(p.createdAt).format("YYYY-MM-DD") == moment(i).format("YYYY-MM-DD")).length,
+            });
+            continue;
+        }
+
+        temp.push({
+            date: moment(i).format("YYYY-MM-DD"),
+            count: 0,
+        });
+    }
+
+    return temp;
+};
+
+const getNewlyRegisteredShops = async (filter = {}, sortBy = {}) => {
+    filter.createdAt = { $gte: moment().startOf("month").toDate(), $lte: moment().toDate() };
+
+    const shops = await Shop.find(filter).sort(sortBy);
+    let temp = [];
+
+    for (var i = moment().startOf("month").toDate(); i <= moment().toDate(); i.setDate(i.getDate() + 1)) {
+        if (shops.filter(p => moment(p.createdAt).format("YYYY-MM-DD") == moment(i).format("YYYY-MM-DD")).length > 0) {
+            temp.push({
+                date: moment(i).format("YYYY-MM-DD"),
+                count: shops.filter(p => moment(p.createdAt).format("YYYY-MM-DD") == moment(i).format("YYYY-MM-DD")).length,
+            });
+            continue;
+        }
+
+        temp.push({
+            date: moment(i).format("YYYY-MM-DD"),
+            count: 0,
+        });
+    }
+
+    return temp;
+};
+
 export default {
     getCountOfAppointedServices,
     getTotalAppointment,
@@ -98,4 +175,9 @@ export default {
     getCompletedAppointments,
     getNumberOfServicesOffered,
     getNumberOfServicesByUser,
+    getTotalCategories,
+    getTotalShops,
+    getTotalUsers,
+    getNewlyRegisteredUsers,
+    getNewlyRegisteredShops,
 }

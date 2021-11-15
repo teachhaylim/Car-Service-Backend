@@ -2440,3 +2440,6 @@ error: 2021-11-14 07:37:59 PM GET /stats/sale 500 - 886.612 ms - message: Cannot
 error: 2021-11-14 07:38:12 PM GET /stats/sale 500 - 921.577 ms - message: Cannot read property '$path' of undefined
 error: 2021-11-14 07:38:35 PM GET /stats/sale 500 - 721.616 ms - message: Cannot read property '$path' of undefined
 error: 2021-11-14 07:38:46 PM GET /stats/sale 500 - 413.224 ms - message: Cannot read property '$path' of undefined
+error: 2021-11-15 11:25:30 AM GET /api/v1/stats/sale?bd=&ed=&isActive=true&sellCompany=617222fe0065218fc409ccdc 500 - 489.277 ms - message: filters is not defined
+error: 2021-11-15 01:44:12 PM GET /api/v1/stats/admin 500 - 15.941 ms - message: Category is not defined
+error: 2021-11-15 02:33:47 PM GET /api/v1/stats/admin 401 - 2.814 ms - message: Please authenticate

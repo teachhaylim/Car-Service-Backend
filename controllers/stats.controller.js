@@ -2,11 +2,8 @@ import httpStatus from "http-status";
 import { statsService } from "../services";
 import catchAsync from "../utils/catchAsync";
 
-const TotalSale = catchAsync(async (req, res) => {
-    const filters = {
-        sellCompany: "617222fe0065218fc409ccdc",
-        // isActive: true,
-    };
+const SaleDashboard = catchAsync(async (req, res) => {
+    const filters = req.query;
     const options = {};
     const data = {
         totalAppointments: await statsService.getTotalAppointment(filters, options),
@@ -22,6 +19,21 @@ const TotalSale = catchAsync(async (req, res) => {
     res.status(httpStatus.OK).send({ meta: httpStatus.OK, data });
 });
 
+const AdminDashboard = catchAsync(async (req, res) => {
+    const filters = req.query;
+    const options = {};
+    const data = {
+        totalCategories: await statsService.getTotalCategories(filters, options),
+        totalShops: await statsService.getTotalShops(filters, options),
+        totalUsers: await statsService.getTotalUsers(filters, options),
+        newlyRegisteredUsers: await statsService.getNewlyRegisteredUsers(filters, options),
+        newlyRegisteredShops: await statsService.getNewlyRegisteredShops(filters, options),
+    };
+
+    res.status(httpStatus.OK).send({ meta: httpStatus.OK, data });
+});
+
 export default {
-    TotalSale,
+    SaleDashboard,
+    AdminDashboard,
 };
