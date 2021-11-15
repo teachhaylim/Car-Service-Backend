@@ -71,6 +71,9 @@ const UpdateShop = async (shopId, shopBody) => {
         await dbAddress.save();
         shopBody.address = dbAddress._id;
     }
+    else {
+        shopBody.address = shopBody.address.id;
+    }
 
     Object.assign(shop, JSON.parse(JSON.stringify(shopBody)));
     await shop.save();

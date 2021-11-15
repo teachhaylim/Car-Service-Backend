@@ -79,11 +79,11 @@ const UpdateUser = async (userId, userBody) => {
         Object.assign(dbAddress, JSON.parse(JSON.stringify(userBody.address)));
         await dbAddress.save();
     }
+    else {
+        userBody.address = dbAddress._id;
+    }
 
-    userBody.address = dbAddress._id;
     userBody.sellCompany = userBody.sellCompany == null ? null : userBody.sellCompany;
-
-    console.log(userBody);
 
     Object.assign(user, JSON.parse(JSON.stringify(userBody)));
     await user.save();
